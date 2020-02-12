@@ -1,6 +1,8 @@
 {{ define "extrahead" }}
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
-<link href="./style/aboutUs.css" rel="stylesheet">
+{{ $sassTemplate := resources.Get "style/aboutUs.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "aboutUs.scss" . | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ end }}
 
 {{ define "HTMLStyle" }}

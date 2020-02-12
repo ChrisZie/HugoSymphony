@@ -1,4 +1,5 @@
 enable  : true
+title   : TextSlider StartSite
 time_per_slide   : 12
 slides :
   - caption  : Global Team, Global Impact

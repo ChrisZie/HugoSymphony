@@ -227,7 +227,6 @@ button {
 
 #home {
   height: 70vh;
-  background:  linear-gradient(#E0ebfa, white); 
 }
 
 .leaf {
@@ -298,7 +297,6 @@ button {
 
 #footer {
   padding-bottom:1%;
-  background:  linear-gradient(white, #E0ebfa); 
 }
 
 #polyAnimal {

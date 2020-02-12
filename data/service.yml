@@ -1,0 +1,20 @@
+--- 
+enable: true 
+title: Service
+caption: Choose your <br> service
+service_item: 
+  - name: Marketing
+    icon: "images/responsive.svg"
+    serviceDetailLink: marketing
+    color: red
+  - name: Donations
+    icon: "images/money.svg"
+    serviceDetailLink: socialMedia
+    color: blue
+  - name: Operations
+    icon: "images/responsive.svg"
+    serviceDetailLink: operations
+    color: yellow
+    
+
+

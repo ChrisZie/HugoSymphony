@@ -32,6 +32,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Meta data
     description = "Tesla's Awesome Hugo Site"
     author = "Christine Zierold & Aaron Pinto"
+    keywords = "Consulting; Conservation;"
     # Google Analitycs
     googleAnalitycsID = "Your ID"
     facebookLink = "https://www.facebook.com/SymphonyEco"

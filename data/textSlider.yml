@@ -2,8 +2,6 @@
 enable: true
 time_per_slide: "12"
 slides:
-- caption: test
-  description: test
 - caption: Global Team and Global Impact
   description: 'Our ultimate aim is to create a world-wide network of ECOs like yours
     that will grow together,  create together, and change the world together. If you

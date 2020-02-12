@@ -7,7 +7,7 @@
 <link href="./style/bird.css" rel="stylesheet">
 <link href="./style/service-slider.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ end }}
 
@@ -34,26 +34,8 @@
     <div class="sky">
         <div class="clouds">
         </div>
-
     </div>
-    <div class="container pb-4" style="padding-top:15%;">
-            <div class="row align-items-start"> 
-                {{ range .Site.Data.textSlider.slides }}
-                <div class="col-12 col-md-7 offset-md-2   textslide">
-
-
-                        <div class="subheading pb-3" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
-                                <h1>{{ .caption }}</h1>
-                        </div>
-
-                        <div class="header-text" data-aos="fade-up" data-aos-delay="400">
-                                <p>{{ .description }}  </p>         
-                        </div>
-
-                </div>
-                {{ end }}
-            </div>
-        </div>
+    {{ partial "textslider.html" . }}
  </section>
  <div class="h-divider">
     <div class="shad"></div>

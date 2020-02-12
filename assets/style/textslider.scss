@@ -1,7 +1,7 @@
 //code made from codePen https://codepen.io/eltonkamami/pen/hjBrE by  Elton Kamami
 //how many images we have
 
-$slides: {{len .Site.Data.textSlider.slides }};
+$slides: {{len .Site.Data.textSlider.slides }}; 
 
 // how much we want each slide to show
 $time_per_slide: {{.Site.Data.textSlider.time_per_slide }};

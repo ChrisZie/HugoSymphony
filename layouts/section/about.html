@@ -1,0 +1,53 @@
+{{ define "extrahead" }}
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link href="./style/aboutUs.css" rel="stylesheet">
+{{ end }}
+
+{{ define "HTMLStyle" }}
+<html style="overflow: hidden;"></html>
+{{ end }}
+
+{{ define "main" }}
+<section class="aboutUs p-0">
+  <div class=" communication">
+      <div class="untitled">
+              <div class="untitled__slides">
+                  <div class="untitled__slide">
+                      <div class="untitled__slideBg"></div>
+                      <div class="untitled__slideContent">
+                          <span>{{ .Params.profile1firstname }}</span> 
+                          <span>{{ .Params.profile1lastname }}</span>
+                          <a class="button" href="{{ .Params.link1 }}" target="/black">{{ .Params.link1text }}</a>
+                      </div>
+                  </div>
+                  <div class="untitled__slide">
+                      <div class="untitled__slideBg"></div>
+                      <div class="untitled__slideContent">
+                          
+                          <span>{{ .Params.profile2firstname }}</span> 
+                          <span>{{ .Params.profile2lastname }}</span>
+                          <a class="button" href="{{ .Params.link2 }}" target="/black">{{ .Params.link2text }}</a>
+                      </div>
+                  </div>
+                  <div class="untitled__slide">
+                      <div class="untitled__slideBg"></div>
+                      <div class="untitled__slideContent">
+                        <span>{{ .Params.profile1firstname }}</span> 
+                        <span>{{ .Params.profile1lastname }}</span>
+                        <a class="button" href="{{ .Params.link1 }}" target="/black">{{ .Params.link1text }}</a>
+                      </div>
+                  </div>
+                  <div class="untitled__slide">
+                      <div class="untitled__slideBg"></div>
+                      <div class="untitled__slideContent">
+                        <span>{{ .Params.profile2firstname }}</span> 
+                        <span>{{ .Params.profile2lastname }}</span>
+                        <a class="button" href="{{ .Params.link2 }}" target="/black">{{ .Params.link2text }}</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="untitled__shutters"></div>
+          </div> 
+      </div>
+</section>
+{{ end }}

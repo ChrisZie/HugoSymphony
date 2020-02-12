@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{{ block "HTMLStyle" . }}{{ end }}
+	<head>
+    {{ partial "head.html" . }}
+    {{ block "extrahead" . }}{{ end }}
+    <link href="./style/custom.css" rel="stylesheet">
+	</head>
+      {{ partial "hamburger-menu.html" . }}
+      {{ block "main" . }}{{ end }}
+      {{ partial "global-menu.html" . }}
+    </main>
+    {{ block "extraScript" . }}{{ end }}
+    {{ partial "script.html" . }}
+	</body>
+</html>

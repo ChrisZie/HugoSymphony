@@ -1,0 +1,39 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Symphony Eco"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Who we are"
+        url     = "about"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Services"
+        url     = "service"
+        weight  = 3
+    [[menu.nav]]
+        name    = "knowledge"
+        url     = "knowledge"
+        weight  = 4
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "contact"
+        weight  = 5
+
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.png"
+    dateFormat = "6 January 2006"
+    # Meta data
+    description = "Tesla's Awesome Hugo Site"
+    author = "Christine Zierold & Aaron Pinto"
+    # Google Analitycs
+    googleAnalitycsID = "Your ID"
+    facebookLink = "https://www.facebook.com/SymphonyEco"
+    instagramLink = "https://www.instagram.com/symphony.eco"
+    twitterLink = "https://twitter.com/SymphonyEco"

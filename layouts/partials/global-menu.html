@@ -1,0 +1,18 @@
+<div class="global-menu">
+  <div class="global-menu__wrap">
+      <div style="width: 100%;"> 
+          <a class="global-menu__item global-menu__item--navStyle link link--kukuri" data-letters="{{ with .Site.Params.home }}{{ . }}{{ end }}" href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a> 
+      </div> 
+      {{ range .Site.Menus.nav }}
+      <div style="width: 100%;">   
+        <a class="global-menu__item global-menu__item--navStyle link link--kukuri" data-letters="{{ .Name }}" href="{{ .URL | absURL }}">{{ .Name }}</a>
+    </div> 
+      {{ end }}
+  </div>
+</div>
+<svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="shape-overlays__path"></path>
+<path class="shape-overlays__path"></path>
+<path class="shape-overlays__path"></path>
+</svg>
+</div>

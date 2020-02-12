@@ -9,7 +9,8 @@
       {{ block "main" . }}{{ end }}
       {{ partial "global-menu.html" . }}
     </main>
-    {{ block "extraScript" . }}{{ end }}
     {{ partial "script.html" . }}
+    {{ block "extraScript" . }}{{ end }}
+    <script src="./js/custom.js"></script>
 	</body>
 </html>

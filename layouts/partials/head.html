@@ -3,10 +3,10 @@
 <meta name="author" content="{{ if .Author }}{{ .Author }} | {{ end }}{{ .Site.Params.Author }}">
 <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-<meta name="keywords" content="Consulting; Conservation;">
+<meta name="keywords" content="{{ if .Keywords }}{{ .Keywords }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:image" content="./images/wordcloud.png"/>
 <base href="{{ .Site.BaseURL }}">

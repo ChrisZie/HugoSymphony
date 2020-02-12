@@ -1,0 +1,27 @@
+--- 
+  
+title: Contactform
+enable: true
+questions1_small_caption: Let's start
+questions1_caption:  how can we <br> help you?
+question1_items:
+  - icon: "images/responsive.svg"
+    text: Marketing
+    color: red
+  - icon: "images/responsive.svg"
+    text: Donations
+    color: blue
+  - icon: "images/responsive.svg"
+    text: Operations
+    color: yellow
+
+questions2_caption:  how can we <br> help you?
+question2_items:
+  - icon: "images/money.svg"
+    text: Social Media
+  - icon: "images/money.svg"
+    text: WebDesign
+  - icon: "images/money.svg"
+    text: Fundraising
+
+

@@ -65,4 +65,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     simple = false
   [privacy.youtube]
     disable = false
-    privacyEnhanced = falsey
+    privacyEnhanced = false

@@ -9,6 +9,9 @@
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ $sassTemplate := resources.Get "style/cardHOver.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "cardHOver.scss" . | resources.ToCSS }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ end }}
 
 {{ define "extraScript" }}
@@ -42,14 +45,22 @@
     </div>
 <!--end of Header-->
 <section class="about my-5" id="about">
-        <div class="container">
-            <div class="row">
-                <div  class="col-md-7 offset-md-1 ">
-                    <p data-aos="fade-up" data-aos-delay="700">astic network of freelance designers, UX specialists, Strategy consultants and front and back end developers that not only allow us great flexibility, but introduce the perfect skill sets for any given project.
-                        <br> <br>we are a London based Design Agency offering Branding, Design & Development services for Social Enterprises, StartUps and NGO’s. We also provide consultancy in UX, Strategic Management and Innovation Skills Development. Our biggest passion is understanding the organisations we  </p>         
+    <div class="container">
+        <div class="row">
+            <div  class="col-12"  data-aos="fade-up" data-aos-delay="900">
+                <h2 data-aos="fade-up" data-aos-delay="700">Our Motivation</h2>
+                <div class="cardHover-content">
+                {{ range .Site.Data.motivation.cards }}
+                    <div class="cardHover">
+                        <div class="card-content">
+                            <h2 class="title">{{ .caption }}</h2>
+                            <p class="copy">{{ .description }}</p></div>
+                    </div>
+                {{ end }}
                 </div>
             </div>
         </div>
+    </div>
 </section>
 <!--end of about us-->
 <section class="mt-3 p-0" id="service-slider" style="height: 100vh;overflow: hidden;">

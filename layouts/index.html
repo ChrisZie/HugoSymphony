@@ -40,9 +40,6 @@
     </div>
     {{ partial "textslider.html" . }}
  </section>
- <div class="h-divider">
-    <div class="shad"></div>
-    </div>
 <!--end of Header-->
 <section class="about my-5" id="about">
     <div class="container">
@@ -171,15 +168,29 @@
                             <div class="col-xs-12 col-md-12 col-lg-12 text-right">
                                     <div class="box">
                                             <div class="social">
-                                                    <a href="{{ .Site.Params.facebookLink }}">
-                                                        <i style="color:black;" class="fab fa-facebook fa-3x"></i>
-                                                    </a>
-                                                    <a href="{{ .Site.Params.instagramLink }}">
-                                                        <i style="color:black;" class="fab fa-instagram fa-3x"></i>
-                                                    </a>
-                                                    <a href="{{ .Site.Params.twitterLink }}">
-                                                        <i style="color:black;" class="fab fa-twitter-square fa-3x"></i>
-                                                    </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="{{ .Site.Params.facebookLink }}">
+                                                            <i class="fab fa-facebook-f"></i>
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li>
+                                                        <a href="{{ .Site.Params.instagramLink }}">
+                                                            <i class="fab fa-instagram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ .Site.Params.twitterLink }}">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ .Site.Params.twitterLink }}">
+                                                            <i class="fab fa-linkedin-in"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </div>
                                     </div>
                             </div>

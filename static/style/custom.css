@@ -274,17 +274,73 @@ button {
 }
 
 /* social media icon links */
-.social a {
-  transition: all .3s ease;
-  text-decoration: none;
-  padding-left: 1rem;
+
+.social ul {
+  display: flex;
 }
 
-.contact .socialmeda a {
-  transition: all .3s ease;
-  text-decoration: none;
+.social ul li {
+  list-style: none;
+}
+
+.social ul li a {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+.social ul li a .fab {
+  position: relative;
   color: white;
-  font-weight: 700;
+  transition: .5s;
+  z-index: 3;
+}
+
+.social ul li a:hover .fab {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.social ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.social ul li a:hover:before {
+  top: 0;
+}
+
+.social ul li:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+.social ul li:nth-child(2) a:before{
+  background: #55acee;
+}
+
+.social ul li:nth-child(3) a:before {
+  background: #e4405f ;
+}
+
+.social ul li:nth-child(4) a:before {
+  background: #0077b5;
 }
 
 /* social media end */
@@ -324,7 +380,7 @@ button {
 }
 
 .blue-gradient-bg {
-  background:  linear-gradient(#E0ebfa, white); 
+  background:  linear-gradient(175deg,hsla(0,0%,100%,0) 50%,#fff),linear-gradient(100deg,skyblue 50%,#fff);
   color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;

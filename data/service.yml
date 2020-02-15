@@ -7,9 +7,9 @@ service_item:
     icon: "images/responsive.svg"
     serviceDetailLink: marketing
     color: red
-  - name: Donations
+  - name: Web Design
     icon: "images/money.svg"
-    serviceDetailLink: socialMedia
+    serviceDetailLink: webdesign
     color: blue
   - name: Operations
     icon: "images/responsive.svg"

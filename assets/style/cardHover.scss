@@ -1,7 +1,7 @@
 $imageIds: {{ string .Site.Data.motivation.cardBGIDs}} ;
 
 $bp-md: 600px;
-$bp-lg: 800px;
+$bp-lg: 1000px;
 
 :root {
   --d: 700ms;
@@ -53,7 +53,7 @@ $bp-lg: 800px;
     0 16px 16px rgba(0,0,0,0.1);
   
   @media (min-width: $bp-md) {
-    height: 350px;
+    min-height: 350px;
   }
   
   &:before {
@@ -192,12 +192,10 @@ $bp-lg: 800px;
     visibility: visible;
     opacity: 1;
   }
-  div.labelHidden {
+    div.labelHidden {
     display: none!important;
 }
 }
-
-
 @media (max-width: 600px) {
   .cardHover {
     flex-direction: column;
@@ -218,7 +216,7 @@ $bp-lg: 800px;
     width: 100%;
     z-index: 1;
   }
-  div.dont-collapse-sm  {
+   div.dont-collapse-sm  {
     display:none;
   }
   
@@ -228,7 +226,26 @@ $bp-lg: 800px;
   
  }
 
- .collapse {
+ .cardHover .labelHidden:after {
+  font-family: 'FontAwesome';  
+  content: "\f068";
+  right: 0;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 18px;
+  padding-right: 0.5em;
+  position: absolute;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;
+}
+
+.cardHover .labelHidden.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
+.collapse {
   display: none;
   &.show {
     display: block;
@@ -261,25 +278,3 @@ tbody {
   -o-transition : height 5s;
   transition : height 5s; 
 }
-
-.cardHover .labelHidden.collapsed:after {
-  /* symbol for "collapsed" panels */
-  content: "\f067"; 
-}
-
-
-.cardHover .labelHidden:after {
-  font-family: 'FontAwesome';  
-  content: "\f068";
-  right: 0;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  font-size: 18px;
-  padding-right: 0.5em;
-  position: absolute;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 700;
-}
-
-    

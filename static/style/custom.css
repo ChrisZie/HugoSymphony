@@ -154,7 +154,7 @@ margin-bottom: 15px;
 color: white;
 }
 
-button {
+/* button {
   background-color: #222;
   color: #fff;
   padding: 18px 28px 18px 28px;
@@ -163,6 +163,8 @@ button {
   letter-spacing: 2px;
   cursor: pointer;
 }
+ */
+
 
 .border-bottom{
   height: 32px;

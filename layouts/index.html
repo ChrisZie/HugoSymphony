@@ -3,18 +3,19 @@
 {{ end }}
 
 {{ define "extrahead" }}
-{{ $sassTemplate := resources.Get "style/infoCardSlider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "infoCardSlider.scss" . | resources.ToCSS }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 <link href="./style/aos.css" rel="stylesheet">
+{{ $sassTemplate := resources.Get "style/infoCardSlider.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "infoCardSlider.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
+
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/cardHover.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "cardHover.scss" . | resources.ToCSS }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "cardHover.scss" . | | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/expandFlexCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "expandFlexCard.scss" . | resources.ToCSS }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "expandFlexCard.scss" . | | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 
 {{ end }}

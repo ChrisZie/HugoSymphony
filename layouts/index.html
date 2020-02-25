@@ -10,7 +10,7 @@
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{ $sassTemplate := resources.Get "style/cardHOver.scss" }}
+{{ $sassTemplate := resources.Get "style/cardHover.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "cardHover.scss" . | resources.ToCSS }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/expandFlexCard.scss" }}

@@ -1,6 +1,7 @@
 $imageIds: {{ string .Site.Data.motivation.cardBGIDs}} ;
 
 $bp-md: 800px;
+$bp-md-max: 799px;
 $bp-lg: 1200px;
 
 :root {
@@ -196,7 +197,7 @@ $bp-lg: 1200px;
     display: none!important;
 }
 }
-@media (max-width: $bp-md -1) {
+@media (max-width: $bp-md-max) {
   .cardHover {
     flex-direction: column;
   }
@@ -236,7 +237,6 @@ $bp-lg: 1200px;
   font-size: 18px;
   padding-right: 0.5em;
   position: absolute;
-  font-family: 'Font Awesome 5 Free';
   font-weight: 700;
 }
 

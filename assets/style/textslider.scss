@@ -15,6 +15,12 @@ $total_animation_time: $time_per_slide * $slides;
   opacity:0;
   
 }
+@media (max-width: 600px) {
+  .textslide {
+    padding-top: 20%
+  }
+}
+
 @keyframes round{   
   25%{
     opacity:1;

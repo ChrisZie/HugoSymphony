@@ -1,7 +1,7 @@
 ---
 enable: true
 title: Motivation StartSite
-cardBGIDs: "'https://pixabay.com/photos/hands-macro-plant-soil-grow-life-1838658/',
+cardBGIDs: "'https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658_1280.jpg',
   '1533903345306-15d1c30952de', '1545243424-0ce743321e11', '1531306728370-e2ebd9d7bb99'"
 cards:
 - caption: The Meeting

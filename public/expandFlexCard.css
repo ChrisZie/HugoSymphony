@@ -1,0 +1,145 @@
+.flexcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%; }
+  .flexcard .options {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+    min-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    height: 400px; }
+    @media screen and (max-width: 718px) {
+      .flexcard .options {
+        min-width: 520px; }
+        .flexcard .options .flexoption:nth-child(5) {
+          display: none; } }
+    @media screen and (max-width: 638px) {
+      .flexcard .options {
+        min-width: 440px; }
+        .flexcard .options .flexoption:nth-child(4) {
+          display: none; } }
+    @media screen and (max-width: 558px) {
+      .flexcard .options {
+        min-width: 360px; }
+        .flexcard .options .flexoption:nth-child(3) {
+          display: none; } }
+    @media screen and (max-width: 478px) {
+      .flexcard .options {
+        min-width: 280px; }
+        .flexcard .options .flexoption:nth-child(2) {
+          display: none; } }
+    .flexcard .options .flexoption {
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+      min-width: 60px;
+      margin: 10px;
+      background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
+      background-size: auto 120%;
+      background-position: center;
+      cursor: pointer;
+      transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
+      .flexcard .options .flexoption:nth-child(1) {
+        --defaultBackground:#ED5565; }
+      .flexcard .options .flexoption:nth-child(2) {
+        --defaultBackground:#FC6E51; }
+      .flexcard .options .flexoption:nth-child(3) {
+        --defaultBackground:#FFCE54; }
+      .flexcard .options .flexoption:nth-child(4) {
+        --defaultBackground:#2ECC71; }
+      .flexcard .options .flexoption:nth-child(5) {
+        --defaultBackground:#5D9CEC; }
+      .flexcard .options .flexoption:nth-child(6) {
+        --defaultBackground:#AC92EC; }
+      .flexcard .options .flexoption.active {
+        flex-grow: 10000;
+        transform: scale(1);
+        max-width: 100%;
+        margin: 0px;
+        border-radius: 40px;
+        background-size: cover;
+        /*&:active {
+               transform:scale(0.9);
+            }*/ }
+        .flexcard .options .flexoption.active .shadow {
+          box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black; }
+        .flexcard .options .flexoption.active .label {
+          bottom: 20px;
+          left: 20px; }
+          .flexcard .options .flexoption.active .label .info > a {
+            left: 0px;
+            opacity: 1; }
+        .flexcard .options .flexoption.active .description {
+          opacity: 1;
+          top: 20px;
+          text-align: center;
+          left: 20px; }
+      .flexcard .options .flexoption:not(.active) {
+        flex-grow: 1;
+        border-radius: 30px; }
+        .flexcard .options .flexoption:not(.active) .shadow {
+          bottom: -40px;
+          box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black; }
+        .flexcard .options .flexoption:not(.active) .label {
+          bottom: 10px;
+          left: 10px; }
+          .flexcard .options .flexoption:not(.active) .label .info > a {
+            left: 20px;
+            opacity: 0; }
+        .flexcard .options .flexoption:not(.active) .description {
+          opacity: 0; }
+      .flexcard .options .flexoption .shadow {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 120px;
+        transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
+      .flexcard .options .flexoption .label {
+        display: flex;
+        position: absolute;
+        right: 0px;
+        height: 40px;
+        transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
+        .flexcard .options .flexoption .label .flex-icon {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          min-width: 40px;
+          max-width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          background-color: white;
+          color: var(--defaultBackground); }
+        .flexcard .options .flexoption .label .info {
+          display: initial;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 10px;
+          color: white; }
+          .flexcard .options .flexoption .label .info > a {
+            position: relative;
+            transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out; }
+          .flexcard .options .flexoption .label .info .main {
+            font-weight: bold;
+            font-size: 1.2rem; }
+          .flexcard .options .flexoption .label .info .sub {
+            transition-delay: .1s; }
+      .flexcard .options .flexoption .description {
+        display: flex;
+        position: absolute;
+        transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
+
+a.info {
+  text-decoration: none; }
+
+.description .text {
+  font-size: 1.2rem; }

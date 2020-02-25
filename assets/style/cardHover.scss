@@ -1,4 +1,4 @@
-$imageIds: {{ string .Site.Data.motivation.cardBGIDs}} ;
+ $imageIds: {{ string .Site.Data.motivation.cardBGIDs}} ;
 
 $bp-md: 800px;
 $bp-md-max: 799px;
@@ -103,6 +103,13 @@ $bp-lg: 1200px;
     transition: transform calc(var(--d) * 2) var(--e);
   }
   
+/*   {{ range $elem_inde, $element := .Site.Data.motivation.cards }}
+    &:nth-child( {{ $elem_inde }}):before {
+      background-image: url('{{ $element.imageId }}');
+    }
+  {{ end }} */
+
+
   @each $id in $imageIds {
     $i: index($imageIds, $id);
     

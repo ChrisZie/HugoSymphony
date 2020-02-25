@@ -41,9 +41,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 section {
-padding-right: 68px;
-padding-left: 68px;
+  padding-right: 68px;
+  padding-left: 68px;
+  }
+
+@media (max-width: 600px) {
+  section {
+    padding-right: 1%;
+    padding-left: 1%;
+    }
 }
+
 
 .section-padding {
   padding-top: 50px;
@@ -124,6 +132,13 @@ letter-spacing: 2px;
 font-size: 1.6rem;
 line-height: 1.45;
 text-align: center;
+}
+@media (max-width: 600px) {
+  .header-text p {
+    font-size: 1.2rem;
+    line-height: 1.25;
+    text-align: center;
+    }
 }
 
 .subline {
@@ -227,6 +242,11 @@ button {
 
 #home {
   height: 70vh;
+}
+@media (max-width: 600px) {
+  #home {
+    height: 100vh;
+  }
 }
 
 .leaf {

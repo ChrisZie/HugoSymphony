@@ -1,7 +1,7 @@
 $imageIds: {{ string .Site.Data.motivation.cardBGIDs}} ;
 
-$bp-md: 600px;
-$bp-lg: 1000px;
+$bp-md: 800px;
+$bp-lg: 1200px;
 
 :root {
   --d: 700ms;
@@ -20,7 +20,7 @@ $bp-lg: 1000px;
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
-  max-width: 1024px;
+  // max-width: 1024px;
   margin: 0 auto;
   font-family: var(--font-sans);
   
@@ -121,9 +121,9 @@ $bp-lg: 1000px;
   transition: transform var(--d) var(--e);
   z-index: 1;
   
-  > * + * {
+/*   > * + * {
     margin-top: 1rem;
-  }
+  } */
 }
 
 .title {
@@ -185,7 +185,7 @@ $bp-lg: 1000px;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: $bp-md) {
   .collapse.dont-collapse-sm {
     display: block;
     height: auto !important;
@@ -196,7 +196,7 @@ $bp-lg: 1000px;
     display: none!important;
 }
 }
-@media (max-width: 600px) {
+@media (max-width: $bp-md -1) {
   .cardHover {
     flex-direction: column;
   }

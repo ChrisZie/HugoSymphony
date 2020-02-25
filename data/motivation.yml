@@ -1,9 +1,8 @@
-
 ---
 enable: true
 title: Motivation StartSite
 cardBGIDs: "'https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658_1280.jpg',
-  'https://cdn.pixabay.com/photo/2016/10/22/17/46/scotland-1761292_1280.jpg', '1545243424-0ce743321e11',
+  'https://cdn.pixabay.com/photo/2016/10/22/17/46/scotland-1761292_1280.jpg', 'https://cdn.pixabay.com/photo/2015/10/12/14/50/tree-983907_1280.jpg',
   '1531306728370-e2ebd9d7bb99'"
 cards:
 - caption: The Meeting
@@ -11,8 +10,7 @@ cards:
   imageId: 1517021897933-0e0319cfbc28
   description: 'We are a Canadian and a German who met while volunteering at a non-profit
     organization. We quickly realized we shared the goal of doing everything we possibly
-    could to protect animal and plant life on this planet.
->>>>>>> bc11da1d68a08680b8e66233ba291b62e3f2088a
+    could to protect animal and plant life on this planet. >>>>>>> bc11da1d68a08680b8e66233ba291b62e3f2088a
 
 '
 - caption: The Expertise

@@ -2,8 +2,8 @@
 enable: true
 title: Motivation StartSite
 cardBGIDs: "'https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658_1280.jpg',
-  'https://cdn.pixabay.com/photo/2015/10/12/14/50/tree-983907_1280.jpg', 'https://cdn.pixabay.com/photo/2013/06/07/06/51/tree-117582_1280.jpg',
-  'https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg'"
+  'https://cdn.pixabay.com/photo/2015/10/12/14/50/tree-983907_1280.jpg', 'https://cdn.pixabay.com/photo/2016/01/08/17/06/poppy-1128683_1280.jpg,
+  'https://cdn.pixabay.com/photo/2018/11/17/22/15/tree-3822149_1280.jpg' "
 cards:
 - caption: The Meeting
   marker: meeting

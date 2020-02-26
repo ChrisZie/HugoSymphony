@@ -10,9 +10,7 @@ cards:
   imageId: 1517021897933-0e0319cfbc28
   description: 'We are a Canadian and a German who met while volunteering at a non-profit
     organization. We quickly realized we shared the goal of doing everything we possibly
-    could to protect animal and plant life on this planet. >>>>>>> bc11da1d68a08680b8e66233ba291b62e3f2088a
-
-'
+    could to protect animal and plant life on this planet. '
 - caption: The Expertise
   marker: expertise
   imageId: https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658_1280.jpg
@@ -22,7 +20,6 @@ cards:
     projects, and studying business and technology. We decided to use these skills
     to empower all Environmental Conservation Organizations - ECOs - to have lasting,
     powerful impact.
-
 '
 - caption: The Learning
   marker: learning

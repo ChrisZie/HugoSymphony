@@ -146,7 +146,7 @@ float: left;
 .ui_box:hover > .drop{
   transition-property:bottom,opacity;
         transition-duration:.3s;
-  bottom:-20px;
+  bottom:-15px;
   z-index:-99999999;
   opacity:1;
 }

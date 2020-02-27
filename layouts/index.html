@@ -4,6 +4,10 @@
 
 {{ define "extrahead" }}
 <link href="./style/aos.css" rel="stylesheet">
+<link href="./style/waves.css" rel="stylesheet">
+{{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
@@ -61,11 +65,13 @@
 <!--end of about us-->
 <section class="service-slider p-0 pt-5" id="">
     <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="container">
-  
+        {{ partial "expandInfoCard.html" . }}
     </div>
 </section>
 <!--end of Service Section-->
+
 <section class="footer" id="footer">
+
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 col-lg-12">

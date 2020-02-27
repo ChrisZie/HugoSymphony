@@ -1,7 +1,7 @@
 --- 
 enable: true 
 title: Service
-caption: Choose your <br> service
+caption: Choose your service
 service_item: 
   - name: Marketing
     icon: "images/responsive.svg"

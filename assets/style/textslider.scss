@@ -66,9 +66,10 @@ $total_animation_time: $time_per_slide * $slides;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
-    // padding-bottom: 2rem;
+    padding-bottom: 2rem;
     position: relative;
-    top: 17px;
+    top: 0;
+
   }
 
 
@@ -81,6 +82,13 @@ $total_animation_time: $time_per_slide * $slides;
   }
 
   @media (min-width: 800px) {
+    .subheading h2{
+      position: relative;
+      top: 17px;
+      padding-bottom: 0;
+    }
+  
+
     .textslide .header-text {
       border-right: 2px solid #fff;
       border-left: 2px solid #fff;

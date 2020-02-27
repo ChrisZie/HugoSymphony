@@ -1,4 +1,6 @@
 $color-teal: #0D3D4D;
+$bp-md: 800px;
+$bp-sx: 600px;
 
 ::selection {
   background-color: #2256A1;
@@ -7,9 +9,9 @@ $color-teal: #0D3D4D;
 
 #site {
   display: grid;
-  grid-template-rows: 3fr 2fr;
-  grid-template-columns: 4rem 1fr 1fr 5rem;
-  width: 90vw;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1rem 1fr 1fr 5rem;
+  width: 100vw;
   height: 90vh;
   box-shadow: 0 .5rem 2rem rgba(black, 0.1);
   background-color: #fff;
@@ -21,6 +23,23 @@ $color-teal: #0D3D4D;
     transition: all .6s cubic-bezier(.2, 0, .2, 1);
   }
 }
+
+@media (max-width: $bp-md) {
+  #site {
+    height: 50vh;
+  }
+}
+
+#site h1{
+  font-size: 3em;
+  font-weight: 700;
+}
+@media (max-width: $bp-sx) {
+  #site h1{
+    font-size: 2em;
+  }
+}
+
 
 #site { 
   --total: 4; 
@@ -64,7 +83,7 @@ input[value="4"]:checked ~ * [data-scene="4"] {
 }
 
 .ocean {
-  grid-row: 1 / 2;
+  grid-row: 1 / 1;
   grid-column: 1 / -1;
   background-color: blue;
   background-image: url(https://picsum.photos/1200/800?image=912);
@@ -76,7 +95,7 @@ input[value="4"]:checked ~ * [data-scene="4"] {
 .ocean-text {
   display: inline-block;
   white-space: nowrap;
-  font-size: 45vh;
+  font-size: 65vh;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
@@ -90,8 +109,22 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   background-position: calc( 25% + (-50% * var(--percentage)) ) 0;
 
   transform: 
-    translateX( calc( 50% + ( -100% * var(--percentage) ) ) );
+    translateX( calc( 26% + ( -100% * var(--percentage) ) ) );
 }
+
+@media (max-width: $bp-md) {
+  .ocean-text {
+    font-size: 45vh;
+  }
+}
+@media (max-width: $bp-sx) {
+  .ocean-text {
+    font-size: 45vh;
+    transform: 
+    translateX( calc( 21% + ( -100% * var(--percentage) ) ) );
+  }
+}
+
 
 .left-content {
   float: left;

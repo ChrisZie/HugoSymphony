@@ -133,6 +133,7 @@ letter-spacing: 2px;
 font-size: 1.6rem;
 line-height: 1.45;
 text-align: center;
+font-weight: 600;
 }
 @media (max-width: 600px) {
   .header-text p {
@@ -402,8 +403,8 @@ color: white;
 }
 
 .blue-gradient-bg {
-  background:  linear-gradient(175deg,hsla(0,0%,100%,0) 50%,#fff),linear-gradient(100deg,skyblue 50%,#fff);
-  color: black;
+  background:  linear-gradient(140deg, #1164b4, 70%, transparent);
+  color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

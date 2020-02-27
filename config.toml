@@ -35,7 +35,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     keywords = "Consulting; Conservation;"
     # Google Analitycs
     googleAnalitycsID = "Your ID"
-    facebookLink = "https://www.facebook.com/SymphonyEco"
+    facebookLink = "https://www.facebook.com/Symphony.Eco"
     instagramLink = "https://www.instagram.com/symphony.eco"
     twitterLink = "https://twitter.com/SymphonyEco"
 

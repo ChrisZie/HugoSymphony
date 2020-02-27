@@ -9,6 +9,7 @@ $bp-sx: 600px;
 
 #site {
   display: grid;
+  margin-bottom:3%;
   grid-template-rows: 2fr;
   grid-template-columns: 1rem 1fr 1fr 5rem;
   width: 100vw;

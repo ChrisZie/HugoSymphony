@@ -54,6 +54,7 @@ $background:#4FA584;
       
       &__inner{
         padding:30px;
+        height: 100%;
 
         span{
           font-size:36px;
@@ -144,7 +145,7 @@ float: left;
 .ui_box:hover > .drop{
   transition-property:bottom,opacity;
         transition-duration:.3s;
-  bottom:-2px;
+  bottom: 0px;
   z-index:-99999999;
   opacity:1;
 }

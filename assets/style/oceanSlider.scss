@@ -17,7 +17,7 @@ $bp-sx: 600px;
   box-shadow: 0 .5rem 2rem rgba(black, 0.1);
   background-color: #fff;
   color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat';
   overflow: hidden;
 
   * {
@@ -86,8 +86,8 @@ input[value="4"]:checked ~ * [data-scene="4"] {
 .ocean {
   grid-row: 1 / 1;
   grid-column: 1 / -1;
-  background-color: blue;
-  background-image: url(https://picsum.photos/1200/800?image=912);
+  background-color: #1164b4;
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/11/20/47/elephants-1900332_1280.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -99,10 +99,10 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   font-size: 65vh;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat';
   position: relative;
-  background-image: url(https://picsum.photos/1200/800?image=909);
-  background-size: 160% auto;
+  background-image: url(https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg);
+  background-size: 20%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -239,6 +239,7 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
   z-index: 2;
   color: #FFF;
   font-weight: bold;
+  font-size: 1.4rem;
   text-shadow: 0 1px 1em rgba(0,0,0,0.4);
 }
 
@@ -249,7 +250,7 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
   grid-column: 2 / 3;
   // align-self: end;
   font-size: 4rem;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 500;
   overflow: hidden;
 }

@@ -1,23 +1,30 @@
-<div class='ui'>
+<div class='row ui justify-content-center'>
+  {{ range .Site.Data.service.service_item }}
   <div class='ui_box white'>
+    {{ $link :=  (printf "%s%s" "service/" .serviceDetailLink )   }}
     <div class='ui_box__inner'>
       <h2>
-        Heading 
+        {{ .name }}
       </h2>
-      <p>And maybe one line of related information</p>
+      <p>{{ .question1 }}</p>
       <div class='stat'>
-        <span>58%</span>
+        <span>{{ .data }}</span>
       </div>
       <div class='progress'>
         <div class='progress_bar'></div>
       </div>
-      <p>If you are interested in knowing more , we will give you an option to re-direct. Otherwise we save on screen real estate.</p>
+      <p>{{ .question2 }}</p>
     </div>
     <div class='drop'>
-      <p>This is a reward for showing explicit interest</p>
-      <div class='arrow'></div>
+      <a href="{{  $link| absURL }}">
+        <p>{{ .answer }}
+        </p>
+        <div class='arrow'></div>
+      </a>
     </div>
   </div>
+  {{ end }}
+
   <div class='ui_box white'>
     <div class='ui_box__inner'>
       <h2>

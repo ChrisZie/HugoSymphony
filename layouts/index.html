@@ -34,7 +34,7 @@
     {{ partial "oceanSlider.html" . }}
  </section>
 <!--end of Header-->
-<section class="p-0" id="">
+<section class="p-0" id="motivation">
     {{ partial "textslider.html" . }}
  </section>
 <section class="about my-5 p-0 p-sm-1 pb-5" id="about">
@@ -42,7 +42,7 @@
         <div class="row">
             <div  class="col-12"  data-aos="fade-up" data-aos-delay="100">
                 <div class="cardHover-content">
-                {{ range .Site.Data.motivation.cards }}
+                {{ range .Site.Data.aboutUs.cards }}
                     <div class="cardHover">
                         <div class="card-content">
                             <div class="labelHidden collapsed" data-toggle="collapse" data-target="#{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">{{ .caption }}</div>

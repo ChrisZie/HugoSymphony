@@ -2,12 +2,12 @@
   <div class="row align-items-start"> 
       {{ range .Site.Data.textSlider.slides }}
       <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2  textslide">
-        <div class="large-3 columns nopad border-bot"></div>
+        <div class="large-3 columns nopad border-bot" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
         <div class="subheading" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                 <h2>{{ .caption }}</h2>
         </div>
-        <div class="large-3 columns nopad border-bot "></div>
-        <div class="header-text" data-aos="fade-up" data-aos-delay="400">
+        <div class="large-3 columns nopad border-bot " data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+        <div class="header-text" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                 <p>{{ .description }}  </p>         
         </div>
       </div>

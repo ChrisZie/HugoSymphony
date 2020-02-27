@@ -11,9 +11,13 @@ service_item:
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
-  - name: Operations
+  - name: Fundraising
     icon: "images/responsive.svg"
-    serviceDetailLink: operations
+    serviceDetailLink: fundraising
+    color: yellow
+  - name: Volunteer
+    icon: "images/responsive.svg"
+    serviceDetailLink: volunteer
     color: yellow
     
 

@@ -112,14 +112,6 @@ padding-bottom: 30px;
 letter-spacing: 2px;
 }
 
-.subheading h1{
-  opacity: 0.5;
-  font-weight: bold;
-  font-size: 1.07rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-align: center;
-}
 
 .subheader {
   line-height: 1.4;
@@ -129,19 +121,7 @@ letter-spacing: 2px;
   margin-bottom: 0.5rem; }
 
 
-.header-text p {
-font-size: 1.6rem;
-line-height: 1.45;
-text-align: center;
-font-weight: 600;
-}
-@media (max-width: 600px) {
-  .header-text p {
-    font-size: 1.2rem;
-    line-height: 1.25;
-    text-align: center;
-    }
-}
+
 
 .subline {
 font-size: 15px;
@@ -167,10 +147,6 @@ color: white;
  */
 
 
-.border-bottom{
-  height: 32px;
-  border-bottom: 2px solid #fff !important;
-}
 
 .no-gutters>.col, .no-gutters>[class*=col-] {
   padding-right: 8px; 
@@ -252,6 +228,23 @@ color: white;
     height: 100vh;
   }
 }
+
+#motivation {
+  min-height: 400px;
+}
+
+@media (max-width: 800px) {
+  #motivation {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  #motivation {
+    min-height: 400px;
+  }
+}
+
 
 .leaf {
   width: 80px;

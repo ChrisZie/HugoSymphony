@@ -1,16 +1,15 @@
-<div class="container" style="padding-top:15%; padding-bottom:15%;">
+<div class="container">
   <div class="row align-items-start"> 
       {{ range .Site.Data.textSlider.slides }}
-      <div class="col-11 offset-1 col-sm-8 offset-sm-2  textslide">
-
-
-              <div class="subheading pb-3" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
-                      <h1>{{ .caption }}</h1>
-              </div>
-
-              <div class="header-text" data-aos="fade-up" data-aos-delay="400">
-                      <p>{{ .description }}  </p>         
-              </div>
+      <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2  textslide">
+        <div class="large-3 columns nopad border-bot"></div>
+        <div class="subheading" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <h2>{{ .caption }}</h2>
+        </div>
+        <div class="large-3 columns nopad border-bot "></div>
+        <div class="header-text" data-aos="fade-up" data-aos-delay="400">
+                <p>{{ .description }}  </p>         
+        </div>
 
       </div>
       {{ end }}

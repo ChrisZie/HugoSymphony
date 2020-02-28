@@ -1,42 +1,44 @@
 ---
 enable: true
 title: about Us StartSite
-cardBGIDs: "'https://cdn.pixabay.com/photo/2015/10/12/14/50/tree-983907_1280.jpg',
+cardBGIDs: "'https://cdn.pixabay.com/photo/2015/10/12/14/50/tree-983910_1280.jpg',
   'https://cdn.pixabay.com/photo/2016/01/08/17/06/poppy-1128683_1280.jpg', \n'https://cdn.pixabay.com/photo/2018/06/07/16/38/blueberry-3460423_1280.jpg',
   \ 'https://cdn.pixabay.com/photo/2013/06/07/06/51/tree-117582_1280.jpg'"
 cards:
 - caption: The Meeting
   marker: meeting
   imageId: 1517021897933-0e0319cfbc28
-  description: 'We are a Canadian and a German who met while managing and 
-    volunteering at a Non-Profit Organization. We quickly realized we shared a determined passion for 
-    Environmental Conservation and that we were both willing to do anything we possibly could to 
-    protect animal and plant life on this planet.'
-
+  description: We are a Canadian and a German who met while managing and volunteering
+    at a Non-Profit Organization. We quickly realized we shared a determined passion
+    for Environmental Conservation and that we were both willing to do anything we
+    possibly could to protect animal and plant life on this planet.
 - caption: The Expertise
   marker: expertise
   imageId: https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658_1280.jpg
-  description: 'We were incredibly excited when we learned that we shared an invaluable combination of experience, expertise, and education.
-    We had both travelled, learned, and worked in several dozen countries each, giving us incredibly diverse insight. 
-    We excelled at Software Development and Project Management, had several degrees and certifications in Science, Business, 
-    and Technology, and had numerous years of deep first-hand knowledge in Marketing, managing volunteers, and fundraising 
-    for both Non-Profit Organizations and Government Agencies.'
-
+  description: We were incredibly excited when we learned that we shared an invaluable
+    combination of experience, expertise, and education. We had both travelled, learned,
+    and worked in several dozen countries each, giving us incredibly diverse insight.
+    We excelled at Software Development and Project Management, had several degrees
+    and certifications in Science, Business, and Technology, and had numerous years
+    of deep first-hand knowledge in Marketing, managing volunteers, and fundraising
+    for both Non-Profit Organizations and Government Agencies.
 - caption: The Learning
   marker: learning
   imageId: 1531306728370-e2ebd9d7bb99
-  description: 'We knew that our skills could serve those truly dedicated to making a positive impact on the environment.
-    We left our homes, families, and careers behind to instead work around the world 
-    with amazing NGOs and Governments, learning and honing our knowledge and skills with each successive project. 
-    During this learning, we observed that all of the environmetally-focused NGOs and Governments we worked with seemed 
-    to experience the same shortages: Funding, Volunteers, and Brand Awareness.'
-
+  description: 'We knew that our skills could serve those truly dedicated to making
+    a positive impact on the environment. We left our homes, families, and careers
+    behind to instead work around the world with amazing NGOs and Governments, learning
+    and honing our knowledge and skills with each successive project. During this
+    learning, we observed that all of the environmetally-focused NGOs and Governments
+    we worked with seemed to experience the same shortages: Funding, Volunteers, and
+    Brand Awareness.'
 - caption: The Launch
   marker: launch
   imageId: 1545243424-0ce743321e11
-  description: 'Our goal became absolutely clear: 
-    to affordably provide our expertise to environmentally passionate NGOs and Governments. 
-    We would deploy beautiful websites and proven, powerful Social Media strategies, provide superb Volunteer
-    management training guides and coordination tools, and implement successful Fundraising systems and strategies. 
-    We would provide the tools and know-how they would need to operate as world-class entities, 
-    empowering them to have truly world-class impact.'
+  description: 'Our goal became absolutely clear: to affordably provide our expertise
+    to environmentally passionate NGOs and Governments. We would deploy beautiful
+    websites and proven, powerful Social Media strategies, provide superb Volunteer
+    management training guides and coordination tools, and implement successful Fundraising
+    systems and strategies. We would provide the tools and know-how they would need
+    to operate as world-class entities, empowering them to have truly world-class
+    impact.'

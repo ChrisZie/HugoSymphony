@@ -3,14 +3,6 @@ enable: true
 title: Service
 caption: Choose your service
 service_item: 
-  - name: Online Communication
-    icon: "images/responsive.svg"
-    serviceDetailLink: marketing
-    color: red
-    question1:  Did you know that 
-    data: XX% 
-    question2: of people engage with NGOs on Facebook alone?
-    answer: We understand that a strong Social Media presence is critical in creating excitement and attention for your work. We design and deploy internationally attractive Social Media accounts across all major platforms that quickly grow followers and convert those followers into volunteers and donors.
   - name: Web Design
     icon: "images/money.svg"
     serviceDetailLink: webdesign
@@ -19,6 +11,14 @@ service_item:
     data: 50% 
     question2: of people engage with an NGO via its website alone?
     answer: We understand that a beautiful and accessible website can make all the difference in the world between whether you are remembered or forgotten. We design and deploy blazingly fast and ultimately secure websites that drastically increase volunteer and international donor engagement by being beautifully designed one-stop-shops for visitors.
+  - name: Online Communication
+    icon: "images/responsive.svg"
+    serviceDetailLink: marketing
+    color: red
+    question1:  Did you know that 
+    data: XX% 
+    question2: of people engage with NGOs on Facebook alone?
+    answer: We understand that a strong Social Media presence is critical in creating excitement and attention for your work. We design and deploy internationally attractive Social Media accounts across all major platforms that quickly grow followers and convert those followers into volunteers and donors.
   - name: Fundraising
     icon: "images/responsive.svg"
     serviceDetailLink: fundraising

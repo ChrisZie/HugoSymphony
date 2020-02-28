@@ -74,7 +74,7 @@ $total_animation_time: $time_per_slide * $slides;
 
 
 
-  .textslide .large-3 {
+  .textslide .large-3 , .motivationText .large-3 {
     position: relative;
     width: 20%;
     padding: 0px;
@@ -89,7 +89,7 @@ $total_animation_time: $time_per_slide * $slides;
     }
   
 
-    .textslide .header-text {
+    .textslide .header-text , .motivationText .header-text {
       border-right: 2px solid #fff;
       border-left: 2px solid #fff;
       border-bottom: 2px solid #fff;

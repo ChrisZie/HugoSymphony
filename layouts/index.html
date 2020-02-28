@@ -5,8 +5,8 @@
 {{ define "extrahead" }}
 <link href="./style/aos.css" rel="stylesheet">
 <link href="./style/waves.css" rel="stylesheet">
-{{ $sassTemplate := resources.Get "style/quote.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "quote.css" . | minify | fingerprint }}
+{{ $sassTemplate := resources.Get "style/quote.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "quote.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
@@ -55,8 +55,8 @@
                         <div class="card-content">
                             <div class="labelHidden collapsed" data-toggle="collapse" data-target="#{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">{{ .caption }}</div>
                             <div class="collapse dont-collapse-sm card-content " id="{{ .marker }}">
-                                <h2 class="title">{{ .caption }}</h2>
-                                <p class="copy" style="margin-top: 1rem;">{{ .description }}</p>
+                                <h2 class="title">{{ .caption | safeHTML}}</h2>
+                                <p class="copy" style="margin-top: 1rem;">{{ .description  | safeHTML}}</p>
                             </div>
                         </div>
                     </div>
@@ -67,19 +67,26 @@
     </div>
 </section>
 <!--end of about us-->
-{{ partial "quote.html" . }}
+
 <section class="service-slider p-0 " id="">
     <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="container">
         {{ partial "expandInfoCard.html" . }}
     </div>
 </section>
 <!--end of Service Section-->
-<section class="twitter p-0 " id="">
+<section class="twitter p-0 pb-5" id="">
     <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="container">
         <div class="row">
-            <div class="col-10 offset-1">
-                <a class="twitter-timeline" tw-align-center href="https://twitter.com/ChrisZie_" data-width="100%" data-height="200" data-theme="light" data-conversation="none" data-cards="hidden"></a>
+            <div class="col-12 px-1">
+                <div class="row justify-content-center">
+                    <div class="col-10  col-sm-8 col-md-4 align-self-center">
+                        <a class="twitter-timeline" href="https://twitter.com/ChrisZie_" data-conversation="none" data-chrome="nofooter" data-cards="hidden" data-width="100%" data-height="350" data-theme="light" ></a>
+                    </div>
+                    <div class="col-10 col-sm-8  col-md-4 align-self-center">
+                        <div class="fb-page" style="margin: 0 auto;display: block;" data-href="https://www.facebook.com/symphony.eco" data-tabs="timeline" data-width="500" data-height="350" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/symphony.eco" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/symphony.eco"></a></blockquote></div>
+                    </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -94,12 +101,14 @@
                         <svg id="polyAnimal" class="svgcool" viewBox="0 0 1000 1000">
                         </svg>    
                     </div>
-                    <div class="col-12 col-md-8 col-lg-5 pb-3 pb-md-0">
-                        <div class="box">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio venire quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distin.</p>
-                        </div>
+                    <div class="col-12 col-md-8 col-lg-6 pb-3 pb-md-0">
+                        <div class="box quote">
+                            <blockquote>
+                                <p>“It seems to me that the natural world is the greatest source of excitement; the greatest source of visual beauty; the greatest source of intellectual interest. It is the greatest source of so much in life that makes life worth living."</p> <cite>David Attenborough</cite>
+                            </blockquote>  
+                        </div>              
                     </div>
-                    <div class="col-12 col-md-12 col-lg-5">
+                    <div class="col-12 col-md-12 col-lg-4">
                         <div class="row align-items-center justify-content-end">
                             <div class="col-12 col-md-12 col-lg-12 text-right pr-0">
                                     <div class="box">
@@ -145,5 +154,7 @@
         </div>
     </div>
 </section>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 
 {{ end }}

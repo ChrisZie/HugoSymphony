@@ -593,13 +593,3 @@ color: white;
     }
     
     
-/*   Twitter Feed Setting*/  
-.SandboxRoot.env-bp-970 .timeline-Tweet-text {
-    font-size: 1rem;
-    line-height: 1.6;
-    font-weight: 300;
-}
-
-.timeline-Tweet-media {
-  display: none;
-}

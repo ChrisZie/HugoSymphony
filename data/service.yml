@@ -30,7 +30,7 @@ service_item:
     serviceDetailLink: volunteer
     color: yellow
     question1: Did you know that you are
-    data: 78% 
+    data: 78%
     question2: more likely to receive donations from volunteers than non-volunteers?
     answer: 'Volunteers are the single most invaluable resource to the success of your organization. 
     <br>We design and deploy world-class volunteer management tools and training programs to ensure that you attain,
@@ -41,8 +41,8 @@ service_item:
     serviceDetailLink: fundraising
     color: yellow
     question1: Did you know that over
-    data: 55%
-    question2: of ALL donations are made online, via Social Media and websites, more than all other methods combined?
+    data: $235 Billion
+    question2: or 55% of ALL donations are made online, via Social Media and websites, more than all other methods combined?
     answer: 'Your impact is directly tied to your revenue and your revenue is directly tied to your fundraising. 
     <br>We design and deploy superb online fundraising campaigns that can reach both local and International audiences, 
     consistently yielding the highest possible income.'

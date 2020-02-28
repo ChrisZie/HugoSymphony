@@ -238,8 +238,8 @@ $bp-lg: 1200px;
  }
 
  .cardHover .labelHidden:after {
-  font-family: 'FontAwesome';  
-  content: "\f068";
+  font-family: 'Font Awesome 5 Free';  
+  content: "\f077";
   right: 0;
   font-style: normal;
   font-weight: normal;
@@ -252,7 +252,7 @@ $bp-lg: 1200px;
 
 .cardHover .labelHidden.collapsed:after {
     /* symbol for "collapsed" panels */
-    content: "\f067"; 
+    content: "\f078"; 
 }
 
 .collapse {

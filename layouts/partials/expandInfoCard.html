@@ -19,10 +19,9 @@
             <p>{{ .question2 | safeHTML}}</p>
           </div>
           <div class='drop' id="{{ .name }}">
-            <p>{{ .answer | safeHTML}}
-            </p>
             <a href="{{  $link| absURL }}">
-              more details
+              <p>{{ .answer | safeHTML}}
+              </p>
               <div class='arrow'></div>
             </a>
           </div>

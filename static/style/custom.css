@@ -305,7 +305,16 @@ color: white;
   list-style: none;
 }
 
-.social ul li a {
+@media (max-width: 600px)  {
+  .social ul {
+    flex-wrap: wrap;
+  }
+  .social ul li {
+    padding-bottom: 10px;
+  }
+}
+
+.social ul li a , .footer-link .box a {
   width: 60px;
   height: 60px;
   background-color: transparent;
@@ -321,19 +330,19 @@ color: white;
   /* z-index: 1; */
 }
 
-.social ul li a .fab {
+.social ul li a .fab, .footer-link .box a .fas ,  .footer-link .box a:hover .fab {
   position: relative;
   color: black;
   transition: .5s;
   /* z-index: 3; */
 }
 
-.social ul li a:hover .fab {
+.social ul li a:hover .fab ,  .footer-link .box a:hover .fas ,  .footer-link .box a:hover .fab {
   color: #fff;
   transform: rotateY(360deg);
 }
 
-.social ul li a:before {
+.social ul li a:before,  .footer-link .box a:before {
   content: "";
   position: absolute;
   top: 100%;
@@ -345,7 +354,7 @@ color: white;
   /* z-index: 2; */
 }
 
-.social ul li a:hover:before {
+.social ul li a:hover:before , .footer-link .box a:hover:before{
   top: 0;
 }
 
@@ -365,12 +374,26 @@ color: white;
   background: #0077b5;
 }
 
+
+.footer-link ul li:nth-child(4) a:before{
+  background: #0077b5;
+}
+
+.footer-link ul li:nth-child(5) a:before{
+  background: silver;
+}
+
+.footer-link ul li:nth-child(6) a:before{
+  background: #7027C3;
+}
+
+
 /* social media end */
 
 /* Footer */
 .footer-link {
-  margin-top: 3%;
-  padding-left: 1rem;
+  /* margin-top: 3%; */
+  /* padding-left: 1rem; */
 }
 
 #footer {
@@ -382,6 +405,22 @@ color: white;
   height: 150px;
   width: 150px;
 }
+
+.footer-link a {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 60px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
 /* Footer end*/
 
 /***** bg, shadows and overlays *****/

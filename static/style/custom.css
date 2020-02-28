@@ -308,7 +308,8 @@ color: white;
 .social ul li a {
   width: 60px;
   height: 60px;
-  background-color: black;
+  background-color: transparent;
+  border: 1px solid black;
   text-align: center;
   line-height: 60px;
   font-size: 35px;
@@ -317,14 +318,14 @@ color: white;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .social ul li a .fab {
   position: relative;
-  color: white;
+  color: black;
   transition: .5s;
-  z-index: 3;
+  /* z-index: 3; */
 }
 
 .social ul li a:hover .fab {
@@ -341,7 +342,7 @@ color: white;
   height: 100%;
   background: #f00;
   transition: .5s;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .social ul li a:hover:before {

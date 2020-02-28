@@ -3,7 +3,7 @@
 	outline: none;
 	text-decoration: none;
 	position: relative;
-	font-size: 7,5em;
+	font-size: 5.5em;
 	line-height: 1;
 	color: #9e9ba4;
 	display: inline-block;
@@ -737,15 +737,12 @@
 	.link--surinami { font-size: 3em; }
 }
 
+
+
 @media screen and (max-width: 42em) {
-	.link--takiri { font-size: 3.5em; }
 	.link--kukuri { font-size: 3.5em; }
-	.link--nukun { font-size: 3.5em; }
-	.link--kumya { font-size: 3em; }
-	.link--manko { font-size: 3.5em; }
-	.link--urpi { font-size: 5em; }
-	.link--mallki { font-size: 3.5em; }
-	.link--ilin { font-size: 5em; }
-	.link--asiri { -webkit-transform: scale3d(0.65,0.65,1); transform: scale3d(0.65,0.65,1); }
-	.link--yaku { font-size: 4em; }
+}
+
+@media screen and (max-width: 600px) {
+	.link--kukuri { font-size: 3em; }
 }

@@ -3,7 +3,7 @@ $background:#4FA584;
   .ui{
     width:100%;
     margin:0 auto;
-    margin-top:5%;
+    margin-top:1%;
     color:white;
     box-shadow:none;
     box-shadow:0px 0px 5px 0px 2e2e2e;
@@ -196,14 +196,20 @@ float: left;
   .ui_box:hover > .drop{
     transition-property:bottom,opacity;
           transition-duration:.3s;
-    bottom: -170px;
+    //bottom: -170px;
     //bottom: -350px;
+    bottom:-42px;
     display: block;
+    position: relative;
     z-index:5;
-    height: 100%;
     opacity:1;
   }
 
+  .ui_box:hover > .ui_box__inner p {
+    opacity:0;
+    transition-property:opacity;
+    transition-duration:.9s;
+  }
   .ui_box{
     height: 290px;
     margin-bottom: 80px;

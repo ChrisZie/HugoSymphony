@@ -9,6 +9,6 @@ link1text: "My Profile"
 profile2firstname: "Aaron"
 profile2lastname: "Pinto"
 link2: "http://ampower.world/"
-link2text: "My Profile1"
+link2text: "My Profile"
 ---
 

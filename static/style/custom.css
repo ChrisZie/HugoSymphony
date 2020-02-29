@@ -235,14 +235,14 @@ color: white;
   list-style: none;
 }
 
-@media (max-width: 600px)  {
+/* @media (max-width: 600px)  { */
   .social ul {
     flex-wrap: wrap;
   }
   .social ul li {
     padding-bottom: 10px;
   }
-}
+/* } */
 
 .social ul li a , .footer-link .box a {
   width: 60px;

@@ -185,9 +185,9 @@ float: left;
     }
 
 @media (min-width: 768px)  {
-  .ui {
-    //padding-bottom: 13%;
-  }
+/*   .ui {
+    padding-bottom: 13%;
+  } */
   .ui .drop{
     //z-index:-999;
     opacity:0;
@@ -228,7 +228,7 @@ float: left;
     bottom: -20%;
   }
 }
-@media (min-width: 1200px)  {
+@media (min-width: 1300px)  {
   .ui_box:hover > .drop{
     bottom: -63%;
   }

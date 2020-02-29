@@ -3,7 +3,9 @@
 	<head>
     {{ partial "head.html" . }}
     {{ block "extrahead" . }}{{ end }}
-    <link href="./style/custom.css" rel="stylesheet">
+    {{ $sassTemplate := resources.Get "style/custom.scss" }}
+    {{ $style := $sassTemplate | resources.ExecuteAsTemplate "custom.scss" . | resources.ToCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 	</head>
       {{ partial "hamburger-menu.html" . }}
       {{ block "main" . }}{{ end }}

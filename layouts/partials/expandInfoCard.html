@@ -10,12 +10,57 @@
               {{ .name | safeHTML}}
             </h2>
             <p>{{ .question1 | safeHTML}}</p>
+            {{ if eq .graph 2 }}
+            <div class='stat_left'>
+              <ul>
+                {{ if isset .data_left 0 }}
+                  <li>
+                    {{ (index .data_left 0).fact }}
+                  </li>
+                {{ end }}
+                {{ if isset .data_left 1 }}
+                <li>
+                  {{ (index .data_left 1).fact }}
+                </li>
+                {{ end }}
+                {{ if isset .data_left 2 }}
+                <li>
+                  {{ (index .data_left 2).fact }}
+                </li>
+                {{ end }}
+                {{ if isset .data_left 3 }}
+                <li>
+                  {{ (index .data_left 3).fact }}
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            <div class='progress_graph'>
+              {{ if isset .data_left 0 }}
+              <div class='progress_graph__bar--{{ (index .data_left 0).bar }}'></div>
+              {{ end }}
+              {{ if isset .data_left 1 }}
+              <div class='progress_graph__bar--{{ (index .data_left 1).bar }}'></div>
+              {{ end }}
+              {{ if isset .data_left 2 }}
+              <div class='progress_graph__bar--{{ (index .data_left 2).bar }}'></div>
+              {{ end }}
+              {{ if isset .data_left 3 }}
+              <div class='progress_graph__bar--{{ (index .data_left 3).bar }}'></div>
+              {{ end }}
+            </div>
+            {{else}}
             <div class='stat'>
               <span>{{ .data }}</span>
             </div>
             <div class='progress'>
+              {{ if eq .bar 2 }}
+              <div class='progress_bar--two'></div>
+              {{else}}
               <div class='progress_bar'></div>
+              {{ end }}
             </div>
+            {{ end }}
             <p>{{ .question2 | safeHTML}}</p>
           </div>
           <div class='drop' id="{{ .name }}">

@@ -77,21 +77,21 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.09);
 width: 85px;
 text-align: center;
 position: relative;
-padding-left: 20px;
+//padding-left: 20px;
 top: 24px;
-            &__bar--1{
+            &__bar--3{
               width:10px;
               height:20px;
               background:$background;float:left;margin-right:10px;position: relative;
 bottom: -10px;-webkit-animation:graph 1s;
             }
-                        &__bar--2{
+                        &__bar--1{
               width:10px;-webkit-animation:graph2 1s;
               height:30px;float:left;
                           margin-right:10px;
               background:$background;
             }
-                        &__bar--3{
+                        &__bar--2{
               width:10px;
               height:24px;margin-right:10px;-webkit-animation:graph3 1s;
               background:$background;float:left;position: relative;

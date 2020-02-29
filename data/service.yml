@@ -7,8 +7,8 @@ service_item:
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
-    graph: 1
     question1: Did you know that more than
+    graph: 1
     data: 80% 
     bar: 2
     question2: of vistors to your website will not donate if your website is not secure or takes longer than 3 seconds to load?
@@ -38,8 +38,8 @@ service_item:
     icon: "images/responsive.svg"
     serviceDetailLink: volunteer
     color: yellow
-    graph: 1
     question1: Did you know that you are
+    graph: 1
     data: 78%
     bar: 2
     question2: more likely to receive donations from volunteers than non-volunteers?
@@ -51,8 +51,8 @@ service_item:
     icon: "images/responsive.svg"
     serviceDetailLink: fundraising
     color: yellow
-    graph: 1
     question1: Did you know that over
+    graph: 1
     data: $235 Billion
     bar: 2
     question2: or 55% of ALL donations are made online, via Social Media and websites, more than all other methods combined?

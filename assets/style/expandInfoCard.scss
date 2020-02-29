@@ -184,21 +184,26 @@ float: left;
 
 @media (min-width: 768px)  {
   .ui {
-    padding-bottom: 13%;
-  }
-  .ui_box:hover > .drop{
-    transition-property:bottom,opacity;
-          transition-duration:.3s;
-    //bottom: 0px;
-    display: block;
-    z-index:-99999999;
-    opacity:1;
+    //padding-bottom: 13%;
   }
   .ui .drop{
     z-index:-999;
     opacity:0;
+    position: absolute;
+    bottom: 0;
     display: block;
   }
+  .ui_box:hover > .drop{
+    transition-property:bottom,opacity;
+          transition-duration:.3s;
+    bottom: -170px;
+    //bottom: -350px;
+    display: block;
+    z-index:5;
+    height: 100%;
+    opacity:1;
+  }
+
   .ui_box{
     height: 290px;
     margin-bottom: 80px;

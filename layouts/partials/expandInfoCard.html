@@ -2,7 +2,7 @@
   <div class="col-12">
     <div class="row align-items-start justify-content-center">
       {{ range .Site.Data.service.service_item }}
-        <div class='col-12 col-md-6 col-lg-3' >
+        <div class='col-12 col-md-6 col-lg-3 px-2' >
           <div class='ui_box white'>
           {{ $link :=  (printf "%s%s" "service/" .serviceDetailLink )   }}
           <div class='ui_box__inner'>

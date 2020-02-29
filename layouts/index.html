@@ -42,24 +42,26 @@
     {{ partial "oceanSlider.html" . }}
  </section>
 <!--end of Header-->
+<!-- TextSlider 1 -->
 <section class="px-0 py-5 px-lg-5">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
         <div class="row justify-content-center"> 
             <div class="col-10  col-sm-10  col-lg-8  align-self-center motivationText">
                 <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
                 <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                        <h2>Creating in Concert</h2>
+                        <h2>{{ (index .Site.Data.textSlider.slides 0).caption }}</h2>
                 </div>
                 <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
                 <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                        <p>You do what you do because you have a vision. We do what we do
-                            because we are determined to make that vision a reality.
+                        <p>{{ (index .Site.Data.textSlider.slides 0).description }}
                         </p>         
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!-- End TextSlider 1 -->
+<!-- About Us-->
 <section class="about p-0  pb-5 pt-5 " id="about">
     <div class="container">
         <div class="row">
@@ -82,47 +84,52 @@
     </div>
 </section>
 <!--end of about us-->
+<!-- TextSlider 2 -->
 <section class="px-0 py-5 px-lg-5">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
         <div class="row justify-content-center"> 
             <div class="col-10  col-sm-10  col-lg-8  align-self-center motivationText">
                 <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
                 <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                        <h2>Conscientious Comprehensive Consulting</h2>
+                    <h2>{{ (index .Site.Data.textSlider.slides 1).caption }}</h2>
                 </div>
                 <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
                 <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                        <p>To have the greatest impact, you must engage a global audience. We are here to provide you with the tools and 
-                            know-how to reach the world.
+                        <p>{{ (index .Site.Data.textSlider.slides 1).description }}
                         </p>         
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!-- End TextSlider 2 -->
+<!--begin of Service Section-->
 <section class="service-slider py-5 px-0" id="">
     <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="container">
         {{ partial "expandInfoCard.html" . }}
     </div>
 </section>
+<!--end of Service Section-->
+<!-- TextSlider 3 -->
 <section class="px-0 py-5 px-lg-5">
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
         <div class="row justify-content-center"> 
             <div class="col-10  col-sm-10  col-lg-8  align-self-center motivationText">
                 <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
                 <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                        <h2>Global Team, Global Impact</h2>
+                        <h2>{{ (index .Site.Data.textSlider.slides 2).caption }}</h2>
                 </div>
                 <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
                 <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                        <p>Join our global network of world-changing institutions. If you have ever hoped and wondered how you could grow your impact, together we will do just that.
+                        <p>{{ (index .Site.Data.textSlider.slides 2).description }}
             </p>         
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--end of Service Section-->
+<!-- End TextSlider 3 -->
+<!-- Social Media Integration -->
 <section class="twitter py-5" id="">
     <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="container">
         <div class="row">
@@ -139,12 +146,13 @@
         </div>
     </div>
 </section>
+<!-- End Media Integration -->
+<!-- Footer -->
 {{ partial "wave.html" . }}
 <section class="footer px-0 pb-5 p-md-0" id="footer">
-
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-12 col-lg-12 py-0 pb-5 py-md-5">
+            <div class="col-12 col-md-12 col-lg-12 py-0 pb-5 py-md-5">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-4 col-lg-1 text-center">
                         <svg id="polyAnimal" class="svgcool" viewBox="0 0 1000 1000">
@@ -206,6 +214,8 @@
         </div>
     </div>
 </section>
+<!-- End Footer -->
+<!-- Social Media Facebook integration-->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 

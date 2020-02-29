@@ -200,7 +200,7 @@ float: left;
           transition-duration:.3s;
     //bottom: -170px;
     //bottom: -350px;
-    bottom:-100px;
+    bottom:-55%;
     display: block;
     //position: relative;
     z-index:5;
@@ -214,9 +214,25 @@ float: left;
   }
   .ui_box{
     height: 290px;
-    margin-bottom: 80px;
+    margin-bottom:  4.5rem;;
   }
 }  
+
+@media (min-width: 1000px)  {
+  .ui_box:hover > .drop{
+    bottom: -37%;
+  }
+}
+@media (min-width: 1100px)  {
+  .ui_box:hover > .drop{
+    bottom: -20%;
+  }
+}
+@media (min-width: 1200px)  {
+  .ui_box:hover > .drop{
+    bottom: -63%;
+  }
+}
 
 
 

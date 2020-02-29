@@ -81,15 +81,19 @@ $total_animation_time: $time_per_slide * $slides;
     float: left;
   }
 
-  @media (min-width: 800px) {
+  .subheading h2{
+    position: relative;
+    top: 17px;
+    padding-bottom: 0;
+    height: 32px;
+    font-size: 0.95rem;
+  }
+
+  @media (min-width: 600px) {
     .subheading h2{
-      position: relative;
-      top: 17px;
-      padding-bottom: 0;
-      height: 32px;
-      font-size: 0.95rem;
+      top: 9px;
     }
-  
+  }
 
     .textslide .header-text , .motivationText .header-text {
       border-right: 2px solid #fff;
@@ -111,6 +115,5 @@ $total_animation_time: $time_per_slide * $slides;
       padding-bottom: 0;
       padding-left: 0.9375em;
       padding-right: 0.9375em;
-    }
     }
   

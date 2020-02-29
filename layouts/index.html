@@ -149,60 +149,61 @@
 <!-- End Media Integration -->
 <!-- Footer -->
 {{ partial "wave.html" . }}
-<section class="footer px-0 pb-5 p-md-0" id="footer">
+<section class="footer px-0 pb-0 p-md-0" id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-12 py-0 pb-5 py-md-5">
+            <div class="col-12 col-lg-12 py-0 px-0 ">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-4 col-lg-1 text-center">
+                    <div class="col-12 col-lg-2 text-center order-last order-lg-first">
                         <svg id="polyAnimal" class="svgcool" viewBox="0 0 1000 1000">
                         </svg>    
                     </div>
-                    <div class="col-12 col-md-8 col-lg-7 pb-3 pb-md-0 pl-lg-5">
+                    <div class="col-12 col-lg-7 pb-md-0">
                         <div class="box quote">
                             <blockquote>
                                 <p>“You cannot get through a single day without having an impact on the world around you. What you do makes a difference, and you have to decide what kind of difference you want to make.”</p> <cite>Jane Goodall</cite>
                             </blockquote>  
                         </div>              
                     </div>
-                    <div class="col-12 col-md-12 col-lg-4 px-0">
+                    <div class="col-12 col-lg-3 pt-5 pt-lg-0 px-0 order-first order-lg-last">
                         <div class="row align-items-center justify-content-center">
-                            <div class="col-12 text-right footer-link px-0">
+                            <div class="col-12 footer-link px-0">
                                     <div class="box">
                                             <div class="social">
-                                                <ul style="justify-content: center;">
-                                                    <li>
+                                                <div class="row align-items-center justify-content-center">
+                                                    <div class="col-auto align-self-center px-0 footer-box">
                                                         <a href="{{ .Site.Params.facebookLink }}">
                                                             <i class="fab fa-facebook-f"></i>
                                                         </a>
-                                                    </li>
+                                                    </div>
                                                 
-                                                    <li>
+                                                    <div class="col-auto align-self-center px-0 footer-box">
                                                         <a href="{{ .Site.Params.instagramLink }}">
                                                             <i class="fab fa-instagram"></i>
                                                         </a>
-                                                    </li>
-                                                    <li>
+                                                    </div>
+                                                    <div class="col-auto align-self-center px-0 footer-box">
                                                         <a href="{{ .Site.Params.twitterLink }}">
                                                             <i class="fab fa-twitter"></i>
                                                         </a>
-                                                    </li>
-                                                    <li>
+                                                    </div>
+                                                    <div class="w-sm-100 w-lg-100"></div>
+                                                    <div class="col-auto align-self-center px-0 footer-box">
                                                         <a href="{{ .Site.Params.twitterLink }}">
                                                             <i class="fab fa-linkedin-in"></i>
                                                         </a>
-                                                    </li>
-                                                    <li>
+                                                    </div>
+                                                    <div class="col-auto align-self-center px-0 footer-box">
                                                         <a href="impressum.html#"  class="footer-link">
                                                             <i class="fas fa-balance-scale"></i>
                                                         Legal and privacy</a>
-                                                    </li>
+                                                    </div>
                                                 
-                                                    <li>
+                                                    <div class="col-auto align-self-center px-0 footer-box">
                                                         <a href="sitemap.html#"  class="footer-link">
                                                             <i class="fas fa-sitemap"></i>SiteMap</a>
-                                                    </li>
-                                                </ul>
+                                                    </div>
+                                                </div>
                                             </div>
                                     </div>
                             </div>

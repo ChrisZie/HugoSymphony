@@ -20,7 +20,8 @@ $bp-lg: 1300px;
 .cardHover-content{
   display: grid;
   grid-gap: 1rem;
-  padding: 1rem;
+  //padding: 1rem;
+  padding: 1rem 0 0 0;
   // max-width: 1024px;
   margin: 0 auto;
   font-family: var(--font-sans);

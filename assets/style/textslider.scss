@@ -86,12 +86,27 @@ $total_animation_time: $time_per_slide * $slides;
     top: 17px;
     padding-bottom: 0;
     height: 32px;
-    font-size: 1.2rem;
+    font-size: 0.85rem;
   }
 
   @media (min-width: 600px) {
     .subheading h2{
+      top: 14px;
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .subheading h2{
       top: 20px;
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .subheading h2{
+      top: 20px;
+      font-size: 1.3rem;
     }
   }
 

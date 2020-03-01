@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var zindex = 10;
   
-  $("div.foldOutCard").click(function(e){
+  $("div.processCard").click(function(e){
     e.preventDefault();
 
     var isShowing = false;
@@ -10,17 +10,17 @@ $(document).ready(function(){
       isShowing = true
     }
 
-    if ($("div.foldOutCards").hasClass("showing")) {
-      // a foldOutCard is already in view
-      $("div.foldOutCard.show")
+    if ($("div.processCards").hasClass("showing")) {
+      // a processCard is already in view
+      $("div.processCard.show")
         .removeClass("show");
 
       if (isShowing) {
-        // this foldOutCard was showing - reset the grid
-        $("div.foldOutCards")
+        // this processCard was showing - reset the grid
+        $("div.processCards")
           .removeClass("showing");
       } else {
-        // this foldOutCard isn't showing - get in with it
+        // this processCard isn't showing - get in with it
         $(this)
           .css({zIndex: zindex})
           .addClass("show");
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
     } else {
       // no cards in view
-      $("div.foldOutCards")
+      $("div.processCards")
         .addClass("showing");
       $(this)
         .css({zIndex:zindex})

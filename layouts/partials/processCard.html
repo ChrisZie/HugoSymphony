@@ -1,7 +1,10 @@
 <div class="processCards">
+
+  {{range $index, $element := .Params.process }}
+
   <div class="processCard">
     <div class="processCard__image-holder">
-      <img class="processCard__image" src="https://source.unsplash.com/300x225/?wave" alt="wave" />
+      <img class="processCard__image" src="{{ .image | safeHTML }}" alt="wave" />
     </div>
     <div class="processCard-title">
       <a href="#" class="toggle-cardInfo btnCard">
@@ -9,13 +12,13 @@
         <span class="right"></span>
       </a>
       <h2>
-          Card title
-          <small>Image from unsplash.com</small>
+        {{ $element.name | safeHTML }} 
+        <small>{{ $element.subtext | safeHTML }}</small>
       </h2>
     </div>
     <div class="processCard-flap flap1">
       <div class="processCard-description">
-        This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+        {{ $element.description | safeHTML }}
       </div>
       <div class="processCard-flap flap2">
         <div class="processCard-actions">
@@ -24,124 +27,8 @@
       </div>
     </div>
   </div>
-
-  <div class="processCard">
-    <div class="processCard__image-holder">
-      <img class="processCard__image" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
-    </div>
-    <div class="processCard-title">
-      <a href="#" class="toggle-cardInfo btnCard">
-        <span class="left"></span>
-        <span class="right"></span>
-      </a>
-      <h2>
-          Card title
-          <small>Image from unsplash.com</small>
-      </h2>
-    </div>
-    <div class="processCard-flap flap1">
-      <div class="processCard-description">
-        This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-      </div>
-      <div class="processCard-flap flap2">
-        <div class="processCard-actions">
-          
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="processCard">
-    <div class="processCard__image-holder">
-      <img class="processCard__image" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
-    </div>
-    <div class="processCard-title">
-      <a href="#" class="toggle-cardInfo btnCard">
-        <span class="left"></span>
-        <span class="right"></span>
-      </a>
-      <h2>
-          Card title
-          <small>Image from unsplash.com</small>
-      </h2>
-    </div>
-    <div class="processCard-flap flap1">
-      <div class="processCard-description">
-        This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-      </div>
-      <div class="processCard-flap flap2">
-        <div class="processCard-actions">
-          <a href="#" class="btnCard">Read more</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="processCard">
-    <div class="processCard__image-holder">
-      <img class="processCard__image" src="https://source.unsplash.com/300x225/?field" alt="field" />
-    </div>
-    <div class="processCard-title">
-      <a href="#" class="toggle-cardInfo btnCard">
-        <span class="left"></span>
-        <span class="right"></span>
-      </a>
-      <h2>
-          Card title
-          <small>Image from unsplash.com</small>
-      </h2>
-    </div>
-    <div class="processCard-flap flap1">
-      <div class="processCard-description">
-        This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-      </div>
-    </div>
-  </div>
-
-  <div class="processCard">
-    <div class="processCard__image-holder">
-      <img class="processCard__image" src="https://source.unsplash.com/300x225/?water" alt="water" />
-    </div>
-    <div class="processCard-title">
-      <a href="#" class="toggle-cardInfo btnCard">
-        <span class="left"></span>
-        <span class="right"></span>
-      </a>
-      <h2>
-          Card title
-          <small>Image from unsplash.com</small>
-      </h2>
-    </div>
-    <div class="processCard-flap flap1">
-      <div class="processCard-description">
-        This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-      </div>
-    </div>
-  </div>
-
-  <div class="processCard">
-    <div class="processCard__image-holder">
-      <img class="processCard__image" src="https://source.unsplash.com/300x225/?river" alt="river" />
-    </div>
-    <div class="processCard-title">
-      <a href="#" class="toggle-cardInfo btnCard">
-        <span class="left"></span>
-        <span class="right"></span>
-      </a>
-      <h2>
-          Card title
-          <small>Image from unsplash.com</small>
-      </h2>
-    </div>
-    <div class="processCard-flap flap1">
-      <div class="processCard-description">
-        This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
-      </div>
-      <div class="processCard-flap flap2">
-        <div class="processCard-actions">
-        </div>
-      </div>
-    </div>
-  </div>
-
+<!--     {{ if eq $index 2 }}
+    <div class="w-lg-100"></div>
+    {{ end }} -->
+  {{ end }}
 </div>

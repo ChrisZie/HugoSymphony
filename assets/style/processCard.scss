@@ -47,22 +47,22 @@ div.processCard {
   background: $white;
   display: inline-block;
   margin: 8px;
-  max-width: 300px;
+  max-width: 350px;
   perspective: 1000;
   position: relative;
   text-align: left;
   transition: all 0.3s 0s ease-in;
-  width: 300px;
+  width: 350px;
   z-index: 1;
 
   .processCard__image-holder img {
-    max-width: 300px;
+    max-width: 350px;
   }
   
   .processCard__image-holder {
     background: rgba(0,0,0,0.1);
     height: 0;
-    padding-bottom: 75%;
+    padding-bottom: 64%;
   }
 
   div.processCard-title {

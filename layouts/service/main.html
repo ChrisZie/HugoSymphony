@@ -1,36 +1,40 @@
 {{ define "extrahead" }}
-<link rel="stylesheet" type="text/css"  href="./style/contact.css" >
-<link href="./style/service.css" rel="stylesheet">
+{{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ $sassTemplate := resources.Get "style/textslider.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ end }}
 
 {{ define "extraScript" }}
 {{ end }}
 
 {{ define "main" }}
-<section class="service p-0">
-    <div class="form-content">
-        <section class="grid-wrap">  
-            <div class="row justify-content-center text-center">
-                <div class="col-12">
-                    {{ with .Site.Data.service.caption }}<h1>{{ . | safeHTML }}</h1>{{ end }}
+<!-- TextSlider 2 -->
+<section class="px-0 pt-5 px-lg-5 d-md-none d-lg-none d-xl-block">
+    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+        <div class="row justify-content-center"> 
+            <div class="col-10  col-sm-10  col-lg-10 col-xl-8 align-self-center motivationText">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+                <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                    <h2>{{ (index .Site.Data.textSlider.slides 1).caption }}</h2>
                 </div>
-                </div>  
-            <div class="option-wrap">
-            <div class="row justify-content-center text-center">
-                {{ range .Site.Data.service.service_item }}
-                <div class="col-6 col-md-6 col-md-offset-0 link js-show-section">
-                    {{ $link :=  (printf "%s%s" "service/" .serviceDetailLink )   }}
-                    <a href="{{  $link| absURL }}"  style="color:white;text-decoration: none;">
-                        <figure class="form-icon">
-                            <img src="{{ .icon }}" alt="{{ .name }}">
-                        </figure>
-                    </a>
-                    <h3>{{ .name }}</h3>
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+                <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                        <p>{{ (index .Site.Data.textSlider.slides 1).description }}
+                        </p>         
                 </div>
-                {{ end }}
             </div>
-            </div>
-        </section>
+        </div>
     </div>
 </section>
+<!-- End TextSlider 2 -->
+<!--begin of Service Section-->
+<section class="service-slider pt-5 px-0" id="">
+    <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="container">
+        {{ partial "serviceCard.html" . }}
+    </div>
+</section>
+<!--end of Service Section-->
 {{ end }}

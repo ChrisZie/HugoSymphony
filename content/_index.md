@@ -2,6 +2,21 @@
 title: "Startsite"
 date: 2020-02-10T14:25:09+08:00
 draft: true
+slides :
+  - caption  : Conscientious Consulting
+    description: >
+      You do what you do because you have a vision. We do what we do
+      because we are determined to make that vision a reality.
+
+  - caption  : Global Team, Global Impact
+    description: >
+      To have the greatest impact, you must engage a global audience. We are here to provide 
+      you with the tools and know-how to reach the world.
+
+  - caption  : Creating in Concert
+    description: >
+      Join our global network of world-changing institutions. If you have
+      ever hoped and wondered how you could grow your impact, together we will do just that.
 service_item: 
   - name: Web Design
     icon: "images/money.svg"

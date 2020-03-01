@@ -3,6 +3,11 @@ title: "Service"
 date: 2020-02-10T14:37:47+08:00
 draft: true
 layout: "main"
+slides :
+  - caption  : SERVICE OVERVIEW
+    description: >
+      Join our global network of world-changing institutions. If you have
+      ever hoped and wondered how you could grow your impact, together we will do just that.
 service_item: 
   - name: Web Design
     icon: "images/money.svg"

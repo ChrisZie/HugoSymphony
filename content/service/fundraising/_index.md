@@ -2,6 +2,11 @@
 title: "Fundraising"
 date: 2020-02-10T14:37:47+08:00
 draft: true
+slides :
+  - caption  : FUNDRAISING
+    description: >
+      To have the greatest impact, you must engage a global audience. We are here to provide 
+      you with the tools and know-how to reach the world.
 quizcards:
   - titlefront: we are
     textfront: who that's incredible

@@ -28,11 +28,11 @@
           <div class="col-10  col-sm-10  col-lg-10 col-xl-8  align-self-center motivationText">
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
               <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                      <h2>{{ (index .Site.Data.textSlider.slides 2).caption | safeHTML}}</h2>
+                      <h2>{{ (index .Params.slides 0).caption | safeHTML}}</h2>
               </div>
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
               <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                      <p>{{ (index .Site.Data.textSlider.slides 2).description | safeHTML}}
+                      <p>{{ (index .Params.slides 0).description | safeHTML}}
           </p>         
               </div>
           </div>

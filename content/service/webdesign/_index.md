@@ -40,11 +40,27 @@ quizcards:
         graphcaption: facebook
 process:
   - name: Initiation
-    image: https://source.unsplash.com/300x225/?wave
+    image: https://source.unsplash.com/350x225/?wave
     subtext: this is an iniatioaon
     description: wowowonscykdfhydfgyhdxf 
   - name: Transition
-    image: https://source.unsplash.com/300x225/?beach
+    image: https://source.unsplash.com/350x225/?beach
+    subtext: we are we are
+    description: youth of the nation
+  - name: Initiation
+    image: https://source.unsplash.com/350x225/?wave
+    subtext: this is an iniatioaon
+    description: wowowonscykdfhydfgyhdxf 
+  - name: Transition
+    image: https://source.unsplash.com/350x225/?beach
+    subtext: we are we are
+    description: youth of the nation
+  - name: Initiation
+    image: https://source.unsplash.com/500x225/?wave
+    subtext: this is an iniatioaon
+    description: wowowonscykdfhydfgyhdxf 
+  - name: Transition
+    image: https://source.unsplash.com/350x225/?beach
     subtext: we are we are
     description: youth of the nation
 ---

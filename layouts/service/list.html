@@ -1,16 +1,16 @@
 {{ define "extrahead" }}
 {{ $sassTemplate := resources.Get "style/processCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "processCard.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/processCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/quizCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 <!-- {{ $sassTemplate := resources.Get "style/graphCircle.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "graphCircle.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/graphCircle.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen"> -->
 <link href="./style/service.css" rel="stylesheet">
 {{ end }}

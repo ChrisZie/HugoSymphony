@@ -5,22 +5,22 @@
 {{ define "extrahead" }}
 <link href="./style/aos.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/waves.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "waves.css" . | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/quote.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "quote.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "textslider.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/cardHover.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "cardHover.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/cardHover.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ end }}
 

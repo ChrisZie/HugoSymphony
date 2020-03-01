@@ -8,15 +8,15 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [menu]
     # Navbar Menus
     [[menu.nav]]
-        name    = "Experience"
+        name    = "Our Experience"
         url     = "about"
         weight  = 2
     [[menu.nav]]
-        name    = "Impact"
+        name    = "Your Impact"
         url     = "service"
         weight  = 3
     [[menu.nav]]
-        name    = "Knowledge"
+        name    = "The News"
         url     = "knowledge"
         weight  = 4
     [[menu.nav]]

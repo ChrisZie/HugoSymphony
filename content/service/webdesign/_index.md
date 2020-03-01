@@ -48,19 +48,19 @@ process:
     subtext: we are we are
     description: youth of the nation
   - name: Initiation
-    image: https://source.unsplash.com/350x225/?wave
+    image: https://source.unsplash.com/350x225/?swan
     subtext: this is an iniatioaon
     description: wowowonscykdfhydfgyhdxf 
   - name: Transition
-    image: https://source.unsplash.com/350x225/?beach
+    image: https://source.unsplash.com/350x225/?sky
     subtext: we are we are
     description: youth of the nation
   - name: Initiation
-    image: https://source.unsplash.com/500x225/?wave
+    image: https://source.unsplash.com/350x225/?tree
     subtext: this is an iniatioaon
     description: wowowonscykdfhydfgyhdxf 
   - name: Transition
-    image: https://source.unsplash.com/350x225/?beach
+    image: https://source.unsplash.com/350x225/?plum
     subtext: we are we are
     description: youth of the nation
 ---

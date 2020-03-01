@@ -3,14 +3,20 @@
 {{ $sassTemplate := resources.Get "style/foldoutCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "foldoutCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ $sassTemplate := resources.Get "style/quizCard.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ $sassTemplate := resources.Get "style/graphCircle.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "graphCircle.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 <link rel="stylesheet" type="text/css"  href="./style/contact.css" >
 <link href="./style/service.css" rel="stylesheet">
 {{ end }}
 
 {{ define "extraScript" }}
-<script src="./js/graph.js"></script>
 <script src="./js/foldoutCard.js"></script>
 <script src="./js/contact.js"></script>
+<script src="./js/graphCircle.js"></script>
 {{ end }}
 
 {{ define "main" }}
@@ -24,23 +30,44 @@
     <nav class="form-pager form-pager-3">
       <ul>
         <li><a href="#socialMedia-step-1" data-anchor="socialMedia-step-1" class="active">Details</a></li>
-        <li><a href="#socialMedia-step-2" data-anchor="socialMedia-step-2" class="">02</a></li>
-        <li><a href="#socialMedia-step-3" data-anchor="socialMedia-step-3" class="">03</a></li>
+        <li><a href="#socialMedia-step-2" data-anchor="socialMedia-step-2" class="">Process</a></li>
+        <li><a href="#socialMedia-step-3" data-anchor="socialMedia-step-3" class="">Links</a></li>
       </ul>
     </nav>
 
-    <div id="socialMedia-step-1" class="step step-1">
+    <div id="socialMedia-step-1" class="step step-1 mt-4">
       <div class="offset-top-sm">
           <div class="row justify-content-center text-center">
             <div class="col-12">
               <div class="step-number"><strong>01</strong> - 03</div>
-              
+              <h2>Colio</h2>
               <div class="row justify-content-center text-center">
-                <div class="col-10">
+                <div class="col-10 pb-4">
                   <p>Time is the most valuable non-renewable resource we have. This dictates how much time we can put forth to make dreams reality.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                  <div class="box">
+                </div> 
+                {{ range .Params.quizcards }}
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-2">
+                  <div class="parallaxCard">
+                    <div class="cardcontainer">
+                      <div class="cardfront cardside">
+                        <div class="parallaxContent">
+                          <h1>{{ .titlefront }}</h1>
+                          <p>{{ .textfront }}</p>
+                        </div>
+                      </div>
+                      <div class="cardback cardside">
+                        <div class="parallaxContent">
+                          <h1>{{ .titleback }}</h1>
+                          <p>{{ .textback }}</p>
+                          <div class="circlegraph">
+                            <div class="cirlcecontainer circlechart" data-size="400" data-value="88" data-arrow="up">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<!--                   <div class="box">
                       <div class="box-piesite">
                           <ul>
                               <li class="design">
@@ -49,20 +76,9 @@
                               </li>
                           </ul>
                         </div>
-                  </div>
+                  </div> -->
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                  <div class="box">
-                      <div class="box-piesite">
-                          <ul>
-                              <li class="design">
-                                  <div class="piesite" id="pie_1" data-pie="77"></div>
-                                  <p>Of NGO's worldwide use Twitter</p>
-                              </li>
-                          </ul>
-                        </div>
-                  </div>
-              </div>
+              {{ end }}
               </div>
             </div>
           </div>

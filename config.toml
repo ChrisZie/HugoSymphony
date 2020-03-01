@@ -8,25 +8,25 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [menu]
     # Navbar Menus
     [[menu.nav]]
-        name    = "Who we are"
+        name    = "Our Experience"
         url     = "about"
         weight  = 2
     [[menu.nav]]
-        name    = "Services"
+        name    = "Your Impact"
         url     = "service"
         weight  = 3
     [[menu.nav]]
-        name    = "knowledge"
+        name    = "The News"
         url     = "knowledge"
         weight  = 4
     [[menu.nav]]
-        name    = "Contact"
+        name    = "Let's Go!"
         url     = "contact"
         weight  = 5
 
 # Site Params
 [params]
-    home = "Home"
+    home = "Start"
     logo = "images/logo.png"
     dateFormat = "6 January 2006"
     # Meta data

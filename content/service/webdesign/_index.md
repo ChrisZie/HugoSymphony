@@ -30,5 +30,12 @@ quizcards:
     data:
       - number: 80
         graphcaption: facebook
-
+  - titlefront: 4444444
+    textfront: who that's Second
+    titleback: that's the Second
+    textback: Second wo wow wow wo wow wowo wo w owo 
+    graphtype: 2
+    data:
+      - number: 95
+        graphcaption: facebook
 ---

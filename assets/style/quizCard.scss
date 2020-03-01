@@ -1,15 +1,18 @@
+$bp-md: 992px;
+$bp-s: 768px;
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-body{
-	position: relative;
-	font-family: "Montserrat";
-	height: 100vh;
+
+.quiz{
+  padding: 0 8px;
 }
 
 .parallaxCard {
+  padding: 0 8px 16px;
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -28,12 +31,23 @@ body{
 
 .cardcontainer {
 	width: 100%;
-	min-height: 350px;
+	min-height: 45vh;
 	border-radius: 20px;
 	position: relative;
 	-webkit-transition: 1.5s ease-in-out;
 	transition: 1.5s ease-in-out;
 	transform-style: preserve-3d;
+}
+
+@media (max-width: $bp-md) {
+  .cardcontainer {
+    min-height: 90vh;
+  }
+}
+@media (max-width: $bp-s) {
+  .cardcontainer {
+    min-height: 45vh;
+  }
 }
 
 .cardside {

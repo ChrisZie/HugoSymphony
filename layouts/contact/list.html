@@ -1,6 +1,8 @@
 {{ define "extrahead" }}
 <link rel="stylesheet" href="./style/nouislider-14.0.3.min.css">
-<link href="./style/contact.css" rel="stylesheet">
+{{ $sassTemplate := resources.Get "style/contact.css" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "contact.css" . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ end }}
 
 {{ define "extraScript" }}

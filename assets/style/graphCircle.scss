@@ -1,18 +1,45 @@
-
-.bla {
-	position: absolute;
-	width: 400px;
-	height: 400px;
-	margin: auto;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: flex;
-	flex-direction: row;
+.graphcontainer {
+  margin: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
 }
 
-.cirlcecontainer {
-	flex: 1;
-	padding: 0 20px;
+.graphchart {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+  grid-column-gap: 5px;
+  height: 100px;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+[class*="bar"] {
+  border-radius: 5px 5px 0 0;
+  transition: all .6s ease;
+  background-color: #ff4136;
+  grid-row-start: 1;
+  grid-row-end: 101;
+}
+
+$totalRows: 101;
+
+@mixin chartValue($data) {
+  $result: $totalRows - $data;
+  grid-row-start: $result;
+}
+
+@for $i from 1 through $totalRows {
+  .bar-#{$i} {
+    @include chartValue($i);
+  }
+}
+
+[class*="bar"]:nth-child(odd) {
+ background-color: #ff4136; 
+}
+
+[class*="bar"]:nth-child(even) {
+ background-color: #0074d9;
 }

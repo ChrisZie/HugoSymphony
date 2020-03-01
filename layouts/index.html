@@ -4,7 +4,9 @@
 
 {{ define "extrahead" }}
 <link href="./style/aos.css" rel="stylesheet">
-<link href="./style/waves.css" rel="stylesheet">
+{{ $sassTemplate := resources.Get "style/waves.css" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "waves.css" . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/quote.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "quote.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

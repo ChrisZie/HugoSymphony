@@ -37,13 +37,13 @@ a.btnCard:active {
   transition: all 0.025s 0s ease-out;
 }
 
-div.foldOutCards {
+div.processCards {
   margin: 80px auto;
   max-width: 100%;
   text-align: center;
 }
 
-div.foldOutCard {
+div.processCard {
   background: $white;
   display: inline-block;
   margin: 8px;
@@ -55,17 +55,17 @@ div.foldOutCard {
   width: 300px;
   z-index: 1;
 
-  .foldOutCard__image-holder img {
+  .processCard__image-holder img {
     max-width: 300px;
   }
   
-  .foldOutCard__image-holder {
+  .processCard__image-holder {
     background: rgba(0,0,0,0.1);
     height: 0;
     padding-bottom: 75%;
   }
 
-  div.foldOutCard-title {
+  div.processCard-title {
     background: $white;
     color:black;
     padding: 6px 15px 10px;
@@ -117,20 +117,20 @@ div.foldOutCard {
     }
   }
 
-  div.foldOutCard-description {
+  div.processCard-description {
     color:black;
     padding: 0 15px 10px;
     position: relative;
     font-size: 14px;
   }
 
-  div.foldOutCard-actions {
+  div.processCard-actions {
   	box-shadow: 0 2px 0px 0 rgba(0,0,0,0.075);
     padding: 10px 15px 20px;
     text-align: center;
   }
   
-  div.foldOutCard-flap {
+  div.processCard-flap {
     background: darken($white,15);
     position: absolute;
     width: 100%;
@@ -148,26 +148,26 @@ div.foldOutCard {
   
 }
 
-div.foldOutCards.showing {
-  div.foldOutCard {
+div.processCards.showing {
+  div.processCard {
     cursor: pointer;
     opacity: 0.6;
     transform: scale(0.88);
   }
 }
 
-.no-touch  div.foldOutCards.showing {
-  div.foldOutCard:hover {
+.no-touch  div.processCards.showing {
+  div.processCard:hover {
     opacity: 0.94;
     transform: scale(0.92);
   }
 }
 
-div.foldOutCard.show {
+div.processCard.show {
   opacity: 1 !important;
   transform: scale(1) !important;
 
-  div.foldOutCard-title {
+  div.processCard-title {
     a.toggle-cardInfo {
       background: $salmon !important;
       span {
@@ -181,7 +181,7 @@ div.foldOutCard.show {
       }
     }
   }
-  div.foldOutCard-flap {
+  div.processCard-flap {
     background: $white;
     transform: rotateX(0deg);
   }

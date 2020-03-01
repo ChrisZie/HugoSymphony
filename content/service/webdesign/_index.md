@@ -38,4 +38,13 @@ quizcards:
     data:
       - number: 95
         graphcaption: facebook
+process:
+  - name: Initiation
+    image: https://source.unsplash.com/300x225/?wave
+    subtext: this is an iniatioaon
+    description: wowowonscykdfhydfgyhdxf 
+  - name: Transition
+    image: https://source.unsplash.com/300x225/?beach
+    subtext: we are we are
+    description: youth of the nation
 ---

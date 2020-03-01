@@ -1,6 +1,6 @@
 {{ define "extrahead" }}
-{{ $sassTemplate := resources.Get "style/foldoutCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "foldoutCard.scss" . | resources.ToCSS | minify | fingerprint }}
+{{ $sassTemplate := resources.Get "style/processCard.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "processCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/quizCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
@@ -16,7 +16,7 @@
 {{ end }}
 
 {{ define "extraScript" }}
-<script src="./js/foldoutCard.js"></script>
+<script src="./js/processCard.js"></script>
 <!-- <script src="./js/graphCircle.js"></script> -->
 {{ end }}
 
@@ -75,7 +75,7 @@
 <section class="p-0  pb-5 pt-5">
   <div class="container">
       <div class="row justify-content-center"> 
-        {{ partial "foldoutCard.html" . }}
+        {{ partial "processCard.html" . }}
       </div>
   </div>
 </section>

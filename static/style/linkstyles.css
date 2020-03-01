@@ -15,11 +15,11 @@
 	font-weight: 900;
 	overflow: hidden;
 	line-height: 0.75;
-	color: #c5c2b8;
+	color: white;
 }
 
 .link--kukuri:hover {
-	color: #c5c2b8;
+	color: darkseagreen;
 }
 
 .link--kukuri::after {
@@ -49,7 +49,7 @@
 	position: absolute;
 	z-index: 2;
 	overflow: hidden;
-	color: #424242;
+	color: green;
 	white-space: nowrap;
 	width: 0%;
 	-webkit-transition: width 0.4s 0.3s;

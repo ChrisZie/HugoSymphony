@@ -49,9 +49,9 @@ service_item:
     data: 78%
     bar: 2
     question2: more likely to receive donations from volunteers than non-volunteers?
-    answer: 'Volunteers are the single most invaluable resource to the success of your organization. 
-    <br>We design and deploy world-class volunteer management tools and training programs to ensure that you attain,
-    train, maintain, and retain all the volunteers you need for the long-term.'
+    answer: 'Volunteers are the single most important resource to the success of your organization. 
+    <br>We design and deploy world-class volunteer management tools and training programs so that you attain,
+    train, maintain, and retain all the volunteers you need.'
  
   - name: Fundraising Growth
     icon: "images/responsive.svg"
@@ -63,7 +63,7 @@ service_item:
     bar: 1
     question2: or 55% of ALL donations are made online, via Social Media and websites, more than all other methods combined?
     answer: 'Your impact is directly tied to your revenue and your revenue is directly tied to your fundraising. 
-    <br>We design and deploy superb online fundraising campaigns that can reach both local and international audiences, 
-    consistently yielding the highest possible income.'
+    <br>We design and deploy superb online fundraising campaigns that reach global audiences, 
+    providing you with significant and dependable income.'
 ---
 

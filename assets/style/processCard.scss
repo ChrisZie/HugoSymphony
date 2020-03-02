@@ -45,18 +45,18 @@ div.processCards {
 
 // for wrapping from 6 to 3 display per line in responsive way
 
-@media (min-width: 1270px)  {
+@media (min-width: 1465px)  {
   div.processCards {
     max-width: 76%;
   }
 }
-@media (min-width: 1475px)  {
+@media (min-width: 1705px)  {
   div.processCards {
     max-width: 65%;
   }
 }
 
-@media (min-width: 1930px)  {
+@media (min-width: 2220px)  {
   div.processCards {
     max-width: 100%;
   }
@@ -67,7 +67,7 @@ div.processCard {
   background: $white;
   display: inline-block;
   margin: 8px;
-  max-width: 300px;
+  max-width: 350px;
   perspective: 1000;
   position: relative;
   text-align: left;
@@ -76,7 +76,7 @@ div.processCard {
   z-index: 1;
 
   .processCard__image-holder img {
-    max-width: 300px;
+    max-width: 350px;
   }
   
   .processCard__image-holder {

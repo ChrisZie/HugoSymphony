@@ -186,9 +186,9 @@ a, a:hover, a:focus {
 	transition: all 100ms linear;
 	&:hover{ 
 		transform: translate3d(1vmin, -1vmin, 0);
-		box-shadow: -1vmin 1vmin 0 rgba(white, 0.5);
-		background: white;
-		color: black;
+		box-shadow: -1vmin 1vmin 0 rgba($highlight_color, 0.5);
+		background: $highlight_color!important;
+		color: white!important;
 	}
 	&:active{ 
 		transform: translate3d(0px, 0px, 0);

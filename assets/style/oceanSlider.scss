@@ -27,6 +27,7 @@ $bp-sx: 600px;
 @media (max-width: $bp-md) {
   #site {
     height: 50vh;
+    min-height: 410px;
   }
 }
 

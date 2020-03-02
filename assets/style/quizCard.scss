@@ -67,11 +67,19 @@ $bp-s: 768px;
 }
 .parallaxContent h2 {
 	position: relative;
+	font-weight: 700;
+	font-size: 3rem;
 }
 .parallaxContent p {
 	margin-top: 50px;
-	line-height: 2em;
+	//line-height: 2em;
 }
+
+ .parallaxContent p{
+	font-size: 1.8rem;
+  font-weight: 500;
+} 
+
 .parallaxContent h2:before {
 	content: "";
 	position: absolute;

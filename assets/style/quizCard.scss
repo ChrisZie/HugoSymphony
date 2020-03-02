@@ -65,14 +65,14 @@ $bp-s: 768px;
 	transform: translatez(70px) scale(0.8);
 	//line-height: 1.5em;
 }
-.parallaxContent h1 {
+.parallaxContent h2 {
 	position: relative;
 }
 .parallaxContent p {
 	margin-top: 50px;
 	line-height: 2em;
 }
-.parallaxContent h1:before {
+.parallaxContent h2:before {
 	content: "";
 	position: absolute;
 	bottom: -20px;
@@ -103,6 +103,6 @@ $bp-s: 768px;
 .cardcontainer form {
 	text-align: left;
 }
-.cardback h1 {
+.cardback h2 {
 	margin: 0;
 }

@@ -5,7 +5,6 @@
 {{ $sassTemplate := resources.Get "style/quizCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
@@ -52,13 +51,13 @@
             <div class="cardcontainer">
               <div class="cardfront cardside" {{ if isset . "bgimagefront"}} style='background-image: url("{{ .bgimagefront | absURL }}");' {{ else if $bgImageFront }} style='background-image: url("{{ $bgImageFront | absURL }}");' {{ end }}>
                 <div class="parallaxContent">
-                  <h1>{{ .titlefront | safeHTML }}</h1>
+                  <h2>{{ .titlefront | safeHTML }}</h2>
                   <p>{{ .textfront | safeHTML }}</p>
                 </div>
               </div>
               <div class="cardback cardside" {{ if isset . "bgimageback"}} style='background-image: url("{{ .bgimageback | absURL }}");' {{ else if $bgImageBack }} style='background-image: url("{{ $bgImageBack | absURL }}");' {{ end }}>
                 <div class="parallaxContent">
-                  <h1>{{ .titleback | safeHTML }}</h1>
+                  <h2>{{ .titleback | safeHTML }}</h2>
                   <p>{{ .textback | safeHTML }}</p>
 <!--              {{ if eq .graphtype 1 }}
                   {{ else if eq .graphtype 2 }}

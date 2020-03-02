@@ -11,32 +11,25 @@ quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?i
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: DESIGN
-    textfront: who that's incredible
+    textfront: Do You Know How Long a User Takes to Judge Whether They Will Stay or Leave on Your Website?
     bgimagefront: https://cdn.pixabay.com/photo/2018/05/16/10/46/animal-3405434_1280.jpg
-    titleback: that's the answer
-    textback: wowowow wo wow wow wo wow wowo wo w owo 
-    bgimageback: https://source.unsplash.com/350x225/?swan
-    graphtype: 1
-    data:
-      - bartitle: wordpress
-        barvalue: 200
-      - bartitle: hugo
-        barvalue: 10
+    titleback: 0.05 Seconds
+    textback: Half a second. That's all you have to make your case for why a user should stay and learn about who you are and what you do. If half a second is all you have to make a difference, it should be the best half second in history. If your website looks like others, you can guarantee that the user will move on quickly. Be original and make your mark. We work with you to understand who you are. What are your themes, your intentions, your goals. We use that to design a spectacular website that understands colour psychology, technical effects, and User Optimized layouts. The user will feel at home the moment they land on your page and will grow that feeling until they leave, only to return again. 
+    bgimageback: https://cdn.pixabay.com/photo/2017/01/03/22/53/sunrise-1950873_1280.jpg
 
-  - titlefront: Second
-    textfront: who that's Second
+  - titlefront: SPEED
+    textfront: Do You Know How Quickly Users Leave a Website That Loads for More Than 3 Seconds?
     bgimagefront: https://cdn.pixabay.com/photo/2018/04/11/11/54/small-poly-3310319_1280.jpg
-    titleback: that's the Second
+    titleback: 20% per SECOND
     textback: Second wo wow wow wo wow wowo wo w owo 
-    graphtype: 2
-    data:
-      - number: 95
-        graphcaption: facebook
+    bgimageback: https://cdn.pixabay.com/photo/2013/04/04/12/34/sunset-100367_1280.jpg
+
   - titlefront: third and cool
     textfront: who that's bing
     bgimagefront: https://cdn.pixabay.com/photo/2018/04/11/11/55/small-poly-3310320_1280.jpg
     titleback: that's the bong
     textback: Second wo wow wow wo beasbklg  wowo wo w owo 
+    bgimageback: https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg
     graphtype: 2
     data:
       - number: 80
@@ -46,6 +39,7 @@ quizcards:
     bgimagefront: https://cdn.pixabay.com/photo/2018/04/09/19/55/low-poly-3305284_1280.jpg
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
+    bgimageback: https://cdn.pixabay.com/photo/2017/02/08/17/24/butterfly-2049567_1280.jpg
     graphtype: 2
     data:
       - number: 95

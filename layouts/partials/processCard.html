@@ -4,7 +4,7 @@
 
   <div class="processCard">
     <div class="processCard__image-holder">
-      <img class="processCard__image" src="{{ .image | safeHTML }}" alt="wave" />
+      <img class="processCard__image" src="{{ .image | safeHTML }}" alt="{{if .imagealttext}}{{.imagealttext}}{{else}}processcard{{ end }}" />
     </div>
     <div class="processCard-title">
       <a href="#" class="toggle-cardInfo btnCard">

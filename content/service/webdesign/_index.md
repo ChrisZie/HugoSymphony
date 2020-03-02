@@ -51,6 +51,7 @@ quizcards:
 process:
   - name: Initiation
     image: https://source.unsplash.com/350x225/?wave
+    imagealttext: wave
     subtext: this is an iniatioaon
     description: wowowonscykdfhydfgyhdxf 
   - name: Transition
@@ -59,18 +60,22 @@ process:
     description: youth of the nation
   - name: Initiation
     image: https://source.unsplash.com/350x225/?swan
+    imagealttext: swan
     subtext: this is an iniatioaon
     description: wowowonscykdfhydfgyhdxf 
   - name: Transition
     image: https://source.unsplash.com/350x225/?sky
+    imagealttext: sky
     subtext: we are we are
     description: youth of the nation
   - name: Initiation
     image: https://source.unsplash.com/350x225/?tree
+    imagealttext: tree
     subtext: this is an iniatioaon
     description: wowowonscykdfhydfgyhdxf 
   - name: Transition
     image: https://source.unsplash.com/350x225/?plum
+    imagealttext: plum
     subtext: we are we are
     description: youth of the nation
 ---

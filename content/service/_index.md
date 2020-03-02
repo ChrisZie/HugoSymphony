@@ -6,66 +6,65 @@ layout: "main"
 slides :
   - caption  : SERVICE OVERVIEW
     description: >
-      You are reading this because you know your goal. You believe in your impact.
-      And now you want to grow that impact. You bring your vision, we'll bring the rest.
+      You are reading this because you know your goal. You believe in your impact. And now you want to grow that impact. You bring your vision, we'll bring the rest.
 service_item: 
   - name: Web Design
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
-    question1: Did you know that over
+    question1: Did you know that
     graph: 1
     data: 88%
     bar: 2
-    question2: of vistors will never return to your website after a single bad experience?
-    answer: 'Big Governments and Businesses pay hundreds of millions of dollars each year to focus on improving User Experience alone.<br>
-    To attract donors and volunteers, any visitor MUST find the layout attractive and simple, must never wait for loading, must always feel secure, and must have a great experience on their Phones or Tablets.
-     your website MUST have a well-made Design, Speed that removes wait-times,
-    Security that is hacker-proof, and looks and performs even better on Mobile Devices.<br>Click here to find out
-    some more key facts and how we manage them.'
+    question2: of vistors will NEVER return to your website after a SINGLE bad experience?
+    answer: 'How good is your website?<br>
+    Big Governments and Businesses pay billions yearly on improving User Experience. This MUST be a priority.<br>
+    We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"
     serviceDetailLink: marketing
     color: red
-    question1: Did you know that
-    graph: 2 
-    data_left :
-      - fact: Facebook
-        bar: 1
-      - fact: Instagram
-        bar: 2
-      - fact: Twitter
-        bar: 3
-    question2: almost all internet users are on Social Media, many of who use it to donate and volunteer?
-    answer: 'A strong Social Media presence is critical to increasing your impact by engaging
-    donors and volunteers.<br>We design and deploy globally visible Social Media accounts on all major 
-    platforms that quickly grow followers and convert them into volunteers and donors.'
+    question1: Did you know that there will be
+    graph: 1
+    data: $102 Billion
+    bar: 1
+    question2: invested by Marketers this year in Social Media advertising, more than all other marketing options?
+    answer: 'How much did you invest?<br>
+    Most visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br>
+    We will create fantastic profiles and will guide you on where, when, what, and how to post to get exactly what you need.'
  
   - name: Volunteer Mobilization
     icon: "images/responsive.svg"
     serviceDetailLink: volunteer
     color: yellow
-    question1: Did you know that you are
+    question1: Did you know that
     graph: 1
-    data: 78%
+    data: 6.9 Billion
     bar: 2
-    question2: more likely to receive donations from volunteers than non-volunteers?
-    answer: 'Volunteers are the single most important resource to the success of your organization. 
-    <br>We design and deploy world-class volunteer management tools and training programs so that you attain,
-    train, maintain, and retain all the volunteers you need.'
+    question2: hours were put in by volunteers in one country just last year alone?
+    answer: 'How many hours did you get?<br>
+    It is a fact that the skills and value that volunteers provide are immense, not to mention all the actual physical labour they put in.<br>
+    We design programs that attract volunteers, train them, manage them, and, best of all, keep them coming back.'
  
   - name: Fundraising Growth
     icon: "images/responsive.svg"
     serviceDetailLink: fundraising
     color: yellow
     question1: Did you know that over
-    graph: 1
-    data: $235 Billion
-    bar: 1
-    question2: or 55% of ALL donations are made online, via Social Media and websites, more than all other methods combined?
-    answer: 'Your impact is directly tied to your revenue and your revenue is directly tied to your fundraising. 
-    <br>We design and deploy superb online fundraising campaigns that reach global audiences, 
-    providing you with significant and dependable income.'
+    graph: 2
+    data_left :
+      - fact: Individual Donations
+        bar: 1
+      - fact: Government Grants
+        bar: 2
+      - fact: Corporate Sponsorships
+        bar: 3
+      - fact: Selling Goods & Services
+        bar: 4
+    question2: 70% of donations are made by individuals donors and they were attracted by good marketing? 
+    answer: 'How many donors know you?<br>
+    Donations support causes around the world. Donations are given every moment so aim to bring donors to your cause.<br>
+    We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
 ---
 

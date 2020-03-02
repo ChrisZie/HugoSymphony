@@ -1,0 +1,145 @@
+$highlight_color: #b3c7d6;
+
+body{
+  background-color: white!important;
+  background: white!important;
+}
+
+.news{
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #222!important;
+    font-family: raleway,sans-serif;
+    font-weight: 700!important;
+    line-height: 1.2!important;
+  }
+  
+  
+.widget {
+  text-align: center;
+  margin-bottom: 50px;
+}
+  
+.widget-title {
+  display: inline-block;
+  border-top: .5px solid $highlight_color;
+  border-bottom: .5px solid $highlight_color;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.widget li {
+  margin-bottom: 10px;
+}
+
+.widget li a {
+  color: #666;
+}
+a, button, select {
+  cursor: pointer;
+  transition: .2s ease;
+}
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+.middotDivider {
+  padding-right: .3em;
+  padding-left: .3em;
+  font-size: 16px;
+}
+.middotDivider:after {
+  content: '\00B7';
+}
+
+//borders
+.card {
+  border: 0;
+  border-radius: 0;
+}
+
+  
+  // Pagination
+
+.pagination {
+  justify-content: center;
+}
+    
+.pagination .page-item .page-link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: $highlight_color!important;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.pagination .page-item.active .page-link {
+  background: #fff!important;;
+  color: #666!important;;
+  border: 1px solid $highlight_color!important;;
+}
+
+  .bg-primary {
+    background: $highlight_color!important;
+  }
+
+  .text-primary {
+    color: $highlight_color!important;
+}
+
+
+  .card-text, .paragraph {
+    font-weight: 400;
+    color: #666!important;;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: raleway,sans-serif;
+    margin-bottom: 1rem;
+  }
+  
+/* recent post */
+.recent-post-thumb {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.small-post-border {
+  &:not(:last-child) {
+    border-right: 1px solid  #ACB9C4;;
+  }
+}
+
+@media (max-width: 991px) {
+  .small-post-border:not(:last-child) {
+    border-right: 0;
+    border-bottom: 1px solid #acb9c4;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+}
+
+
+  
+  
+  .post-meta span {
+    color: #444;
+    font-weight: 400;
+  }
+  
+  .section-sm {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+.author-thumb-sm {
+    max-height: 165px;
+    max-width: 165px;
+}
+  
+}

@@ -1,7 +1,11 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Symphony Eco"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+summaryLength = "10"
+paginate = 6
+
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
 
 
 # Site Menus
@@ -17,7 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         weight  = 3
     [[menu.nav]]
         name    = "The News"
-        url     = "knowledge"
+        url     = "news"
         weight  = 4
     [[menu.nav]]
         name    = "Let's Go!"
@@ -31,7 +35,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     dateFormat = "6 January 2006"
     # Meta data
     description = "Tesla's Awesome Hugo Site"
-    author = "Christine Zierold & Aaron Pinto"
+    author = "Symphony ECO"
     keywords = "Consulting; Conservation;"
     # Google Analitycs
     googleAnalitycsID = "Your ID"

@@ -43,11 +43,31 @@ div.processCards {
   text-align: center;
 }
 
+// for wrapping from 6 to 3 display per line in responsive way
+
+@media (min-width: 1270px)  {
+  div.processCards {
+    max-width: 76%;
+  }
+}
+@media (min-width: 1475px)  {
+  div.processCards {
+    max-width: 65%;
+  }
+}
+
+@media (min-width: 1930px)  {
+  div.processCards {
+    max-width: 100%;
+  }
+}
+
+
 div.processCard {
   background: $white;
   display: inline-block;
   margin: 8px;
-  max-width: 350px;
+  max-width: 300px;
   perspective: 1000;
   position: relative;
   text-align: left;
@@ -56,7 +76,7 @@ div.processCard {
   z-index: 1;
 
   .processCard__image-holder img {
-    max-width: 350px;
+    max-width: 300px;
   }
   
   .processCard__image-holder {
@@ -194,3 +214,12 @@ div.processCard.show {
 }
 
 
+/* .processCards .processCard {
+  float: left;
+}
+
+.processCards .processCard:nth-child(3n+1){
+  background-color: yellow;
+  clear: left;
+}
+ */

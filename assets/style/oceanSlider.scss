@@ -37,7 +37,7 @@ $bp-sx: 600px;
 }
 @media (max-width: $bp-md) {
   #site h1{
-    font-size: 2.5em;
+    font-size: 5.5vh;;
   }
 }
 
@@ -91,6 +91,8 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  align-items: center;
+  display: flex;
 }
 
 .ocean-text {
@@ -121,7 +123,7 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   .ocean-text {
     font-size: 40vh;
     transform: 
-    translateX( calc( 21% + ( -100% * var(--percentage) ) ) );
+    translateX( calc( 25% + ( -100% * var(--percentage) ) ) );
   }
 }
 

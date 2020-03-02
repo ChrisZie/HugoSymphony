@@ -18,7 +18,7 @@ service_item:
     bar: 2
     question2: of vistors will NEVER return to your website after a SINGLE bad experience?
     answer: 'How good is your website?<br>
-    Big Governments and Businesses pay billions of dollars each year on improving User Experience alone. This MUST be a priority.<br>
+    Big Governments and Businesses pay billions yearly on improving User Experience. This MUST be a priority.<br>
     We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
 
   - name: Digital Marketing
@@ -44,8 +44,8 @@ service_item:
     bar: 2
     question2: hours were put in by volunteers in one country just last year alone?
     answer: 'How many hours did you get?<br>
-    It is a fact that the skill and value that volunteers provide are immense, not to mention all the actual physical labour they put in.<br>
-    We design proven programs that attract you volunteers, train them, manage them and, importantly, keep them coming back.'
+    It is a fact that the skills and value that volunteers provide are immense, not to mention all the actual physical labour they put in.<br>
+    We design programs that attract volunteers, train them, manage them, and, best of all, keep them coming back.'
  
   - name: Fundraising Growth
     icon: "images/responsive.svg"
@@ -60,11 +60,11 @@ service_item:
         bar: 2
       - fact: Corporate Sponsorships
         bar: 3
-      - fact: Selling Goods and Services
+      - fact: Selling Goods & Services
         bar: 4
     question2: 70% of donations are made by individuals donors and they were attracted by good marketing? 
-    answer: 'How many donors do you have?<br>
-    Donations support causes around the world. Donations are given every moment so invest in bringing those donors to your cause.<br>
+    answer: 'How many donors know you?<br>
+    Donations support causes around the world. Donations are given every moment so aim to bring donors to your cause.<br>
     We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
 ---
 

@@ -12,6 +12,7 @@ quizcards:
     textfront: who that's incredible
     titleback: that's the answer
     textback: wowowow wo wow wow wo wow wowo wo w owo 
+    bgimageback: https://source.unsplash.com/350x225/?swan
     graphtype: 1
     data:
       - bartitle: wordpress
@@ -21,6 +22,7 @@ quizcards:
 
   - titlefront: Second
     textfront: who that's Second
+    bgimagefront: https://source.unsplash.com/350x225/?question
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
     graphtype: 2

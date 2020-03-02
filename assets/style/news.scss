@@ -58,28 +58,45 @@ a, a:hover, a:focus {
   border-radius: 0;
 }
 
-  
-  // Pagination
 
+/* pagination */
 .pagination {
   justify-content: center;
-}
-    
-.pagination .page-item .page-link {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  color: $highlight_color!important;
-  border-top: 0;
-  border-bottom: 0;
-}
 
-.pagination .page-item.active .page-link {
-  background: #fff!important;;
-  color: #666!important;;
-  border: 1px solid $highlight_color!important;;
+  .page-item {
+
+    .page-link {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      color: $highlight_color!important;
+      border-top: 0;
+      border-bottom: 0;
+
+      &:hover {
+        background: $highlight_color!important;
+        color: #fff!important;
+      }
+    }
+
+    &:first-child,
+    &:last-child {
+      .page-link {
+        border-radius: 0;
+      }
+    }
+
+    &.active {
+      .page-link {
+        background: #fff!important;
+        color: #666!important;
+        border: 1px solid $highlight_color!important;
+      }
+    }
+  }
 }
+  
 
   .bg-primary {
     background: $highlight_color!important;
@@ -90,7 +107,7 @@ a, a:hover, a:focus {
 }
 
 
-  .card-text, .paragraph {
+  .card-text, .paragraph , p {
     font-weight: 400;
     color: #666!important;;
     font-size: 15px;
@@ -123,10 +140,6 @@ a, a:hover, a:focus {
     padding-bottom: 20px;
 }
 }
-
-
-  
-  
   .post-meta span {
     color: #444;
     font-weight: 400;
@@ -151,5 +164,40 @@ a, a:hover, a:focus {
   border: 0;
   border-radius: 0;
 }
+
+.button{
+	text-decoration: none;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 2vmin;
+	display: inline-block;
+	position: relative;
+	border: 3px solid $highlight_color!important;
+	box-shadow: -0.5vmin 0.5vmin 0 rgba($highlight_color, 0.5);
+	background: transparent;
+	margin-top: 5vmin;
+	mix-blend-mode: lighten;
+	color: $highlight_color!important;
+	padding: 2vmin 2vmin 1.8vmin 2vmin;
+	letter-spacing: 0.1em;
+	text-shadow: none;
+	line-height: 1;
+	transform: translate3d(0.5vmin, -0.5vmin, 0);
+	transition: all 100ms linear;
+	&:hover{ 
+		transform: translate3d(1vmin, -1vmin, 0);
+		box-shadow: -1vmin 1vmin 0 rgba(white, 0.5);
+		background: white;
+		color: black;
+	}
+	&:active{ 
+		transform: translate3d(0px, 0px, 0);
+		box-shadow: -0px 0px 0 rgba(white, 0.5);
+	}
+}
+
+
   
 }
+
+

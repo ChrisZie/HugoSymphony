@@ -18,10 +18,11 @@ service_item:
     data: 88%
     bar: 2
     question2: of vistors will never return to your website after a single bad experience?
-    answer: 'Big Governments and Businesses pay hundreds of millions of dollars each year to focus on improving User Experience alone.
-    If you truly want to attract donors and volunteers, you MUST have a well-made Design, Speed that removes wait-times,
-    Security that ensures that you, your volunteers, and donors are never victims, and is Mobile Friendly, because more people use their phones than anything else.'
-     that is well-made for users to work with. Speed so fast that users never have to wait for your page to load. Security that is dedicated to you, your volunteers, or your donors never being a victim. And Mobile Friendly, because more people use their phones than anything else.'
+    answer: 'Big Governments and Businesses pay hundreds of millions of dollars each year to focus on improving User Experience alone.<br>
+    To attract donors and volunteers, any visitor MUST find the layout attractive and simple, must never wait for loading, must always feel secure, and must have a great experience on their Phones or Tablets.
+     your website MUST have a well-made Design, Speed that removes wait-times,
+    Security that is hacker-proof, and looks and performs even better on Mobile Devices.<br>Click here to find out
+    some more key facts and how we manage them.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"

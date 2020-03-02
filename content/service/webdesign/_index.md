@@ -7,6 +7,9 @@ slides :
     description: >
       To have the greatest impact, you must engage a global audience. We are here to provide 
       you with the tools and know-how to reach the world.
+
+quizbgimagefront: https://source.unsplash.com/350x225/?forrest
+quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: Did you know
     textfront: who that's incredible

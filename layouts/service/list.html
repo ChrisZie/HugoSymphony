@@ -44,17 +44,19 @@
 <section class="quiz pb-5 pt-5">
   <div class="container">
       <div class="row justify-content-center"> 
+        {{ $bgImageFront := .Params.quizbgimagefront }}
+        {{ $bgImageBack := .Params.quizbgimageback }}
         {{ range .Params.quizcards }}
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0 p-xl-0">
           <div class="parallaxCard">
             <div class="cardcontainer">
-              <div class="cardfront cardside" {{ if isset . "bgimagefront"}} style='background-image: url("{{ .bgimagefront | absURL }}");' {{ end }}>
+              <div class="cardfront cardside" {{ if isset . "bgimagefront"}} style='background-image: url("{{ .bgimagefront | absURL }}");' {{ else if $bgImageFront }} style='background-image: url("{{ $bgImageFront | absURL }}");' {{ end }}>
                 <div class="parallaxContent">
                   <h1>{{ .titlefront | safeHTML }}</h1>
                   <p>{{ .textfront | safeHTML }}</p>
                 </div>
               </div>
-              <div class="cardback cardside" {{ if isset . "bgimageback"}} style='background-image: url("{{ .bgimageback | absURL }}");' {{ end }}>
+              <div class="cardback cardside" {{ if isset . "bgimageback"}} style='background-image: url("{{ .bgimageback | absURL }}");' {{ else if $bgImageBack }} style='background-image: url("{{ $bgImageBack | absURL }}");' {{ end }}>
                 <div class="parallaxContent">
                   <h1>{{ .titleback | safeHTML }}</h1>
                   <p>{{ .textback | safeHTML }}</p>

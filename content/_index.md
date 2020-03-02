@@ -27,9 +27,9 @@ service_item:
     data: 80% 
     bar: 2
     question2: of vistors to your website will just leave if your website is not secure or takes longer than 3 seconds to load?
-    answer: 'A beautiful and accessible website is the difference between whether you are remembered or forgotten. 
-    <br>We design and deploy blazingly fast and secure websites that 
-    increase your ranking on Google and drastically increase volunteer and donor engagement.'
+    answer: 'Beautiful, fast, and secure websites guarantee that you are not forgotten. 
+    <br>We design websites that optimize user experience,
+    increasing your ranking on Google, and vastly growing your number of visitors, donors, and volunteers.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"
@@ -38,16 +38,16 @@ service_item:
     question1: Did you know that
     graph: 2 
     data_left :
-      - fact: Facebook
+      - fact: All Users
         bar: 1
-      - fact: Instagram
+      - fact: Facebook
         bar: 2
-      - fact: Twitter
+      - fact: Instagram
         bar: 3
-    question2: almost all internet users are on Social Media, many of who use it to donate and volunteer?
-    answer: 'A strong Social Media presence is key to increasing your impact by engaging
-    donors and volunteers.<br>We design and deploy globally visible Social Media accounts on all major 
-    platforms that quickly grow followers and convert them into volunteers and donors.'
+    question2: almost all internet users are on Social Media, using it to donate, volunteer, and plan where to travel?
+    answer: 'A strong Social Media presence is critical to your impact by engaging visitors,
+    donors, and volunteers.<br>We design globally visible Social Media accounts on all major 
+    platforms that quickly grow your followers and convert them into visitors, donors, and volunteers.'
  
   - name: Volunteer Mobilization
     icon: "images/responsive.svg"
@@ -72,7 +72,7 @@ service_item:
     bar: 1
     question2: or 55% of ALL donations are made online, via Social Media and websites, more than all other methods combined?
     answer: 'Your impact is directly tied to your revenue and your revenue is directly tied to your fundraising. 
-    <br>We design and deploy superb online fundraising campaigns that reach global audiences, 
+    <br>We design and deploy superb online fundraising campaigns that reach global donors and investors, 
     providing you with significant and dependable income.'
 ---
 

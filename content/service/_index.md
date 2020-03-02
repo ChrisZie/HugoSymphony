@@ -6,41 +6,31 @@ layout: "main"
 slides :
   - caption  : SERVICE OVERVIEW
     description: >
-      You are reading this because you know your goal. You believe in your impact.
-      And now you want to grow that impact. You bring your vision, we'll bring the rest.
+      You are reading this because you know your goal. You believe in your impact. And now you want to grow that impact. You bring your vision, we'll bring the rest.
 service_item: 
   - name: Web Design
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
-    question1: Did you know that over
+    question1: Did you know that
     graph: 1
     data: 88%
     bar: 2
-    question2: of vistors will never return to your website after a single bad experience?
-    answer: 'Big Governments and Businesses pay hundreds of millions of dollars each year to focus on improving User Experience alone.<br>
-    To attract donors and volunteers, any visitor MUST find the layout attractive and simple, must never wait for loading, must always feel secure, and must have a great experience on their Phones or Tablets.
-     your website MUST have a well-made Design, Speed that removes wait-times,
-    Security that is hacker-proof, and looks and performs even better on Mobile Devices.<br>Click here to find out
-    some more key facts and how we manage them.'
+    question2: of vistors will NEVER return to your website after a SINGLE bad experience?
+    answer: 'There is a reason Big Governments and Businesses pay billions of dollars each year on improving User Experience alone. Make this your priority.<br>
+    We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"
     serviceDetailLink: marketing
     color: red
     question1: Did you know that
-    graph: 2 
-    data_left :
-      - fact: Facebook
-        bar: 1
-      - fact: Instagram
-        bar: 2
-      - fact: Twitter
-        bar: 3
-    question2: almost all internet users are on Social Media, many of who use it to donate and volunteer?
-    answer: 'A strong Social Media presence is critical to increasing your impact by engaging
-    donors and volunteers.<br>We design and deploy globally visible Social Media accounts on all major 
-    platforms that quickly grow followers and convert them into volunteers and donors.'
+    graph: 1
+    data: $102 Billion
+    bar: 2
+    question2: in advertising is being invested this year by Marketers, more than every other marketing option?
+    answer: 'Most visitors, donors, and volunteers are on Social Media. Invest in this as your biggest marketing tool and guarantee your success.<br>
+    We will create profiles that look fantastic but do much more. We will guide you on where, when, what, and how to post to get exactly what you need.'
  
   - name: Volunteer Mobilization
     icon: "images/responsive.svg"

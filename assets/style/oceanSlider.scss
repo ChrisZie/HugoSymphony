@@ -31,12 +31,12 @@ $bp-sx: 600px;
   }
 }
 
-#site h1{
+#site h2{
   font-size: 3em;
   font-weight: 700;
 }
 @media (max-width: $bp-md) {
-  #site h1{
+  #site h2{
     font-size: 5.5vh;;
   }
 }

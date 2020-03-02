@@ -3,15 +3,14 @@ title: "Web Design"
 date: 2020-02-10T14:37:47+08:00
 draft: true
 slides :
-  - caption  : WEBDESIGN
+  - caption  : WEB DESIGN
     description: >
-      To have the greatest impact, you must engage a global audience. We are here to provide 
-      you with the tools and know-how to reach the world.
+      Without question, your website is your identity to the world. It is who you are, what you offer, and why the user should trust you. But to attract and keep users, you absolutely must provide excellent Design, Speed, Security, and Mobile Usability.
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
-  - titlefront: Did you know
+  - titlefront: DESIGN
     textfront: who that's incredible
     bgimagefront: https://cdn.pixabay.com/photo/2018/05/16/10/46/animal-3405434_1280.jpg
     titleback: that's the answer

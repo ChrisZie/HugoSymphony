@@ -141,5 +141,15 @@ a, a:hover, a:focus {
     max-height: 165px;
     max-width: 165px;
 }
+
+.card-img-top {
+  width: 100%;
+  height: unset;
+}
+
+.card-header, .card-footer, .card-img, .card-img-top {
+  border: 0;
+  border-radius: 0;
+}
   
 }

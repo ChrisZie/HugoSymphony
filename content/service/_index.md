@@ -6,8 +6,8 @@ layout: "main"
 slides :
   - caption  : SERVICE OVERVIEW
     description: >
-      Join our global network of world-changing institutions. If you have
-      ever hoped and wondered how you could grow your impact, together we will do just that.
+      You are reading this because you know your goal. You believe in your impact.
+      And now you want to grow that impact. You bring your vision, we'll bring the rest.
 service_item: 
   - name: Web Design
     icon: "images/money.svg"
@@ -15,12 +15,13 @@ service_item:
     color: blue
     question1: Did you know that over
     graph: 1
-    data: 80% 
+    data: 88%
     bar: 2
-    question2: of vistors to your website will just leave if your website is not secure or takes longer than 3 seconds to load?
-    answer: 'A beautiful and accessible website is the difference between whether you are remembered or forgotten. 
-    <br>We design and deploy blazingly fast and secure websites that 
-    increase your ranking on Google and drastically increase volunteer and donor engagement.'
+    question2: of vistors will never return to your website after a single bad experience?
+    answer: 'Big Governments and Businesses pay hundreds of millions of dollars each year to focus on improving User Experience alone.
+    If you truly want to attract donors and volunteers, you MUST have a well-made Design, Speed that removes wait-times,
+    Security that ensures that you, your volunteers, and donors are never victims, and is Mobile Friendly, because more people use their phones than anything else.'
+     that is well-made for users to work with. Speed so fast that users never have to wait for your page to load. Security that is dedicated to you, your volunteers, or your donors never being a victim. And Mobile Friendly, because more people use their phones than anything else.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"

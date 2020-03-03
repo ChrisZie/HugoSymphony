@@ -32,7 +32,7 @@ $bp-s: 768px;
 .cardcontainer {
 	width: 100%;
 	min-height: 45vh;
-	border-radius: 20px;
+
 	position: relative;
 	-webkit-transition: 1.5s ease-in-out;
 	transition: 1.5s ease-in-out;
@@ -59,11 +59,11 @@ $bp-s: 768px;
 	color: #fff;
 	transform-style: preserve-3d;
 	backface-visibility: hidden;
-	border-radius: 20px;
+
 }
 .parallaxContent {
 	transform: translatez(70px) scale(0.8);
-	//line-height: 1.5em;
+
 }
 .parallaxContent h2 {
 	position: relative;
@@ -115,13 +115,13 @@ $bp-s: 768px;
 	background-color: #333;
 	transform: rotateY(180deg);
 	z-index: 0;
-	// padding-top: 10px;
+
 	background-size: cover;
 	background-image: url(https://images.unsplash.com/photo-1515446134809-993c501ca304?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 }
 
 .cardback .afteroverlay, .cardfront .afteroverlay {
-	border-radius: 20px;
+
 	position: absolute;
 	top: 0;
 	left: 0;

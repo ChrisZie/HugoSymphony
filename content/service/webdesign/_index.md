@@ -22,7 +22,7 @@ quizcards:
     bgimagefront: https://cdn.pixabay.com/photo/2019/04/06/05/17/wallpaper-4106667_1280.jpg
     titleback: 0.05 Seconds
     textback: Half a second. That's all you have to make your case for why a user should stay and learn about who you are and what you do. If half a second is all you have to make a difference, it should be the best half second in history. And you must do that while looking original and not boring.<br><br>We work with you to understand who you are. What are your themes, your intentions, your goals. We then use that to design a spectacular website that understands colour psychology, technical effects, and User Optimized layouts.
-    bgimageback: https://cdn.pixabay.com/photo/2013/04/04/12/34/sunset-100367_1280.jpg
+    bgimageback: https://cdn.pixabay.com/photo/2016/01/10/23/18/lions-1132745_1280.jpg
 
   - titlefront: SPEED
     textfront: Do You Know How Many Users You Lose When Your Website Takes Longer Than 3 Seconds to Load?

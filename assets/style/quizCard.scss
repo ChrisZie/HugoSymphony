@@ -120,7 +120,7 @@ $bp-s: 768px;
 	background-image: url(https://images.unsplash.com/photo-1515446134809-993c501ca304?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 }
 
-.cardback .afteroverlay {
+.cardback .afteroverlay, .cardfront .afteroverlay {
 	border-radius: 20px;
 	position: absolute;
 	top: 0;
@@ -129,8 +129,16 @@ $bp-s: 768px;
 	height: 100%;
 	color: #FFF;
 	display: block;
-	background: rgba(0, 0, 0, .43);
+	background: rgba(0, 0, 0, .6);
 }
+
+.cardfront .afteroverlay {
+	background: rgba(0, 0, 0, .15);
+}
+.cardfront:nth-child(2) .afteroverlay {
+	background: rgba(0, 0, 0, .4);
+}
+
 
 .cardcontainer:hover {
 	-webkit-transform: rotateY(180deg);

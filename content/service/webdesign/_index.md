@@ -11,24 +11,24 @@ quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?i
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: MOBILE FRIENDLY
-    textfront: How Many People Do You Think Use Only Their Phones To Browse Websites and Social Media?
+    textfront: Do You Know How Many People Will Use Only Their Phones To Find Your Website and Social Media Profiles?
     bgimagefront: https://cdn.pixabay.com/photo/2019/04/10/23/51/dog-4118585_1280.jpg
     titleback: 52%
-    textback: More than half of all users already do this and that number is growing daily. But though over half of users use only their phones, almost no websites are built for phones, performing SIGNIFICANTLY worse for mobile users. Google ranks websites by both Mobile and Desktop when it decides who to list on their search engine.<br><br>We tailor each and every word, image, layout, and code to perform as amazingly on a phone as on a PC.
-    bgimageback: https://cdn.pixabay.com/photo/2018/05/16/10/46/animal-3405434_1280.jpg
+    textback: More than half of all users! And this number is growing FAST. But even though over half of all users use only their phones, almost no websites are built for phones and most actually perform SIGNIFICANTLY worse on a phone. <br><br>We tailor each and every word, image, layout, and code on your website to perform as amazingly on a phone as on a PC. Google looks at how your website performs on BOTH Mobile and Desktop when it decides who to list on their search engine so we optimize every design element to increase visibility greatly.
+    bgimageback: https://cdn.pixabay.com/photo/2016/12/19/21/40/four-dogs-1919152_1280.jpg
 
   - titlefront: DESIGN
-    textfront: How Long Do You Think A User Takes To Judge Whether They Will Stay Or Leave Your Website?
+    textfront: Do You Know How Long A User Takes To Judge Whether They Will Stay On Your Website Or Go To Another?
     bgimagefront: https://cdn.pixabay.com/photo/2019/04/06/05/17/wallpaper-4106667_1280.jpg
     titleback: 0.05 Seconds
-    textback: Half a second. That's all you have to make your case for why a user should stay and learn about who you are and what you do. If half a second is all you have to make a difference, it should be the best half second in history. And you must do that while looking original and not boring.<br><br>We work with you to understand who you are. What are your themes, your intentions, your goals. We then use that to design a spectacular website that understands colour psychology, technical effects, and User Optimized layouts.
+    textback: Half a second! That's all you have to make your case for why a user should stay and learn about who you are and what you do. If half a second is all you have to make a difference, it should be the best half second in history. <br><br>We work with you to understand who you are - your themes, mission, and goals. We then use that to design a spectacular website that considers colour psychology, design effects, and User Optimized layouts. And, as users are clear that they prefer original designs, your site will not be made from a template but rather designed just for you.
     bgimageback: https://cdn.pixabay.com/photo/2016/01/10/23/18/lions-1132745_1280.jpg
 
   - titlefront: SPEED
     textfront: Do You Know How Many Users You Lose When Your Website Takes Longer Than 3 Seconds to Load?
     bgimagefront: https://cdn.pixabay.com/photo/2019/04/11/00/00/animal-4118594_1280.jpg
     titleback: 20-30% per SECOND
-    textback: Google rates websites built from templates such as Wix and WordPress a "C" grade or lower due to their extremely slow loading speeds and lower performance. Our websites have an "A" grade because we know that Speed and Performance are hugely impactful to get your page ranked highly on Google, currently used by 75% of all users to search for anything, but will also retain those users who would leave due to slow loading times and performance issues. We ensure that all designs are created speed-first. Images, colours, content, all tuned for maximum speed.
+    textback: Each passing second costs you a QUARTER of your audience! Imagine how much more impact you could have with 75% more visitors, donors, and volunteers than you have right now.<br><br>We ensure that all designs fully consider performance, with images, colours, and content, all tuned for maximum speed. Google rates template sites like Wix and WordPress a "C" grade or lower due to their extremely slow performance, making them less likely to appear when a user searches for them. Our websites have an "A" grade, vastly increasing your chances of getting more visitors, donors, and volunteers. 
     bgimageback: https://cdn.pixabay.com/photo/2017/10/17/05/31/cheetah-2859581_1280.jpg
 
   - titlefront: SECURITY

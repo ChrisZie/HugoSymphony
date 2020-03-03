@@ -70,14 +70,10 @@ $bp-s: 768px;
 	font-weight: 700;
 	font-size: 3rem;
 }
-.parallaxContent p {
-	margin-top: 35px;
-	//line-height: 2em;
-}
 
- .parallaxContent p{
-	font-size: 1.2rem;
-  font-weight: 500;
+.parallaxContent p{
+	font-weight: 500;
+	margin-top: 35px;
 } 
 
 .cardfront .parallaxContent p{
@@ -87,6 +83,13 @@ $bp-s: 768px;
 .cardback .parallaxContent{
 	top: -20px;
 	position: absolute;
+	h2 {
+		font-size: 2.3rem;
+	}
+	p {
+		margin-top: 30px;
+		font-size: 1.2rem;
+	}
 } 
 
 .parallaxContent h2:before {

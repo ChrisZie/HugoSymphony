@@ -10,8 +10,10 @@ slides :
 quizcards:
   - titlefront: we are
     textfront: who that's incredible
+    bgimagefront: https://source.unsplash.com/Tkc1ofZJ-Zc/1200x600 
     titleback: that's the answer
     textback: wowowow wo wow wow wo wow wowo wo w owo 
+    bgimageback: https://source.unsplash.com/RPmWEtZLh7U/1200x600 
     graphtype: 1
     data:
       - bartitle: wordpress
@@ -21,8 +23,10 @@ quizcards:
 
   - titlefront: at
     textfront: who that's Second
+    bgimagefront: https://source.unsplash.com/f2bWdh3z29g/800x600
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
+    bgimageback: https://source.unsplash.com/pGr7g4l8EOI/1000x600
     graphtype: 2
     data:
       - number: 95

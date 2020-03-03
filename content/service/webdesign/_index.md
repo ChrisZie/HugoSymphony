@@ -5,13 +5,13 @@ draft: true
 slides :
   - caption  : WEB DESIGN
     description: >
-      Without question, your website is your identity to the world. It is who you are, what you offer, and why the user should trust you. But to attract and keep users, you must provide excellent Design, Speed, Security, and Mobile Usability. We do that. And, best of all, we don't bankrupt you to do it!
+      Your website IS your identity to the world. It is who you are, what you offer, and why the user should trust you. But to attract and keep users, you must provide excellent Design, Speed, Security, and Mobile Usability. We do that.
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: MOBILE FRIENDLY
-    textfront: Do You Know How Many People Will Use Only Their Phones To Find Your Website and Social Media Profiles?
+    textfront: Do You Know How Many People Will Use Only Their Phones To Find Your Website and Social Media Profiles? 
     bgimagefront: https://cdn.pixabay.com/photo/2019/04/10/23/51/dog-4118585_1280.jpg
     titleback: 52%
     textback: Over half of all users! And this number is growing FAST. But even though over half of all users use only their phones, almost no websites are built for phones and most actually perform SIGNIFICANTLY worse on a phone. <br><br>We tailor each word, image, layout, and code on your website to perform as amazingly on a phone as on a PC. Google looks at how your website performs on BOTH Mobile and Desktop when it decides who to list on their search engine so we optimize every design element to increase visibility greatly.
@@ -21,7 +21,7 @@ quizcards:
     textfront: Do You Know How Long A User Takes To Judge Whether They Will Stay On Your Website Or Go To Another?
     bgimagefront: https://cdn.pixabay.com/photo/2019/04/06/05/17/wallpaper-4106667_1280.jpg
     titleback: 0.05 Seconds
-    textback: Half a second! That's all you have to convince a user to stay and learn about who you are and what you do. If half a second is all you have to make a difference, make it count.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that considers colour, design effects, and layouts in optimizing User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
+    textback: Half a second! That's all you have to convince a user to stay and learn about who you are and what you do. If half a second is all you have to make a difference, make it count.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
     bgimageback: https://cdn.pixabay.com/photo/2016/01/10/23/18/lions-1132745_1280.jpg
 
   - titlefront: SPEED
@@ -39,33 +39,40 @@ quizcards:
     bgimageback: https://cdn.pixabay.com/photo/2020/01/29/20/07/wolves-4803512_1280.jpg
 
 process:
-  - name: Initiation
-    image: https://source.unsplash.com/350x225/?wave
-    imagealttext: wave
+  - name: Kick-Off
+    image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
+    imagealttext: Kick-Off
     subtext: Project Start
-    description: We meet with your designated Technical Staff/Lead. Together with them, we will define the Design Elements, Design Plan, and Design Outputs. 
-  - name: Transition
-    image: https://source.unsplash.com/350x225/?beach
-    subtext: we are we are
-    description: youth of the nation
-  - name: Initiation
-    image: https://source.unsplash.com/350x225/?swan
-    imagealttext: swan
-    subtext: this is an iniatioaon
-    description: wowowonscykdfhydfgyhdxf 
-  - name: Transition
-    image: https://source.unsplash.com/350x225/?sky
-    imagealttext: sky
-    subtext: we are we are
-    description: youth of the nation
-  - name: Initiation
-    image: https://source.unsplash.com/350x225/?tree
-    imagealttext: tree
-    subtext: this is an iniatioaon
-    description: wowowonscykdfhydfgyhdxf 
-  - name: Transition
-    image: https://source.unsplash.com/350x225/?plum
-    imagealttext: plum
-    subtext: we are we are
-    description: youth of the nation
+    description: We meet with your team to understand exactly what you are looking for and plan how you get to that result from where you are right now.
+    description2: Deliverable - Assessment Summary
+  - name: Discovery
+    image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
+    imagealttext: Discovery
+    subtext: Building the Pathway to Success
+    description: We research your biggest local (and even global) competitors and understand what is working for them that we can make work for you instead.
+    description2: Deliverable - Market Research Summary
+  - name: Design
+    image: https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg
+    imagealttext: Design
+    subtext: Built for Style and Speed
+    description: We meet with your team to capture the most desired design elements you may already have or want to have. We then present the initial design options, with two equally superb options for you to choose from. With the chosen option, we begin developing the final product, working closely with your team on content and branding.
+    description2: Deliverable - Finalized Design
+  - name: Registration
+    image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
+    imagealttext: Registration
+    subtext: Naming and Hosting
+    description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transer all your data from any existing websites or services to the new service.
+    description2: Deliverable - Domain and Hosting Summary
+  - name: Final Delivery
+    image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
+    imagealttext: Final Delivery
+    subtext: Website Presentation
+    description: We deliver the Final Product, walking you and your team through all of the design choices, from colour to content. We integrate any changes you may wish to have and complete all remaining technical tasks.
+    description2: Deliverable - Final Website
+  - name: Hand-Over
+    image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
+    imagealttext: Hand-Over
+    subtext: Guides and Support
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the website stays online after we hand it over. That will not be the end though as we will provide you with ongoing support and will assist with any moderate content changes that may come up in the future.
+    description2: Deliverable - User Guides
 ---

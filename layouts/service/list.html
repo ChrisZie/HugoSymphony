@@ -54,6 +54,7 @@
                   <h2>{{ .titlefront | safeHTML }}</h2>
                   <p>{{ .textfront | safeHTML }}</p>
                 </div>
+                <div class="afteroverlay"></div>
               </div>
               <div class="cardback cardside" {{ if isset . "bgimageback"}} style='background-image: url("{{ .bgimageback | absURL }}");' {{ else if $bgImageBack }} style='background-image: url("{{ $bgImageBack | absURL }}");' {{ end }}>
                 <div class="parallaxContent">

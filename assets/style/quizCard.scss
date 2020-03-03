@@ -84,6 +84,11 @@ $bp-s: 768px;
 	font-size: 1.8rem;
 } 
 
+.cardback .parallaxContent{
+	top: -20px;
+	position: absolute;
+} 
+
 .parallaxContent h2:before {
 	content: "";
 	position: absolute;

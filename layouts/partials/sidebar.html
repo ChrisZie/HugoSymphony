@@ -4,8 +4,7 @@
       {{ range first 1 (where .Site.Pages "Type" "about")}}
       <h4 class="widget-title">{{ .Title | markdownify }}</h4>
       {{ if .Params.Image }}
-      <img src="{{ .Params.Image | absURL }}" alt=""
-        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+      <div class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
       {{ end }}
       <p>{{ .Summary }}</p>
       <a href="{{ .Permalink }}" class="button">Know More</a>

@@ -140,6 +140,13 @@ a, a:hover, a:focus {
     padding-bottom: 20px;
 }
 }
+
+.featured-post {
+  .card-title {
+    margin-left: -10%;
+  }
+}
+
   .post-meta span {
     color: #444;
     font-weight: 400;

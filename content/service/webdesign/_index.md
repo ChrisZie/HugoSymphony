@@ -42,8 +42,8 @@ process:
   - name: Initiation
     image: https://source.unsplash.com/350x225/?wave
     imagealttext: wave
-    subtext: this is an iniatioaon
-    description: wowowonscykdfhydfgyhdxf 
+    subtext: Project Start
+    description: We meet with your designated Technical Staff/Lead. Together with them, we will define the Design Elements, Design Plan, and Design Outputs. 
   - name: Transition
     image: https://source.unsplash.com/350x225/?beach
     subtext: we are we are

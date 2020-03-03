@@ -49,6 +49,28 @@ paginate = 6
         title   = "SSSSS"
         subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "fab fa-facebook-f" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/Symphony.Eco"
+
+[[params.social]]
+title = "twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/SymphonyEco"
+
+[[params.social]]
+title = "instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://www.instagram.com/symphony.eco"
+
+[[params.social]]
+title = "linkedin"
+icon = "fab fa-linkedin-in" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+
 [privacy]
   [privacy.disqus]
     disable = false

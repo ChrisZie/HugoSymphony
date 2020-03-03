@@ -44,6 +44,7 @@ process:
     imagealttext: wave
     subtext: this is an iniatioaon
     description: wowowonscykdfhydfgyhdxf 
+    description2: wowowonscykdfhydfgyhdxf 
   - name: Transition
     image: https://source.unsplash.com/350x225/?beach
     subtext: we are we are

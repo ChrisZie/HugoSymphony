@@ -7,6 +7,21 @@ body{
 
 .news{
 
+
+/* card */
+.card {
+  border: 0;
+  border-radius: 0;
+
+  &-header,
+  &-footer,
+  &-img,
+  &-img-top {
+    border: 0;
+    border-radius: 0;
+  }
+}
+
   h1, h2, h3, h4, h5, h6 {
     color: #222!important;
     font-family: raleway,sans-serif;
@@ -28,13 +43,36 @@ body{
   margin-bottom: 20px;
 }
 
+
 .widget li {
   margin-bottom: 10px;
+
+  a {
+    color: #666;
+
+    &:hover {
+      color: $highlight_color;
+    }
+  }
 }
 
-.widget li a {
-  color: #666;
+.social-links {
+  li {
+    a {
+      height: 35px;
+      width: 35px;
+      background: $highlight_color;
+      color: #fff;
+      display: block;
+      line-height: 35px;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
 }
+
 a, button, select {
   cursor: pointer;
   transition: .2s ease;
@@ -50,12 +88,6 @@ a, a:hover, a:focus {
 }
 .middotDivider:after {
   content: '\00B7';
-}
-
-//borders
-.card {
-  border: 0;
-  border-radius: 0;
 }
 
 
@@ -158,8 +190,11 @@ a, a:hover, a:focus {
   }
 
 .author-thumb-sm {
-    max-height: 165px;
-    max-width: 165px;
+    height: 165px;
+    width: 165px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-img-top {
@@ -167,16 +202,12 @@ a, a:hover, a:focus {
   height: unset;
 }
 
-.card-header, .card-footer, .card-img, .card-img-top {
-  border: 0;
-  border-radius: 0;
-}
 
 .button{
 	text-decoration: none;
 	font-weight: 800;
 	text-transform: uppercase;
-	font-size: 2vmin;
+	font-size: 1rem;
 	display: inline-block;
 	position: relative;
 	border: 3px solid $highlight_color!important;

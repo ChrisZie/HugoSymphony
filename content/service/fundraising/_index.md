@@ -10,10 +10,10 @@ slides :
 quizcards:
   - titlefront: we are
     textfront: who that's incredible
-    bgimagefront: https://source.unsplash.com/Tkc1ofZJ-Zc/1200x600 
+    bgimagefront: https://cdn.pixabay.com/photo/2014/12/13/15/42/alaska-566722_1280.jpg
     titleback: that's the answer
     textback: wowowow wo wow wow wo wow wowo wo w owo 
-    bgimageback: https://source.unsplash.com/RPmWEtZLh7U/1200x600 
+    bgimageback: https://cdn.pixabay.com/photo/2016/09/12/17/51/polar-bears-1665367_1280.jpg
     graphtype: 1
     data:
       - bartitle: wordpress
@@ -23,30 +23,30 @@ quizcards:
 
   - titlefront: at
     textfront: who that's Second
-    bgimagefront: https://source.unsplash.com/f2bWdh3z29g/800x600
+    bgimagefront: https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_1280.jpg
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
-    bgimageback: https://source.unsplash.com/pGr7g4l8EOI/1000x600
+    bgimageback: https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_1280.jpg
     graphtype: 2
     data:
       - number: 95
         graphcaption: facebook
   - titlefront: fundraissing
     textfront: who that's bing
-    bgimagefront: https://source.unsplash.com/-So60UAgCtU/600x400
+    bgimagefront: https://cdn.pixabay.com/photo/2014/10/09/23/36/mountains-482689_1280.jpg
     titleback: that's the bong
     textback: Second wo wow wow wo beasbklg  wowo wo w owo 
-    bgimageback: https://source.unsplash.com/FrKFguVIVvg/600x500
+    bgimageback: https://cdn.pixabay.com/photo/2014/08/27/12/58/penguins-429128_1280.jpg
     graphtype: 2
     data:
       - number: 80
         graphcaption: facebook
   - titlefront: 4444444
     textfront: who that's Second
-    bgimagefront: https://source.unsplash.com/XH_uke3iW1A/600x600
+    bgimagefront: https://cdn.pixabay.com/photo/2015/12/08/00/54/glacier-1082163_1280.jpg
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
-    bgimageback: https://source.unsplash.com/yk8CwIk68pw/800x600
+    bgimageback: https://cdn.pixabay.com/photo/2017/01/01/20/09/killer-whales-1945411_1280.jpg
     graphtype: 2
     data:
       - number: 95

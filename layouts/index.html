@@ -7,9 +7,9 @@
 {{ $sassTemplate := resources.Get "style/waves.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-<!-- {{ $sassTemplate := resources.Get "style/news.scss" }}
+{{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen"> -->
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/quote.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
@@ -135,10 +135,10 @@
 </section>
 <!-- End TextSlider 3 -->
 <!-- recent post -->
-<!-- <section class="news">
+<section class="news">
     <div class="container">
       <div class="row">
-        {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+        {{ range last 3 (where .Site.RegularPages "Type" "post")}}
         <div class="col-lg-4 small-post-border">
           <article class="media">
             {{ if .Params.Image }}
@@ -160,7 +160,7 @@
         {{ end }}
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- /recent post -->
 <!-- Social Media Integration -->
 <section class="twitter py-5 mt-3" id="">

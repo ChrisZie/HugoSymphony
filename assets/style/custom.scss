@@ -244,7 +244,7 @@ color: white;
   }
 /* } */
 
-.social div.footer-box a {
+.social div.footer-box a, .news ._Info .sharing a {
   width: 60px;
   height: 60px;
   background-color: transparent;
@@ -260,19 +260,28 @@ color: white;
   /* z-index: 1; */
 }
 
-.social div.footer-box a .fab, .social div.footer-box a .fas {
+.social div.footer-box a:first-child, .news ._Info .sharing a:first-child{
+  margin-left: 0;
+}
+
+.social div.footer-box a:last-child, .news ._Info .sharing a:last-child{
+  margin-right: 0;
+}
+
+
+.social div.footer-box a .fab, .social div.footer-box a .fas , .news ._Info .sharing a .fas , .news ._Info .sharing a .fab {
   position: relative;
   color: black;
   transition: .5s;
   /* z-index: 3; */
 }
 
-.social div.footer-box a:hover .fab ,  .social div.footer-box a:hover .fas {
+.social div.footer-box a:hover .fab ,  .social div.footer-box a:hover .fas, .news ._Info .sharing a:hover .fab , .news ._Info .sharing a:hover .fas {
   color: #fff;
   transform: rotateY(360deg);
 }
 
-.social div.footer-box a:before {
+.social div.footer-box a:before ,.news ._Info .sharing a:before {
   content: "";
   position: absolute;
   top: 100%;
@@ -284,11 +293,11 @@ color: white;
   /* z-index: 2; */
 }
 
-.social div.footer-box a:hover:before {
+.social div.footer-box a:hover:before , .news ._Info .sharing a:hover:before {
   top: 0;
 }
 
-.social div.footer-box:nth-child(1) a:before{
+.social div.footer-box:nth-child(1) a:before ,.news ._Info .sharing a:nth-child(1):before{
   background: #3b5999;
 }
 
@@ -296,15 +305,15 @@ color: white;
   background: #e4405f;
 }
 
-.social div.footer-box:nth-child(3) a:before{
+.social div.footer-box:nth-child(3) a:before, .news ._Info .sharing a:nth-child(2):before{
   background: #55acee;
 }
 
-.social div.footer-box:nth-child(5) a:before{
+.social div.footer-box:nth-child(5) a:before ,.news ._Info .sharing a:nth-child(3):before{
   background: #0077b5;
 }
 
-.social div.footer-box:nth-child(6) a:before{
+.social div.footer-box:nth-child(6) a:before , .news ._Info .sharing a:nth-child(4):before{
   background: silver;
 }
 

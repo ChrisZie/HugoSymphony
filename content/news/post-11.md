@@ -4,7 +4,7 @@ date: 2019-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "https://source.unsplash.com/350x225/?fruits"
+image: "https://source.unsplash.com/1500x1000/?fruits"
 
 # meta description
 description: "this is meta description"
@@ -150,20 +150,3 @@ Colons can be used to align columns.
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-<hr>
-
-##### Image
-
-![image](../../images/post/post-1.jpg)
-
-<hr>
-
-##### Youtube video
-
-{{< youtube C0DPdy98e4c >}}

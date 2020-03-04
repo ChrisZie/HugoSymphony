@@ -239,7 +239,26 @@ a, a:hover, a:focus {
 	}
 }
 
+g.parallax :nth-child(1) {
+  fill:rgba(133, 179, 209,0.7);
+}
+g.parallax :nth-child(2) {
+  fill:rgba(179, 199, 214,0.5);
+}
+g.parallax :nth-child(3) {
+  fill:rgba(135, 206, 235,0.3);
+}
+g.parallax :last-child {
+  fill:#1164b4;
+}
 
+#footer {
+  background:  linear-gradient(135deg,#1164b4,#1164b4);
+  color:white!important;
+}
+.quote blockquote:before {
+  background: #1164b4;
+}
   
 }
 
@@ -262,9 +281,15 @@ a, a:hover, a:focus {
 .EntryCover ._Info {
   margin-left: auto;
   margin-right: auto;
-  max-width: 950px;
+  max-width: 70%;
   padding-left: 14px;
   padding-right: 14px
+}
+
+@media (max-width:992px) {
+  .EntryCover ._Info {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (min-width:376px) {
@@ -308,7 +333,7 @@ a, a:hover, a:focus {
   min-height: 420px
 }
 
-.EntryCover.-narrow ._Title, .EntryCover.-narrow ._Supertitle, .news .post-meta {
+.EntryCover.-narrow ._Title, .EntryCover.-narrow ._Supertitle, .news ._Info .post-meta , .news ._Info .sharing{
   max-width: 660px;
   margin-left: auto;
   margin-right: auto;
@@ -329,4 +354,37 @@ a, a:hover, a:focus {
   text-decoration: none;
   margin-bottom: 20px;
   margin-top: 10px
+}
+
+
+.news ._Info .sharing.mini a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+
+
+.news-single-post {
+  @media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+  }
+  @media (min-width: 1300px) {
+    .container {
+        max-width: 1240px;
+    }
+  }
 }

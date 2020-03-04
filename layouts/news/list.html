@@ -6,7 +6,7 @@
 {{ end }}
 
 {{ define "HTMLStyle" }}
-<html style="background: white;"></html>
+<html style="background: white!important; background-color: white!important;"></html>
 {{ end }}
 
 {{ define "main" }}
@@ -55,7 +55,7 @@
 <section class="section py-5">
   <div class="container">
     <div class="row">
-      {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+      {{ range last 3 (where .Site.RegularPages "Params.series" "special")}}
       <div class="col-lg-4 small-post-border">
         <article class="media">
           {{ if .Params.Image }}

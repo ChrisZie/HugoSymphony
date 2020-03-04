@@ -33,16 +33,20 @@ quizcards:
         graphcaption: facebook
   - titlefront: fundraissing
     textfront: who that's bing
+    bgimagefront: https://source.unsplash.com/-So60UAgCtU/600x400
     titleback: that's the bong
     textback: Second wo wow wow wo beasbklg  wowo wo w owo 
+    bgimageback: https://source.unsplash.com/FrKFguVIVvg/600x500
     graphtype: 2
     data:
       - number: 80
         graphcaption: facebook
   - titlefront: 4444444
     textfront: who that's Second
+    bgimagefront: https://source.unsplash.com/XH_uke3iW1A/600x600
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
+    bgimageback: https://source.unsplash.com/yk8CwIk68pw/800x600
     graphtype: 2
     data:
       - number: 95

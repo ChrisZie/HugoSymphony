@@ -239,7 +239,26 @@ a, a:hover, a:focus {
 	}
 }
 
+g.parallax :nth-child(1) {
+  fill:rgba(133, 179, 209,0.7);
+}
+g.parallax :nth-child(2) {
+  fill:rgba(179, 199, 214,0.5);
+}
+g.parallax :nth-child(3) {
+  fill:rgba(135, 206, 235,0.3);
+}
+g.parallax :last-child {
+  fill:#1164b4;
+}
 
+#footer {
+  background:  linear-gradient(135deg,#1164b4,#1164b4);
+  color:white!important;
+}
+.quote blockquote:before {
+  background: #1164b4;
+}
   
 }
 

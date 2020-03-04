@@ -45,13 +45,13 @@ process:
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Start
-    description: We meet with your team to understand exactly what you are looking for and plan how you get to that result from where you are right now.
+    description: We meet with your team to understand exactly what your website functionality and design requirements are and plan how we get you to that goal from where you are right now.
     description2: Deliverable - Assessment Summary
   - name: Discovery
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
     imagealttext: Discovery
     subtext: Market Research and Plan
-    description: We research your biggest local (and even global) competitors and understand what is working for them that we can make work for you instead.
+    description: We research your biggest local (and even global) competitors and understand what website functionality and design elements are working best for them. Then we plan how to make those elements work even better for you.
     description2: Deliverable - Market Research Summary
   - name: Design
     image: https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg

@@ -18,7 +18,7 @@ service_item:
     bar: 2
     question2: of vistors will NEVER return to your website after a SINGLE bad experience?
     answer: 'How good is your website?<br>
-    Big Governments and Businesses pay billions yearly on improving User Experience. This MUST be a priority.<br>
+    Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
     We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
 
   - name: Digital Marketing
@@ -31,7 +31,7 @@ service_item:
     bar: 1
     question2: invested by Marketers this year in Social Media advertising, more than all other marketing options?
     answer: 'How much did you invest?<br>
-    Most visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br>
+    Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
     We will create fantastic profiles and will guide you on where, when, what, and how to post to get exactly what you need.'
  
   - name: Volunteer Mobilization
@@ -42,10 +42,10 @@ service_item:
     graph: 1
     data: 6.9 Billion
     bar: 2
-    question2: hours were put in by volunteers in one country just last year alone?
+    question2: hours were put in by volunteers from just the USA last year alone?
     answer: 'How many hours did you get?<br>
-    It is a fact that the skills and value that volunteers provide are immense, not to mention all the actual physical labour they put in.<br>
-    We design programs that attract volunteers, train them, manage them, and, best of all, keep them coming back.'
+    The skills and time volunteers provide are invaluable, not to mention all the diversity and insight they can provide.<br><br>
+    We design volunteer programs that attract them, train them, coordinate them, and, best of all, keep them coming back.'
  
   - name: Fundraising Growth
     icon: "images/responsive.svg"
@@ -60,11 +60,9 @@ service_item:
         bar: 2
       - fact: Corporate Sponsorships
         bar: 3
-      - fact: Selling Goods & Services
-        bar: 4
     question2: 70% of donations are made by individuals donors and they were attracted by good marketing? 
     answer: 'How many donors know you?<br>
-    Donations support causes around the world. Donations are given every moment so aim to bring donors to your cause.<br>
+    Donations support causes around the world. Donations are given every moment so aim to bring donors to your cause.<br><br>
     We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
 ---
 

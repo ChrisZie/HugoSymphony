@@ -33,10 +33,10 @@ quizcards:
 
   - titlefront: MOBILE USABILITY
     textfront: Do You Know How Often A Hacker Targets A Small Business or Government?
-    bgimagefront: https://source.unsplash.com/wQwNYkBRRIQ/1000x600
+    bgimagefront: https://cdn.pixabay.com/photo/2017/08/09/18/23/underwater-2615376_1280.jpg
     titleback: Every 39 Seconds
     textback: That's almost two sites per minute! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when build websites. Vistors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites. Our technical construction is completely different and our focus is security, guaranteeing that you are far less likely to become a victim.
-    bgimageback: https://source.unsplash.com/Sebx85GlnUQ/1000x600
+    bgimageback: https://source.unsplash.com/Abj_zUko6Mg/600x300
 
 process:
   - name: Kick-Off

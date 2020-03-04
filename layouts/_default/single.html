@@ -12,7 +12,7 @@
 {{ define "BodyStyle" }}whitebackground{{ end }}
 
 {{ define "main" }}
-<main class="news">
+<main class="news news-single-post">
 <div class="_Cover__">
   <div class="EntryCover -narrow -full -sharing--full" min-width="769px 1281px" min-height="451px">
     <div class="Cover -align--center" style="background-image:url('{{ .Params.Image | absURL }}');background-position:67.5% 9.953343701399689%;">
@@ -34,34 +34,31 @@
           {{ end }}
           <span class="subspan">{{ .ReadingTime }} min read</span>
         </div>
+        {{ $url := printf "%s" .Permalink | absLangURL }}
+        {{ $body := print .Title  ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
+        <div class="sharing mini" style="display: flex;">
+          <a href="https://www.facebook.com/sharer.php?u={{ $url }}" class="" aria-label="share on Facebook" target=”_blank”>
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="http://twitter.com/share?url={{ $url }}&text={{ .Title  }}&via=SymphonyEco&hashtags=SymphonyECO" class="" aria-label="share on Twitter" target=”_blank”>
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url }}&title={{ .Title }}&source=SymphonyECO" class="" aria-label="share on Linkedin" target=”_blank”>
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:?subject=Check%20out%20{{ .Title  }}.&body={{ $body }}" class="twitter" aria-label="share on Email" target=”_blank”>
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 
-<section class="section-sm">
+<section class="section p-0">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
-        {{ partial "share-buttons.html" . }}
-        {{ $title := .Title }}
-        {{ $url := printf "%s" .Permalink | absLangURL }}
-        {{ $body := print $title ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
-        <div id="sharing">
-          <a href="http://www.facebook.com/sharer.php?u={{ $url }}" class="facebook" aria-label="share on Facebook">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-
-          <a href="http://twitter.com/share?url={{ $url }}&text={{ $title }}&via=SymphonyEco" class="twitter" aria-label="share on Twitter">
-            <i class="fab fa-twitter"></i>
-          </a>
-
-          <a href="mailto:?subject=Check%20out%20{{ $title }}.&body={{ $body }}" class="twitter" aria-label="share on Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </div>
-      </div>
       <div class="col-lg-8 mx-auto">
         <div class="content mb-5">
           {{ .Content }}
@@ -72,6 +69,119 @@
     </div>
   </div>
 </section>
+<section id="other" class="p-0 pb-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="content">
+          <div class="widget text-left mb-0" style="display: flex;float: left;">
+            {{- if isset .Site.Taxonomies "tags" }}
+            {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
+            <ul class="list-inline">
+              {{- range $name, $items := .Site.Taxonomies.tags }}
+              <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+                  href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+              {{- end }}
+            </ul>
+            {{- end }}
+            {{- end }}
+          </div>
+          <div class="_Info">
+            {{ $url := printf "%s" .Permalink | absLangURL }}
+            {{ $body := print .Title  ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
+            <div class="sharing mini" style="display: flex;float: right;">
+              <a href="https://www.facebook.com/sharer.php?u={{ $url }}" class="" aria-label="share on Facebook" target=”_blank”>
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="http://twitter.com/share?url={{ $url }}&text={{ .Title  }}&via=SymphonyEco&hashtags=SymphonyECO" class="" aria-label="share on Twitter" target=”_blank”>
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url }}&title={{ .Title }}&source=SymphonyECO" class="" aria-label="share on Linkedin" target=”_blank”>
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:?subject=Check%20out%20{{ .Title  }}.&body={{ $body }}" class="twitter" aria-label="share on Email" target=”_blank”>
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<section id="author" class="p-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto" style="border-top: 1px solid rgba(0, 0, 0, 0.1);">
+        <div class="row no-gutters align-items-center">
+          <div class="col-2 col-md-1 py-5" >
+            {{ range first 1 (where .Site.Pages "Type" "about")}}
+            {{ if .Params.Image }}
+            <a href="{{ .Permalink }}">
+            <img src="{{ .Params.Image | absURL }}" class="card-img recent-post-thumb" alt="{{ .Title | markdownify }}">
+            </a>
+            {{ end }}
+          </div>
+          <div class="col-8 col-md-7 pl-5">
+            <div class="card-body">
+              <a href="{{ .Permalink }}">
+                <span class="subspan">Written by</span>
+                <h3 class="h1 font-weight-bold d-block text-dark mb-2 card-title">{{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}</h1>
+              <p class="card-text">{{ .Summary }} kljvd lyh djxh  f yg kdfygh dyhg y</p> 
+            </a>
+            </div>
+          </div> 
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- recent post from same categorie -->
+<section class="">
+  <div class="container pt-sm-5 pb-2">
+    <div class="row pt-4"  style="border-top: 1px solid rgba(0, 0, 0, 0.1);">
+      {{ range last 3 (where .Site.RegularPages "Type" "post")}}
+      <div class="col-lg-4" >
+          <article class="card p-2" style="background: white;height: 100%;">
+              {{ if .Params.Image }}
+              <a href="{{ .Permalink }}">
+              <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+              </a>
+              {{ end }}
+              <div class="card-body px-0">
+                {{ range .Params.Categories }}
+                <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
+                  class="text-primary">{{ . | title | humanize }}</a>
+                {{ end }}
+                <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}
+                <p class="card-text">{{ .Summary }}</p> </a>
+                <div class="mb-3 post-meta">
+                  <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
+                  {{ if not .Params.HideDate }}
+                  <span class="subspan">{{ .PublishDate.Format "Jan 02, 2006" }} </span> <!-- "02 January 2006" -->
+                  <span class="middotDivider"></span>
+                  {{ end }}
+                  <span class="subspan">{{ .ReadingTime }} min read</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          {{ end }}
+      </div>
+  </div>
+</section>
+<!-- /recent post -->
+
 </main>
 {{ end }}
+
+
+
 

@@ -5,7 +5,7 @@ draft: true
 nextpage: fundraising
 beforepage: marketing 
 slides :
-  - caption  : volunteer
+  - caption  : volunteerism
     description: >
       Social Media IS marketing in the world today. With almost all internet users in the world on Social Media, you absolutely must attract them, keep them, and convert them into visitors, volunteers, and donors to have any success at all.
 

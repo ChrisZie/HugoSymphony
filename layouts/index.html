@@ -140,7 +140,7 @@
       <div class="row">
         {{ range last 3 (where .Site.RegularPages "Type" "post")}}
         <div class="col-lg-4" >
-            <article class="card p-2" style="background: white;">
+            <article class="card p-2" style="background: white;height: 100%;">
                 {{ if .Params.Image }}
                 <a href="{{ .Permalink }}">
                 <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">

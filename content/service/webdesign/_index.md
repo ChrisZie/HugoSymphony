@@ -2,6 +2,8 @@
 title: "Web Design"
 date: 2020-02-10T14:37:47+08:00
 draft: true
+nextpage: marketing
+beforepage: fundraising
 slides :
   - caption  : WEB DESIGN
     description: >

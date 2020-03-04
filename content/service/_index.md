@@ -36,7 +36,7 @@ service_item:
  
   - name: Volunteer Mobilization
     icon: "images/responsive.svg"
-    serviceDetailLink: volunteer
+    serviceDetailLink: volunteerism
     color: yellow
     question1: Did you know that
     graph: 1

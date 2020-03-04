@@ -1,4 +1,7 @@
 {{ define "extrahead" }}
+{{ $sassTemplate := resources.Get "style/arrowLink.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/arrowLink.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
@@ -23,11 +26,23 @@
 {{ end }}
 
 {{ define "main" }}
+
 <!-- TextSlider 3 -->
 <section class="px-0 py-5 px-lg-5">
   <div class="container">
       <div class="row justify-content-center"> 
-          <div class="col-10  col-sm-10  col-lg-10 col-xl-8  align-self-center motivationText">
+        <div class="col-2">
+          <div  id="arrowLink">
+            {{ $linkbeforepage :=  (printf "%s%s" "service/" .Params.beforepage )   }}
+            <a href="{{  $linkbeforepage | absURL }}" class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">{{.Params.beforepage}}</span>
+            </a>
+          </div>
+        </div>
+          <div class="col-8  col-sm-8  col-lg-8 col-xl-8  align-self-center motivationText">
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
               <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                       <h2>{{ (index .Params.slides 0).caption | safeHTML}}</h2>
@@ -37,6 +52,17 @@
                       <p>{{ (index .Params.slides 0).description | safeHTML}}
           </p>         
               </div>
+          </div>
+          <div class="col-2">
+            <div  id="arrowLink">
+              {{ $linknextpage :=  (printf "%s%s" "service/" .Params.nextpage )   }}
+              <a href="{{  $linknextpage | absURL }}" class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">{{.Params.nextpage}}</span>
+              </a>
+            </div>
           </div>
       </div>
   </div>
@@ -89,31 +115,35 @@
 <!-- recent post -->
 <section class="news ">
   <div class="container py-5" >
-      <H2 class="text-center pb-5">Our recent posts</H2>
     <div class="row">
-        
-      {{ range last 3 (where .Site.RegularPages "Type" "post")}}
+      
+      {{ range last 3 (where .Site.Pages ".Params.tags" "intersect" .Params.tags)}}
       <div class="col-lg-4">
-          <article class="media p-3" style="background: white;">
-              {{ if .Params.Image }}
-              <a href="{{ .Permalink }}">
-              <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
-              </a>
-              {{ end }}
-              <div class="media-body">
-              <a href="{{ .Permalink }}" class="h5 d-block mb-3">{{ .Title | markdownify }}</a>
-              <div class="mb-3 post-meta">
-                  <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
-                  {{ if not .Params.HideDate }}
-                  <span class="subspan">{{ .PublishDate.Format "Jan 02, 2006" }} </span> <!-- "02 January 2006" -->
-                  <span class="middotDivider"></span>
-                  {{ end }}
-                  <span class="subspan">{{ .ReadingTime }} min read</span>
-              </div>
-              </div>
-          </article>
-          </div>
+        <article class="card p-2" style="background: white;">
+          {{ if .Params.Image }}
+          <a href="{{ .Permalink }}">
+          <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+          </a>
           {{ end }}
+          <div class="card-body px-0">
+            {{ range .Params.Categories }}
+            <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
+              class="text-primary">{{ . | title | humanize }}</a>
+            {{ end }}
+            <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}
+            <p class="card-text">{{ .Summary }}</p> </a>
+            <div class="mb-3 post-meta">
+              <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
+              {{ if not .Params.HideDate }}
+              <span class="subspan">{{ .PublishDate.Format "Jan 02, 2006" }} </span> <!-- "02 January 2006" -->
+              <span class="middotDivider"></span>
+              {{ end }}
+              <span class="subspan">{{ .ReadingTime }} min read</span>
+              </div>
+            </div>
+        </article>
+      </div>
+      {{ end }}
       </div>
   </div>
 </section>

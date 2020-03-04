@@ -14,6 +14,7 @@ categories:
   - "Go Language"
 tags:
   - "Photos"
+  - "webdesign"
   - "Game"
   - "HTML"
   - "Python"

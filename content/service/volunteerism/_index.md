@@ -7,74 +7,74 @@ beforepage: marketing
 slides :
   - caption  : volunteerism
     description: >
-      Social Media IS marketing in the world today. With almost all internet users in the world on Social Media, you absolutely must attract them, keep them, and convert them into visitors, volunteers, and donors to have any success at all.
+      You have no task more important than getting and keeping passionate volunteers. The value they provide is priceless. They offer time and passion, are often your biggest donors and, via word-of-mouth, are your biggest marketers too.
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: ATTAIN
-    textfront: Do You Know How Many Facebook Followers The Average Business Has?
+    textfront: Do You Know How Many Volunteers Search Only Online For Opportunities Around The World?
     bgimagefront: https://source.unsplash.com/wn0-np3NQq8/1200x600
-    titleback: 52%
-    textback: Over half of all users! And this number is growing FAST. But even though over half of all users use only their phones, almost no websites are built for phones and most actually perform SIGNIFICANTLY worse on a phone. <br><br>We tailor each word, image, layout, and code on your website to perform as amazingly on a phone as on a PC. Google looks at how your website performs on BOTH Mobile and Desktop when it decides who to list on their search engine so we optimize every design element to increase visibility greatly.
+    titleback: 67%
+    textback: Over two-thirds of all volunteers! And this trend is growing daily. Most volunteers will search for opportunities only on established Volunteer Portals or on Social Media and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. The result will be that you receive the maximum number of applicants you could want.
     bgimageback: https://source.unsplash.com/5a2oypQA4P8/1200x600
 
   - titlefront: TRAIN
-    textfront: Do You Know How Long A User Takes To Judge Whether They Will Stay On Your Website Or Go To Another?
+    textfront: Do You Know Many Volunteers Prefer Completing All Required Training Online?
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600
-    titleback: 0.05 Seconds
-    textback: Half a second! That's all you have to convince a user to stay and learn about who you are and what you do. If half a second is all you have to make a difference, make it count.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
+    titleback: 73%
+    textback: Almost 3 out of every 4 volunteers! Volunteers absolutely must go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training presentations that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
     bgimageback: https://source.unsplash.com/WAgBaYHRaL4/1200x600
 
   - titlefront: MAINTAIN
-    textfront: Do You Know How Many Users You Lose When Your Website Takes Longer Than 3 Seconds to Load?
+    textfront: Do You Know How Many Volunteers Prefer Communication, Coordination, And Organization To Be Done Online?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
-    titleback: 20-30% Per Second
-    textback: Each second costs you a QUARTER of your audience! Imagine how much more impact you could have with 75% more visitors, donors, and volunteers than you have right now.<br><br>All our designs fully consider performance, with images, colours, and content all tuned for maximum speed. Google rates template sites from Wix and WordPress a "C" grade or lower due to their awfully slow performance, making them less likely to appear during a search. Our sites have an "A" grade, vastly increasing your visibility.
+    titleback: 85%
+    textback: Almost all volunteers! Volunteers have cleary stated that organizing online makes communication easier and helps them save time, while organizations have stated that it helps get more volunteers to events and helps save money.<br><br>We are fully aware of what volunteers absolutely want to know so that they have no complications during their service. We work with your team to learn all key local information, creating excellent guides that your team can use to coordinate volunteers before and during their service.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
   - titlefront: RETAIN
-    textfront: Do You Know How Often A Hacker Targets A Small Business or Government?
-    bgimagefront: https://source.unsplash.com/fPlfqGzxXqA/1200x600
-    titleback: Every 39 Seconds
-    textback: That's almost two sites per minute! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when build websites. Vistors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites. Our technical construction is completely different and our focus is security, guaranteeing that you are far less likely to become a victim.
-    bgimageback: https://source.unsplash.com/NsvzdXtvyio/1200x600
+    textfront: Do You Know How Many Volunteers Usually Do Not Return Due To A Lack Of Adequate Follow-Ups?
+    bgimagefront: https://source.unsplash.com/uanoYn1AmPs/1200x600
+    titleback: 33%
+    textback: 1 out of every 3 volunteers! Simply due to bad or, even worse, no follow-up communication to thank the volunteer, ask them for feedback, and generally keep them engaged.<br><br>Retaining volunteers is what we prioritize most, for good reason. Returning volunteers provide incredible cost-savings, making this a key task for any organization. We provide you with guidelines and templates that your team will use to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until they return to help again.
+    bgimageback: https://source.unsplash.com/pCMsbkittX8/1200x600
 
 process:
   - name: Initiation
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Start
-    description: We meet with your team to understand exactly what you are looking for and plan how you get to that result from where you are right now.
+    description: We meet with your team to understand exactly what your volunteerism requirements are and plan how we get you to that goal from where you are right now.
     description2: Deliverable - Assessment Summary
   - name: Discovery
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
     imagealttext: Discovery
     subtext: Market Research and Plan
-    description: We research your biggest local (and even global) competitors and understand what is working for them that we can make work for you instead.
+    description: We research your biggest local (and even global) competitors and understand what volunteer recruitment, training, coordination, and retention strategies are working for them. Then we plan how to make those strategies work even better for you.
     description2: Deliverable - Market Research Summary
   - name: Design
     image: https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg
     imagealttext: Design
-    subtext: Perfecting Style and Speed
-    description: We meet with your team to capture the most desired design elements you may already have or want to have. We then present the initial design options, with two equally superb options for you to choose from. With the chosen option, we begin developing the final product, working closely with your team on content and branding.
-    description2: Deliverable - Finalized Design
+    subtext: Perfecting Analysis and Approach 
+    description: We meet with your team to capture the most desired volunteerism strategies you already have or want to have. We then present the initial strategic outlines, capturing all key tips, tools, and techniques. Once you agree to the approach, we work closely with your team to finalize the overall strategic design.
+    description2: Deliverable - Volunteerism Strategic Design
   - name: Implementation
     image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
     imagealttext: Registration
-    subtext: Naming and Hosting
-    description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transer all your data from any existing websites or services to the new service.
-    description2: Deliverable - Domain and Hosting Summary
+    subtext: Registration and Profiles
+    description: We create accounts and profiles for your organization on all the major volunteer recruitment portals. We also review and edit your existing Social Media accounts to ensure that all volunteer requirements are captured and updated regularly.
+    description2: Deliverable - Recruitment Accounts and Completed Profiles
   - name: Final Delivery
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
     imagealttext: Final Delivery
-    subtext: Website Presentation and Review
-    description: We deliver the Final Product, walking you and your team through all of the design choices, from colour to content. We integrate any changes you may wish to have and complete all remaining technical tasks.
+    subtext: Finalized Volunteerism Strategies
+    description: We deliver all of the Recruitment Tools, Training Guides, Coordination Systems, and Retention Communication Templates, walking you and your team through all of the strategic decisions. We integrate any changes you may wish to see and finalize all remaining technical tasks.
     description2: Deliverable - Final Website
   - name: Hand-Over
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the website stays online after we hand it over. That will not be the end though as we will provide you with ongoing support and will assist with any moderate content changes that may come up in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure your Recruitment and Social Media profiles stay current after we hand them over. That will not be the end though as we will provide you with ongoing support and will assist with any questions or guidance you may seek in the future.
     description2: Deliverable - User Guides
 ---

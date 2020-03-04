@@ -6,7 +6,8 @@
     {{ $sassTemplate := resources.Get "style/custom.scss" }}
     {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/custom.scss" . | resources.ToCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-	</head>
+    </head>
+    <body class="h-100 w-100 blue-gradient-bg navStyle {{ block "BodyStyle" . }}{{ end }}">
       {{ partial "hamburger-menu.html" . }}
       {{ block "main" . }}{{ end }}
       {{ partial "global-menu.html" . }}

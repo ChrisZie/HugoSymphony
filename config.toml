@@ -24,7 +24,7 @@ paginate = 6
         url     = "news"
         weight  = 4
     [[menu.nav]]
-        name    = "Let's Go!"
+        name    = "Let's Chat!"
         url     = "contact"
         weight  = 5
 

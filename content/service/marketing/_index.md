@@ -41,12 +41,12 @@ quizcards:
     bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
 
 process:
-  - name: Initiation
+  - name: Start
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
-    subtext: Project Sign-Off and Start
-    description: We meet with your team to understand exactly what you are looking for and plan how you get to that result from where you are right now.
-    description2: Deliverable - Assessment Summary
+    subtext: Project Sign-Off and Initiation
+    description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to understand exactly what your website functionality and design goals are and plan how we get you to those goals from where you are right now.
+    description2: Deliverable - Project Charter
   - name: Discovery
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
     imagealttext: Discovery

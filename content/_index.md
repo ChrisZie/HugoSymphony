@@ -26,10 +26,10 @@ service_item:
     graph: 1
     data: 80% 
     bar: 2
-    question2: of vistors to your website will just leave if your website is not secure or takes longer than 3 seconds to load?
-    answer: 'Beautiful, fast, and secure websites guarantee that you are not forgotten. 
-    <br><br>We design websites that optimize user experience,
-    increasing your ranking on Google, and vastly growing your number of visitors, donors, and volunteers.'
+    question2: of vistors to your website will **just** **leave** if your website is not secure or takes longer than 3 seconds to load?
+    answer: 'Beautiful. Fast. Secure. These 3 things guarantee that you and your goals are never forgotten. 
+    <br><br>Our designs focus on one thing only: User Experience. **That** is how you
+    raise your ranking on Google, getting you all the visitors, donors, and volunteers you could ever need.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"
@@ -44,23 +44,22 @@ service_item:
         bar: 2
       - fact: Instagram
         bar: 3
-    question2: almost all internet users are on Social Media, using it to donate, volunteer, and plan where to travel?
-    answer: 'A strong Social Media presence is critical to your impact by engaging visitors,
-    donors, and volunteers.<br><br>We design globally visible Social Media accounts on all major 
-    platforms that quickly grow and convert your followers into visitors, donors, and volunteers.'
+    question2: __almost__ __all__ internet users are on Social Media, using it to donate, volunteer, and plan where to travel?
+    answer: 'To the world, your Social Media profile **is** who you are and what you do. Use it well.<br><br>We design Social Media profiles on all 
+    platforms that quickly grow your followers and convert them into your greatest supporters as visitors, volunteers, and donors.'
  
-  - name: Volunteer Mobilization
+  - name: Volunteerism
     icon: "images/responsive.svg"
-    serviceDetailLink: volunteer
+    serviceDetailLink: volunteerism
     color: yellow
     question1: Did you know that you are
     graph: 1
     data: 78%
     bar: 2
-    question2: more likely to receive donations from volunteers than non-volunteers?
-    answer: 'Volunteers are the single most important resource to the success of your organization. 
-    <br><br>We design and deploy world-class volunteer management tools and training programs so that you attain,
-    train, maintain, and retain all the volunteers you need.'
+    question2: __more__ __likely__ to receive donations from volunteers than non-volunteers?
+    answer: 'It is fact that volunteers are the **most** important resource for the success of your cause. 
+    <br><br>We design and deploy world-class tools and training programs that guarantee that you attain,
+    train, maintain, and retain all the best and brightest volunteers.'
  
   - name: Fundraising Growth
     icon: "images/responsive.svg"
@@ -70,9 +69,9 @@ service_item:
     graph: 1
     data: $235 Billion
     bar: 1
-    question2: or 55% of ALL donations are made online, via Social Media and websites, more than all other methods combined?
-    answer: 'Your impact is directly tied to your revenue which is directly tied to your fundraising. 
-    <br><br>We design and deploy superb online fundraising campaigns that reach global donors and investors, 
-    providing you with significant and dependable income.'
+    question2: or 55% of **all** **donations** you can get are made online, mainly through Social Media and your website?
+    answer: 'You know as well as we do that how much change you make is **directly** tied to your funding. 
+    <br><br>We create fantastic online fundraising campaigns that reach donors and investors all over the world, 
+    providing you with income that lets you make the change you need.'
 ---
 

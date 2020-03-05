@@ -1,8 +1,8 @@
 <div class='row ui justify-content-center'>
-  <div class="col-12">
-    <div class="row align-items-start justify-content-center">
+  <div class="col-12 px-0">
+    <div class="serviceCard row align-items-start justify-content-center">
       {{ range .Params.service_item }}
-        <div class='col-12 col-md-6 col-lg-6 col-xl-3 px-2' >
+        <div class='col-12 col-md-6 col-lg-6 col-xl-3 px-0' >
           <div class='ui_box white'>
           {{ $link :=  (printf "%s%s" "service/" .serviceDetailLink )   }}
           <div class='ui_box__inner'>
@@ -14,24 +14,16 @@
             <div class='stat_left'>
               <ul>
                 {{ if isset .data_left 0 }}
-                <li>
-                  {{ (index .data_left 0).fact }}
-                </li>
+                <li>{{ (index .data_left 0).fact }}</li>
                 {{ end }}
                 {{ if isset .data_left 1 }}
-                <li>
-                  {{ (index .data_left 1).fact }}
-                </li>
+                <li>{{ (index .data_left 1).fact }}</li>
                 {{ end }}
                 {{ if isset .data_left 2 }}
-                <li>
-                  {{ (index .data_left 2).fact }}
-                </li>
+                <li>{{ (index .data_left 2).fact }}</li>
                 {{ end }}
                 {{ if isset .data_left 3 }}
-                <li>
-                  {{ (index .data_left 3).fact }}
-                </li>
+                <li>{{ (index .data_left 3).fact }}</li>
                 {{ end }}
               </ul>
             </div>

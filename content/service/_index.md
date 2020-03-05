@@ -33,6 +33,19 @@ service_item:
     answer: 'How much did you invest?<br>
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
     We will create fantastic profiles and will guide you on where, when, what, and how to post to get exactly what you need.'
+
+  - name: Operations
+    icon: "images/money.svg"
+    serviceDetailLink: Operations
+    color: blue
+    question1: Did you know that
+    graph: 1
+    data: 88%
+    bar: 2
+    question2: of vistors will NEVER return to your website after a SINGLE bad experience?
+    answer: 'How good is your website?<br>
+    Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
+    We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
  
   - name: Volunteer Mobilization
     icon: "images/responsive.svg"

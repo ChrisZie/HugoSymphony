@@ -29,7 +29,7 @@ service_item:
     question2: of vistors to your website will **just** **leave** if your website is not secure or takes longer than 3 seconds to load?
     answer: 'Beautiful. Fast. Secure. These 3 things guarantee that you and your goals are never forgotten. 
     <br><br>Our designs focus on one thing only: User Experience. **That** is how you
-    raise your ranking on Google, getting you all the visitors, donors, and volunteers you could ever need.'
+    raise your ranking on Google, getting you all the visitors, donors, and volunteers you need.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"
@@ -69,11 +69,11 @@ service_item:
     icon: "images/responsive.svg"
     serviceDetailLink: volunteerism
     color: yellow
-    question1: Did you know that you are
+    question1: Did you know that is a
     graph: 1
     data: 78%
     bar: 2
-    question2: __more__ __likely__ to receive donations from volunteers than non-volunteers?
+    question2: __more__ __likely__ chance to receive donations from volunteers than non-volunteers?
     answer: 'It is fact that volunteers are the **most** important resource for the success of your cause. 
     <br><br>We design and deploy world-class tools and training programs that guarantee that you attain,
     train, maintain, and retain all the best and brightest volunteers.'
@@ -87,8 +87,8 @@ service_item:
     data: $235 Billion
     bar: 1
     question2: or 55% of **all** **donations** you can get are made online, mainly through Social Media and your website?
-    answer: 'You know as well as we do that how much change you make is **directly** tied to your funding. 
+    answer: 'You know as well as we do that how much change you make is **directly** tied to funding. 
     <br><br>We create fantastic online fundraising campaigns that reach donors and investors all over the world, 
-    providing you with income that lets you make the change you need.'
+    providing you with income that lets you make your impact.'
 ---
 

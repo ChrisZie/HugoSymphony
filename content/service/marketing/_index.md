@@ -24,7 +24,7 @@ quizcards:
     bgimagefront: https://source.unsplash.com/DWXR-nAbxCk/1200x600
     titleback: 0.05 Seconds
     textback: Half a second! That's all you have to convince a user to stay and learn about who you are and what you do. If half a second is all you have to make a difference, make it count.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
-    bgimageback: https://source.unsplash.com/xRKcHoCOA4Y/1200x600
+    bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
 
   - titlefront: CONVERSION
     textfront: Do You Know How Many Users You Lose When Your Website Takes Longer Than 3 Seconds to Load?

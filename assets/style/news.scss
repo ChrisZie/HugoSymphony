@@ -204,7 +204,13 @@ a, a:hover, a:focus {
 
 .card-img-top {
   width: 100%;
-  height: unset;
+  max-height: 390px;
+  object-fit: cover;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 25.5rem;
 }
 
 

@@ -17,7 +17,7 @@ tags:
   - "Game"
   - "HTML"
   - "Python"
-  - "New"
+  - "Web Design"
 
 # post type
 type: "post"

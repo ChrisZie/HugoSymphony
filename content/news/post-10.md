@@ -17,7 +17,6 @@ tags:
   - "Game"
   - "HTML"
   - "Python"
-  - "New"
 
 # post type
 type: "post"

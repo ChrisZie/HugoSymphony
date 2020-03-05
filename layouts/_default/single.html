@@ -75,12 +75,12 @@
       <div class="col-lg-8 mx-auto">
         <div class="content">
           <div class="widget text-left mb-0" style="display: flex;float: left;">
-            {{- if isset .Site.Taxonomies "tags" }}
-            {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
+            {{- if isset .Params "tags" }}
+            {{- if not (eq (len .Params.tags) 0) }}
             <ul class="list-inline">
-              {{- range $name, $items := .Site.Taxonomies.tags }}
+              {{- range $name, $items := .Params.tags }}
               <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-                  href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+                  href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}">{{ . | humanize }}</a></li>
               {{- end }}
             </ul>
             {{- end }}
@@ -122,7 +122,7 @@
             {{ range first 1 (where .Site.Pages "Type" "about")}}
             {{ if .Params.Image }}
             <a href="{{ .Permalink }}">
-            <img src="{{ .Params.Image | absURL }}" class="card-img recent-post-thumb" alt="{{ .Title | markdownify }}">
+            <img src="{{ .Params.Image | absURL }}" class="card-img-top recent-post-thumb" alt="{{ .Title | markdownify }}" style="width: 100px;">
             </a>
             {{ end }}
           </div>
@@ -142,13 +142,12 @@
   </div>
 
 </section>
-
-<!-- recent post from same categorie -->
+<!-- recent post with same tags -->
 <section class="">
   <div class="container pt-sm-5 pb-2">
     <div class="row pt-4"  style="border-top: 1px solid rgba(0, 0, 0, 0.1);">
-      {{ range last 3 (where .Site.RegularPages "Type" "post")}}
-      <div class="col-lg-4" >
+      {{ range last 3 (where .Site.RegularPages "Params.tags" "intersect" .Params.tags)}}
+      <div class="col-lg-4 pb-3 pb-lg-0" >
           <article class="card p-2" style="background: white;height: 100%;">
               {{ if .Params.Image }}
               <a href="{{ .Permalink }}">

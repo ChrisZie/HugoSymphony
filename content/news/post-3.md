@@ -18,6 +18,7 @@ tags:
   - "React"
   - "Python"
   - "New"
+  - "Boom"
 
 # post type
 type: "featured"

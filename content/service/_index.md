@@ -25,18 +25,18 @@ service_item:
     icon: "images/responsive.svg"
     serviceDetailLink: marketing
     color: red
-    question1: Did you know that there will be
+    question1: Did you know that
     graph: 1
     data: $102 Billion
     bar: 1
     question2: invested by Marketers this year in Social Media advertising, more than all other marketing options?
-    answer: 'How much did you invest?<br>
+    answer: 'How good is your Marketing?<br>
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
     We will create fantastic profiles and will guide you on where, when, what, and how to post to get exactly what you need.'
 
   - name: Operations
     icon: "images/money.svg"
-    serviceDetailLink: Operations
+    serviceDetailLink: operations
     color: blue
     question1: Did you know that
     graph: 1
@@ -47,7 +47,7 @@ service_item:
     Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
     We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
  
-  - name: Volunteer Mobilization
+  - name: Volunteerism
     icon: "images/responsive.svg"
     serviceDetailLink: volunteerism
     color: yellow
@@ -56,11 +56,11 @@ service_item:
     data: 6.9 Billion
     bar: 2
     question2: hours were put in by volunteers from just the USA last year alone?
-    answer: 'How many hours did you get?<br>
+    answer: 'How many did you get?<br>
     The skills and time volunteers provide are invaluable, not to mention all the diversity and insight they can provide.<br><br>
     We design volunteer programs that attract them, train them, coordinate them, and, best of all, keep them coming back.'
  
-  - name: Fundraising Growth
+  - name: Fundraising
     icon: "images/responsive.svg"
     serviceDetailLink: fundraising
     color: yellow
@@ -74,7 +74,7 @@ service_item:
       - fact: Corporate Sponsorships
         bar: 3
     question2: 70% of donations are made by individuals donors and they were attracted by good marketing? 
-    answer: 'How many donors know you?<br>
+    answer: 'Who are your donors?<br>
     Donations support causes around the world. Donations are given every moment so aim to bring donors to your cause.<br><br>
     We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
 ---

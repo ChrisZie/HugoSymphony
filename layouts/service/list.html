@@ -112,13 +112,13 @@
   </div>
 </section>
 <!---End Process -->
-<!-- recent post   .Site.Taxonomies.tags.html-->
+<!-- recent post with specific tags from the params of the page-->
 <section class="news ">
   <div class="container py-5" >
     <div class="row"> 
-      {{ $p := slice .Params.newstag "New" }}
+      {{ $p := slice "New" .Params.newstag}}
       {{ range last 3 (where .Site.RegularPages "Params.tags" "intersect" $p)}}
-      <div class="col-lg-4">
+      <div class="col-lg-4 pb-3 pb-lg-0">
         <article class="card p-2" style="background: white;height: 100%;">
           {{ if .Params.Image }}
           <a href="{{ .Permalink }}">

@@ -545,5 +545,9 @@ color: white;
 }
 
 strong {
-  font-weight: bold;
+  font-weight: bold!important;
+}
+
+em {
+  font-style: italic!important;
 }

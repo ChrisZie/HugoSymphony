@@ -17,8 +17,8 @@
                   <div class="untitled__slide">
                       <div class="untitled__slideBg"></div>
                       <div class="untitled__slideContent">
-                          <span>{{ .Params.profile1firstname }}</span> 
-                          <span>{{ .Params.profile1lastname }}</span>
+                          <span>{{ .Params.profile1firstname | markdownify }}</span> 
+                          <span>{{ .Params.profile1lastname | markdownify }}</span>
                           <a class="button" href="{{ .Params.link1 }}" target="/black">{{ .Params.link1text }}</a>
                       </div>
                   </div>
@@ -26,24 +26,24 @@
                       <div class="untitled__slideBg"></div>
                       <div class="untitled__slideContent">
                           
-                          <span>{{ .Params.profile2firstname }}</span> 
-                          <span>{{ .Params.profile2lastname }}</span>
+                          <span>{{ .Params.profile2firstname | markdownify }}</span> 
+                          <span>{{ .Params.profile2lastname | markdownify }}</span>
                           <a class="button" href="{{ .Params.link2 }}" target="/black">{{ .Params.link2text }}</a>
                       </div>
                   </div>
                   <div class="untitled__slide">
                       <div class="untitled__slideBg"></div>
                       <div class="untitled__slideContent">
-                        <span>{{ .Params.profile1firstname }}</span> 
-                        <span>{{ .Params.profile1lastname }}</span>
+                        <span>{{ .Params.profile1firstname | markdownify }}</span> 
+                        <span>{{ .Params.profile1lastname | markdownify }}</span>
                         <a class="button" href="{{ .Params.link1 }}" target="/black">{{ .Params.link1text }}</a>
                       </div>
                   </div>
                   <div class="untitled__slide">
                       <div class="untitled__slideBg"></div>
                       <div class="untitled__slideContent">
-                        <span>{{ .Params.profile2firstname }}</span> 
-                        <span>{{ .Params.profile2lastname }}</span>
+                        <span>{{ .Params.profile2firstname | markdownify }}</span> 
+                        <span>{{ .Params.profile2lastname }| markdownify }</span>
                         <a class="button" href="{{ .Params.link2 }}" target="/black">{{ .Params.link2text }}</a>
                       </div>
                   </div>

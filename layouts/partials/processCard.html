@@ -4,7 +4,7 @@
 
   <div class="processCard">
     <div class="processCard__image-holder">
-      <img class="processCard__image" src="{{ .image | safeHTML }}" alt="{{if .imagealttext}}{{.imagealttext}}{{else}}processcard{{ end }}" />
+      <img class="processCard__image" src="{{ .image | safeHTML }}" alt="{{if .imagealttext}}{{.imagealttext | markdownify}}{{else}}processcard{{ end }}" />
     </div>
     <div class="processCard-title">
       <a href="#" class="toggle-cardInfo btnCard">
@@ -12,17 +12,17 @@
         <span class="right"></span>
       </a>
       <h2>
-        {{ $element.name | safeHTML }} 
-        <small>{{ $element.subtext | safeHTML }}</small>
+        {{ $element.name | markdownify }} 
+        <small>{{ $element.subtext | markdownify }}</small>
       </h2>
     </div>
     <div class="processCard-flap flap1">
       <div class="processCard-description">
-        {{ $element.description | safeHTML }}
+        {{ $element.description | markdownify }}
       </div>
       <div class="processCard-flap flap2">
         <div class="processCard-description">
-          {{ $element.description2 | safeHTML }}
+          {{ $element.description2 | markdownify }}
         </div>
       </div>
     </div>

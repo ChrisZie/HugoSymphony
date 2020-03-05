@@ -131,7 +131,7 @@
               <a href="{{ .Permalink }}">
                 <span class="subspan">Written by</span>
                 <h3 class="h1 font-weight-bold d-block text-dark mb-2 card-title">{{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}</h1>
-              <p class="card-text">{{ .Summary }} kljvd lyh djxh  f yg kdfygh dyhg y</p> 
+              <p class="card-text">{{ .Summary | markdownify }} kljvd lyh djxh  f yg kdfygh dyhg y</p> 
             </a>
             </div>
           </div> 

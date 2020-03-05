@@ -115,10 +115,9 @@
 <!-- recent post   .Site.Taxonomies.tags.html-->
 <section class="news ">
   <div class="container py-5" >
-    <div class="row">
-
-      
-      {{ range last 3 (where .Site.RegularPages "Params.series" "special")}}
+    <div class="row"> 
+      {{ $p := slice .Params.newstag "New" }}
+      {{ range last 3 (where .Site.RegularPages "Params.tags" "intersect" $p)}}
       <div class="col-lg-4">
         <article class="card p-2" style="background: white;height: 100%;">
           {{ if .Params.Image }}

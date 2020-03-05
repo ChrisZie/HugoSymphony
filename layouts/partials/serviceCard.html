@@ -7,7 +7,7 @@
           {{ $link :=  (printf "%s%s" "service/" .serviceDetailLink )   }}
           <div class='ui_box__inner'>
             <h2>
-              {{ .name | markdownify}}
+              {{ .name | markdownify }}
             </h2>
             <p>{{ .question1 | markdownify}}</p>
             {{ if eq .graph 2 }}
@@ -61,11 +61,11 @@
               {{ end }}
             </div>
             {{ end }}
-            <p>{{ .question2 | markdownify}}</p>
+            <p>{{ .question2 | markdownify }}</p>
           </div>
           <div class='drop' id="{{ .name }}">
             <a href="{{  $link| absURL }}">
-              <p>{{ .answer | markdownify}}
+              <p>{{ .answer | markdownify }}
               </p>
               <div class='arrow'></div>
             </a>

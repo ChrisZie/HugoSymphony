@@ -10,7 +10,7 @@ $background:#4FA584;
     box-shadow:none;
     box-shadow:0px 0px 5px 0px 2e2e2e;
     ul{
-      margin:0px 30px 10px 0px;
+      margin:0px 10px 10px 0px;
       padding:0;
       list-style-type:none;
       font-size:11px;
@@ -76,7 +76,7 @@ $background:#4FA584;
           &_graph{
             float: right;
 border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-width: 85px;
+width: 65px;
 text-align: center;
 position: relative;
 //padding-left: 20px;
@@ -217,6 +217,12 @@ float: left;
     margin-bottom:  4.5rem;;
   }
 }  
+@media (min-width: 992px)  {
+  .ui_box{
+    height: 350px;
+  }
+}
+
 
 @media (min-width: 1000px)  {
   .ui_box:hover > .drop{

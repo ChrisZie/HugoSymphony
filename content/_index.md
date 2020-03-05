@@ -47,6 +47,23 @@ service_item:
     question2: __almost__ __all__ internet users are on Social Media, using it to donate, volunteer, and plan where to travel?
     answer: 'To the world, your Social Media profile **is** who you are and what you do. Use it well.<br><br>We design Social Media profiles on all 
     platforms that quickly grow your followers and convert them into your greatest supporters as visitors, volunteers, and donors.'
+
+  - name: operations
+    icon: "images/responsive.svg"
+    serviceDetailLink: operations
+    color: red
+    question1: Did you know that
+    graph: 2 
+    data_left :
+      - fact: All Users
+        bar: 1
+      - fact: Facebook
+        bar: 2
+      - fact: Instagram
+        bar: 3
+    question2: __almost__ __all__ internet users are on Social Media, using it to donate, volunteer, and plan where to travel?
+    answer: 'To the world, your Social Media profile **is** who you are and what you do. Use it well.<br><br>We design Social Media profiles on all 
+    platforms that quickly grow your followers and convert them into your greatest supporters as visitors, volunteers, and donors.'
  
   - name: Volunteerism
     icon: "images/responsive.svg"

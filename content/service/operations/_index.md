@@ -1,11 +1,11 @@
 ---
-title: "volunteerism"
+title: "operations"
 date: 2020-02-10T14:37:47+08:00
 draft: true
-nextpage: fundraising
-beforepage: operations 
+nextpage: volunteerism
+beforepage:  marketing
 slides :
-  - caption  : volunteerism
+  - caption  : operations
     description: >
       You have no task more important than getting and keeping passionate volunteers. The value they provide is priceless. They offer time and passion, are often your biggest donors and, via word-of-mouth, are your biggest marketers too.
 

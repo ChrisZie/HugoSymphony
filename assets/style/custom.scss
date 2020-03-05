@@ -551,3 +551,12 @@ strong {
 em {
   font-style: italic!important;
 }
+
+@media (min-width: 1300px){
+  .serviceCard > div.col-xl-3 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+

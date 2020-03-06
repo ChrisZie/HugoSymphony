@@ -5,54 +5,38 @@ draft: true
 nextpage: webdesign
 beforepage: volunteerism
 slides :
-  - caption  : FUNDRAISING
+  - caption  : Fundraising
     description: >
-      To have the greatest impact, you must engage a global audience. We are here to provide 
-      you with the tools and know-how to reach the world.
-quizcards:
-  - titlefront: we are
-    textfront: who that's incredible
-    bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
-    titleback: that's the answer
-    textback: wowowow wo wow wow wo wow wowo wo w owo 
-    bgimageback: https://cdn.pixabay.com/photo/2018/02/01/12/51/mammal-3123179_1280.jpg
-    graphtype: 1
-    data:
-      - bartitle: wordpress
-        barvalue: 200
-      - bartitle: hugo
-        barvalue: 10
+      There is no bigger influence on your ability to create new projects and have a more powerful impact on your environment than funding. Knowledge on how to get funding, both online and offline, is incredibly critical to your success.<br>We can help.
 
-  - titlefront: at
+quizcards:
+  - titlefront: LOCATION
+    textfront: Do you know how many donations Organizations usually receive from outside of their own country?
+    bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
+    titleback: 45%
+    textback: Almost half of all their donations! How people give donations is changing, fast. More donors prefer to donate money online, or else volunteer in-person and donate their time instead.<br><br>As management within Governments and NGOs we learned the difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We will create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
+    bgimageback: https://cdn.pixabay.com/photo/2018/02/01/12/51/mammal-3123179_1280.jpg
+
+  - titlefront: COMMUNICATION
     textfront: who that's Second
     bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
     bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
-    graphtype: 2
-    data:
-      - number: 95
-        graphcaption: facebook
-  - titlefront: fundraissing
+
+  - titlefront: PROMOTION
     textfront: who that's bing
     bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
     titleback: that's the bong
     textback: Second wo wow wow wo beasbklg  wowo wo w owo 
     bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
-    graphtype: 2
-    data:
-      - number: 80
-        graphcaption: facebook
-  - titlefront: 4444444
+
+  - titlefront: RETENTION
     textfront: who that's Second
     bgimagefront: https://source.unsplash.com/YL5ZDmdDNEY/1200x600
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
     bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
-    graphtype: 2
-    data:
-      - number: 95
-        graphcaption: facebook
 
 process:
   - name: Start

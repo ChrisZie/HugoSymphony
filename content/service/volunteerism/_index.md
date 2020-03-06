@@ -7,7 +7,7 @@ beforepage: operations
 slides :
   - caption  : volunteerism
     description: >
-      You have no task more important than getting and keeping passionate volunteers. The value they provide is priceless. They offer time and passion, are often your biggest donors and, via word-of-mouth, are your biggest marketers too.
+      The value volunteers provide is priceless. They offer time and passion, are often your biggest donors and, via word-of-mouth, are your biggest marketers too. You have no task more important than getting and keeping passionate volunteers.<br>We can help.
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood

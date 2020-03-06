@@ -9,19 +9,19 @@ newstag: "Web Design"
 slides :
   - caption  : WEB DESIGN
     description: >
-      Your website IS your identity to the world. It is who you are, what you offer, and why the user should trust you. But to attract and keep users, you must provide excellent Design, Speed, Security, and Mobile Usability. We do that.
+      Your website IS your identity to the world. It is who you are, what you offer, and why the user should trust you. To attract and keep users, your website must have excellent Design, super Speed, strong Security, and be Mobile focused.<br>We can help.
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
-  - titlefront: MOBILE FIRST
+  - titlefront: SIMPLICITY
     textfront: Do You Know How Many People Will Use Only Their Phones To Find Your Website and Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
     titleback: 52%
     textback: Over half of all users! And this number is growing FAST. But even though over half of all users use only their phones, almost no websites are built for phones and most actually perform SIGNIFICANTLY worse on a phone. <br><br>We tailor each word, image, layout, and code on your website to perform as amazingly on a phone as on a PC. Google looks at how your website performs on BOTH Mobile and Desktop when it decides who to list on their search engine so we optimize every design element to increase visibility greatly.
     bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
 
-  - titlefront: DESIGN
+  - titlefront: STYLE
     textfront: Do You Know How Long A User Takes To Judge Whether They Will Stay On Your Website Or Go To Another?
     bgimagefront: https://source.unsplash.com/qLW70Aoo8BE/1200x600
     titleback: 0.05 Seconds

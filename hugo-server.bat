@@ -1,2 +1,2 @@
 start "" http://localhost:1313/
-hugo server -D
+hugo server -D --disableFastRender

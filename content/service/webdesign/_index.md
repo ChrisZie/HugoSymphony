@@ -77,6 +77,6 @@ process:
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the website stays online after we hand it over. That will not be the end though as we will provide you with ongoing support and will assist with any moderate content changes that may come up in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the duties of making sure the website stays online after we hand it over. That will not be the end though as we will provide you with ongoing support and will assist with any moderate content changes that may come up in the future.
     description2: Deliverable - User Guides
 ---

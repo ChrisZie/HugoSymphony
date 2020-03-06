@@ -1,4 +1,7 @@
 {{ define "extrahead" }}
+{{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/arrowLink.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/arrowLink.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
@@ -29,10 +32,16 @@
 
 
 {{ define "main" }}
-
+<section class="p-0 pb-5" id="">
+  {{ partial "cover-header.html" . }} 
+  <a href="{{ .Permalink }}" class="button">Know More</a>
+  <button class="button" onclick="window.location.href = '/contact/';">
+    Let's chat
+  </button>
+</section>
 <!-- TextSlider 3 -->
-<section class="px-0 pb-5 pt-4 px-lg-5">
-  <div class="container">
+<section class="px-0 pb-5 pt-5 px-lg-5">
+  <div class="container service">
       <div class="row justify-content-center"> 
         <div class="col-4 col-sm-2 pt-5 pt-sm-0">
           <div class="link-arrow">
@@ -48,7 +57,7 @@
             </a>
           </div>
         </div>
-          <div class="col-10 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
+          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
               <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                       <h2>{{ (index .Params.slides 0).caption | markdownify}}</h2>

@@ -15,7 +15,7 @@ quizcards:
     bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
     titleback: that's the answer
     textback: wowowow wo wow wow wo wow wowo wo w owo 
-    bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
+    bgimageback: https://cdn.pixabay.com/photo/2018/02/01/12/51/mammal-3123179_1280.jpg
     graphtype: 1
     data:
       - bartitle: wordpress
@@ -25,7 +25,7 @@ quizcards:
 
   - titlefront: at
     textfront: who that's Second
-    bgimagefront: https://source.unsplash.com/DWXR-nAbxCk/1200x600
+    bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
     titleback: that's the Second
     textback: Second wo wow wow wo wow wowo wo w owo 
     bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
@@ -38,7 +38,7 @@ quizcards:
     bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
     titleback: that's the bong
     textback: Second wo wow wow wo beasbklg  wowo wo w owo 
-    bgimageback: https://cdn.pixabay.com/photo/2018/02/01/12/51/mammal-3123179_1280.jpg
+    bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
     graphtype: 2
     data:
       - number: 80

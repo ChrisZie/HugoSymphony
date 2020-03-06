@@ -14,7 +14,7 @@ slides :
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
-  - titlefront: MOBILE FRIENDLY
+  - titlefront: MOBILE FIRST
     textfront: Do You Know How Many People Will Use Only Their Phones To Find Your Website and Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
     titleback: 52%

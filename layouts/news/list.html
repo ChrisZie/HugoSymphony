@@ -11,16 +11,13 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ end }}
 
-{{ define "HTMLStyle" }}
-<html style="background: white!important; background-color: white!important;"></html>
-{{ end }}
 
 {{ define "BodyStyle" }}whitebackground{{ end }}
 
 {{ define "extraScript" }}
 <!-- <script src="./js/jquery-2.1.3.min.js"></script> -->
 <script src="./js/poly-animal.js"></script>
-</script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{ end }}
 
 {{ define "main" }}
@@ -29,7 +26,7 @@
 <section class="section-sm">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10 featured-post-slider">
+      <div class="col-12 col-md-10 featured-post-slider">
         <!-- slider item -->
         {{ range last 1 ( where .Site.RegularPages "Type" "featured" )}}
         <article class="card featured-post">
@@ -146,24 +143,23 @@
                                             <div class="social">
                                                 <div class="row align-items-center justify-content-center">
                                                     <div class="col-auto align-self-center px-0 footer-box">
-                                                        <a href="{{ .Site.Params.facebookLink }}">
+                                                        <a href="{{ .Site.Params.facebookLink }}" class="facebook">
                                                             <i class="fab fa-facebook-f"></i>
                                                         </a>
                                                     </div>
-                                                
                                                     <div class="col-auto align-self-center px-0 footer-box">
-                                                        <a href="{{ .Site.Params.instagramLink }}">
+                                                        <a href="{{ .Site.Params.instagramLink }}" class="instagram">
                                                             <i class="fab fa-instagram"></i>
                                                         </a>
                                                     </div>
                                                     <div class="col-auto align-self-center px-0 footer-box">
-                                                        <a href="{{ .Site.Params.twitterLink }}">
+                                                        <a href="{{ .Site.Params.twitterLink }}" class="twitter">
                                                             <i class="fab fa-twitter"></i>
                                                         </a>
                                                     </div>
                                                     <div class="w-sm-100 w-lg-100"></div>
                                                     <div class="col-auto align-self-center px-0 footer-box">
-                                                        <a href="{{ .Site.Params.twitterLink }}">
+                                                        <a href="{{ .Site.Params.twitterLink }}" class="linkedin">
                                                             <i class="fab fa-linkedin-in"></i>
                                                         </a>
                                                     </div>

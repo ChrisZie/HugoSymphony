@@ -1,5 +1,6 @@
 $highlight_color: #b3c7d6;
 $standardcolor: white;
+$footercolor: #1164b4;
 
 .news{
 /* card */
@@ -103,7 +104,7 @@ a, a:hover, a:focus {
 
       &:hover {
         background: $highlight_color!important;
-        color: #fff!important;
+        color: $standardcolor!important;
       }
     }
 
@@ -116,7 +117,7 @@ a, a:hover, a:focus {
 
     &.active {
       .page-link {
-        background: #fff!important;
+        background: $standardcolor!important;
         color: #666!important;
         border: 1px solid $highlight_color!important;
       }
@@ -246,15 +247,21 @@ g.parallax :nth-child(3) {
   fill:rgba(135, 206, 235,0.3);
 }
 g.parallax :last-child {
-  fill:#1164b4;
+  fill:$footercolor;
 }
 
 #footer {
-  background:  linear-gradient(135deg,#1164b4,#1164b4);
+  background:  $footercolor;
   color:$standardcolor!important;
 }
+
+#footer .social a {
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
 .quote blockquote:before {
-  background: #1164b4;
+  background: $footercolor;
 }
 
 .quote blockquote {
@@ -356,16 +363,6 @@ g.parallax :last-child {
   margin-bottom: 20px;
   margin-top: 10px
 }
-
-
-.news ._Info .sharing.mini a {
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  font-size: 15px;
-}
-
-
 
 .news-single-post {
   @media (min-width: 576px) {

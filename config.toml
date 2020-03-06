@@ -47,22 +47,22 @@ paginate = 6
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
-icon = "fab fa-facebook-f" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-facebook-f" 
 link = "https://www.facebook.com/Symphony.Eco"
 
 [[params.social]]
 title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-twitter"
 link = "https://twitter.com/SymphonyEco"
 
 [[params.social]]
 title = "instagram"
-icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-instagram" 
 link = "https://www.instagram.com/symphony.eco"
 
 [[params.social]]
 title = "linkedin"
-icon = "fab fa-linkedin-in" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-linkedin-in"
 link = "#"
 
 

@@ -380,7 +380,7 @@ color: white;
 }
 
 .whitebackground {
-  background: linear-gradient(135deg,white,white, rgba(17, 100, 180, 0.9));
+  background: linear-gradient(135deg,#ffd89b, white,white, rgba(17, 100, 180, 0.9));
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -576,3 +576,44 @@ em {
   }
 }
 
+.service-header {
+  height: 45vh;
+  background-color: #1164b4;
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/11/20/47/elephants-1900332_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+.coverHeader{
+  left:10px;
+  position: absolute;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 2;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.serviceheader-text {
+  display: inline-block;
+  font-size: 19vh;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+  background-image: url(https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg);
+  background-size: 20%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  line-height: unset; 
+  top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

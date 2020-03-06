@@ -81,6 +81,10 @@ $total_animation_time: $time_per_slide * $slides;
     float: left;
   }
 
+  .service .textslide .large-3 , .service .motivationText .large-3 {
+    width: 15%;
+  }
+
   .subheading h2{
     position: relative;
     top: 17px;
@@ -89,10 +93,15 @@ $total_animation_time: $time_per_slide * $slides;
     font-size: 0.85rem;
   }
 
+  .service .subheading h2{
+    top: unset; 
+    font-size: 1.3rem; 
+  }
+
   @media (min-width: 600px) {
     .subheading h2{
-      top: 14px;
-      font-size: 1.1rem;
+      top: 14px; 
+      font-size: 1.1rem;  
     }
   }
 
@@ -107,6 +116,11 @@ $total_animation_time: $time_per_slide * $slides;
     .subheading h2{
       top: 20px;
       font-size: 1.3rem;
+    }
+
+    .service .subheading h2{
+      top: 10px; 
+      font-size: 2rem; 
     }
   }
 
@@ -130,5 +144,13 @@ $total_animation_time: $time_per_slide * $slides;
       padding-bottom: 0;
       padding-left: 0.9375em;
       padding-right: 0.9375em;
+    }
+
+    .service .subheading {
+      width: 70%;
+    }
+
+    .service .motivationText .header-text {
+      padding-top: 40px;
     }
   

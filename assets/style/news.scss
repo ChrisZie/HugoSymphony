@@ -254,6 +254,12 @@ g.parallax :last-child {
   background:  $footercolor;
   color:$standardcolor!important;
 }
+
+#footer .social a {
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+
 .quote blockquote:before {
   background: $footercolor;
 }

@@ -6,7 +6,7 @@ layout: "main"
 slides :
   - caption  : SERVICE OVERVIEW
     description: >
-      You are reading this because you know your goal. You believe in your impact. And now you want to grow that impact. You bring your vision, we'll bring the rest.
+      Your passion and determination have brought you here. Let's now take your impact to the next level. You bring the vision, we'll bring the rest.
 service_item: 
   - name: Web Design
     icon: "images/money.svg"
@@ -17,9 +17,9 @@ service_item:
     data: 88%
     bar: 2
     question2: of vistors will NEVER return to your website after a SINGLE bad experience?
-    answer: 'How good is your website?<br>
+    answer: 'How good is your site?<br>
     Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
-    We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
+    We will create your website with a beautiful Design, high Speed, super Security, and make sure it performs even better on Phones.'
 
   - name: Digital Marketing
     icon: "images/responsive.svg"
@@ -30,9 +30,9 @@ service_item:
     data: $102 Billion
     bar: 1
     question2: invested by Marketers this year in Social Media advertising, more than all other marketing options?
-    answer: 'How good is your Marketing?<br>
+    answer: 'What did you invest?<br>
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
-    We will create fantastic profiles and will guide you on where, when, what, and how to post to get exactly what you need.'
+    We will create fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
 
   - name: Operations
     icon: "images/money.svg"
@@ -44,8 +44,8 @@ service_item:
     bar: 2
     question2: of vistors will NEVER return to your website after a SINGLE bad experience?
     answer: 'How good is your website?<br>
-    Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
-    We will create your website with a beautiful Design, super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
+    Big Governments and Organizations yearly on improving User Experience.<br><br>
+    We will create your website with a beautiful , super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
  
   - name: Volunteerism
     icon: "images/responsive.svg"
@@ -57,8 +57,8 @@ service_item:
     bar: 2
     question2: hours were put in by volunteers from just the USA last year alone?
     answer: 'How many did you get?<br>
-    The skills and time volunteers provide are invaluable, not to mention all the diversity and insight they can provide.<br><br>
-    We design volunteer programs that attract them, train them, coordinate them, and, best of all, keep them coming back.'
+    Volunteers are so critical because they not only freely offer their skills and time, but also their donations and marketing.<br><br>
+    We design volunteer programs that attract, train, coordinate, and, best of all, keep volunteers coming back.'
  
   - name: Fundraising
     icon: "images/responsive.svg"

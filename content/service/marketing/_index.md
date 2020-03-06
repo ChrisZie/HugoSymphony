@@ -7,74 +7,74 @@ beforepage: webdesign
 slides :
   - caption  : Digital Marketing
     description: >
-      Social Media IS marketing in the world today. With almost all internet users in the world on Social Media, you absolutely must attract them, keep them, and convert them into visitors, volunteers, and donors to have any success at all.
+      Social Media **IS** marketing in the world today. With almost all internet users in the world now on Social Media, you absolutely must attract them, keep them, and convert them into visitors, volunteers, and donors to have any success at all.
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
-  - titlefront: POPULARITY
-    textfront: Do You Know How Many Facebook Followers The Average Business Has?
-    bgimagefront: https://source.unsplash.com/_pMgM-xeMQk/1200x600
-    titleback: 52%
-    textback: Over half of all users! And this number is growing FAST. But even though over half of all users use only their phones, almost no websites are built for phones and most actually perform SIGNIFICANTLY worse on a phone. <br><br>We tailor each word, image, layout, and code on your website to perform as amazingly on a phone as on a PC. Google looks at how your website performs on BOTH Mobile and Desktop when it decides who to list on their search engine so we optimize every design element to increase visibility greatly.
-    bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
+  - titlefront: BRAND AWARENESS
+    textfront: Do You Know How Many Organizations Agree That Social Media Has Vastly Improved Their Brand's Popularity?
+    bgimagefront: https://cdn.pixabay.com/photo/2014/12/13/15/42/alaska-566722_1280.jpg
+    titleback: 94%
+    textback: Almost every single one! Make no mistake, your Brand IS what you offer. This is as true if you are seeking tourists as it is for volunteers and donors. Social Media lets you reach every type of audience - all ages, all genders, all locations.<br><br>As millenials, we understand Social Media like it is a part of ourselves. This enables us to create fantastic profiles for you on all the major platforms, Western AND Eastern, to make sure the entire world knows you and why they should invest their time, and potentially money, with you.
+    bgimageback: https://cdn.pixabay.com/photo/2016/09/12/17/51/polar-bears-1665367_1280.jpg
 
-  - titlefront: RETENTION
-    textfront: Do You Know How Long A User Takes To Judge Whether They Will Stay On Your Website Or Go To Another?
-    bgimagefront: https://source.unsplash.com/DWXR-nAbxCk/1200x600
-    titleback: 0.05 Seconds
-    textback: Half a second! That's all you have to convince a user to stay and learn about who you are and what you do. If half a second is all you have to make a difference, make it count.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
-    bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
+  - titlefront: BRAND DISCOVERY
+    textfront: Do You Know Many Searches Are Made On Facebook Every Day, Many Only For Destinations And Organizations?
+    bgimagefront: https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_1280.jpg
+    titleback: 2 Billion
+    textback: That's over half as many as Google! People now search only on Social Media for everything from planning where to travel, to who to donate to, to who to volunteer with globally.<br><br>We show you when, where, and how to post to get the very best value for each post you make because it is fact that every single new well-made post you make across the Social Media platforms can translate to dozens of new visitors to your profile. This directly results in huge increases in both your visitors and revenue.
+    bgimageback: https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_1280.jpg
+
+  - titlefront: RECRUITMENT
+    textfront: Do You Know How Many Organizations Rely Mainly On Social Media To Recruit Volunteers and Staff?
+    bgimagefront: https://cdn.pixabay.com/photo/2014/10/09/23/36/mountains-482689_1280.jpg
+    titleback: 84%
+    textback: That is the vast majority! Social Media has changed so many of the rules that tourism and businesses are driven by, especially engaging the best and most passionate people to join your team as volunteers and staff.<br><br>We have both recruited volunteers over Social Media and have been recruited ourselves there. This has helps us understand extremely well the techniques, benefits, and common mistakes most recruiters make. We will provide you with step-by-step guides to recruit the very best resources.
+    bgimageback: https://cdn.pixabay.com/photo/2014/08/27/12/58/penguins-429128_1280.jpg
 
   - titlefront: CONVERSION
-    textfront: Do You Know How Many Users You Lose When Your Website Takes Longer Than 3 Seconds to Load?
-    bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
-    titleback: 20-30% Per Second
-    textback: Each second costs you a QUARTER of your audience! Imagine how much more impact you could have with 75% more visitors, donors, and volunteers than you have right now.<br><br>All our designs fully consider performance, with images, colours, and content all tuned for maximum speed. Google rates template sites from Wix and WordPress a "C" grade or lower due to their awfully slow performance, making them less likely to appear during a search. Our sites have an "A" grade, vastly increasing your visibility.
-    bgimageback: https://cdn.pixabay.com/photo/2018/02/01/12/51/mammal-3123179_1280.jpg
-
-  - titlefront: MOBILE USABILITY
-    textfront: Do You Know How Often A Hacker Targets A Small Business or Government?
-    bgimagefront: https://source.unsplash.com/YL5ZDmdDNEY/1200x600
-    titleback: Every 39 Seconds
-    textback: That's almost two sites per minute! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when build websites. Vistors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites. Our technical construction is completely different and our focus is security, guaranteeing that you are far less likely to become a victim.
-    bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
+    textfront: Do You Know How Many Instagram Users Alone Take Action After Being Inspired By A Post?
+    bgimagefront: https://cdn.pixabay.com/photo/2015/12/08/00/54/glacier-1082163_1280.jpg
+    titleback: 75%
+    textback: That's three-quarters of all your visitors! Instagrammers will immdediately either go to your website, engage you in conversation directly, search for more information, or recommend you and your post to a friend.<br><br>We understand the complex algorithms that the different Social Media platforms use to increase the visibility of the best posts. We show you how to use our techniques to make sure your post is seen by the most number of people and results in the highest conversion of readers to followers.
+    bgimageback: https://cdn.pixabay.com/photo/2017/01/01/20/09/killer-whales-1945411_1280.jpg
 
 process:
   - name: Start
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Initiation
-    description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to understand exactly what your website functionality and design goals are and plan how we get you to those goals from where you are right now.
+    description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to review all of your current Social Media profiles and strategies. We establish what your goals are and should be, and then create a plan get you to those goals from where you are right now.
     description2: Deliverable - Project Charter
   - name: Discovery
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
     imagealttext: Discovery
     subtext: Market Research and Plan
-    description: We research your biggest local (and even global) competitors and understand what is working for them that we can make work for you instead.
+    description: We research your biggest local (and even global) competitors on Social Media and understand what designs, posts, and strategies are working for them that we can make work for you instead.
     description2: Deliverable - Market Research Summary
   - name: Design
     image: https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg
     imagealttext: Design
-    subtext: Perfecting Style and Speed
-    description: We meet with your team to capture the most desired design elements you may already have or want to have. We then present the initial design options, with two equally superb options for you to choose from. With the chosen option, we begin developing the final product, working closely with your team on content and branding.
+    subtext: Strategic Substance and Style
+    description: We meet with your team to capture the most desired data and designs to be included in the Social Media profiles. Once the initial designs are accepted, we begin creating visibility strategies, working closely with your team on content and design.
     description2: Deliverable - Finalized Design
-  - name: Implementation
+  - name: Registration
     image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
     imagealttext: Registration
-    subtext: Naming and Hosting
-    description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transer all your data from any existing websites or services to the new service.
-    description2: Deliverable - Domain and Hosting Summary
+    subtext: Profiles and Optimization
+    description: We register, detail, and design superb profiles on all major Western AND Eastern platforms where you currently have no profiles. For those platforms you are already on, we will optimize all of the content and design to align with the Design parameters.
+    description2: Deliverable - Social Media Profiles Summary
   - name: Final Delivery
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
     imagealttext: Final Delivery
-    subtext: Website Presentation and Review
-    description: We deliver the Final Product, walking you and your team through all of the design choices, from colour to content. We integrate any changes you may wish to have and complete all remaining technical tasks.
-    description2: Deliverable - Final Website
+    subtext: Profiles Presentation and Review
+    description: We reveal all of the new and improved Social Media profiles across all of major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to post for the best result. We then integrate any changes you may wish to have and complete all remaining technical tasks.
+    description2: Deliverable - Finalized Profiles and Posting Frameworks
   - name: Hand-Over
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the website stays online after we hand it over. That will not be the end though as we will provide you with ongoing support and will assist with any moderate content changes that may come up in the future.
-    description2: Deliverable - User Guides
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stays online and current after we hand them over. That will not be the end though as we will provide you with ongoing support and provide strategy advise for any changes you may wish to make in your profiles in the future.
+    description2: Deliverable - Support Guides
 ---

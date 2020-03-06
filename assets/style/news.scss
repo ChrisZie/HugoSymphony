@@ -1,18 +1,7 @@
 $highlight_color: #b3c7d6;
-
-body{
-  background-color: white;
-  background: white;
-}
-
-.whitebackground {
-  background-color: white!important;
-  background: white!important;
-}
+$standardcolor: white;
 
 .news{
-
-
 /* card */
 .card {
   border: 0;
@@ -61,18 +50,19 @@ body{
   }
 }
 
+//social links in the sidebar
 .social-links {
   li {
     a {
       height: 35px;
       width: 35px;
       background: $highlight_color;
-      color: #fff;
+      color: $standardcolor;
       display: block;
       line-height: 35px;
 
       &:hover {
-        color: #fff;
+        color: $standardcolor;
       }
     }
   }
@@ -144,7 +134,7 @@ a, a:hover, a:focus {
 }
 
 
-  .card-text, .paragraph , p {
+  .card-text, .paragraph , .news-single-post p {
     font-weight: 400;
     color: #666!important;;
     font-size: 15px;
@@ -237,14 +227,15 @@ a, a:hover, a:focus {
 		transform: translate3d(1vmin, -1vmin, 0);
 		box-shadow: -1vmin 1vmin 0 rgba($highlight_color, 0.5);
 		background: $highlight_color!important;
-		color: white!important;
+		color: $standardcolor!important;
 	}
 	&:active{ 
 		transform: translate3d(0px, 0px, 0);
-		box-shadow: -0px 0px 0 rgba(white, 0.5);
+		box-shadow: -0px 0px 0 rgba($standardcolor, 0.5);
 	}
 }
 
+//change the colour of the wave above the footer
 g.parallax :nth-child(1) {
   fill:rgba(133, 179, 209,0.7);
 }
@@ -260,10 +251,14 @@ g.parallax :last-child {
 
 #footer {
   background:  linear-gradient(135deg,#1164b4,#1164b4);
-  color:white!important;
+  color:$standardcolor!important;
 }
 .quote blockquote:before {
   background: #1164b4;
+}
+
+.quote blockquote {
+  border: solid 2px $standardcolor;
 }
   
 }
@@ -346,7 +341,7 @@ g.parallax :last-child {
 }
 
 .EntryCover ._Info {
-  background-color: #fff;
+  background-color: $standardcolor;
   padding-bottom: 25px;
   padding-top: 25px
 }

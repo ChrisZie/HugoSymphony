@@ -1,5 +1,3 @@
-$bp-md: 992px;
-$bp-s: 768px;
 
 * {
 	margin: 0;
@@ -39,16 +37,23 @@ $bp-s: 768px;
 	transform-style: preserve-3d;
 }
 
-@media (max-width: $bp-md) {
+@media (max-width: 992px) {
   .cardcontainer {
     min-height: 90vh;
   }
 }
-@media (max-width: $bp-s) {
+@media (max-width: 768px) {
   .cardcontainer {
     min-height: 45vh;
   }
 }
+
+@media (max-width: 576px) {
+  .cardcontainer {
+    min-height: 90vh;
+  }
+}
+
 
 .cardside {
 	position: absolute;

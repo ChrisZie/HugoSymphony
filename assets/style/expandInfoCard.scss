@@ -226,6 +226,16 @@ float: left;
   }
 }
 
+@media (min-width: 1920px)  {
+  .ui_box{
+    height: 325px;
+  }
+  .service-slider-overview {
+    padding-bottom: 200px;
+    padding-top: 15vh!important;
+  }
+}
+
 
 @media (min-width: 1000px)  {
   .ui_box:hover > .drop{

@@ -369,6 +369,11 @@ color: white;
   background-image: linear-gradient(to right, rgba(0,0,0,9) , rgba(255,0,0,0));
 }
 
+.whitebackground {
+  background-color: white;
+  background: white;
+}
+
 @media screen and (max-width: 767px) {
   .overlay {
     background: rgba(0,0,0,.6);

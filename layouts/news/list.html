@@ -31,7 +31,7 @@
         {{ range last 1 ( where .Site.RegularPages "Type" "featured" )}}
         <article class="card featured-post">
           <div class="row no-gutters align-items-center">
-            <div class="col-md-5">
+            <div class="col-md-5 pl-md-0">
               {{ if .Params.Image }}
               <a href="{{ .Permalink }}">
               <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">

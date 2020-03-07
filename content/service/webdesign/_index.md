@@ -27,31 +27,31 @@ quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: SIMPLICITY
     textfront: Do You Know How Many People Will Use Only Their Phones To Find Your Website and Social Media Profiles? 
-    bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
+    bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
     titleback: 52%
     textback: Phones are the future! This number is growing, fast. But even though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, layout, and code on your website to perform as amazingly on a phone as on a PC. Google looks at how your website performs on both Mobile and Desktop when it decides who to list on their search engine so we optimize every design element to increase visibility greatly.
-    bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
+    bgimageback: https://cdn.pixabay.com/photo/2018/02/01/12/51/mammal-3123179_1280.jpg
 
   - titlefront: STYLE
     textfront: Do You Know How Long A User Takes To Judge Whether They Will Stay On Your Website Or Go To Another?
-    bgimagefront: https://source.unsplash.com/qLW70Aoo8BE/1200x600
+    bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
     titleback: 0.05 Seconds
     textback: Make it count! That's all you have to convince a user to stay and learn about who you are and what you do. If that is all you get to make a difference, make it unforgettable.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
-    bgimageback: https://source.unsplash.com/0CXFhfKLIeA/1200x600
+    bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
 
   - titlefront: SPEED
     textfront: Do You Know How Many Users You Lose When Your Website Takes Longer Than 3 Seconds to Load?
-    bgimagefront: https://source.unsplash.com/fG5jun4bYBQ/1200x600
+    bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
     titleback: 20-30% Per Second
     textback: Give the people what they want! Imagine how much more impact you could have with 75% more visitors, donors, and volunteers than you have right now.<br><br>All our designs fully consider performance, with images, colours, and content all tuned for maximum speed. Google rates template sites from Wix and WordPress a "C" grade or lower due to their awfully slow performance, making them less likely to appear during a search. Our sites have an "A" grade, vastly increasing your visibility.
-    bgimageback: https://cdn.pixabay.com/photo/2017/08/03/19/42/leopard-2578114_1280.jpg
+    bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
 
   - titlefront: SECURITY
     textfront: Do You Know How Often A Hacker Targets A Small Business or Government?
-    bgimagefront: https://source.unsplash.com/7emiteIwfuk/1200x600
+    bgimagefront: https://source.unsplash.com/YL5ZDmdDNEY/1200x600
     titleback: Every 39 Seconds
     textback: Don't become a victim! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when building websites. Visitors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites. Our design is completely different and prioritizes security, guaranteeing that you are far less likely to be targeted.
-    bgimageback: https://source.unsplash.com/r077pfFsdaU/1200x600
+    bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
 
 process:
   - name: Start

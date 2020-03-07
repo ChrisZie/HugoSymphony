@@ -14,31 +14,31 @@ slides :
 quizcards:
   - titlefront: LOCATION
     textfront: Do You Know How Many Donations Organizations Usually Receive From Outside Of Their Own Country?
-    bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
+    bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
     titleback: 45%
     textback: Your donors are everywhere! How people give donations is changing, fast. More donors prefer to donate money online, or else volunteer in-person and donate their time instead.<br><br>As management within Governments and NGOs we learned the difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We will create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
-    bgimageback: https://cdn.pixabay.com/photo/2018/02/01/12/51/mammal-3123179_1280.jpg
+    bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
 
   - titlefront: COMMUNICATION
     textfront: Do You Know How Much More Funding Crowdfunding Campaigns Raise When Fundraisers Update Their Supporters?
-    bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
+    bgimagefront: https://source.unsplash.com/qLW70Aoo8BE/1200x600
     titleback: 126%
     textback: Show your donors you care! They need to know their money is well-spent and, the more you update them, the more likely they are to share your campaign with family and friends.<br><br>Our experience in raising funds online has shown us that it is a highly complex, but highly beneficial, effort. We can teach you exactly what words cause the most reaction, exactly how many words to use, and exactly what content and format of content supporters want to see. All to keep supporters on your page longer, vastly increasing their likelihood to donate.
-    bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
+    bgimageback: https://source.unsplash.com/0CXFhfKLIeA/1200x600
 
   - titlefront: PROMOTION
     textfront: Do You Know How Much Funding Is Earned In The First And Last 3 Days Of A Campaign?
-    bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
+    bgimagefront: https://source.unsplash.com/fG5jun4bYBQ/1200x600
     titleback: 42%
     textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we will create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We will also provide you with guides that ensure that you always truly maximizing your fundraising potential.
-    bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
+    bgimageback: https://cdn.pixabay.com/photo/2017/08/03/19/42/leopard-2578114_1280.jpg
 
   - titlefront: RETENTION
     textfront: Do You Know How Much More Monthly Donations You Receive By Adding A Pop-Up Asking One-Time Donors To Convert?
-    bgimagefront: https://source.unsplash.com/YL5ZDmdDNEY/1200x600
+    bgimagefront: https://source.unsplash.com/7emiteIwfuk/1200x600
     titleback: 64%
     textback: Don't be shy, upsell! Knowing when and how to convert one-time donors into repeat donors is a key aspect of fundraising as repeat donors provide significantly more long-term value.<br><br>We understand the fine line between being pushy and being strategic in your request for donors to commit to your cause for the long-term. Repeat donors are the ultimate goal and their motivation is based on how well you have proved you can keep them engaged. Our plan captures all fundraising aspects and ensures you get the most donations possible.
-    bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
+    bgimageback: https://source.unsplash.com/r077pfFsdaU/1200x600
 
 process:
   - name: Start

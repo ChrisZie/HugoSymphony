@@ -36,7 +36,7 @@ paginate = 6
     og_image = "images/money.svg"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Tesla's Awesome Hugo Site"
+    description = "Symphony ECOs Awesome Hugo Site"
     author = "Symphony ECO"
     keywords = "Consulting; Conservation;"
     # Google Analitycs

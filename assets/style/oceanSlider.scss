@@ -411,6 +411,23 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
 }
 
 .hero-header {
+  @media (min-width: 800px) {
+    #site h2 {
+      font-size: 13vh;
+    }
+  }
+
+  #site {
+    grid-template-columns: 1rem 1fr 1fr 1fr;
+  }
+  .button {
+    bottom: 2%;
+  }
+  @media (max-width: 500px) {
+    .button {
+        bottom: 13%;
+    }
+  }
   .services .button {
     left: unset;
     bottom: unset;
@@ -421,6 +438,10 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
   }
   .services a {
     margin-right: 1.5rem;
+  }
+
+  .services {
+    background: white;
   }
 
   .services .active {

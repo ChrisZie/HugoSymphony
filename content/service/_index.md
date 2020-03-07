@@ -7,12 +7,9 @@ type: "overview"
 heroBGImage: https://source.unsplash.com/r077pfFsdaU/1200x600
 heroTitleImage: https://source.unsplash.com/84n7c9cLEKM/1200x600
 heroheader:
-  - heroHeading : web design<br />
-      is <br />
-      super cool
-  - heroHeading : We dive<br/>
-      into<br/>
-      it
+  - heroHeading : You bring the vision, we'll bring the rest
+  - heroHeading : Passion and determination brought you here
+  - heroHeading : Let's take your impact to the next level
 slides :
   - caption  : Next Level
     description: >
@@ -26,13 +23,13 @@ service_item:
     question1: Did you know that
     graph: 2
     data_left :
-      - fact: Manufacturing
+      - fact: MANUFACTURING
         bar: 1
-      - fact: Tourism
+      - fact: TOURISM
         bar: 2
-      - fact: Agriculture
+      - fact: AGRICULTURE
         bar: 3
-    question2: Tourism is the second largest industry in the world and makes up 10% of the entire world's revenue and jobs.<br><br>
+    question2: Tourism is the second largest industry in the world and makes up 10% of the **entire world's** revenue and jobs.<br><br>
     answer: 'Who are your donors?<br>
     Donations support causes around the world. Donations are given every moment so get donors to your cause.<br><br>
     We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
@@ -45,7 +42,7 @@ service_item:
     graph: 1
     data: 88%
     bar: 2
-    question2: of visitors will NEVER return to your website after a SINGLE bad experience?
+    question2: of visitors will never return to your website after a **single** bad experience?
     answer: 'How good is your site?<br>
     Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
     We will create your website with a beautiful Design, high Speed, super Security, and make sure it performs even better on Phones.'
@@ -58,7 +55,7 @@ service_item:
     graph: 1
     data: $102 Billion
     bar: 1
-    question2: invested by Marketers this year in Social Media advertising, more than all other marketing options?
+    question2: is being invested by Marketers in Social Media advertising this year, **more than all** other marketing options?
     answer: 'What did you invest?<br>
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
     We will create fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
@@ -71,7 +68,7 @@ service_item:
     graph: 1
     data: 6.9 Billion
     bar: 2
-    question2: hours were put in by volunteers from just the USA last year alone?
+    question2: hours were put in by volunteers from just the USA **last year alone**?
     answer: 'How many did you get?<br>
     Volunteers are so critical because they not only freely offer their skills and time, but also their donations and marketing.<br><br>
     We design volunteer programs that attract, train, coordinate, and, best of all, keep volunteers coming back.'
@@ -83,13 +80,13 @@ service_item:
     question1: Did you know that over
     graph: 2
     data_left :
-      - fact: Individual Donations
+      - fact: INDIVIDUAL DONOR
         bar: 1
-      - fact: Government Grants
+      - fact: GOVERNMENT GRANT
         bar: 2
-      - fact: Corporate Sponsorships
+      - fact: CORPORATE SPONSOR
         bar: 3
-    question2: 70% of donations are made by individual donors, who are attracted by good marketing? 
+    question2: 70% of donations are made by individual donors, who **almost always** get inspired by good marketing? 
     answer: 'Who are your donors?<br>
     Donations support causes around the world. Donations are given every moment so get donors to your cause.<br><br>
     We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'

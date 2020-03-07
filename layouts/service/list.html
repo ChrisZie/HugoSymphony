@@ -20,7 +20,6 @@
 <!-- {{ $sassTemplate := resources.Get "style/graphCircle.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/graphCircle.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen"> -->
-<link href="./style/service.css" rel="stylesheet">
 {{ end }}
 
 {{ define "extraScript" }}
@@ -33,9 +32,9 @@
 
 {{ define "main" }}
 <!-- Hero Header -->
-<section class="hero-header p-0 pb-5">
+<section class="hero-header p-0 pb-4">
   {{ partial "hero-header.html" . }} 
-  <div class="services pt-4 text-center">
+  <div class="services pt-3 text-center">
     {{ $title := .Params.title}}
     {{ range ( where .Site.Pages "Type" "service" )}}
     <a href="{{ .Permalink }}" class="button {{if eq .Params.title $title}}active{{end}}">{{.Params.title}}</a>

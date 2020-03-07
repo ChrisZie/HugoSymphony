@@ -2,6 +2,8 @@
 title: "Digital Marketing"
 date: 2020-02-10T14:37:47+08:00
 draft: true
+nextpage: operations
+beforepage: webdesign 
 type: "service"
 slides :
   - caption  : Digital Marketing

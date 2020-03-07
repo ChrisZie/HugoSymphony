@@ -17,28 +17,28 @@ quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?i
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: PLANNING
-    textfront: Do You Know How Many Volunteers Search Only Online For Opportunities Around The World?
+    textfront: How Many Volunteers Search Only Online For Opportunities Around The World?
     bgimagefront: https://cdn.pixabay.com/photo/2016/03/21/10/44/desert-1270345_1280.jpg
     titleback: 67%
     textback: Over two-thirds of all volunteers! And this trend is growing daily. Most volunteers will search for opportunities only on established Volunteer Portals or on Social Media and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. The result will be that you receive the maximum number of applicants you could want.
     bgimageback: https://cdn.pixabay.com/photo/2019/10/25/00/55/golden-eagle-4575691_1280.jpg
 
   - titlefront: POLICIES
-    textfront: Do You Know Many Volunteers Prefer Completing All Required Training Online?
+    textfront: How Many Volunteers Prefer Completing All Required Training Online?
     bgimagefront: https://cdn.pixabay.com/photo/2016/11/29/05/33/bryce-canyon-1867563_1280.jpg
     titleback: 73%
     textback: Almost 3 out of every 4 volunteers! Volunteers absolutely must go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training presentations that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
     bgimageback: https://cdn.pixabay.com/photo/2017/06/26/16/20/desert-fox-2444230_1280.jpg
 
   - titlefront: PEOPLE
-    textfront: Do You Know How Many Volunteers Prefer Communication, Coordination, And Organization To Be Done Online?
+    textfront: How Many Volunteers Prefer Communication, Coordination, And Organization To Be Done Online?
     bgimagefront: https://cdn.pixabay.com/photo/2016/01/08/18/00/antelope-canyon-1128815_1280.jpg
     titleback: 85%
     textback: Almost all volunteers! Volunteers have cleary stated that organizing online makes communication easier and helps them save time, while organizations have stated that it helps get more volunteers to events and helps save money.<br><br>We are fully aware of what volunteers absolutely want to know so that they have no complications during their service. We work with your team to learn all key local information, creating excellent guides that your team can use to coordinate volunteers before and during their service.
     bgimageback: https://cdn.pixabay.com/photo/2019/11/16/13/53/desert-lynx-4630313_1280.jpg
 
   - titlefront: PROFITS
-    textfront: Do You Know How Many Volunteers Usually Do Not Return Due To A Lack Of Adequate Follow-Ups?
+    textfront: How Many Volunteers Usually Do Not Return Due To A Lack Of Adequate Follow-Ups?
     bgimagefront: https://source.unsplash.com/Xc6gtOwSMSA/1200x600
     titleback: 33%
     textback: 1 out of every 3 volunteers! Simply due to bad or, even worse, no follow-up communication to thank the volunteer, ask them for feedback, and generally keep them engaged.<br><br>Retaining volunteers is what we prioritize most, for good reason. Returning volunteers provide incredible cost-savings, making this a key task for any organization. We provide you with guidelines and templates that your team will use to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until they return to help again.

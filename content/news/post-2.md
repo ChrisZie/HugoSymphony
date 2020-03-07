@@ -5,6 +5,10 @@ draft: false
 
 # post thumb
 image: "https://source.unsplash.com/350x225/?dog"
+coverimage: "https://source.unsplash.com/1500x300/?dog"
+coverimagemobil: "https://source.unsplash.com/500x500/?dog"
+thumbnail: "https://source.unsplash.com/500x300/?dog"
+thumbnailmobil: "https://source.unsplash.com/300x200/?dog"
 
 # meta description
 description: "this is meta description"

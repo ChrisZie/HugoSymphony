@@ -6,6 +6,10 @@ draft: false
 # post thumb
 image: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
 og_image : "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
+coverimage: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
+coverimagemobil: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
+thumbnail: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
+thumbnailmobil: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
 
 # meta description
 description: "this is meta description"

@@ -1,10 +1,14 @@
 ---
 title: "How To Use post1 To Improve Your UX"
-date: 2019-10-29T10:07:47+06:00
+date: 2019-12-29T10:07:47+06:00
 draft: false
 
 # post thumb
 image: "https://source.unsplash.com/350x225/?heart"
+coverimage: "https://source.unsplash.com/1500x300/?heart"
+coverimagemobil: "https://source.unsplash.com/500x500/?heart"
+thumbnail: "https://source.unsplash.com/500x300/?heart"
+thumbnailmobil: "https://source.unsplash.com/300x200/?blue"
 
 # meta description
 description: "this is meta description"
@@ -22,7 +26,7 @@ tags:
 series: special
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 # Heading 1

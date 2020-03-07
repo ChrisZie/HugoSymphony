@@ -438,6 +438,8 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
   }
   .services a {
     margin-right: 1.5rem;
+    display: inline-flex;
+    align-self: center;
   }
 
   .services {

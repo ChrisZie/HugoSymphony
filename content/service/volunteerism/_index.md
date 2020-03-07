@@ -6,10 +6,12 @@ nextpage: fundraising
 beforepage: operations 
 sort: 4
 type: "service"
-slides :
-  - caption  : The Best and Brightest
-    description: >
-      The value volunteers provide is priceless. They offer time and passion, are often your biggest donors and, via word-of-mouth, are your biggest marketers too. You have no task more important than getting and keeping passionate volunteers.<br>We can help.
+heroBGImage: https://source.unsplash.com/r077pfFsdaU/1200x600
+heroTitleImage: https://source.unsplash.com/84n7c9cLEKM/1200x600
+heroheader:
+  - heroHeading : Volunteers are priceless
+  - heroHeading : Passionate volunteers are your biggest supporters
+  - heroHeading : Get and keep the best and the brightest
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
@@ -18,28 +20,28 @@ quizcards:
     textfront: Do You Know How Many Volunteers Search Only Online For Opportunities Around The World?
     bgimagefront: https://source.unsplash.com/wn0-np3NQq8/1200x600
     titleback: 67%
-    textback: Over two-thirds of all volunteers! And this trend is growing daily. Most volunteers will search for opportunities only on established Volunteer Portals or on Social Media and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. The result will be that you receive the maximum number of applicants you could want.
+    textback: Reach them where they already are! This is a growing trend, with many volunteers now searching for opportunities only on known Volunteer Portals, Social Media, and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. The result will be that you receive the maximum number of applicants you could want.
     bgimageback: https://source.unsplash.com/5a2oypQA4P8/1200x600
 
   - titlefront: TRAIN
-    textfront: Do You Know Many Volunteers Prefer Completing All Required Training Online?
+    textfront: Do You Know How Many Volunteers Prefer Completing All Required Training Online?
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600
     titleback: 73%
-    textback: Almost 3 out of every 4 volunteers! Volunteers absolutely must go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training presentations that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
+    textback: Make the very most out of their time with you! Volunteers must absolutely go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training presentations that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
     bgimageback: https://source.unsplash.com/WAgBaYHRaL4/1200x600
 
   - titlefront: MAINTAIN
     textfront: Do You Know How Many Volunteers Prefer Communication, Coordination, And Organization To Be Done Online?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
     titleback: 85%
-    textback: Almost all volunteers! Volunteers have clearly stated that organizing online makes communication easier and helps them save time, while organizations have stated that it helps get more volunteers to events and helps save money.<br><br>We are fully aware of what volunteers absolutely want to know so that they have no complications during their service. We work with your team to learn all key local information, creating excellent guides that your team can use to coordinate volunteers before and during their service.
+    textback: Keep it smart and simple! Volunteers have clearly stated that organizing online makes communication easier and helps them save time, while organizations have stated that it helps get more volunteers to events and helps save money.<br><br>We are fully aware of what volunteers absolutely want to know so that they have no complications during their service. We work with your team to learn all key local information, creating excellent guides that your team can use to coordinate volunteers before and during their service.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
   - titlefront: RETAIN
     textfront: Do You Know How Many Volunteers Usually Do Not Return Due To A Lack Of Adequate Follow-Ups?
     bgimagefront: https://source.unsplash.com/uanoYn1AmPs/1200x600
     titleback: 33%
-    textback: 1 out of every 3 volunteers! Simply due to bad or, even worse, no follow-up communication to thank the volunteer, ask them for feedback, and generally keep them engaged.<br><br>Retaining volunteers is what we prioritize most, for good reason. Returning volunteers provide incredible cost-savings, making this a key task for any organization. We provide you with guidelines and templates that your team will use to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until they return to help again.
+    textback: Let them know you care! Simply due to bad or, even worse, no follow-up communication to thank the volunteer, ask them for feedback, and generally keep them engaged.<br><br>Retaining volunteers is what we prioritize most, for good reason. Returning volunteers provide incredible cost-savings, making this a key task for any organization. We provide you with guidelines and templates that your team will use to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until they return to help again.
     bgimageback: https://source.unsplash.com/pCMsbkittX8/1200x600
 
 process:

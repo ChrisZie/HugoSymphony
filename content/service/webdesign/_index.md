@@ -7,20 +7,12 @@ beforepage: fundraising
 sort: 2
 type: "service"
 newstag: "Web Design"
-heroBGImage: https://source.unsplash.com/r077pfFsdaU/1200x600
-heroTitleImage: https://source.unsplash.com/84n7c9cLEKM/1200x600
+heroBGImage: https://cdn.pixabay.com/photo/2016/01/10/23/18/lions-1132745_1280.jpg
+heroTitleImage: https://cdn.pixabay.com/photo/2016/01/19/17/55/barren-1149975_1280.jpg
 heroheader:
-  - heroHeading : web design<br />
-      is <br />
-      super cool
-  - heroHeading : We dive<br/>
-      into<br/>
-      it
-
-slides :
-  - caption  : Designed for Impact
-    description: >
-      Your website IS your identity to the world. It is who you are, what you offer, and why the user should trust you. To attract and keep users, your website must have excellent Design, super Speed, strong Security, and be Mobile focused.<br>We can help.
+  - heroHeading : Designed for impact
+  - heroHeading : Your website is your identity. Be remembered.
+  - heroHeading : It's all about beauty, speed, security, and flexibilty
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood

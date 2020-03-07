@@ -6,10 +6,12 @@ nextpage: webdesign
 beforepage: volunteerism
 sort: 5
 type: "service"
-slides :
-  - caption  : Funding for Change
-    description: >
-      There is no bigger influence on your ability to create new projects and have a more powerful impact on your environment than funding. Knowledge on how to get funding, both online and offline, is incredibly critical to your success.<br>We can help.
+heroBGImage: https://source.unsplash.com/r077pfFsdaU/1200x600
+heroTitleImage: https://source.unsplash.com/84n7c9cLEKM/1200x600
+heroheader:
+  - heroHeading : Funding for change
+  - heroHeading : Your impact is fully tied to your income
+  - heroHeading : Invest the time to grow your investors
 
 quizcards:
   - titlefront: LOCATION

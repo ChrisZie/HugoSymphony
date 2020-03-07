@@ -6,10 +6,12 @@ nextpage: volunteerism
 beforepage:  marketing
 sort: 1
 type: "service"
-slides :
-  - caption  : Success as a Strategy
-    description: >
-      You have no task more important than getting and keeping passionate volunteers. The value they provide is priceless. They offer time and passion, are often your biggest donors and, via word-of-mouth, are your biggest marketers too.
+heroBGImage: https://images.unsplash.com/photo-1565774488554-c75ea9c70bcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3023&q=80
+heroTitleImage: https://cdn.pixabay.com/photo/2015/10/12/14/59/antelope-canyon-984055_1280.jpg
+heroheader:
+  - heroHeading : Success is a strategy
+  - heroHeading : Your goal is one great plan away
+  - heroHeading : Choose to create a legacy that lasts a lifetime
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
@@ -33,14 +35,14 @@ quizcards:
     bgimagefront: https://cdn.pixabay.com/photo/2016/01/08/18/00/antelope-canyon-1128815_1280.jpg
     titleback: 85%
     textback: Almost all volunteers! Volunteers have cleary stated that organizing online makes communication easier and helps them save time, while organizations have stated that it helps get more volunteers to events and helps save money.<br><br>We are fully aware of what volunteers absolutely want to know so that they have no complications during their service. We work with your team to learn all key local information, creating excellent guides that your team can use to coordinate volunteers before and during their service.
-    bgimageback: https://cdn.pixabay.com/photo/2020/02/05/15/19/zoo-4821484_1280.jpg
+    bgimageback: https://cdn.pixabay.com/photo/2019/11/16/13/53/desert-lynx-4630313_1280.jpg
 
   - titlefront: PROFITS
     textfront: Do You Know How Many Volunteers Usually Do Not Return Due To A Lack Of Adequate Follow-Ups?
     bgimagefront: https://source.unsplash.com/Xc6gtOwSMSA/1200x600
     titleback: 33%
     textback: 1 out of every 3 volunteers! Simply due to bad or, even worse, no follow-up communication to thank the volunteer, ask them for feedback, and generally keep them engaged.<br><br>Retaining volunteers is what we prioritize most, for good reason. Returning volunteers provide incredible cost-savings, making this a key task for any organization. We provide you with guidelines and templates that your team will use to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until they return to help again.
-    bgimageback: https://cdn.pixabay.com/photo/2016/08/23/20/16/camel-1615446_1280.jpg
+    bgimageback: https://cdn.pixabay.com/photo/2020/02/05/15/19/zoo-4821484_1280.jpg
 
 process:
   - name: Start

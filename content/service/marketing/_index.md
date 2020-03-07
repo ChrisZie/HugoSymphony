@@ -6,10 +6,12 @@ nextpage: operations
 beforepage: webdesign 
 sort: 3
 type: "service"
-slides :
-  - caption  : Engaging Everyone Everywhere
-    description: >
-      Social Media **IS** marketing in the world today. With almost all internet users in the world now on Social Media, you absolutely must know how to attract, keep, and convert them into visitors, volunteers, and donors to achieve your goal.<br>We can help.
+heroBGImage: https://cdn.pixabay.com/photo/2017/10/06/03/51/emperor-penguins-2821897_1280.jpg
+heroTitleImage: https://cdn.pixabay.com/photo/2016/02/22/21/07/snow-1216543_1280.jpg
+heroheader:
+  - heroHeading : Engage everyone, everywhere
+  - heroHeading : Social Media is the definition of Marketing today
+  - heroHeading : Your best followers are your biggest supporters
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood

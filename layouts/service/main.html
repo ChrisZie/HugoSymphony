@@ -29,27 +29,8 @@
     {{ partial "hero-header.html" . }} 
 </section>
 <!-- End Hero Header -->
-<!-- TextSlider 2 -->
-<section class="px-0 pt-5  px-lg-5 pb-5 d-md-none d-lg-none d-xl-block">
-    <div class="container service" >
-        <div class="row justify-content-center"> 
-            <div class="col-10  col-sm-10  col-lg-10 col-xl-8 align-self-center motivationText">
-                <div class="large-3 columns nopad border-bot" ></div>
-                <div class="subheading " >
-                    <h2>{{ (index .Params.slides 0).caption | markdownify }}</h2>
-                </div>
-                <div class="large-3 columns nopad border-bot" ></div>
-                <div class="header-text " >
-                        <p>{{ (index .Params.slides 0).description | markdownify }}
-                        </p>         
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End TextSlider 2 -->
 <!--begin of Service Section-->
-<section class="pt-5 px-0 service-slider-overview ">
+<section class="pt-3 px-0 service-slider-overview ">
         {{ partial "serviceCard.html" . }}
     </div>
 </section>

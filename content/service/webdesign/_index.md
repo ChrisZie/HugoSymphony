@@ -2,9 +2,17 @@
 title: "Web Design"
 date: 2020-02-10T14:37:47+08:00
 draft: true
-nextpage: marketing
-beforepage: fundraising
+type: "service"
 newstag: "Web Design"
+heroBGImage: https://source.unsplash.com/7emiteIwfuk/1200x600
+heroTitleImage: https://cdn.pixabay.com/photo/2017/08/03/19/42/leopard-2578114_1280.jpg
+heroheader:
+  - heroHeading : web design<br />
+      is <br />
+      super cool
+  - heroHeading : We dive<br/>
+      into<br/>
+      it
 
 slides :
   - caption  : WEB DESIGN

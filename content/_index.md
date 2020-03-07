@@ -18,7 +18,7 @@ slides :
       Join our global network of world-changing institutions. If you have
       ever hoped and wondered how you could grow your impact, together we will do just that.
 service_item: 
-  - name: Web Design
+  - name: WEB DESIGN
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
@@ -31,7 +31,7 @@ service_item:
     <br><br>Our designs focus on one thing only: User Experience. **That** is how you
     raise your ranking on Google, getting you all the visitors, donors, and volunteers you need.'
 
-  - name: Digital Marketing
+  - name: MARKETING
     icon: "images/responsive.svg"
     serviceDetailLink: marketing
     color: red
@@ -48,7 +48,7 @@ service_item:
     answer: 'To the world, your Social Media profile **is** who you are and what you do. Use it well.<br><br>We design Social Media profiles on all 
     platforms that quickly grow your followers and convert them into your greatest supporters as visitors, volunteers, and donors.'
 
-  - name: operations
+  - name: MASTER PLAN
     icon: "images/responsive.svg"
     serviceDetailLink: operations
     color: red
@@ -65,7 +65,7 @@ service_item:
     answer: 'To the world, your Social Media profile **is** who you are and what you do. Use it well.<br><br>We design Social Media profiles on all 
     platforms that quickly grow your followers and convert them into your greatest supporters as visitors, volunteers, and donors.'
  
-  - name: Volunteerism
+  - name: VOLUNTEERISM
     icon: "images/responsive.svg"
     serviceDetailLink: volunteerism
     color: yellow
@@ -78,7 +78,7 @@ service_item:
     <br><br>We design and deploy world-class tools and training programs that guarantee that you attain,
     train, maintain, and retain all the best and brightest volunteers.'
  
-  - name: Fundraising Growth
+  - name: FUNDRAISING
     icon: "images/responsive.svg"
     serviceDetailLink: fundraising
     color: yellow

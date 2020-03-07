@@ -6,7 +6,7 @@ type: "service"
 slides :
   - caption  : Engaging Everyone Everywhere
     description: >
-      Social Media **IS** marketing in the world today. With almost all internet users in the world now on Social Media, you absolutely must know how to attract, keep, and convert them into visitors, volunteers, and donors to be achieve your goal.<br>We can help.
+      Social Media **IS** marketing in the world today. With almost all internet users in the world now on Social Media, you absolutely must know how to attract, keep, and convert them into visitors, volunteers, and donors to achieve your goal.<br>We can help.
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
@@ -29,7 +29,7 @@ quizcards:
     textfront: Do You Know How Many Organizations Rely Mainly On Social Media To Recruit Volunteers and Staff?
     bgimagefront: https://cdn.pixabay.com/photo/2014/10/09/23/36/mountains-482689_1280.jpg
     titleback: 84%
-    textback: Endless resources await! Social Media has changed so many of the rules that tourism and businesses are driven by, especially when it comes to finding the best and most passionate people to join your team as volunteers and staff.<br><br>We have both recruited volunteers over Social Media and have been recruited ourselves there. This has helps us understand extremely well the techniques, benefits, and common mistakes most recruiters make. We will provide you with step-by-step guides to recruit the very best resources.
+    textback: Endless resources await! Social Media has changed so many of the rules that tourism and businesses are driven by, especially when it comes to finding the best and most passionate people to join your team as volunteers and staff.<br><br>We have both recruited volunteers over Social Media and have been recruited there ourselves. This has helped us understand extremely well the techniques, benefits, and common mistakes most recruiters make. We will provide you with step-by-step guides to recruit the very best resources.
     bgimageback: https://cdn.pixabay.com/photo/2014/08/27/12/58/penguins-429128_1280.jpg
 
   - titlefront: CONVERTING
@@ -44,7 +44,7 @@ process:
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Initiation
-    description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to review all of your current Social Media profiles and strategies. We establish what your goals are and should be, and then create a plan get you to those goals from where you are right now.
+    description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to review all of your current Social Media profiles and strategies. We establish what your goals are and should be, and then create a plan to get you to those goals from where you are right now.
     description2: Deliverable - Project Charter
   - name: Discovery
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
@@ -74,6 +74,6 @@ process:
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stays online and current after we hand them over. That will not be the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. That will not be the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles in the future.
     description2: Deliverable - Support Guides
 ---

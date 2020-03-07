@@ -8,8 +8,23 @@ slides :
   - caption  : SERVICE OVERVIEW
     description: >
       Your passion and determination have brought you here. Let's now take your impact to the next level. You bring the vision, we'll bring the rest.
+
 service_item: 
-  - name: WEB DESIGN
+
+- name: MASTER PLAN
+    icon: "images/money.svg"
+    serviceDetailLink: operations
+    color: blue
+    question1: Did you know that
+    graph: 1
+    data: 88%
+    bar: 2
+    question2: of vistors will NEVER return to your website after a SINGLE bad experience?
+    answer: 'How good is your website?<br>
+    Big Governments and Organizations yearly on improving User Experience.<br><br>
+    We will create your website with a beautiful , super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
+
+- name: WEB DESIGN
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
@@ -17,7 +32,7 @@ service_item:
     graph: 1
     data: 88%
     bar: 2
-    question2: of vistors will NEVER return to your website after a SINGLE bad experience?
+    question2: of visitors will NEVER return to your website after a SINGLE bad experience?
     answer: 'How good is your site?<br>
     Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
     We will create your website with a beautiful Design, high Speed, super Security, and make sure it performs even better on Phones.'
@@ -34,19 +49,6 @@ service_item:
     answer: 'What did you invest?<br>
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
     We will create fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
-
-  - name: MASTER PLAN
-    icon: "images/money.svg"
-    serviceDetailLink: operations
-    color: blue
-    question1: Did you know that
-    graph: 1
-    data: 88%
-    bar: 2
-    question2: of vistors will NEVER return to your website after a SINGLE bad experience?
-    answer: 'How good is your website?<br>
-    Big Governments and Organizations yearly on improving User Experience.<br><br>
-    We will create your website with a beautiful , super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
  
   - name: VOLUNTEERISM
     icon: "images/responsive.svg"

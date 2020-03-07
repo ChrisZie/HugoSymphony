@@ -72,6 +72,6 @@ process:
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stays online and current after we hand them over. That will not be the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles and fundraising approach in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. That will not be the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles and fundraising approach in the future.
     description2: Deliverable - Support Guides
 ---

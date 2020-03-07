@@ -47,7 +47,7 @@ quizcards:
     textfront: Do You Know How Often A Hacker Targets A Small Business or Government?
     bgimagefront: https://source.unsplash.com/7emiteIwfuk/1200x600
     titleback: Every 39 Seconds
-    textback: Don't become a victim! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when build websites. Vistors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites. Our technical construction is completely different and our focus is security, guaranteeing that you are far less likely to be targeted.
+    textback: Don't become a victim! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when building websites. Visitors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites. Our design is completely different and prioritizes security, guaranteeing that you are far less likely to be targeted.
     bgimageback: https://source.unsplash.com/r077pfFsdaU/1200x600
 
 process:
@@ -73,7 +73,7 @@ process:
     image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
     imagealttext: Registration
     subtext: Naming and Hosting
-    description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transer all your data from any existing websites or services to the new service.
+    description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transfer all your data from any existing websites or services to the new service.
     description2: Deliverable - Domain and Hosting Summary
   - name: Final Delivery
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg

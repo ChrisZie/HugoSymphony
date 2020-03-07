@@ -189,10 +189,10 @@ float: left;
     padding-bottom: 13%;
   } */
   .ui .drop{
-    //z-index:-999;
+    z-index:-999;
     opacity:0;
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
     display: block;
   }
   .ui_box:hover > .drop{

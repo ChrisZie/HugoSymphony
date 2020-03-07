@@ -5,7 +5,7 @@ draft: true
 layout: "main"
 type: "overview"
 slides :
-  - caption  : SERVICE OVERVIEW
+  - caption  : Next Level
     description: >
       Your passion and determination have brought you here. Let's now take your impact to the next level. You bring the vision, we'll bring the rest.
 
@@ -75,7 +75,7 @@ service_item:
         bar: 2
       - fact: Corporate Sponsorships
         bar: 3
-    question2: 70% of donations are made by individuals donors and they were attracted by good marketing? 
+    question2: 70% of donations are made by individual donors, who are attracted by good marketing? 
     answer: 'Who are your donors?<br>
     Donations support causes around the world. Donations are given every moment so get donors to your cause.<br><br>
     We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'

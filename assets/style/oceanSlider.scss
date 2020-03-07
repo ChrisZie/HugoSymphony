@@ -93,7 +93,8 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   overflow: hidden;
   align-items: center;
   display: flex;
-  background-attachment: fixed; //parallax effect
+  background-position: center;
+  //background-attachment: fixed; //parallax effect
 }
 
 .ocean-text {
@@ -104,7 +105,7 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   font-weight: bold;
   position: relative;
   background-image: url(https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg);
-  background-size: initial;
+  background-size: contain;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

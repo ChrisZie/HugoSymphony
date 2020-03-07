@@ -21,17 +21,23 @@
     </div>
     <div class="hero-part">
       <div class="layer" data-scene="1">      
-        <h2 class="heroHeading" >{{ .Title | markdownify  }}</h2>
+        <h2 class="heroHeading">{{ .Title | markdownify }}</h2>
       </div>
-<!--       <div class="layer" data-scene="2">      
-        <h2 class="heroHeading" >{{ .Title | markdownify  }}</h2>
+      {{ if isset .Params.heroheader 0 }}
+      <div class="layer" data-scene="2">      
+        <h2 class="heroHeading">{{ (index .Params.heroheader 0 ).heroHeading | markdownify }}</h2>
       </div>
+      {{ end }}
+      {{ if isset .Params.heroheader 1 }}
       <div class="layer" data-scene="3">      
-        <h2 class="heroHeading" >{{ .Title | markdownify  }}</h2>
+        <h2 class="heroHeading">{{ (index .Params.heroheader 1 ).heroHeading | markdownify }}</h2>
       </div>
+      {{ end }}
+      {{ if isset .Params.heroheader 2 }}
       <div class="layer" data-scene="4">      
-        <h2 class="heroHeading" >{{ .Title | markdownify }}</h2>
-      </div> -->
+        <h2 class="heroHeading">{{ (index .Params.heroheader 2 ).heroHeading | markdownify }}</h2>
+      </div>
+      {{ end }}
       <button class="button" onclick="window.location.href = '/contact/';">
         Let's chat
       </button>

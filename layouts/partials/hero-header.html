@@ -9,7 +9,7 @@
       @symphony.eco
     </header>
     <div class="ocean" {{ if isset .Params "herobgimage" }} style='background-image: url("{{ .Params.herobgimage | absURL }}");' {{ end }}>
-      <div class="ocean-text" style='font-size: 40vh; {{ if isset .Params "herobgimage" }} background-image: url("{{ .Params.herobgimage | absURL }}"); {{ end }}' >{{.Title}}</div>
+      <div class="ocean-text" style='font-size: 40vh; {{ if isset .Params "herotitleimage" }} background-image: url("{{ .Params.herotitleimage | absURL }}"); {{ end }}' >{{.Title}}</div>
     </div>
     <div class="left-side">    
       <div class="page-numbers" data-total="04">

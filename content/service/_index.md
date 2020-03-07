@@ -12,7 +12,7 @@ slides :
 service_item: 
   - name: MASTER PLAN
     icon: "images/money.svg"
-    serviceDetailLink: operations
+    serviceDetailLink: masterplan
     color: blue
     question1: Did you know that
     graph: 1

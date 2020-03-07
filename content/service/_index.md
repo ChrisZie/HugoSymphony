@@ -10,8 +10,7 @@ slides :
       Your passion and determination have brought you here. Let's now take your impact to the next level. You bring the vision, we'll bring the rest.
 
 service_item: 
-
-- name: MASTER PLAN
+  - name: MASTER PLAN
     icon: "images/money.svg"
     serviceDetailLink: operations
     color: blue
@@ -24,7 +23,7 @@ service_item:
     Big Governments and Organizations yearly on improving User Experience.<br><br>
     We will create your website with a beautiful , super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
 
-- name: WEB DESIGN
+  - name: WEB DESIGN
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue

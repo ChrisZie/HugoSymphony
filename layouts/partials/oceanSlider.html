@@ -20,34 +20,26 @@
       </div>
     </div>
     <div class="hero-part">
+      {{ if isset .Params.heroheader 0 }}
       <div class="layer" data-scene="1">      
-        <h2 class="heroHeading">
-          Conservation<br />
-          is a Symphony<br />
-          performed together
-        </h2>
+        <h2 class="heroHeading">{{ (index .Params.heroheader 0 ).heroHeading | markdownify }}</h2>
       </div>
+      {{ end }}
+      {{ if isset .Params.heroheader 1 }}
       <div class="layer" data-scene="2">      
-        <h2 class="heroHeading">
-          We live for<br />
-          helping you reach<br />
-          your full potential
-        </h2>
+        <h2 class="heroHeading">{{ (index .Params.heroheader 1 ).heroHeading | markdownify }}</h2>
       </div>
+      {{ end }}
+      {{ if isset .Params.heroheader 2 }}
       <div class="layer" data-scene="3">      
-        <h2 class="heroHeading">
-          Decide now<br />
-          take action<br />
-          create success
-        </h2>
+        <h2 class="heroHeading">{{ (index .Params.heroheader 2 ).heroHeading | markdownify }}</h2>
       </div>
+      {{ end }}
+      {{ if isset .Params.heroheader 3 }}
       <div class="layer" data-scene="4">      
-        <h2 class="heroHeading">
-          One planet<br />
-          one team<br />
-          one mission
-        </h2>
+        <h2 class="heroHeading">{{ (index .Params.heroheader 3 ).heroHeading | markdownify }}</h2>
       </div>
+      {{ end }}
       <button class="button" onclick="window.location.href = '/contact/';">
         Let's chat
       </button>

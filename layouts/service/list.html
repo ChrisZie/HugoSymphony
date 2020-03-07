@@ -34,7 +34,7 @@
 <!-- Hero Header -->
 <section class="hero-header p-0 pb-4 container">
   {{ partial "hero-header.html" . }} 
-  <div class="services pt-4 pb-3 text-center row justify-content-center">
+  <div class="services pt-3 pb-0 text-center row justify-content-center">
     {{ $title := .Params.title}}
     {{ range ( where .Site.Pages "Type" "service" )}}
     <a href="{{ .Permalink }}" class="button {{if eq .Params.title $title}}active{{end}}">{{.Params.title}}</a>
@@ -43,13 +43,13 @@
 </section>
 <!-- End Hero Header -->
 <!-- Section Header 1 -->
-<section class="px-0 pb-5 pt-5 px-lg-5">
+<section class="px-0 pb-5 pt-5 px-lg-5 my-5">
   <div class="container service">
       <div class="row justify-content-center"> 
           <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
               <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                      <h2>Quiztime</h2>
+                      <h2>Quiz Time</h2>
               </div>
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
           </div>
@@ -93,7 +93,7 @@
 </section>
 <!---End Quiz -->
 <!-- Section Header 2 -->
-<section class="px-0 pb-5 pt-5 px-lg-5">
+<section class="px-0 pb-5 pt-5 px-lg-5 my-5">
   <div class="container service">
       <div class="row justify-content-center"> 
           <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
@@ -117,7 +117,7 @@
 </section>
 <!---End Process -->
 <!-- Section Header 3 -->
-<section class="px-0 pb-5 pt-5 px-lg-5">
+<section class="px-0 pb-5 pt-5 px-lg-5 my-5">
   <div class="container service">
       <div class="row justify-content-center"> 
           <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">

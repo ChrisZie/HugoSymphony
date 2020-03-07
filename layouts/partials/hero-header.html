@@ -4,14 +4,12 @@
   <input type="radio" name="scene" id="scene-3" value="3" />
   <input type="radio" name="scene" id="scene-4" value="4" />
 
-  <div id="site" style="
-  height: 45vh;
-">
+  <div id="site" style="height: 45vh;">
     <header class="top-nav">
       @symphony.eco
     </header>
-    <div class="ocean">
-      <div class="ocean-text" style="font-size: 40vh;">{{.Title}}</div>
+    <div class="ocean" {{ if isset .Params "herobgimage" }} style='background-image: url("{{ .Params.herobgimage | absURL }}");' {{ end }}>
+      <div class="ocean-text" style='font-size: 40vh; {{ if isset .Params "herobgimage" }} background-image: url("{{ .Params.herobgimage | absURL }}"); {{ end }}' >{{.Title}}</div>
     </div>
     <div class="left-side">    
       <div class="page-numbers" data-total="04">
@@ -22,35 +20,39 @@
       </div>
     </div>
     <div class="hero-part">
+      <div class="layer" data-scene="1">      
+        <h2 class="heroHeading" >{{ .Title | markdownify  }}</h2>
+      </div>
+      <div class="layer" data-scene="2">      
+        <h2 class="heroHeading" >{{ .Title | markdownify  }}</h2>
+      </div>
+      <div class="layer" data-scene="3">      
+        <h2 class="heroHeading" >{{ .Title | markdownify  }}</h2>
+      </div>
+      <div class="layer" data-scene="4">      
+        <h2 class="heroHeading" >{{ .Title | markdownify }}</h2>
+      </div>
       <button class="button" onclick="window.location.href = '/contact/';">
         Let's chat
       </button>
     </div>
-
-
     <div class="right-content">
-
       <nav class="slide-nav">
         <div class="nav-button -prev">
-          &lt;
-        
+          &lt; 
           <label class="nav-toggle" for="scene-1">1</label>
           <label class="nav-toggle" for="scene-2">2</label>
           <label class="nav-toggle" for="scene-3">3</label>
           <label class="nav-toggle" for="scene-4">4</label>
-        
         </div>
         <div class="nav-button -next" style="white-space: nowrap;">
           Next &gt;
-        
           <label class="nav-toggle" for="scene-1">1</label>
           <label class="nav-toggle" for="scene-2">2</label>
           <label class="nav-toggle" for="scene-3">3</label>
           <label class="nav-toggle" for="scene-4">4</label>
         </div>
       </nav>
-
-      
     </div>
   </div>
 </div>

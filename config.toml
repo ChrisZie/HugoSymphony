@@ -4,6 +4,7 @@ title = "Symphony ECO"
 summaryLength = "10"
 paginate = 6
 
+
 [outputs]
   home = ["HTML", "AMP", "RSS", "JSON"]
 
@@ -32,9 +33,10 @@ paginate = 6
 [params]
     home = "Start"
     logo = "images/logo.png"
+    og_image = "images/money.svg"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Tesla's Awesome Hugo Site"
+    description = "Symphony ECOs Awesome Hugo Site"
     author = "Symphony ECO"
     keywords = "Consulting; Conservation;"
     # Google Analitycs

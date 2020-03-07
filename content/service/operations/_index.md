@@ -2,8 +2,7 @@
 title: "MASTER PLAN"
 date: 2020-02-10T14:37:47+08:00
 draft: true
-nextpage: volunteerism
-beforepage:  marketing
+type: "service"
 slides :
   - caption  : Success as a Strategy
     description: >

@@ -5,6 +5,7 @@ draft: false
 
 # post thumb
 image: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
+og_image : "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
 
 # meta description
 description: "this is meta description"

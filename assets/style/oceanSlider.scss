@@ -93,6 +93,7 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   overflow: hidden;
   align-items: center;
   display: flex;
+  background-attachment: fixed; //parallax effect
 }
 
 .ocean-text {

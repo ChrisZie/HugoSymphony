@@ -1,13 +1,15 @@
 $ease: cubic-bezier(.2,1,.3,1);
   
 .link-arrow {
-  position: absolute;
+/*   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   svg {
+    top: -0.875em;
+    position: relative;
     width: 90px;
-    fill: white;
+    fill: #1164b4;
     height: auto;
     margin: 0 0;
     cursor: pointer;
@@ -17,7 +19,7 @@ $ease: cubic-bezier(.2,1,.3,1);
     }
     &:hover polygon, &:hover path {
       transition: all 1s $ease;
-      fill: whitesmoke;
+      fill: #1164b4;
     }
       
     &:hover .arrow {

@@ -32,9 +32,9 @@
 
 {{ define "main" }}
 <!-- Hero Header -->
-<section class="hero-header p-0 pb-4">
+<section class="hero-header p-0 pb-4 container">
   {{ partial "hero-header.html" . }} 
-  <div class="services pt-3 text-center">
+  <div class="services pt-4 pb-3 text-center row justify-content-center">
     {{ $title := .Params.title}}
     {{ range ( where .Site.Pages "Type" "service" )}}
     <a href="{{ .Permalink }}" class="button {{if eq .Params.title $title}}active{{end}}">{{.Params.title}}</a>

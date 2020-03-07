@@ -1,4 +1,7 @@
 {{ define "extrahead" }}
+{{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
@@ -14,13 +17,11 @@
 
 {{ define "main" }}
 
-<section class="p-0">
-    <div class="service-header">
-        <span class="coverHeader">@Symphony.ECO</span>
-            <p class="serviceheader-text">{{.Title}}</p>
-        </div>
+<!-- Hero Header -->
+<section class="hero-header p-0 pb-4 container">
+    {{ partial "hero-header.html" . }} 
 </section>
-
+<!-- End Hero Header -->
 <!-- TextSlider 2 -->
 <section class="px-0 pt-5  px-lg-5 pb-5 d-md-none d-lg-none d-xl-block">
     <div class="container service" >

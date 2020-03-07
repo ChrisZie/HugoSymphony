@@ -338,11 +338,11 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     line-height: 1;
     
     transition: all 100ms linear;
-    &:hover{ 
+    &:hover:not(.active){ 
 
       box-shadow: -0.5vmin 0.5vmin 0 rgba(white, 0.5);
-      background: transparent;
-      color: white;
+      background: rgba(255, 255, 255, 0.7);
+      color: green;
       transform: translate3d(0.5vmin, -0.5vmin, 0);
     }
     &:active{ 
@@ -411,21 +411,33 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
 }
 
 .hero-header {
-  @media (min-width: 800px) {
-    #site h2 {
-      font-size: 13vh;
-    }
-  }
+
 
   #site {
     grid-template-columns: 1rem 1fr 1fr 1fr;
   }
+  .services a {
+    margin-right: 0%;
+  }
   .button {
     bottom: 2%;
+    font-size: 3.3vmin;
   }
   @media (max-width: 500px) {
     .button {
         bottom: 13%;
+
+    }
+  }
+  @media (min-width: 800px) {
+    #site h2 {
+      font-size: 13vh;
+    }
+    .button {
+      font-size: 2vmin;
+    }
+    .services a {
+      margin-right: 5%;
     }
   }
   .services .button {
@@ -435,12 +447,19 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     border: 3px solid white;
     background: white;
     color: black;
+      &:hover:not(.active){ 
+
+        box-shadow: -0.5vmin 0.5vmin 0 rgba(#1164b4, 0.5);
+        background: rgba(17, 100, 180, 0.8);
+        color: white;
+        border: 3px solid rgba(17, 100, 180, 0.5);
+      }
   }
-  .services a {
-    margin-right: 1.5rem;
-    display: inline-flex;
-    align-self: center;
-  }
+
+
+  .services a:last-child{
+    margin-right: 0;
+  } 
 
   .services {
     background: white;
@@ -448,5 +467,6 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
 
   .services .active {
     background: #1164b4;
+    color: white;
   }
 } 

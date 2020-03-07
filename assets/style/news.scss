@@ -293,6 +293,18 @@ g.parallax :last-child {
   display: block;
 }
 
+._Cover__ .EntryCover  .Cover {
+  //background-image:url(' {{ if .Params.coverimage }}{{ .Params.coverimage | absURL }}{{else}}{{ .Params.image | absURL }}{{end}}');
+  background-position: 67.5% 9.953343701399689%;
+}
+
+/* @media (max-width:600px) {
+  ._Cover__ .EntryCover  .Cover {
+    background-image:url('{{ if .Params.coverimagemobil }}{{ .Params.coverimagemobil | absURL }}{{else}}{{ .Params.image | absURL }}{{end}}');
+  }  
+} */
+
+
 .EntryCover ._Info {
   margin-left: auto;
   margin-right: auto;

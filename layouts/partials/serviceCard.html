@@ -48,6 +48,8 @@
             <div class='progress'>
               {{ if eq .bar 2 }}
               <div class='progress_bar--two'></div>
+              {{ else if eq .bar 3 }}
+              <div class='progress_bar--three'></div>
               {{else}}
               <div class='progress_bar'></div>
               {{ end }}

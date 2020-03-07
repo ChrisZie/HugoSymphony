@@ -39,7 +39,7 @@ service_item:
     question1: Did you know that over
     graph: 1
     data: 99.5% 
-    bar: 2
+    bar: 3
     question2: of all Tourism Organizations and Professionals state that Ecotourism is a **rapidly** growing industry?
     answer: 'Ecotourism can be your greatest source of revenue and growth, but ONLY if you plan it well.<br><br>We create internationally recognized Ecotourism Management Plans that expertly guide your tourism growth, vastly raising your number of tourists and investments.'
 

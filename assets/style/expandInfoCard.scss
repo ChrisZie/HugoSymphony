@@ -120,6 +120,12 @@ float: left;
             background:$background;
             -webkit-animation:bar2 2s;
           }
+          &_bar--three{
+            height:6px;float:left;
+            width:95%;
+            background:$background;
+            -webkit-animation:bar3 2s;
+          }
         }
       }
       h2{
@@ -265,6 +271,11 @@ float: left;
 @keyframes bar2{
   from{width:0px}
   to{width:78%;}
+}
+
+@keyframes bar3{
+  from{width:0px}
+  to{width:95%;}
 }
 
 @keyframes graph{

@@ -36,7 +36,7 @@
   {{ partial "hero-header.html" . }} 
   <div class="services pt-3 pb-0 text-center row justify-content-center">
     {{ $title := .Params.title}}
-    {{ range ( where .Site.Pages "Type" "service" )}}
+    {{ range sort ( where .Site.Pages "Type" "service") ".Params.sort"}}
     <a href="{{ .Permalink }}" class="button {{if eq .Params.title $title}}active{{end}}">{{.Params.title}}</a>
     {{ end }}
   </div>

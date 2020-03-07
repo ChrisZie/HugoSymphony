@@ -6,7 +6,7 @@ nextpage: webdesign
 beforepage: volunteerism
 type: "service"
 slides :
-  - caption  : Fundraising
+  - caption  : Funding for Change
     description: >
       There is no bigger influence on your ability to create new projects and have a more powerful impact on your environment than funding. Knowledge on how to get funding, both online and offline, is incredibly critical to your success.<br>We can help.
 

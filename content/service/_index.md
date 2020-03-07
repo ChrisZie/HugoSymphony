@@ -9,7 +9,7 @@ slides :
     description: >
       Your passion and determination have brought you here. Let's now take your impact to the next level. You bring the vision, we'll bring the rest.
 service_item: 
-  - name: Web Design
+  - name: WEB DESIGN
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
@@ -22,7 +22,7 @@ service_item:
     Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
     We will create your website with a beautiful Design, high Speed, super Security, and make sure it performs even better on Phones.'
 
-  - name: Digital Marketing
+  - name: MARKETING
     icon: "images/responsive.svg"
     serviceDetailLink: marketing
     color: red
@@ -35,7 +35,7 @@ service_item:
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
     We will create fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
 
-  - name: Operations
+  - name: MASTER PLAN
     icon: "images/money.svg"
     serviceDetailLink: operations
     color: blue
@@ -48,7 +48,7 @@ service_item:
     Big Governments and Organizations yearly on improving User Experience.<br><br>
     We will create your website with a beautiful , super high Speed, hacker-proof Security, and do all of that even better on Mobile Devices.'
  
-  - name: Volunteerism
+  - name: VOLUNTEERISM
     icon: "images/responsive.svg"
     serviceDetailLink: volunteerism
     color: yellow
@@ -61,7 +61,7 @@ service_item:
     Volunteers are so critical because they not only freely offer their skills and time, but also their donations and marketing.<br><br>
     We design volunteer programs that attract, train, coordinate, and, best of all, keep volunteers coming back.'
  
-  - name: Fundraising
+  - name: FUNDRAISING
     icon: "images/responsive.svg"
     serviceDetailLink: fundraising
     color: yellow
@@ -76,7 +76,7 @@ service_item:
         bar: 3
     question2: 70% of donations are made by individuals donors and they were attracted by good marketing? 
     answer: 'Who are your donors?<br>
-    Donations support causes around the world. Donations are given every moment so aim to bring donors to your cause.<br><br>
+    Donations support causes around the world. Donations are given every moment so get donors to your cause.<br><br>
     We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
 ---
 

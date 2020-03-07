@@ -6,7 +6,7 @@ nextpage: fundraising
 beforepage: operations 
 type: "service"
 slides :
-  - caption  : volunteerism
+  - caption  : The Best and Brightest
     description: >
       The value volunteers provide is priceless. They offer time and passion, are often your biggest donors and, via word-of-mouth, are your biggest marketers too. You have no task more important than getting and keeping passionate volunteers.<br>We can help.
 

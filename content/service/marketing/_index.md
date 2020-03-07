@@ -1,12 +1,12 @@
 ---
-title: "Digital Marketing"
+title: "Marketing"
 date: 2020-02-10T14:37:47+08:00
 draft: true
 nextpage: operations
 beforepage: webdesign 
 type: "service"
 slides :
-  - caption  : Digital Marketing
+  - caption  : Engaging Everyone Everywhere
     description: >
       Social Media **IS** marketing in the world today. With almost all internet users in the world now on Social Media, you absolutely must know how to attract, keep, and convert them into visitors, volunteers, and donors to be achieve your goal.<br>We can help.
 
@@ -17,7 +17,7 @@ quizcards:
     textfront: Do You Know How Many Organizations Agree That Social Media Has Vastly Improved Their Brand's Popularity?
     bgimagefront: https://cdn.pixabay.com/photo/2014/12/13/15/42/alaska-566722_1280.jpg
     titleback: 94%
-    textback: Almost every single one! Make no mistake, your Brand IS what you offer. This is as true if you are seeking tourists as it is for volunteers and donors. Social Media lets you reach every type of audience - all ages, all genders, all locations.<br><br>As millenials, we understand Social Media like it is a part of ourselves. This enables us to create fantastic profiles for you on all the major platforms, Western AND Eastern, to make sure the entire world knows you and why they should invest their time, and potentially money, with you.
+    textback: Be seen by everyone! Make no mistake, your Brand **is** what you offer. This is as true if you are seeking tourists as it is for volunteers and donors. Social Media lets you reach every type of audience - all ages, all genders, all locations.<br><br>As millenials, we understand Social Media like it is a part of ourselves. This enables us to create fantastic profiles for you on all the major platforms, Western AND Eastern, to make sure the entire world knows you and why they should invest their time, and potentially money, with you.
     bgimageback: https://cdn.pixabay.com/photo/2016/09/12/17/51/polar-bears-1665367_1280.jpg
 
   - titlefront: BROADCASTING
@@ -31,14 +31,14 @@ quizcards:
     textfront: Do You Know How Many Organizations Rely Mainly On Social Media To Recruit Volunteers and Staff?
     bgimagefront: https://cdn.pixabay.com/photo/2014/10/09/23/36/mountains-482689_1280.jpg
     titleback: 84%
-    textback: That is the vast majority! Social Media has changed so many of the rules that tourism and businesses are driven by, especially engaging the best and most passionate people to join your team as volunteers and staff.<br><br>We have both recruited volunteers over Social Media and have been recruited ourselves there. This has helps us understand extremely well the techniques, benefits, and common mistakes most recruiters make. We will provide you with step-by-step guides to recruit the very best resources.
+    textback: Endless resources await! Social Media has changed so many of the rules that tourism and businesses are driven by, especially when it comes to finding the best and most passionate people to join your team as volunteers and staff.<br><br>We have both recruited volunteers over Social Media and have been recruited ourselves there. This has helps us understand extremely well the techniques, benefits, and common mistakes most recruiters make. We will provide you with step-by-step guides to recruit the very best resources.
     bgimageback: https://cdn.pixabay.com/photo/2014/08/27/12/58/penguins-429128_1280.jpg
 
   - titlefront: CONVERTING
     textfront: Do You Know How Many Instagram Users Alone Take Action After Being Inspired By A Post?
     bgimagefront: https://cdn.pixabay.com/photo/2015/12/08/00/54/glacier-1082163_1280.jpg
     titleback: 75%
-    textback: That's three-quarters of all your visitors! Instagrammers will immdediately either go to your website, engage you in conversation directly, search for more information, or recommend you and your post to a friend.<br><br>We understand the complex algorithms that the different Social Media platforms use to increase the visibility of the best posts. We show you how to use our techniques to make sure your post is seen by the most number of people and results in the highest conversion of readers to followers.
+    textback: Speak straight to their hearts! Once inspired, Social Media users will immediately either go to your website, engage you in conversation directly, search for more information, or recommend you and your post to their friends and family.<br><br>We understand the complex algorithms that the different Social Media platforms use to increase the visibility of the best posts. We show you how to use our techniques to make sure your post is seen by the most number of people and results in the highest conversion of readers to followers.
     bgimageback: https://cdn.pixabay.com/photo/2017/01/01/20/09/killer-whales-1945411_1280.jpg
 
 process:

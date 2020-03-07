@@ -33,7 +33,7 @@ slides :
       ever hoped and wondered how you could grow your impact, together we will do just that.
 
 service_item: 
-  - name: MASTER PLAN
+  - name: __MASTER PLAN__
     icon: "images/responsive.svg"
     serviceDetailLink: operations
     question1: Did you know that over
@@ -43,7 +43,7 @@ service_item:
     question2: of all Tourism Organizations and Professionals state that Ecotourism is a **rapidly** growing industry?
     answer: 'Ecotourism can be your greatest source of revenue and growth, but ONLY if you plan it well.<br><br>We create internationally recognized Ecotourism Management Plans that expertly guide your tourism growth, vastly raising your number of tourists and investments.'
 
-  - name: WEB DESIGN
+  - name: __WEB DESIGN__
     icon: "images/money.svg"
     serviceDetailLink: webdesign
     color: blue
@@ -53,10 +53,10 @@ service_item:
     bar: 2
     question2: of visitors to your website will just **leave** if your website is not secure or takes longer than 3 seconds to load?
     answer: 'Beautiful. Fast. Secure. These 3 things guarantee that you and your goals are never forgotten. 
-    <br><br>Our designs focus on one thing only: User Experience. **That** is how you
+    <br><br>Our designs focus on one thing only: User Experience. That is how you
     raise your ranking on Google, getting you all the visitors, donors, and volunteers you need.'
 
-  - name: MARKETING
+  - name: __MARKETING__
     icon: "images/responsive.svg"
     serviceDetailLink: marketing
     color: red
@@ -73,7 +73,7 @@ service_item:
     answer: 'To the world, your Social Media profile **is** who you are and what you do. Use it well.<br><br>We design Social Media profiles on all 
     platforms that quickly grow your followers and convert them into your greatest supporters as visitors, volunteers, and donors.'
  
-  - name: VOLUNTEERISM
+  - name: __VOLUNTEERISM__
     icon: "images/responsive.svg"
     serviceDetailLink: volunteerism
     color: yellow
@@ -86,7 +86,7 @@ service_item:
     <br><br>We design and deploy world-class tools and training programs that guarantee that you attain,
     train, maintain, and retain all the best and brightest volunteers.'
  
-  - name: FUNDRAISING
+  - name: __FUNDRAISING__
     icon: "images/responsive.svg"
     serviceDetailLink: fundraising
     color: yellow
@@ -95,7 +95,7 @@ service_item:
     data: $235 Billion
     bar: 1
     question2: or 55% of **all** donations you can get are made online, mainly through Social Media and your website?
-    answer: 'You know as well as we do that how much change you make is **directly** tied to funding. 
+    answer: 'You know as well as we do that how much change you make is directly tied to funding. 
     <br><br>We create fantastic online fundraising campaigns that reach donors and investors all over the world, 
     providing you with income that lets you make your impact.'
 ---

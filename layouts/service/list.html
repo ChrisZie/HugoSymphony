@@ -42,27 +42,23 @@
   </div>
 </section>
 <!-- End Hero Header -->
-<!-- TextSlider 3 -->
+<!-- Section Header 1 -->
 <section class="px-0 pb-5 pt-5 px-lg-5">
   <div class="container service">
       <div class="row justify-content-center"> 
           <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
               <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                      <h2>{{ (index .Params.slides 0).caption | markdownify}}</h2>
+                      <h2>Header 1</h2>
               </div>
               <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-              <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                      <p>{{ (index .Params.slides 0).description | markdownify}}
-          </p>         
-              </div>
           </div>
       </div>
   </div>
 </section>
-<!-- End TextSlider 3 -->
+<!-- Header 1 End -->
 <!---Quiz -->
-<section class="quiz pb-5 pt-5">
+<section class="quiz pb-4 pt-5">
   <div class="container px-lg-5">
       <div class="row justify-content-center"> 
         {{ $bgImageFront := .Params.quizbgimagefront }}
@@ -96,8 +92,23 @@
   </div>
 </section>
 <!---End Quiz -->
+<!-- Section Header 2 -->
+<section class="px-0 pb-5 pt-5 px-lg-5">
+  <div class="container service">
+      <div class="row justify-content-center"> 
+          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
+              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+              <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                      <h2>Header 2</h2>
+              </div>
+              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Header 2 End -->
 <!---Process -->
-<section class="p-0  pb-5 pt-5">
+<section class="p-0  pb-4 pt-5">
   <div class="container">
       <div class="row justify-content-center"> 
         {{ partial "processCard.html" . }}
@@ -105,6 +116,21 @@
   </div>
 </section>
 <!---End Process -->
+<!-- Section Header 3 -->
+<section class="px-0 pb-5 pt-5 px-lg-5">
+  <div class="container service">
+      <div class="row justify-content-center"> 
+          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
+              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+              <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                      <h2>Header 3</h2>
+              </div>
+              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Header 1 End -->
 <!-- recent post with specific tags from the params of the page-->
 <section class="news ">
   <div class="container py-5" >

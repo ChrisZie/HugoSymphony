@@ -34,6 +34,11 @@ type: "post"
 
 ##### Emphasis
 
+
+{{< img src="post-1.jpeg" alt="test" >}}
+
+
+
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.

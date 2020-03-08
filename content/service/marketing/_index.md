@@ -13,8 +13,6 @@ heroheader:
   - heroHeading : Social Media is the definition of Marketing today
   - heroHeading : Your best followers are your biggest supporters
 
-quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
-quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: ADVERTISING
     textfront: How Many Organizations Agree That Social Media Has Vastly Improved Their Brand's Popularity?

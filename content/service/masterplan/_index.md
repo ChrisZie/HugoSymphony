@@ -13,8 +13,6 @@ heroheader:
   - heroHeading : Create a great future for your environment and your economy
   - heroHeading : Choose to create a legacy that lasts a lifetime
 
-quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
-quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: PLANNING
     textfront: How Many UNESCO Ecotourism sites, mainly Wildlife and Marine Sanctuaries, Parks, and Reserves, Have Ecotourism Management Plans?

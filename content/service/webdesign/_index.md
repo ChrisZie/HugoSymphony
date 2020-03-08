@@ -14,8 +14,6 @@ heroheader:
   - heroHeading : Your website is your identity. Be remembered.
   - heroHeading : It's all about beauty, speed, security, and flexibilty
 
-quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
-quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: SIMPLICITY
     textfront: How Many People Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 

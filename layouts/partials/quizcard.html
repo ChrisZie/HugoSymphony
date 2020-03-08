@@ -108,14 +108,14 @@
       <style> .cardback{{$classname}}  { background-image: url("{{ $bgImageBack | absURL }}");}</style>
     {{ end }}
     <div class="cardcontainer">
-      <div class="cardfront cardside {{.titlefront}}">
+      <div class="cardfront cardside {{ $cardname }}">
         <div class="parallaxContent">
           <h2>{{ .titlefront | markdownify | upper }}</h2>
           <p>{{ .textfront | markdownify }}</p>
         </div>
         <div class="afteroverlay"></div>
       </div>
-      <div class="cardback cardside {{.titlefront}}">
+      <div class="cardback cardside {{ $cardname}}">
         <div class="parallaxContent">
           <h2>{{ .titleback | markdownify }}</h2>
           <p>{{ .textback | markdownify }}</p>

@@ -120,6 +120,64 @@ html, body{
 				}
 			}	
 		}
+		//Image Processing 
+		{{ with $.Resources.ByType "image" }}
+		{{ $resources := .Match "*aboutusslider.jpeg"}}
+		{{ range $index, $element := $resources }}
+				{{ with . }}
+				{{ $tinyw := default "600x" }}
+				{{ $smallw := default "1200x" }} 
+				{{ $mediumw := default "1500x" }}
+				{{ $largew := default "2000x" }}
+				{{ $tiny := .Resize $tinyw }}
+				{{ $small := .Resize $smallw }}
+				{{ $medium := .Resize $mediumw }}
+				{{ $large := .Resize $largew }}
+					&:nth-child({{ add $index 1}}) {
+						.untitled__slideBg{
+							background-image:url('{{ .RelPermalink | absURL }}');
+						}
+					}
+					{{ if ge .Width "2000" }}
+					@media (max-width: 2000px) {
+						&:nth-child({{ add $index 1}}) {
+							.untitled__slideBg{
+								background-image:url('{{ $large.RelPermalink | absURL }}');
+							}
+						}
+					}
+					{{ end }}
+					{{ if ge .Width "1500" }}
+					@media (max-width: 1500px) {
+						&:nth-child({{ add $index 1}}) {
+							.untitled__slideBg{
+								background-image:url('{{ $medium.RelPermalink | absURL }}');
+							}
+						}
+					}
+					{{ end }}
+					{{ if ge .Width "1200" }}
+					@media (max-width: 1200px) {
+						&:nth-child({{ add $index 1}}) {
+							.untitled__slideBg{
+								background-image:url('{{ $small.RelPermalink | absURL }}');
+							}
+						}
+					}
+					{{ end }}
+					{{ if ge .Width "600" }}
+					@media (max-width: 600px) {
+						&:nth-child({{ add $index 1}}) {
+							.untitled__slideBg{
+								background-image:url('{{ $tiny.RelPermalink | absURL }}');
+							}
+						}
+					}
+					{{ end }}  
+				{{ end }}
+				{{ end }}
+		{{ end }}
+
 	}
 	&__slideBg{
 		position: relative;

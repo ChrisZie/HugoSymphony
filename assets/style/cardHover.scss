@@ -107,12 +107,6 @@ $bp-lg: 1300px;
     transition: transform calc(var(--d) * 2) var(--e);
   }
   
-/*   {{ range $elem_inde, $element := .Site.Data.motivation.cards }}
-    &:nth-child( {{ $elem_inde }}):before {
-      background-image: url('{{ $element.imageId }}');
-    }
-  {{ end }} */
-
 
   @each $id in $imageIds {
     $i: index($imageIds, $id);
@@ -122,7 +116,57 @@ $bp-lg: 1300px;
       background-position: 80%;
     }
   }
-  &:nth-child(4):before {
+
+  //Image Processing 
+  {{ with $.Resources.ByType "image" }}
+  {{ $resources := .Match "*aboutuscard.jpg"}}
+  {{ range $index, $element := $resources }}
+      {{ with . }}
+      {{ $tinyw := default "600x" }}
+      {{ $smallw := default "1200x" }}
+      {{ $mediumw := default "1500x" }}
+      {{ $largew := default "2000x" }}
+      {{ $tiny := .Resize $tinyw }}
+      {{ $small := .Resize $smallw }}
+      {{ $medium := .Resize $mediumw }}
+      {{ $large := .Resize $largew }}
+      &:nth-child({{ add $index 1}}):before {
+          background-image:url('{{ .RelPermalink | absURL }}');
+          background-position: 80%;
+          }
+        {{ if ge .Width "2000" }}
+        @media (max-width: 2000px) {
+          &:nth-child({{ add $index 1}}):before {
+              background-image:url('{{ $large.RelPermalink | absURL }}');
+          }
+        }
+        {{ end }}
+        {{ if ge .Width "1500" }}
+        @media (max-width: 1500px) {
+          &:nth-child({{ add $index 1}}):before {
+              background-image:url('{{ $medium.RelPermalink | absURL }}');
+          }
+        }
+        {{ end }}
+        {{ if ge .Width "1200" }}
+        @media (max-width: 1200px) {
+          &:nth-child({{ add $index 1}}):before {
+              background-image:url('{{ $small.RelPermalink | absURL }}');
+          }
+        }
+        {{ end }}
+        {{ if ge .Width "600" }}
+        @media (max-width: 600px) {
+          &:nth-child({{ add $index 1}}):before {
+              background-image:url('{{ $tiny.RelPermalink | absURL }}');
+          }
+        }
+        {{ end }}  
+      {{ end }}
+      {{ end }}
+  {{ end }}
+
+  &:last-child:before {
     background-position: 40%;
   }
 

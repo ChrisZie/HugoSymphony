@@ -4,18 +4,10 @@ date: 2020-02-10T14:25:09+08:00
 draft: true
 
 heroheader:
-  - heroHeading : Conservation<br />
-      is a Symphony<br />
-      performed together
-  - heroHeading : We live for<br/>
-      helping you reach<br/>
-      your full potential
-  - heroHeading : Decide now<br />
-      take action<br />
-      create success
-  - heroHeading : One planet<br />
-      one team<br />
-      one mission
+  - heroHeading : Conservation<br>is a Symphony
+  - heroHeading : Welcome<br>to the<br>global team
+  - heroHeading : Elevating both<br>economy and<br>environment
+  - heroHeading : One planet<br>one team<br>one mission
 slides :
   - caption  : Conscientious Consulting
     description: >

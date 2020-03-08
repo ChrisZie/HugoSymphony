@@ -32,7 +32,7 @@ $bp-sx: 600px;
 }
 
 #site h2{
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 700;
 }
 @media (max-width: $bp-md) {
@@ -293,7 +293,8 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
 .hero-part , .hero-header {
   grid-row: 1 / 2;
   grid-column: 3 / -1;
-  color: #FFF;
+  text-shadow: 2px 2px black;
+  color:white;
 
   > .layer {
     display: flex;

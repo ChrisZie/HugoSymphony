@@ -24,14 +24,14 @@ quizcards:
     textback: Phones are the future! This number is growing, fast. But even though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout on your website to perform as amazingly on a phone as on a PC. Google looks at how websites perform on both Mobile and Desktop when it decides who to list on the top of their search engine so we optimize every element for maximum visibility.
     bgimageback: https://cdn.pixabay.com/photo/2015/09/06/11/40/zebra-927272_1280.jpg
 
-  - titlefront: STYLE
+  - titlefront: style
     textfront: How Long Does A User Takes To Judge Whether They Will Stay On Your Website Or Go To A Competitor?
     bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
     titleback: 0.05 Seconds Only
     textback: Make it count! That's all you have to convince a user to stay and learn about who you are and what you do. If that is all you get to make a difference, make it unforgettable.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
     bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
 
-  - titlefront: SPEED
+  - titlefront: speed
     textfront: How Many Users Do You Lose When Your Website Takes Longer Than Three Seconds to Load?
     bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
     titleback: 20-30% Per Second

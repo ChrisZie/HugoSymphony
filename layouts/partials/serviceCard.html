@@ -43,7 +43,7 @@
             </div>
             {{else}}
             <div class='stat'>
-              <span>{{ .data }}</span>
+              <span>{{ .data | markdownify }}</span>
             </div>
             <div class='progress'>
               {{ if eq .bar 2 }}

@@ -1,0 +1,267 @@
+{{ define "extrahead" }}
+<link rel="stylesheet" href="./style/nouislider-14.0.3.min.css">
+{{ $sassTemplate := resources.Get "style/quizCard.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ $sassTemplate := resources.Get "style/contact.css" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/contact.css" . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ end }}
+
+{{ define "BodyStyle" }}blue-gradient-bg{{ end }}
+
+{{ define "extraScript" }}
+<script src="./js/wNumb.js"></script>
+<script src="./js/vue-2.1.10.min.js"></script>
+<script src="./js/nouislider-14.0.3.min.js"></script>
+<script src='./js/recaptcha.js'></script>
+<script src="./js/validator.js"></script>
+<script src="./js/contact.js"></script>
+<script>
+       function showValues() {
+         var str = $("#form-3").serialize();
+         $( "#results" ).text( str );
+       }
+       $(".btn-success").click(function () {
+           showValues();
+       });
+       $( "input" ).on( "change", showValues );
+       showValues();
+     </script>
+{{ end }}
+
+{{ define "main" }}
+  <!--Contact Form -->
+  <div id="contactForm" class="contactForm">   
+    <div class="form-content">
+        <section class="grid-wrap">
+            <div class="row justify-content-center text-center">
+            <div class="col-12">
+                <h6 class="section-caption">{{ .Site.Data.contactForm.questions1_small_caption }}</h6>
+                {{ with .Site.Data.contactForm.questions1_caption }}<h1>{{ . | safeHTML }}</h1>{{ end }}
+            </div>
+            </div>
+                    
+            <div class="option-wrap">
+            <div class="row justify-content-center text-center">
+              {{ range .Site.Data.contactForm.question1_items }}
+                  <div class="col-6 col-md-4 link js-show-section" data-form="formContact">
+                    <figure class="form-icon">
+                        <img src="{{ .icon }}" alt="{{ .text }}">
+                    </figure>
+                    <h3>{{ .text }}</h3>
+                  </div>
+              {{ end }}
+            </div>
+            </div>
+        </section>
+    </div>
+<section class="main-type" id="formContact">
+        <div class="grid-wrap">
+          <nav class="form-pager form-pager-3">
+            <ul>
+              <li><a href="#website-step-1" data-anchor="website-step-1" class="active">01</a></li>
+              <li><a href="#website-step-2" data-anchor="website-step-2" class="">02</a></li>
+              <li><a href="#website-step-3" data-anchor="website-step-3" class="">03</a></li>
+              <li><a href="#website-step-4" data-anchor="website-step-4" class="">04</a></li>
+            </ul>
+          </nav>
+          <form action="" role="form" method="post" id="form-3" class="has-validation-callback">
+
+                        
+            <div id="website-step-1" class="step step-1">
+              <div class="offset-top-sm">
+                <div class="row justify-content-center text-center">
+                  <div class="col-sm-9 col-md-7">
+                    <div class="step-number"><strong>01</strong> — 04</div>
+                    <h2>blub dsfjkshg</h2>
+                  </div>
+                </div>
+                <div class="hidden">
+                  <input name="main-category" type="hidden" class="js-form-link-main-data" value="website">
+                </div>
+                <div class="option-wrap">
+                  <div class="row justify-content-center text-center">
+                    {{ range .Site.Data.contactForm.question2_items }}
+                      <div class="col-6 col-sm-4 col-sm-offset-0 js-form-link" data-anchor="website-step-2">
+                          <figure class="form-icon">
+                              <img src="{{ .icon }}" alt="{{ .text }}">
+                          </figure>
+                          <h3>{{ .text }}</h3>
+                      </div>
+                      {{ end }}
+                    <div class="col-12 js-form-nextStep align-self-end" data-anchor="website-step-2">
+                        <button class="float-right">Next Step</button>
+                    </div>
+                    <input name="sub-category" type="hidden" class="js-form-link-data" value="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of step 1 -->
+            <div id="website-step-2" class="step step-2">
+              <div class="offset-top-sm">
+                <div class="row justify-content-center text-center">
+                  <div class="col-12">
+                    <div class="step-number"><strong>02</strong> - 04</div>
+                    <h2>budget &amp;<br>timeline</h2>
+                    <div class="row justify-content-center text-center">
+                      <div class="col-10">
+                        <p class="small">Time is the most valuable non-renewable resource we have. This dictates how much time we can put forth to make dreams reality.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-wrap">
+                  <div class="row justify-content-center text-center">
+                    <div class="col-10 ">
+                      <div id="website-slider-budget" class="noUi-target noUi-ltr noUi-horizontal">
+                        </div>
+                      <p class="section-caption">Approximate budget</p>
+                      <input class="slider-input" name="slider-budget-input" type="text" id="website-slider-budget-input" readonly="">
+                    </div>
+                  </div>
+                  <div class="row justify-content-center text-center">
+                    <div class="col-10 ">
+                      <div id="website-slider-week" class="noUi-target noUi-ltr noUi-horizontal">
+                    </div>
+                      <p class="section-caption">Estimated timeline</p>
+                      <input class="slider-input" name="slider-week-input" type="text" id="website-slider-week-input" readonly="">
+                    </div>
+                    <div class="col-12 js-form-nextStep align-self-end pt-4" data-anchor="website-step-3">
+                         <p class="text-right">Next Step</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of step 2 -->
+
+            <div id="website-step-3" class="step step-3">
+              <div class="offset-top-sm">
+                <div class="row justify-content-center text-center">
+                  <div class="col-12">
+                    <div class="step-number"><strong>03</strong> - 04</div>
+                    <h2>project <br>details</h2>
+                  </div>
+                </div>
+                <div class="form-wrap">
+                  <div class="row justify-content-center text-center">
+                    <div class="col-12">
+                      <div class="row justify-content-center"> 
+                        <div class="col-12 p-0 p-xl-0">
+                          <div class="parallaxCard">
+                            <div class="cardcontainer">
+                              <div class="cardfront cardside" style='background-image: url("https://source.unsplash.com/350x225/?wood");'>
+                                <div class="parallaxContent">
+                                  <h2>project <br>details</h2>
+                                </div>
+                              </div>
+                              <div class="cardback cardside" >
+                                <div class="parallaxContent">
+                                  <div class="row">
+                                    <div class="col-sm-12 col-lg-6 form-group">
+                                      <p>
+                                        <input id="form_name" type="text" name="name" class="text-input form-control" placeholder="Name *" required="required"
+                                        data-error="Name is required.">
+                                        <div class="help-block with-errors"></div>
+                                      </p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-6 form-group">
+                                      <p>
+                                        <input id="form_email" type="email" name="email" class="text-input form-control" placeholder="Email *" required="required"
+                                        data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-sm-12 col-lg-6">
+                                        <input class="text-input" name="company-name" type="text" placeholder="Company Name">
+                                    </div>
+                                    <div class="col-sm-12 col-lg-6">
+                                      <input class="text-input" name="facebook" type="text" placeholder="Facebook ID">
+                                    </div>
+                                    <div class="col-sm-12 col-lg-6">
+                                        <input class="text-input" name="twitter" type="text" placeholder="Twitter ID">
+                                    </div>
+                                    <div class="col-sm-12 col-lg-6">
+                                        <input class="text-input" name="instagram" type="text" placeholder="Instagram ID">
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-sm-12">
+                                        <input class="text-input" name="current-website-url" type="text" placeholder="Current website url">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      </div>
+
+
+
+
+
+
+
+                      <div class="col-12 js-form-nextStep align-self-end" data-anchor="website-step-4">
+                            <p class="text-right">Next Step</p>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of step 3 -->
+
+            <div id="website-step-4" class="step step-4">
+              <div class="offset-top-sm">
+                <div class="row justify-content-center text-center">
+                  <div class="col-12">
+                    <div class="step-number"><strong>04</strong> - 04</div>
+                    <h2>finish strong!</h2>
+                    <div class="row justify-content-center text-center">
+                      <div class="col-12 col-md-10">
+                        <p class="small">If there are any pertinent details that you'd like to share, please drop a message in the box below.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-wrap">
+                  <div class="row justify-content-center text-center">
+                    <div class="col-sm-12 col-md-8 form-group">
+                        <textarea id="form_message"  rows="4" cols="50" placeholder="Don't be shy..." name="additional-info" required="required" data-error="Please, leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                  </div>
+<!--                   <div class="row justify-content-center text-center">
+                        <div class="col-sm-12 col-md-8 py-4">
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="6LcpaswUAAAAAGSHjxRD4KiA1QStQIrRGQTHCztm" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                </div> -->
+                  <div class="row justify-content-center text-center">
+                    <div class="col-sm-8 col-md-4">
+                      <div class="submit-button-wrap">
+                        <input name="submit" class="submit-button" type="submit" value="SEND OVER">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                      </div>
+                      <p style="color: black;"><tt id="results"></tt></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of step 4 -->
+
+          </form>
+        </div>
+      </section> 
+</div>
+{{ end }}

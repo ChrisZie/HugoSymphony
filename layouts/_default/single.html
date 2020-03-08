@@ -14,8 +14,56 @@
 {{ define "main" }}
 <main class="news news-single-post">
 <div class="_Cover__">
-  <div class="EntryCover -narrow -full -sharing--full" min-width="769px 1281px" min-height="451px">
-    <div class="Cover -align--center" style="background-image:url('{{ .Params.Image | absURL }}');">
+  <div class="EntryCover -narrow -full -sharing--full" min-width="769px 1281px" min-height="451px">      {{ $title := .Title | markdownify }}
+    {{if .Resources.Match "cover*" }}
+      {{ $resources := .Resources.Match "cover*"}}
+      {{ range $resources }}
+          {{ with . }}
+          {{ $tinyw := default "500x" }}
+          {{ $smallw := default "1200x" }}
+          {{ $mediumw := default "1500x" }}
+          {{ $largew := default "2000x" }}
+          {{ $tiny := .Resize $tinyw }}
+          {{ $small := .Resize $smallw }}
+          {{ $medium := .Resize $mediumw }}
+          {{ $large := .Resize $largew }}
+          <style>
+              .Cover {
+                  background-image:url('{{ .RelPermalink | absURL }}');
+              }
+            {{ if ge .Width "2000" }}
+            @media (max-width: 2000px) {
+              .Cover {
+                  background-image:url('{{ $large.RelPermalink | absURL }}');
+              }
+            }
+            {{ end }}
+            {{ if ge .Width "1500" }}
+            @media (max-width: 1500px) {
+              .Cover {
+                  background-image:url('{{ $medium.RelPermalink | absURL }}');
+              }
+            }
+            {{ end }}
+            {{ if ge .Width "1200" }}
+            @media (max-width: 1200px) {
+              .Cover {
+                  background-image:url('{{ $small.RelPermalink | absURL }}');
+              }
+            }
+            {{ end }}
+            {{ if ge .Width "500" }}
+            @media (max-width: 500px) {
+              .Cover {
+                  background-image:url('{{ $tiny.RelPermalink | absURL }}');
+              }
+            }
+            {{ end }}            
+            </style>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <div class="Cover -align--center" >
     </div>
     <div class="_InfoWrapper" min-height="151px 181px">
       <div class="_Info">

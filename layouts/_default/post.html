@@ -1,8 +1,41 @@
 <div class="col-md-6 mb-4">
     <article class="card p-2">
-      {{ if .Params.Image }}
+      {{ $title := .Title | markdownify }}
+      {{if .Resources.Match "cover*" }}
       <a href="{{ .Permalink }}">
-      <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
+        {{ $resources := .Resources.Match "cover*"}}
+        {{ range $resources }}
+            {{ with . }}
+            {{ $tinyw := default "500x" }}
+            {{ $smallw := default "800x" }}
+            {{ $mediumw := default "1200x" }}
+            {{ $largew := default "1500x" }}
+            {{ $tiny := .Resize $tinyw }}
+            {{ $small := .Resize $smallw }}
+            {{ $medium := .Resize $mediumw }}
+            {{ $large := .Resize $largew }}
+            <img width="100%"
+            srcset='
+            {{ if ge .Width "500" }}
+              {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
+            {{ end }}
+            {{ if ge .Width "800" }}
+              {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+            {{ end }}
+            {{ if ge .Width "1200" }}
+              {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+            {{ end }}
+            {{ if ge .Width "1500" }}
+              {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
+            {{ end }}'
+              src="{{ .RelPermalink }}" 
+            alt="$title" class="card-img-top" >
+          {{ end }}
+        {{ end }}
+      </a>
+      {{ else if .Params.Image }}
+      <a href="{{ .Permalink }}">
+        <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
       </a>
       {{ end }}
       <div class="card-body px-0">

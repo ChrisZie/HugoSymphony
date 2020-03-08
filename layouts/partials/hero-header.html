@@ -1,3 +1,105 @@
+{{if .Resources.Match "heroheader*" }}
+    {{ $resources := .Resources.Match "heroheader*"}}
+    {{ range $resources }}
+        {{ with . }}
+        {{ $tinyw := default "500x" }}
+        {{ $smallw := default "1200x" }}
+        {{ $mediumw := default "1500x" }}
+        {{ $largew := default "2000x" }}
+        {{ $tiny := .Resize $tinyw }}
+        {{ $small := .Resize $smallw }}
+        {{ $medium := .Resize $mediumw }}
+        {{ $large := .Resize $largew }}
+        <style>
+            .ocean {
+                background-image:url('{{ .RelPermalink | absURL }}');
+            }
+          {{ if ge .Width "2000" }}
+          @media (max-width: 2000px) {
+            .ocean {
+                background-image:url('{{ $large.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1500" }}
+          @media (max-width: 1500px) {
+            .ocean {
+                background-image:url('{{ $medium.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1200" }}
+          @media (max-width: 1200px) {
+            .ocean {
+                background-image:url('{{ $small.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "500" }}
+          @media (max-width: 500px) {
+            .ocean {
+                background-image:url('{{ $tiny.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}            
+          </style>
+      {{ end }}
+    {{ end }}
+    {{ else if isset .Params "herobgimage"}}
+    <style> .ocean { background-image: url("{{ .Params.herobgimage | absURL }}");}</style>
+  {{ end }}
+  {{if .Resources.Match "herotext*" }}
+    {{ $resources := .Resources.Match "herotext*"}}
+    {{ range $resources }}
+        {{ with . }}
+        {{ $tinyw := default "500x" }}
+        {{ $smallw := default "1200x" }}
+        {{ $mediumw := default "1500x" }}
+        {{ $largew := default "2000x" }}
+        {{ $tiny := .Resize $tinyw }}
+        {{ $small := .Resize $smallw }}
+        {{ $medium := .Resize $mediumw }}
+        {{ $large := .Resize $largew }}
+        <style>
+            .ocean-text {
+                background-image:url('{{ .RelPermalink | absURL }}');
+            }
+          {{ if ge .Width "2000" }}
+          @media (max-width: 2000px) {
+            .ocean-text {
+                background-image:url('{{ $large.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1500" }}
+          @media (max-width: 1500px) {
+            .ocean-text {
+                background-image:url('{{ $medium.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1200" }}
+          @media (max-width: 1200px) {
+            .ocean-text {
+                background-image:url('{{ $small.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "500" }}
+          @media (max-width: 500px) {
+            .ocean-text {
+                background-image:url('{{ $tiny.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}            
+          </style>
+      {{ end }}
+    {{ end }}
+    {{ else if isset .Params "herotitleimage"}}
+    <style> .ocean-text { background-image: url("{{ .Params.herotitleimage | absURL }}");}</style>
+  {{ end }}
+
+
 <div class="sectionHeader">
   <input type="radio" name="scene" id="scene-1" value="1" checked />
   <input type="radio" name="scene" id="scene-2" value="2" />
@@ -8,8 +110,8 @@
     <header class="top-nav">
       <a href="{{ .Site.BaseURL }}" style="color:white;">@symphony.eco</a>
     </header>
-    <div class="ocean" {{ if isset .Params "herobgimage" }} style='background-image: url("{{ .Params.herobgimage | absURL }}");' {{ end }}>
-      <div class="ocean-text" style='font-size: 35vh; {{ if isset .Params "herotitleimage" }} background-image: url("{{ .Params.herotitleimage | absURL }}"); {{ end }}' >{{.Title}}</div>
+    <div class="ocean">
+      <div class="ocean-text" style='font-size: 35vh;' >{{.Title}}</div>
     </div>
     <div class="left-side">    
       <div class="page-numbers" data-total="04">

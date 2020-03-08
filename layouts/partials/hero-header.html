@@ -6,10 +6,10 @@
 
   <div id="site" style="height: 45vh;">
     <header class="top-nav">
-      @symphony.eco
+      <a href="{{ .Site.BaseURL }}" style="color:white;">@symphony.eco</a>
     </header>
     <div class="ocean" {{ if isset .Params "herobgimage" }} style='background-image: url("{{ .Params.herobgimage | absURL }}");' {{ end }}>
-      <div class="ocean-text" style='font-size: 40vh; {{ if isset .Params "herotitleimage" }} background-image: url("{{ .Params.herotitleimage | absURL }}"); {{ end }}' >{{.Title}}</div>
+      <div class="ocean-text" style='font-size: 35vh; {{ if isset .Params "herotitleimage" }} background-image: url("{{ .Params.herotitleimage | absURL }}"); {{ end }}' >{{.Title}}</div>
     </div>
     <div class="left-side">    
       <div class="page-numbers" data-total="04">

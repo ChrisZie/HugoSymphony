@@ -3,21 +3,122 @@
 {{ range .Params.quizcards }}
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0 p-xl-0 col-xxl-3 ">
   <div class="parallaxCard">
+    {{ $cardname := .titlefront | lower }}
+    {{ $matchfront :=  (printf "%s%s" $cardname "front*")   }}
+    {{ $classname := (printf "%s%s" "." $cardname )}} 
+    {{if $.Resources.Match ($matchfront) }}
+    {{ $resource := $.Resources.GetMatch ($matchfront)  }}
+        {{ with $resource }}
+        {{ $tinyw := default "500x" }}
+        {{ $smallw := default "1200x" }}
+        {{ $mediumw := default "1500x" }}
+        {{ $largew := default "2000x" }}
+        {{ $tiny := .Resize $tinyw }}
+        {{ $small := .Resize $smallw }}
+        {{ $medium := .Resize $mediumw }}
+        {{ $large := .Resize $largew }}
+        <style>
+            .cardfront{{$classname}} {
+                background-image:url('{{ .RelPermalink | absURL }}');
+            }
+          {{ if ge .Width "2000" }}
+          @media (max-width: 2000px) {
+            .cardfront{{$classname}} {
+                background-image:url('{{ $large.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1500" }}
+          @media (max-width: 1500px) {
+            .cardfront{{$classname}} {
+                background-image:url('{{ $medium.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1200" }}
+          @media (max-width: 1200px) {
+            .cardfront{{$classname}} {
+                background-image:url('{{ $small.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "500" }}
+          @media (max-width: 500px) {
+            .cardfront{{$classname}} {
+                background-image:url('{{ $tiny.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}            
+          </style>
+    {{ end }}
+    {{ else if isset . "bgimagefront"}}
+      <style> .cardfront{{$classname}}   { background-image: url("{{ .bgimagefront | absURL }}");}</style>
+    {{ else if $bgImageFront }} 
+      <style> .cardfront{{$classname}}  { background-image: url("{{ $bgImageFront | absURL }}");}</style>
+    {{ end }}
+    {{ $matchback :=  (printf "%s%s" $cardname "back*")   }}
+    {{if $.Resources.Match ($matchback) }}
+    {{ $resource := $.Resources.GetMatch ($matchback)  }}
+        {{ with $resource }} 
+        {{ $tinyw := default "500x" }}
+        {{ $smallw := default "1200x" }}
+        {{ $mediumw := default "1500x" }}
+        {{ $largew := default "2000x" }}
+        {{ $tiny := .Resize $tinyw }}
+        {{ $small := .Resize $smallw }}
+        {{ $medium := .Resize $mediumw }}
+        {{ $large := .Resize $largew }}
+        <style>
+            .cardback{{$classname}} {
+                background-image:url('{{ .RelPermalink | absURL }}');
+            }
+          {{ if ge .Width "2000" }}
+          @media (max-width: 2000px) {
+            .cardback{{$classname}} {
+                background-image:url('{{ $large.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1500" }}
+          @media (max-width: 1500px) {
+            .cardback{{$classname}} {
+                background-image:url('{{ $medium.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "1200" }}
+          @media (max-width: 1200px) {
+            .cardback{{$classname}} {
+                background-image:url('{{ $small.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
+          {{ if ge .Width "500" }}
+          @media (max-width: 500px) {
+            .cardback{{$classname}} {
+                background-image:url('{{ $tiny.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}            
+          </style>
+    {{ end }}
+    {{ else if isset . "bgimageback"}}
+      <style> .cardback{{$classname}}   { background-image: url("{{ .bgimageback | absURL }}");}</style>
+    {{ else if $bgImageBack }} 
+      <style> .cardback{{$classname}}  { background-image: url("{{ $bgImageBack | absURL }}");}</style>
+    {{ end }}
     <div class="cardcontainer">
-      <div class="cardfront cardside" {{ if isset . "bgimagefront"}} style='background-image: url("{{ .bgimagefront | absURL }}");' {{ else if $bgImageFront }} style='background-image: url("{{ $bgImageFront | absURL }}");' {{ end }}>
+      <div class="cardfront cardside {{.titlefront}}">
         <div class="parallaxContent">
-          <h2>{{ .titlefront | markdownify }}</h2>
+          <h2>{{ .titlefront | markdownify | upper }}</h2>
           <p>{{ .textfront | markdownify }}</p>
         </div>
         <div class="afteroverlay"></div>
       </div>
-      <div class="cardback cardside" {{ if isset . "bgimageback"}} style='background-image: url("{{ .bgimageback | absURL }}");' {{ else if $bgImageBack }} style='background-image: url("{{ $bgImageBack | absURL }}");' {{ end }}>
+      <div class="cardback cardside {{.titlefront}}">
         <div class="parallaxContent">
           <h2>{{ .titleback | markdownify }}</h2>
           <p>{{ .textback | markdownify }}</p>
-<!--              {{ if eq .graphtype 1 }}
-          {{ else if eq .graphtype 2 }}
-          {{ end }} -->
         </div>
         <div class="afteroverlay"></div>
       </div>

@@ -32,9 +32,42 @@
         <article class="card featured-post">
           <div class="row no-gutters align-items-center">
             <div class="col-md-5" style="padding-top: 4px;">
-              {{ if .Params.Image }}
+              {{ $title := .Title | markdownify }}
+              {{if .Resources.Match "cover*" }}
               <a href="{{ .Permalink }}">
-              <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
+                {{ $resources := .Resources.Match "cover*"}}
+                {{ range $resources }}
+                    {{ with . }}
+                    {{ $tinyw := default "500x" }}
+                    {{ $smallw := default "1200x" }}
+                    {{ $mediumw := default "1500x" }}
+                    {{ $largew := default "2000x" }}
+                    {{ $tiny := .Resize $tinyw }}
+                    {{ $small := .Resize $smallw }}
+                    {{ $medium := .Resize $mediumw }}
+                    {{ $large := .Resize $largew }}
+                    <img width="100%"
+                    srcset='
+                    {{ if ge .Width "500" }}
+                      {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
+                    {{ end }}
+                    {{ if ge .Width "1200" }}
+                      {{ with $small.RelPermalink }}, {{.}} 1200w{{ end }}
+                    {{ end }}
+                    {{ if ge .Width "1500" }}
+                      {{ with $medium.RelPermalink }}, {{.}} 1500w{{ end }}
+                    {{ end }}
+                    {{ if ge .Width "2000" }}
+                      {{ with $large.RelPermalink }}, {{.}} 2000w {{ end }}
+                    {{ end }}'
+                      src="{{ .RelPermalink }}" 
+                    alt="$title" class="card-img" >
+                  {{ end }}
+                {{ end }}
+              </a>
+              {{ else if .Params.Image }}
+              <a href="{{ .Permalink }}">
+                <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
               </a>
               {{ end }}
             </div>
@@ -104,7 +137,11 @@
         <div class="row">
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
           {{ range $paginator.Pages }}
-          {{ .Render "post" }}
+          <div class="col-md-6 mb-4">
+            <article class="card p-2">
+              {{ .Render "post" }}
+            </article>
+          </div>
           {{ end }}
         </div>
       </div>

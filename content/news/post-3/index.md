@@ -4,12 +4,8 @@ date: 2019-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
+image: "https://source.unsplash.com/350x225/?dog"
 og_image : "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
-coverimage: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
-coverimagemobil: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
-thumbnail: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
-thumbnailmobil: "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
 
 # meta description
 description: "this is meta description"

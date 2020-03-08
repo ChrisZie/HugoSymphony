@@ -5,7 +5,7 @@ draft: false
 
 # post thumb
 image: "https://source.unsplash.com/350x225/?heart"
-coverimage: "https://source.unsplash.com/1500x300/?heart"
+coverimage: "https://source.unsplash.com/1500x300/?music"
 coverimagemobil: "https://source.unsplash.com/500x500/?heart"
 thumbnail: "https://source.unsplash.com/500x300/?heart"
 thumbnailmobil: "https://source.unsplash.com/300x200/?blue"

@@ -20,14 +20,14 @@ quizcards:
   - titlefront: SIMPLICITY
     textfront: How Many People Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
-    titleback: 52%
-    textback: Phones are the future! This number is growing, fast. But even though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, layout, and code on your website to perform as amazingly on a phone as on a PC. Google looks at how your website performs on both Mobile and Desktop when it decides who to list on their search engine so we optimize every design element to increase visibility greatly.
+    titleback: 52% Mobile Only
+    textback: Phones are the future! This number is growing, fast. But even though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout on your website to perform as amazingly on a phone as on a PC. Google looks at how websites perform on both Mobile and Desktop when it decides who to list on the top of their search engine so we optimize every element for maximum visibility.
     bgimageback: https://cdn.pixabay.com/photo/2015/09/06/11/40/zebra-927272_1280.jpg
 
   - titlefront: STYLE
     textfront: How Long Does A User Takes To Judge Whether They Will Stay On Your Website Or Go To A Competitor?
     bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
-    titleback: 0.05 Seconds
+    titleback: 0.05 Seconds Only
     textback: Make it count! That's all you have to convince a user to stay and learn about who you are and what you do. If that is all you get to make a difference, make it unforgettable.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
     bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
 
@@ -73,13 +73,13 @@ process:
   - name: Final Delivery
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
     imagealttext: Final Delivery
-    subtext: Website Presentation and Review
-    description: We deliver the Final Product, walking you and your team through all of the design choices, from colour to content. We integrate any changes you may wish to have and complete all remaining technical tasks.
+    subtext: Finalized Website Presentation
+    description: We deliver the Final Website, walking you and your team through each of the design choices and themes, from colour to content. We ensure that your mission and passion are captured effectively. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Final Website
   - name: Hand-Over
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the duties of making sure the website stays online after we hand it over. That will not be the end though as we will provide you with ongoing support and will assist with any moderate content changes that may come up in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the duties of making sure the website stays online after we hand it over. But that is not the end though as we will provide you with ongoing support and will assist with any moderate content changes that may come up in the future.
     description2: Deliverable - User Guides
 ---

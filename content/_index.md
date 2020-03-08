@@ -35,7 +35,7 @@ slides :
 service_item: 
   - name: __MASTER PLAN__
     icon: "images/responsive.svg"
-    serviceDetailLink: operations
+    serviceDetailLink: masterplan
     question1: Did you know that over
     graph: 1
     data: 99.5% 

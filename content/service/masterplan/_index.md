@@ -7,41 +7,41 @@ beforepage:  marketing
 sort: 1
 type: "service"
 heroBGImage: https://images.unsplash.com/photo-1565774488554-c75ea9c70bcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3023&q=80
-heroTitleImage: https://cdn.pixabay.com/photo/2015/10/12/14/59/antelope-canyon-984055_1280.jpg
+heroTitleImage: https://cdn.pixabay.com/photo/2015/03/12/15/30/canyon-670392_1280.jpg
 heroheader:
   - heroHeading : Success is a strategy
-  - heroHeading : Your goal is one great plan away
+  - heroHeading : Create a great future for your environment and your economy
   - heroHeading : Choose to create a legacy that lasts a lifetime
 
 quizbgimagefront: https://images.unsplash.com/photo-1580722434936-3d175913fbdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80
 quizbgimageback: https://source.unsplash.com/350x225/?wood
 quizcards:
   - titlefront: PLANNING
-    textfront: How Many Volunteers Search Only Online For Opportunities Around The World?
+    textfront: How Many UNESCO Ecotourism sites, mainly Wildlife and Marine Sanctuaries, Parks, and Reserves, Have Ecotourism Management Plans?
     bgimagefront: https://cdn.pixabay.com/photo/2016/03/21/10/44/desert-1270345_1280.jpg
-    titleback: 67%
-    textback: Over two-thirds of all volunteers! And this trend is growing daily. Most volunteers will search for opportunities only on established Volunteer Portals or on Social Media and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. The result will be that you receive the maximum number of applicants you could want.
+    titleback: 54% Of All Sites
+    textback: Become a world-class destination! Without an Ecotourism Management Plan, you suffer from overtourism, lower Social Welfare, safety and legal issues, and quick site degredation.<br><br>We create a fully detailed Master Plan that provides actionable steps that can be done ASAP. We make sure that you, your staff, and your society are more capable of managing your tourism, putting in place needed guides, structures, rules, and revenue-generation mechanisms that will keep you attracting tourists for as long as you wish.
     bgimageback: https://cdn.pixabay.com/photo/2019/10/25/00/55/golden-eagle-4575691_1280.jpg
 
   - titlefront: POLICIES
-    textfront: How Many Volunteers Prefer Completing All Required Training Online?
+    textfront: By How Much Does Ecotourism Site Damage Decrease When Signs Are Visibly Clear, Showing Visitors What They Can And **Cannot** Do?
     bgimagefront: https://cdn.pixabay.com/photo/2016/11/29/05/33/bryce-canyon-1867563_1280.jpg
-    titleback: 73%
-    textback: Almost 3 out of every 4 volunteers! Volunteers absolutely must go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training presentations that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
+    titleback: A 76% Decrease
+    textback: Education creates excellence! Without fully visible codes on how visitors should behave, major site damage occurs, from property damage to uncontrolled garbage and more.<br><br>As people who have managed both Non-Profits and Tourism businesses, we fully understand the challenges that exist in knowing how to create and apply behavioural codes to foreign (and even local) visitors. We create the most effective communication that overcomes language barriers and is understandable to visitors from BOTH the West and East.
     bgimageback: https://cdn.pixabay.com/photo/2017/06/26/16/20/desert-fox-2444230_1280.jpg
 
   - titlefront: PEOPLE
-    textfront: How Many Volunteers Prefer Communication, Coordination, And Organization To Be Done Online?
+    textfront: By How Much More Are Ecotourism Site Policies Followed When A Uniformed Guard Is Visibly Present During Normal Visiting Hours?
     bgimagefront: https://cdn.pixabay.com/photo/2016/01/08/18/00/antelope-canyon-1128815_1280.jpg
-    titleback: 85%
-    textback: Almost all volunteers! Volunteers have cleary stated that organizing online makes communication easier and helps them save time, while organizations have stated that it helps get more volunteers to events and helps save money.<br><br>We are fully aware of what volunteers absolutely want to know so that they have no complications during their service. We work with your team to learn all key local information, creating excellent guides that your team can use to coordinate volunteers before and during their service.
+    titleback: A 49% Increase
+    textback: Setup supporting staff! Having the right staff present in good numbers, from guards to waste collectors, is the key difference between a loved tourist site and a destroyed one.<br><br>We have staffed numerous projects and understand fully how important having the right numbers of the right staff can be. The Master Plan captures these details fully, accounting for the carrying capacity constraints of each individual Ecotourism site, and describing in detail the numbers of staff needed with all of their specific roles. 
     bgimageback: https://cdn.pixabay.com/photo/2019/11/16/13/53/desert-lynx-4630313_1280.jpg
 
   - titlefront: PROFITS
-    textfront: How Many Volunteers Usually Do Not Return Due To A Lack Of Adequate Follow-Ups?
-    bgimagefront: https://source.unsplash.com/Xc6gtOwSMSA/1200x600
-    titleback: 33%
-    textback: 1 out of every 3 volunteers! Simply due to bad or, even worse, no follow-up communication to thank the volunteer, ask them for feedback, and generally keep them engaged.<br><br>Retaining volunteers is what we prioritize most, for good reason. Returning volunteers provide incredible cost-savings, making this a key task for any organization. We provide you with guidelines and templates that your team will use to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until they return to help again.
+    textfront: How Much Of An Ecotourism Site's Revenue Must Be Retained By Site Staff To Ensure Ongoing Site Improvements And Maintenance?
+    bgimagefront: https://cdn.pixabay.com/photo/2016/04/30/15/56/desert-1363152_1280.jpg
+    titleback: 50% Reinvested
+    textback: Elevate their enthusiasm! Most revenue currently goes back to general government funding, resulting in lower site quality and much lower staff enthusiasm to increase revenue.<br><br>We create a fully robust Revenue Management Plan, as part of the Master Plan, that details the fee scales for both tourists and locals, how revenue should be gathered from various site revenue generators, how revenue should be allocated for optimal site imporvements, and sets values for Fines that visitors will incur for breaking any rules.
     bgimageback: https://cdn.pixabay.com/photo/2020/02/05/15/19/zoo-4821484_1280.jpg
 
 process:
@@ -49,36 +49,36 @@ process:
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Initiation
-    description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to understand exactly what your volunteerism goals are and plan how we get you to those goals from where you are right now.
+    description: We meet with you to get the formal go-ahead for the project. Then we work with you and your team to understand your current Ecotourism status, limitations, opportunities, and risks. Once your optimal future state is defined, with exactly what you hope and expect, we lay out the structure of a plan to get you to that goal from where you are right now.
     description2: Deliverable - Project Charter
   - name: Discovery
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
     imagealttext: Discovery
     subtext: Market Research and Plan
-    description: We research your biggest local (and even global) competitors and understand what volunteer recruitment, training, coordination, and retention strategies are working for them. Then we plan how to make those strategies work even better for you.
+    description: We research your biggest local (and even global) Ecotourism competitors and understand what infrastructure, revenue generating, and tourism support strategies are working for them that we can make work for you instead.
     description2: Deliverable - Market Research Summary
   - name: Design
     image: https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg
     imagealttext: Design
-    subtext: Perfecting Analysis and Approach 
-    description: We meet with your team to capture the most desired volunteerism strategies you already have or want to have. We then present the initial strategic outlines, capturing all key tips, tools, and techniques. Once you agree to the approach, we work closely with your team to finalize the overall strategic design.
-    description2: Deliverable - Volunteerism Strategic Design
+    subtext: Content and Structure
+    description: We meet with you and your team to capture the measurable and specific Ecotourism goals for each of your sites. We create a high-level plan and review it with you. Once the strategic direction is accepted, we begin creating more detailed strategies and guides, working closely with your team for both content and structure.
+    description2: Deliverable - Finalized Strategic Framework
   - name: Implementation
     image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
     imagealttext: Registration
-    subtext: Registration and Profiles
-    description: We create accounts and profiles for your organization on all the major volunteer recruitment portals. We also review and edit your existing Social Media accounts to ensure that all volunteer requirements are captured and updated regularly.
-    description2: Deliverable - Recruitment Accounts and Completed Profiles
+    subtext: Network and Registration
+    description: We work with your team to verify that all Ecotourism sites are properly listed on Google and Social Media. We guide them on how to complete registration for all yet to be done. For those platforms you are already on, we optimize all of the content and design to align with the Strategic goals and parameters.
+    description2: Deliverable - Completed Profiles
   - name: Final Delivery
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
     imagealttext: Final Delivery
-    subtext: Finalized Volunteerism Strategies
-    description: We deliver all of the Recruitment Tools, Training Guides, Coordination Systems, and Retention Communication Templates, walking you and your team through all of the strategic decisions. We integrate any changes you may wish to see and finalize all remaining technical tasks.
-    description2: Deliverable - Final Website
+    subtext: Finalized Master Plan Presentation
+    description: We formally present the whole Master Plan, reviewing all the major discoveries, details, and recommendations. We let you know both what the highest priority and most easily actionable items are and how to implement them. We walk you through all frameworks, fee structures, and guides. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
+    description2: Deliverable - Finalized Profiles and Posting Frameworks
   - name: Hand-Over
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure your Recruitment and Social Media profiles stay current after we hand them over. That will not be the end though as we will provide you with ongoing support and will assist with any questions or guidance you may seek in the future.
-    description2: Deliverable - User Guides
+    description: We transfer all administrative IDs and passwords to you for all Ecotourism network and assistance websites we have registered you on. We provide excellent user guides to help your staff take over the administrative tasks needed to ensure that all registered site information stays current and effective. But that is not be the end though as we will always provide you with ongoing support and strategic advice as your Ecotourism develops into the future.
+    description2: Deliverable - Support Guides
 ---

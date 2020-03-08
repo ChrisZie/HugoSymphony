@@ -17,29 +17,29 @@ quizcards:
   - titlefront: LOCATION
     textfront: How Many Donations Do Organizations Usually Receive From Outside Of Their Own Country?
     bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
-    titleback: 45%
-    textback: Your donors are everywhere! How people give donations is changing, fast. More donors prefer to donate money online, or else volunteer in-person and donate their time instead.<br><br>As management within Governments and NGOs we learned the difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We will create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
+    titleback: 45% International
+    textback: Your donors are everywhere! How people give donations is changing, fast. More donors prefer to donate money online, or else volunteer in-person and donate their time instead.<br><br>As management within Governments and NGOs we learned the difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
     bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
 
   - titlefront: COMMUNICATION
     textfront: How Much More Funding Crowdfunding Do Campaigns Raise When Fundraisers Update Their Supporters?
     bgimagefront: https://source.unsplash.com/qLW70Aoo8BE/1200x600
-    titleback: 126%
-    textback: Show your donors you care! They need to know their money is well-spent and, the more you update them, the more likely they are to share your campaign with family and friends.<br><br>Our experience in raising funds online has shown us that it is a highly complex, but highly beneficial, effort. We can teach you exactly what words cause the most reaction, exactly how many words to use, and exactly what content and format of content supporters want to see. All to keep supporters on your page longer, vastly increasing their likelihood to donate.
+    titleback: 126% More Funds
+    textback: Show your donors you care! They need to know their money is well-spent and, the more you update them, the more likely they are to share your campaign with family and friends.<br><br>Our experience in raising funds online has shown us that it is a highly complex, but highly beneficial, effort. We can teach you exactly what words cause the most reaction, exactly how many words to use, and exactly what content and format of content supporters want to see. All to keep donors on your page longer, vastly raising their likelihood to donate.
     bgimageback: https://source.unsplash.com/0CXFhfKLIeA/1200x600
 
   - titlefront: PROMOTION
     textfront: How Much Funding Is Earned In The First And Last Three Days Of A Campaign?
     bgimagefront: https://source.unsplash.com/fG5jun4bYBQ/1200x600
-    titleback: 42%
-    textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we will create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We will also provide you with guides that ensure that you always truly maximizing your fundraising potential.
+    titleback: 42% In Those Days Alone
+    textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We also provide you with guides to ensure that you are always maximizing your fundraising potential.
     bgimageback: https://cdn.pixabay.com/photo/2017/08/03/19/42/leopard-2578114_1280.jpg
 
   - titlefront: RETENTION
     textfront: How Much More Monthly Donations Do You Receive By Adding A Pop-Up Asking One-Time Donors To Convert?
     bgimagefront: https://source.unsplash.com/7emiteIwfuk/1200x600
-    titleback: 64%
-    textback: Don't be shy, upsell! Knowing when and how to convert one-time donors into repeat donors is a key aspect of fundraising as repeat donors provide significantly more long-term value.<br><br>We understand the fine line between being pushy and being strategic in your request for donors to commit to your cause for the long-term. Repeat donors are the ultimate goal and their motivation is based on how well you have proved you can keep them engaged. Our plan captures all fundraising aspects and ensures you get the most donations possible.
+    titleback: 64% More
+    textback: Don't be shy, upsell! Knowing when and how to convert one-time donors into repeat donors is a key aspect of fundraising as repeat donors provide significantly more long-term value.<br><br>We understand the fine line between being pushy and being strategic in your request for donors to commit to your cause for the long-term. Repeat donors are the ultimate goal and their motivation is based on how well you can keep them engaged. Our plan captures all fundraising aspects and ensures you get the most donations possible.
     bgimageback: https://cdn.pixabay.com/photo/2015/02/26/06/09/panda-649938_1280.jpg
 
 process:
@@ -64,19 +64,19 @@ process:
   - name: Implementation
     image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
     imagealttext: Registration
-    subtext: Naming and Hosting
-    description: We register, detail, and design superb profiles on all major fundraising and crowdfunding platforms where you currently have no profiles. For those platforms you are already on, we will optimize all of the content and design to align with the Design parameters.
+    subtext: Registration and Optimization
+    description: We register, detail, and design superb profiles on all major fundraising and crowdfunding platforms where you currently have no profiles. For those platforms you are already on, we optimize all of the content and design to align with the Design parameters.
     description2: Deliverable - Completed Profiles
   - name: Final Delivery
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
     imagealttext: Final Delivery
-    subtext: Website Presentation and Review
-    description: We reveal all of the new and improved Fundraising and Crowdfunding profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to engage with donors for the best result. We integrate any changes you may wish to have and complete all remaining technical tasks.
+    subtext: Finalized Campaign Presentation
+    description: We reveal all of the new and improved Fundraising and Crowdfunding profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to engage with donors for the best result. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Finalized Profiles and Posting Frameworks
   - name: Hand-Over
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. That will not be the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles and fundraising approach in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. But that is not the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles and fundraising approaches in the future.
     description2: Deliverable - Support Guides
 ---

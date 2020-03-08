@@ -4,8 +4,8 @@ date: 2020-02-10T14:37:47+08:00
 draft: true
 layout: "main"
 type: "overview"
-heroBGImage: https://source.unsplash.com/r077pfFsdaU/1200x600
-heroTitleImage: https://source.unsplash.com/84n7c9cLEKM/1200x600
+heroBGImage: https://cdn.pixabay.com/photo/2016/10/20/18/35/sunrise-1756274_1280.jpg
+heroTitleImage: https://cdn.pixabay.com/photo/2017/04/11/19/52/grossglockner-2222650_1280.jpg
 heroheader:
   - heroHeading : You bring the vision, we'll bring the rest
   - heroHeading : Passion and determination brought you here
@@ -30,9 +30,9 @@ service_item:
       - fact: AGRICULTURE
         bar: 3
     question2: Tourism is the second largest industry in the world and makes up 10% of the **entire world's** revenue and jobs.<br><br>
-    answer: 'Who are your donors?<br>
-    Donations support causes around the world. Donations are given every moment so get donors to your cause.<br><br>
-    We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
+    answer: 'Do you benefit from this?<br>
+    Th Master Plan, or Ecotourism Management Plan, guides every part of your tourism industry.<br><br>
+    We create a fully detailed plan that captures everything from revenue generation to policies to infrastructure. Your success starts here.'
 
   - name: __WEB__ __DESIGN__
     icon: "images/money.svg"
@@ -43,7 +43,7 @@ service_item:
     data: 88%
     bar: 2
     question2: of visitors will never return to your website after a **single** bad experience?
-    answer: 'How good is your site?<br>
+    answer: 'How is your website?<br>
     Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
     We will create your website with a beautiful Design, high Speed, super Security, and make sure it performs even better on Phones.'
 
@@ -69,7 +69,7 @@ service_item:
     data: 6.9 Billion
     bar: 2
     question2: hours were put in by volunteers from just the USA **last year alone**?
-    answer: 'How many did you get?<br>
+    answer: 'How many do you get?<br>
     Volunteers are so critical because they not only freely offer their skills and time, but also their donations and marketing.<br><br>
     We design volunteer programs that attract, train, coordinate, and, best of all, keep volunteers coming back.'
  

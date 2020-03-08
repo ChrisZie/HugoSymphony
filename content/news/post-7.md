@@ -4,7 +4,7 @@ date: 2019-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "https://source.unsplash.com/350x225/?mountain"
+image: "https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg"
 
 # meta description
 description: "this is meta description"

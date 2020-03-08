@@ -32,7 +32,7 @@ $bp-sx: 600px;
 }
 
 #site h2{
-  font-size: 3em;
+  font-size: 5rem;
   font-weight: 700;
 }
 @media (max-width: $bp-md) {
@@ -325,7 +325,7 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
         //margin-top: 13vmin;
     //mix-blend-mode: lighten;
     left: 0;
-    bottom: 18%;
+    bottom: 15%;
     position: absolute;
     border: 3px solid green;
     transform: translate3d(1vmin, -1vmin, 0);

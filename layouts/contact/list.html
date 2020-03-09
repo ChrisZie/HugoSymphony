@@ -15,6 +15,17 @@
 <script src="./js/vue-2.1.10.min.js"></script>
 <script src="./js/nouislider-14.0.3.min.js"></script>
 <script src="./js/contact.js"></script>
+<script>
+  function showValues() {
+    var str = $("#form-3").serialize();
+    $( "#results" ).text( str );
+  }
+  $(".btn-success").click(function () {
+      showValues();
+  });
+  $( "input" ).on( "change", showValues );
+  showValues();
+</script>
 {{ end }}
 
 {{ define "main" }}

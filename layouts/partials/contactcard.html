@@ -1,3 +1,4 @@
+<!-- https://getform.io/f/a741d3a0-3568-4d65-91f2-3ea1a672e294 -->
 <form action="" role="form" method="post" id="form-3" class="has-validation-callback">
 <div class="contactcards">	
 
@@ -85,19 +86,19 @@
 					<p class>Time is the most valuable non-renewable resource we have. This dictates how much time we can put forth to make dreams reality.</p>
 					<div class="row pt-4">
 						<div class="col-sm-12 col-lg-6">
-								<input class="text-input" name="company-name" type="text" placeholder="Company Name">
+							<input class="text-input form-control" name="facebook" type="text" placeholder="Facebook ID">
 						</div>
 						<div class="col-sm-12 col-lg-6">
-							<input class="text-input" name="facebook" type="text" placeholder="Facebook ID">
+								<input class="text-input form-control" name="twitter" type="text" placeholder="Twitter ID">
 						</div>
 						<div class="col-sm-12 col-lg-6">
-								<input class="text-input" name="twitter" type="text" placeholder="Twitter ID">
+								<input class="text-input form-control" name="instagram" type="text" placeholder="Instagram ID">
 						</div>
 						<div class="col-sm-12 col-lg-6">
-								<input class="text-input" name="instagram" type="text" placeholder="Instagram ID">
+							<input class="text-input form-control" name="other-accounts" type="text" placeholder="Other Accounts">
 						</div>
 							<div class="col-sm-12">
-								<input class="text-input" name="current-website-url" type="text" placeholder="Current website url">
+								<input class="text-input form-control" name="current-website-url" type="text" placeholder="Current website url">
 						</div>
 					</div>
 				</div>
@@ -108,7 +109,7 @@
 		<a class="contactcard-toggle"><i><span class="far fa-address-card"></span></i></a>
 		<div class="contactcard-content">
 			<div class="row">
-				<div class="col col-12 px-4">
+				<div class="col col-12 px-2 px-md-4">
 					<h2>Your <strong>Message</strong></h2>
 					<p>If there are any pertinent details that you'd like to share, please drop a message in the box below.</p>
 					<div class="row pt-4">
@@ -126,10 +127,16 @@
 								<div class="help-block with-errors"></div>
 							</p>
 						</div>
-						<div class="col-12  form-group">
-								<textarea id="form_message"  rows="4" cols="50" placeholder="Don't be shy..." name="additional-info" ></textarea>
+						<div class="col-sm-12 col-lg-6">
+							<input class="text-input form-control" name="company-name" type="text" placeholder="Company Name">
+						</div>
+						<div class="col-sm-12 col-lg-6">
+							<input class="text-input form-control" name="phone_skype" type="text" placeholder="Phone/Skype ID">
 						</div>
 						<div class="col-12  form-group">
+								<textarea id="form_message"  rows="3" cols="50" placeholder="Don't be shy...*" name="additional-info" required="required" data-error="Please, leave us a message."></textarea>
+						</div>
+						<div class="col-12 form-group text-right">
 						<!-- <input name="submit" class="submit-button button" type="submit" value="SEND OVER"> -->
 						<input type="submit" class="btn btn-success btn-send button" value="Send message">
 						</div>

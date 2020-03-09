@@ -135,7 +135,9 @@
 				color: whitesmoke;
 			}
 			p.serviceSelect {
-				font-size:4rem;
+				font-size: 3rem;
+				line-height: 1.4;
+				font-weight: 700!important;
 				@media (max-width: 800px) {
 					font-size:2.5rem;	
 				}		 
@@ -295,11 +297,11 @@ textarea {
 //no ui slider
 
 p.section-caption {
-  font-weight: 600;
-  font-size: 1rem;
   letter-spacing: .15rem;
-  margin: 3em 0 0;
-  text-transform: uppercase;
+  margin: 0.8em 0 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 3rem;
 }
 
 .noUi-target {
@@ -380,7 +382,8 @@ p.section-caption {
 .slider-input {
   background-color: transparent;
   border: none;
-  font-size: 2.0833rem;
+	font-size: 2.5rem;
+	font-weight: 700;
   color: white;
   text-align: center;
   margin: 0;

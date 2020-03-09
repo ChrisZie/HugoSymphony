@@ -9,9 +9,9 @@ type: "service"
 heroBGImage: https://cdn.pixabay.com/photo/2016/07/07/23/49/sea-turtles-1503461_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg
 heroheader:
-  - heroHeading : Volunteers are priceless
-  - heroHeading : Passionate volunteers are your biggest supporters
-  - heroHeading : Get and keep the best and the brightest
+  - heroHeading : Volunteers are the enablers of successs
+  - heroHeading : Passionate volunteers are priceless supporters
+  - heroHeading : Get and keep<br>the best and<br>the brightest
 
 quizcards:
   - titlefront: attain

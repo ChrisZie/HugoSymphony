@@ -9,7 +9,7 @@ type: "service"
 heroBGImage: https://cdn.pixabay.com/photo/2014/08/27/12/58/emperor-penguins-429127_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2016/02/22/21/07/snow-1216543_1280.jpg
 heroheader:
-  - heroHeading : Engage everyone, everywhere
+  - heroHeading : Engage<br>everyone<br>everywhere
   - heroHeading : Social Media is the definition of Marketing today
   - heroHeading : Your best followers are your biggest supporters
 

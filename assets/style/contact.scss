@@ -71,12 +71,10 @@
 			
 			h2{
 				font-weight: 300;
-				font-size: 3em;
 				line-height: 1;
 				margin: 0 0 30px;
 				strong{
 					font-weight: 700;
-					display: block;
 				}
 			}
 			
@@ -109,6 +107,9 @@
 			@media (max-width: 800px) {
 				-webkit-clip-path: circle(0% at 30px 75px);
 			}
+			p.intro-text {
+				font-size:3rem;
+			}
 		}
 		&.active {
 			.contactcard-toggle{opacity: 0}
@@ -130,7 +131,7 @@
 				color: rgba(255,255,255,.8);
 			}
 			p.serviceSelect {
-				font-size:4rem
+				font-size:4rem;
 			}
 		}
 	}

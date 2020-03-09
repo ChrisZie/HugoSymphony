@@ -117,6 +117,7 @@
 /* 	 z-index: 2;  */
 	background-size: 100vh;
 	background-size: cover;
+	background-position: center;
 	background-image: url(https://cdn.pixabay.com/photo/2014/08/22/10/21/blue-424156_1280.jpg);
 }
 
@@ -126,7 +127,7 @@
 	background-color: #333;
 	transform: rotateY(180deg);
 	z-index: 0;
-
+	background-position: center;
 	background-size: cover;
 	background-image: url(https://images.unsplash.com/photo-1515446134809-993c501ca304?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 }
@@ -158,3 +159,11 @@
 .cardback h2 {
 	margin: 0;
 }
+
+
+
+@media (max-width: 1500px) {
+	.cardback.location {
+		background-position: top;
+	}
+}     

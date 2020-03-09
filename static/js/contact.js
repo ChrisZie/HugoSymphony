@@ -246,10 +246,6 @@ const FloatLabel = (() => {
         //$('.js-form-link').toggleClass("selected");
         $(this).toggleClass("selected");
       });
-      $('.js-show-section').click(function () {
-        $('.js-show-section').removeClass("selected");
-        $(this).addClass("selected");
-      });
     
       //SCROLL TO ANCHOR
       $(".js-form-nextStep").on('click', function (event) {

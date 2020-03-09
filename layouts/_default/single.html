@@ -62,6 +62,12 @@
             </style>
         {{ end }}
       {{ end }}
+      {{ else if .Params.Image }}
+      <style>
+        .Cover {
+          background-image:url('{{ .Params.Image | absURL }}');
+        }
+      </style>
     {{ end }}
     <div class="Cover -align--center" >
     </div>

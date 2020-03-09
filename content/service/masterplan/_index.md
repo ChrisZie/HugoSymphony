@@ -10,8 +10,8 @@ heroBGImage: https://images.unsplash.com/photo-1565774488554-c75ea9c70bcf?ixlib=
 heroTitleImage: https://cdn.pixabay.com/photo/2015/03/12/15/30/canyon-670392_1280.jpg
 heroheader:
   - heroHeading : Success is a strategy
-  - heroHeading : Create a great future for your environment and your economy
-  - heroHeading : Choose to create a legacy that lasts a lifetime
+  - heroHeading : Be the champion of your environment and your economy
+  - heroHeading : Right now, create<br>a legacy that lasts<br>a lifetime
 
 quizcards:
   - titlefront: planning

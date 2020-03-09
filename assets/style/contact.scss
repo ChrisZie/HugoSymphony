@@ -18,7 +18,7 @@
 	font-weight: 300;
 	line-height: 1.8;
 	@media (max-width: 800px) {
-		min-height: 950px;
+		min-height: 920px;
 	}		
 	
 	.contactcard{
@@ -127,7 +127,7 @@
 		
 	}
 	
-	#service, #behance, #linkedin, #twitter{
+	#service, #budget, #socialmedia, #message{
 		.contactcard-content{
 			color: white;
 			
@@ -156,7 +156,7 @@
 			clip-path: circle(270% at 76px 88%);
 		}
 	}
-	#behance {
+	#budget {
 		.contactcard-content{ 
 			background-color: #9a2552;
 			-webkit-clip-path: circle(0% at 150px 88%);
@@ -168,7 +168,7 @@
 			clip-path: circle(270% at 150px 88%);
 		}
 	}
-	#linkedin {
+	#socialmedia {
 		.contactcard-content{ 
 			background-color:#39569c;
 			-webkit-clip-path: circle(0% at 220px 88%);
@@ -187,7 +187,7 @@
 			}		 */
 		}
 	}
-	#twitter {
+	#message {
 		.contactcard-content{ 
 			background-color: indigo;
 			-webkit-clip-path: circle(0% at 292px 88%);
@@ -302,6 +302,9 @@ p.section-caption {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 3rem;
+	@media (max-width: 800px) {
+		font-size: 2rem;	
+			}	
 }
 
 .noUi-target {
@@ -403,10 +406,54 @@ p.section-caption {
 
 //body background image
 .contactBgImage {
-	background-image: url(https://cdn.pixabay.com/photo/2016/10/20/18/35/sunrise-1756274_1280.jpg);
 	background-size: cover;
 	color:white;
-} 
+}
+		//Image Processing 
+		{{ with $.Resources.ByType "image" }}
+		{{ $resources := .Match "*contactbackground.jpg"}}
+		{{ range $index, $element := $resources }}
+				{{ with . }}
+				{{ $smallw := default "1200x" }} 
+				{{ $mediumw := default "1500x" }}
+				{{ $largew := default "2000x" }}
+				{{ $small := .Resize $smallw }}
+				{{ $medium := .Resize $mediumw }}
+				{{ $large := .Resize $largew }}
+						.contactBgImage{
+							background-image:url('{{ .RelPermalink | absURL }}');
+						}
+					{{ if ge .Width "2000" }}
+					@media (max-width: 2000px) {
+						.contactBgImage{
+								background-image:url('{{ $large.RelPermalink | absURL }}');
+							}
+					}
+					{{ end }}
+					{{ if ge .Width "1500" }}
+					@media (max-width: 1500px) {
+						.contactBgImage{
+								background-image:url('{{ $medium.RelPermalink | absURL }}');
+							}
+					}
+					{{ end }}
+					{{ if ge .Width "1200" }}
+					@media (max-width: 1200px) {
+						.contactBgImage{
+								background-image:url('{{ $small.RelPermalink | absURL }}');
+							}
+					}
+					{{ end }}
+					{{ if ge .Width "600" }}
+					@media (max-width: 600px) {
+						.contactBgImage{
+								background:white;
+							}
+					}
+					{{ end }}  
+				{{ end }}
+				{{ end }}
+		{{ end }}
 
 //service select 
 

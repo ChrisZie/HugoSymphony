@@ -132,7 +132,7 @@
 			color: white;
 			
 			p{
-				color: whitesmoke;
+				//color: whitesmoke;
 			}
 			p.serviceSelect {
 				font-size: 3rem;
@@ -400,11 +400,6 @@ p.section-caption {
 }
 }
 
-// select services
-.serviceSelect.active {
-	color:green!important;
-}
-
 
 //body background image
 .contactBgImage {
@@ -412,3 +407,18 @@ p.section-caption {
 	background-size: cover;
 	color:white;
 } 
+
+//service select 
+
+.serviceSelect.active {
+	color:green!important;
+}
+
+
+.serviceSelect.link--kukuri::before {
+	color: blue;
+}
+
+.serviceSelect.link--kukuri:hover {
+	color: red;
+}

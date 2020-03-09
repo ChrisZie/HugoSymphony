@@ -15,7 +15,7 @@ heroheader:
   - heroHeading : It's all about beauty, speed, security, and flexibilty
 
 quizcards:
-  - titlefront: SIMPLICITY
+  - titlefront: simplicity
     textfront: How Many People Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
     titleback: 52% Mobile Only
@@ -36,7 +36,7 @@ quizcards:
     textback: Give the people what they want! Imagine how much more impact you could have with 75% more visitors, donors, and volunteers than you have right now.<br><br>All our designs fully consider performance, with images, colours, and content all tuned for maximum speed. Google rates template sites from Wix and WordPress a "C" grade or lower due to their awfully slow performance, making them less likely to appear during a search. Our sites have an "A" grade, vastly increasing your visibility.
     bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
 
-  - titlefront: SECURITY
+  - titlefront: security
     textfront: How Often Do Hackers Target Small Businesses or Governments Every Single Day?
     bgimagefront: https://source.unsplash.com/YL5ZDmdDNEY/1200x600
     titleback: Every 39 Seconds
@@ -44,13 +44,13 @@ quizcards:
     bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
 
 process:
-  - name: Start
+  - name: Define
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Initiation
     description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to understand exactly what your website functionality and design goals are and plan how we get you to those goals from where you are right now.
     description2: Deliverable - Project Charter
-  - name: Discovery
+  - name: Discover
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
     imagealttext: Discovery
     subtext: Market Research and Plan
@@ -62,19 +62,19 @@ process:
     subtext: Perfecting Style and Speed
     description: We meet with your team to capture the most desired design elements you may already have or want to have. We then present the initial design options, with two equally superb options for you to choose from. With the chosen option, we begin developing the final product, working closely with your team on content and branding.
     description2: Deliverable - Finalized Design
-  - name: Implementation
+  - name: Do
     image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
     imagealttext: Registration
     subtext: Naming and Hosting
     description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transfer all your data from any existing websites or services to the new service.
     description2: Deliverable - Domain and Hosting Summary
-  - name: Final Delivery
+  - name: Debut
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
     imagealttext: Final Delivery
     subtext: Finalized Website Presentation
     description: We deliver the Final Website, walking you and your team through each of the design choices and themes, from colour to content. We ensure that your mission and passion are captured effectively. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Final Website
-  - name: Hand-Over
+  - name: Deliver
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support

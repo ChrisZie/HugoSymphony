@@ -14,28 +14,28 @@ heroheader:
   - heroHeading : Invest the time to grow your investors
 
 quizcards:
-  - titlefront: LOCATION
+  - titlefront: location
     textfront: How Many Donations Do Organizations Usually Receive From Outside Of Their Own Country?
     bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
     titleback: 45% International
     textback: Your donors are everywhere! How people give donations is changing, fast. More donors prefer to donate money online, or else volunteer in-person and donate their time instead.<br><br>As management within Governments and NGOs we learned the difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
     bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
 
-  - titlefront: COMMUNICATION
+  - titlefront: communication
     textfront: How Much More Funding Crowdfunding Do Campaigns Raise When Fundraisers Update Their Supporters?
     bgimagefront: https://source.unsplash.com/qLW70Aoo8BE/1200x600
     titleback: 126% More Funds
     textback: Show your donors you care! They need to know their money is well-spent and, the more you update them, the more likely they are to share your campaign with family and friends.<br><br>Our experience in raising funds online has shown us that it is a highly complex, but highly beneficial, effort. We can teach you exactly what words cause the most reaction, exactly how many words to use, and exactly what content and format of content supporters want to see. All to keep donors on your page longer, vastly raising their likelihood to donate.
     bgimageback: https://source.unsplash.com/0CXFhfKLIeA/1200x600
 
-  - titlefront: PROMOTION
+  - titlefront: promotion
     textfront: How Much Funding Is Earned In The First And Last Three Days Of A Campaign?
     bgimagefront: https://source.unsplash.com/fG5jun4bYBQ/1200x600
     titleback: 42% In Those Days Alone
     textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We also provide you with guides to ensure that you are always maximizing your fundraising potential.
     bgimageback: https://cdn.pixabay.com/photo/2017/08/03/19/42/leopard-2578114_1280.jpg
 
-  - titlefront: RETENTION
+  - titlefront: retention
     textfront: How Much More Monthly Donations Do You Receive By Adding A Pop-Up Asking One-Time Donors To Convert?
     bgimagefront: https://source.unsplash.com/7emiteIwfuk/1200x600
     titleback: 64% More
@@ -43,13 +43,13 @@ quizcards:
     bgimageback: https://cdn.pixabay.com/photo/2015/02/26/06/09/panda-649938_1280.jpg
 
 process:
-  - name: Start
+  - name: Define
     image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Initiation
     description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to understand exactly what your current fundraising activities are, what your optimal future state is, and how we can plan to get you to that goal from where you are right now.
     description2: Deliverable - Project Charter
-  - name: Discovery
+  - name: Discover
     image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
     imagealttext: Discovery
     subtext: Market Research and Plan
@@ -61,19 +61,19 @@ process:
     subtext: Messaging and Structure
     description: We meet with your team to capture the most desired fundraising goals and themes to be included in the campaigns. We create example campaigns and review them with you. Once these preliminary designs are accepted, we begin creating visibility strategies, working closely with your team on data and design.
     description2: Deliverable - Finalized Design
-  - name: Implementation
+  - name: Do
     image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
     imagealttext: Registration
     subtext: Registration and Optimization
     description: We register, detail, and design superb profiles on all major fundraising and crowdfunding platforms where you currently have no profiles. For those platforms you are already on, we optimize all of the content and design to align with the Design parameters.
     description2: Deliverable - Completed Profiles
-  - name: Final Delivery
+  - name: Debut
     image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
     imagealttext: Final Delivery
     subtext: Finalized Campaign Presentation
     description: We reveal all of the new and improved Fundraising and Crowdfunding profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to engage with donors for the best result. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Finalized Profiles and Posting Frameworks
-  - name: Hand-Over
+  - name: Deliver
     image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
     imagealttext: Hand-Over
     subtext: Guides and Support

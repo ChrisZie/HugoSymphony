@@ -1,47 +1,3 @@
-$(function () {
-  
-/*     window.verifyRecaptchaCallback = function (response) {
-        $('input[data-recaptcha]').val(response).trigger('change');
-    }
-
-    window.expiredRecaptchaCallback = function () {
-        $('input[data-recaptcha]').val("").trigger('change');
-    } */
-    $('#form-3').validator();
-    $('#form-3').on('submit', function (e) {
-      console.log("ContactForm");
-      console.log($(this).serialize());
-      return false;
-    });
-   
-    $('#contact-form').validator();
-
-    $('#contact-form').on('submit', function (e) {
-      
-        if (!e.isDefaultPrevented()) {
-          console.log($(this).serialize());
-            // var url = "contact.php";
-
-            // $.ajax({
-            //     type: "POST",
-            //     url: url,
-            //     data: $(this).serialize(),
-            //     success: function (data) {
-            //         var messageAlert = 'alert-' + data.type;
-            //         var messageText = data.message;
-
-            //         var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-            //         if (messageAlert && messageText) {
-            //             $('#contact-form').find('.messages').html(alertBox);
-            //             $('#contact-form')[0].reset();
-            //             grecaptcha.reset();
-            //         }
-            //     }
-            // });
-            return false;
-        }
-    })
-});
 
 const FloatLabel = (() => {
   
@@ -160,86 +116,8 @@ const FloatLabel = (() => {
       websiteWeekSlider.noUiSlider.set([null, this.value]);
     });
 
-  //FORM VALIDATION AND SUBMIT
-
-  $.validate({
-    /*     modules : 'security',
-        onError : function($form) {
-          $('html, body').animate({
-            scrollTop: $('.form-error').offset().top
-          }, 500);
-        },
-        onSuccess :  */function($form) {
-          if(($form).attr('id') !== 'form-4'){
-            console.log("ContactForm != 4");
-            console.log($(this).serialize());
-    /*           $.ajax({
-                type: "POST",
-                url: "email.php",
-                data: $form.serialize(),
-                success: function(){
-                  $('.js-form-response').addClass('sent');
-                  $('.js-form-response').html('<h2>Hoooray!</h2> <p>It is a pleasure to meet ya! Give us a day and we will schedule our first date.</p><a class="bs-button btn-small" data-linkName="go home" href="/"><span data-hover="go home">go home</span></a><h6>Check out our creative channels</h6><ul class="social"><li class="dribbble"><a href="https://dribbble.com/Buzzworthy" target="_blank"><span>Dribbble</span><img src="img/social/social-dribbble-loop.gif" alt="Dribbble"></a><li><li class="behance"><a href="https://www.behance.net/BuzzworthyStudio" target="_blank"><span>Behance</span><img src="img/social/social-behance-loop.gif" alt="Behance"></a><li><li class="instagram"><a href="https://www.instagram.com/buzzworthy.studio/" target="_blank"><span>instagram</span><img src="img/social/social-instagram-loop.gif" alt="Instagram"></a><li></ul>');
-                }
-            }); */
-          }else{
-            console.log("ContactForm != 4");
-            console.log($(this).serialize());
-    /*         $.ajax({
-              type: "POST",
-              url: "email_chat.php",
-              data: $form.serialize(),
-              success: function(){
-                $('.js-form-response').addClass('sent');
-                $('.js-form-response').html('<h2>Hoooray!</h2> <p>It is a pleasure to meet ya! Give us a day and we will schedule our first date.</p><a class="bs-button btn-small" data-linkName="go home" href="/"><span data-hover="go home">go home</span></a><h6>Check out our creative channels</h6><ul class="social"><li class="dribbble"><a href="https://dribbble.com/Buzzworthy" target="_blank"><span>Dribbble</span><img src="img/social/social-dribbble-loop.gif" alt="Dribbble"></a><li><li class="behance"><a href="https://www.behance.net/BuzzworthyStudio" target="_blank"><span>Behance</span><img src="img/social/social-behance-loop.gif" alt="Behance"></a><li><li class="instagram"><a href="https://www.instagram.com/buzzworthy.studio/" target="_blank"><span>instagram</span><img src="img/social/social-instagram-loop.gif" alt="Instagram"></a><li></ul>');
-              }
-            }); */
-          }
-        },
-      });
-
 
     });
-
-
-    
-      // FORM PAGER HIGLIGHTING ITEM
-      $(document).on("scroll", onScroll);
-      //smoothscroll
-      $('.form-pager a[href^="#"]').on('click', function (e) {
-          e.preventDefault();
-          $(document).off("scroll");
-    
-          $('a').each(function () {
-              $(this).removeClass('active');
-          })
-          $(this).addClass('active');
-    
-          var target = this.hash,
-              menu = target;
-          $target = $(target);
-          $('html, body').stop().animate({
-              'scrollTop': $target.offset().top+2
-          }, 600, 'easeInOutQuart', function () {
-              window.location.hash = target;
-              $(document).on("scroll", onScroll);
-          });
-      });
-    
-      function onScroll(event){
-        var scrollPos = $(document).scrollTop();
-        $('.form-pager a').each(function () {
-            var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                $('.form-pager-1 ul li a').removeClass("active");
-                currLink.addClass("active");
-            }
-            else{
-                currLink.removeClass("active");
-            }
-        });
-      }
     
       // toggle select input list 
       $('.js-form-link').click(function () {
@@ -247,32 +125,6 @@ const FloatLabel = (() => {
         $(this).toggleClass("selected");
       });
     
-      //SCROLL TO ANCHOR
-      $(".js-form-nextStep").on('click', function (event) {
-        event.preventDefault();
-        var $anchorValue = $(this).data("anchor");
-    
-        setTimeout(function(){
-            $('html, body').animate({
-              scrollTop: $('div#'+$anchorValue+'').offset().top
-            }, 600, "easeInOutQuart");
-            return false;
-        }, 500);
-    });
-    
-      //SHOW PROPER FORM (SECTION)
-      $('.js-show-section').click(function(){
-        var sectionName = $(this).data('form');
-    
-        $('section.main-type').fadeOut();
-          
-        $('section#'+sectionName+'').find('.js-form-link-main-data').val(sectionName);
-        $('section#'+sectionName+'').fadeIn(function(){
-          $('html, body').animate({
-            scrollTop: $('section#'+sectionName+'').offset().top
-          }, 600, "easeInOutQuart");
-        });
-      });
 
       //INSERT SELECTED VALUES IN FORM AS SUB-CATEGORY TYPE
       $('.js-form-link').click(function(){

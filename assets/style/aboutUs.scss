@@ -125,7 +125,7 @@ html, body{
 		}
 		//Image Processing 
 		{{ with $.Resources.ByType "image" }}
-		{{ $resources := .Match "*aboutusslider.jpeg"}}
+		{{ $resources := .Match "*aboutusslider.jpg"}}
 		{{ range $index, $element := $resources }}
 				{{ with . }}
 				{{ $tinyw := default "600x" }}

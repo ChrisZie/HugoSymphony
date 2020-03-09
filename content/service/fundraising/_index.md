@@ -44,37 +44,37 @@ quizcards:
 
 process:
   - name: Define
-    image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
+    image: "images/process_define__small.jpg"
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Initiation
     description: We meet with you to get the formal go-ahead for the project. Then we meet with your team to understand exactly what your current fundraising activities are, what your optimal future state is, and how we can plan to get you to that goal from where you are right now.
     description2: Deliverable - Project Charter
   - name: Discover
-    image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
+    image: "images/process_discover__small.jpg"
     imagealttext: Discovery
     subtext: Market Research and Plan
     description: We research your biggest local (and even global) competitors and understand what fundraising campaigns and strategies are working for them that we can make work for you instead.
     description2: Deliverable - Market Research Summary
   - name: Design
-    image: https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg
+    image: "images/process_design__small.jpg"
     imagealttext: Design
     subtext: Messaging and Structure
     description: We meet with your team to capture the most desired fundraising goals and themes to be included in the campaigns. We create example campaigns and review them with you. Once these preliminary designs are accepted, we begin creating visibility strategies, working closely with your team on data and design.
     description2: Deliverable - Finalized Design
   - name: Do
-    image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
+    image: "images/process_do__small.jpg"
     imagealttext: Registration
     subtext: Registration and Optimization
     description: We register, detail, and design superb profiles on all major fundraising and crowdfunding platforms where you currently have no profiles. For those platforms you are already on, we optimize all of the content and design to align with the Design parameters.
     description2: Deliverable - Completed Profiles
   - name: Debut
-    image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
+    image: "images/process_debut__small.jpg"
     imagealttext: Final Delivery
     subtext: Finalized Campaign Presentation
     description: We reveal all of the new and improved Fundraising and Crowdfunding profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to engage with donors for the best result. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Finalized Profiles and Posting Frameworks
   - name: Deliver
-    image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
+    image: "images/process_deliver__small.jpg"
     imagealttext: Hand-Over
     subtext: Guides and Support
     description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. But that is not the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles and fundraising approaches in the future.

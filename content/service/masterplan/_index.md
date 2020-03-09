@@ -44,37 +44,37 @@ quizcards:
 
 process:
   - name: Define
-    image: https://cdn.pixabay.com/photo/2010/12/01/space-shuttle-774_1280.jpg
+    image: "images/process_define__small.jpg"
     imagealttext: Kick-Off
     subtext: Project Sign-Off and Initiation
     description: We meet with you to get the formal go-ahead for the project. Then we work with you and your team to understand your current Ecotourism status, limitations, opportunities, and risks. Once your optimal future state is defined, with exactly what you hope and expect, we lay out the structure of a plan to get you to that goal from where you are right now.
     description2: Deliverable - Project Charter
   - name: Discover
-    image: https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg
+    image: "images/process_discover__small.jpg"
     imagealttext: Discovery
     subtext: Market Research and Plan
     description: We research your biggest local (and even global) Ecotourism competitors and understand what infrastructure, revenue generating, and tourism support strategies are working for them that we can make work for you instead.
     description2: Deliverable - Market Research Summary
   - name: Design
-    image: https://cdn.pixabay.com/photo/2016/11/29/06/15/plans-1867745_1280.jpg
+    image: "images/process_design__small.jpg"
     imagealttext: Design
     subtext: Content and Structure
     description: We meet with you and your team to capture the measurable and specific Ecotourism goals for each of your sites. We create a high-level plan and review it with you. Once the strategic direction is accepted, we begin creating more detailed strategies and guides, working closely with your team for both content and structure.
     description2: Deliverable - Finalized Strategic Framework
   - name: Do
-    image: https://cdn.pixabay.com/photo/2016/08/06/15/09/computer-1574533_1280.jpg
+    image: "images/process_do__small.jpg"
     imagealttext: Registration
     subtext: Network and Registration
     description: We work with your team to verify that all Ecotourism sites are properly listed on Google and Social Media. We guide them on how to complete registration for all yet to be done. For those platforms you are already on, we optimize all of the content and design to align with the Strategic goals and parameters.
     description2: Deliverable - Completed Profiles
   - name: Debut
-    image: https://cdn.pixabay.com/photo/2017/01/04/21/00/new-years-eve-1953253_1280.jpg
+    image: "images/process_debut__small.jpg"
     imagealttext: Final Delivery
     subtext: Finalized Master Plan Presentation
     description: We formally present the whole Master Plan, reviewing all the major discoveries, details, and recommendations. We let you know both what the highest priority and most easily actionable items are and how to implement them. We walk you through all frameworks, fee structures, and guides. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Finalized Profiles and Posting Frameworks
   - name: Deliver
-    image: https://cdn.pixabay.com/photo/2017/11/13/22/12/compass-2946959_1280.jpg
+    image: "images/process_deliver__small.jpg"
     imagealttext: Hand-Over
     subtext: Guides and Support
     description: We transfer all administrative IDs and passwords to you for all Ecotourism network and assistance websites we have registered you on. We provide excellent user guides to help your staff take over the administrative tasks needed to ensure that all registered site information stays current and effective. But that is not be the end though as we will always provide you with ongoing support and strategic advice as your Ecotourism develops into the future.

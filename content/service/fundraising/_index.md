@@ -9,9 +9,9 @@ type: "service"
 heroBGImage: https://cdn.pixabay.com/photo/2015/05/15/14/42/monkeys-768641_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2016/03/27/19/49/nature-1283976_1280.jpg
 heroheader:
-  - heroHeading : Funding for change
-  - heroHeading : Your impact is fully tied to your income
-  - heroHeading : Invest the time to grow your investors
+  - heroHeading : Funding fuels growth
+  - heroHeading : Impact makes income<br>just as<br>income makes impact
+  - heroHeading : Invest in growing your investors
 
 quizcards:
   - titlefront: location

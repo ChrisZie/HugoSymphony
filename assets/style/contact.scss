@@ -146,7 +146,7 @@
 	}
 	#service{ 
 		.contactcard-content{ 
-			background-color: #005c1f;
+			background-color: #008000;
 			-webkit-clip-path: circle(0% at 76px 88%);
 			clip-path: circle(0% at 76px 88%);
 	
@@ -158,7 +158,7 @@
 	}
 	#budget {
 		.contactcard-content{ 
-			background-color: #9a2552;
+			background-color: #800020;
 			-webkit-clip-path: circle(0% at 150px 88%);
 			clip-path: circle(0% at 150px 88%);
 	
@@ -458,14 +458,14 @@ p.section-caption {
 //service select 
 
 .serviceSelect.active {
-	color:green!important;
+	color:lightseagreen!important;
 }
 
 
 .serviceSelect.link--kukuri::before {
-	color: blue;
+	color: #4aff00;
 }
 
 .serviceSelect.link--kukuri:hover {
-	color: red;
+	color: cyan;
 }

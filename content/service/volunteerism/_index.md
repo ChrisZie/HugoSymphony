@@ -59,13 +59,13 @@ process:
     image: "images/process_design__small.jpg"
     imagealttext: Design
     subtext: Perfecting Analysis and Approach 
-    description: We meet with your team to capture the most desired volunteerism strategies you already have or want to have. We then present the initial strategic outlines, capturing all key tips, tools, and techniques. Once you agree to the approach, we work closely with your team to finalize the overall strategic design.
+    description: We meet with your team to capture the most desired volunteerism strategies you already have and want to have. We then present the initial strategic outlines, with a high-level description of all key tips, tools, and techniques. Once you agree to the approach, we work closely with your team to finalize the overall strategic design.
     description2: Deliverable - Volunteerism Strategic Design
   - name: Do
     image: "images/process_do__small.jpg"
     imagealttext: Registration
     subtext: Registration and Optimization
-    description: We create accounts and profiles for your organization on all the major volunteer recruitment portals. We also review and edit your existing Social Media accounts to ensure that all volunteer requirements are captured and updated regularly.
+    description: We create accounts and profiles for your organization on all the major Volunteer Recruitment Portals. We also review and edit your existing Social Media accounts to ensure that all volunteer requirements are captured and updated there regularly.
     description2: Deliverable - Recruitment Accounts and Completed Profiles
   - name: Debut
     image: "images/process_debut__small.jpg"
@@ -77,6 +77,6 @@ process:
     image: "images/process_deliver__small.jpg"
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure your Recruitment and Social Media profiles stay current after we hand them over. But that is not the end though as we will provide you with ongoing support and will assist with any questions or guidance you may seek in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure your Recruitment Portals and Social Media profiles stay current after we hand them over. But that is not the end though as we will provide you with ongoing support and will assist with any questions or guidance you may seek in the future.
     description2: Deliverable - User Guides
 ---

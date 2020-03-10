@@ -59,24 +59,24 @@ process:
     image: "images/process_design__small.jpg"
     imagealttext: Design
     subtext: Strategic Substance and Style
-    description: We meet with your team to capture the most desired data and designs to be included in the Social Media profiles. Once the initial designs are accepted, we begin creating visibility strategies, working closely with your team on content and design.
+    description: We meet with your team to capture the most desired data and designs to be included in your Social Media profiles. Once the initial designs are accepted, we begin creating visibility strategies, working closely with your team on content and design.
     description2: Deliverable - Finalized Design
   - name: Do
     image: "images/process_do__small.jpg"
     imagealttext: Registration
     subtext: Registration and Optimization
-    description: We register, detail, and design superb profiles on all major Western AND Eastern platforms where you currently have no profiles. For those platforms you are already on, we optimize all of the content and design to align with the Design parameters.
+    description: We register, detail, and design superb profiles on all major Western AND Eastern platforms where you currently have no profiles. For those platforms you are already on, we optimize all of the content and designs to align with the new formal Design parameters.
     description2: Deliverable - Social Media Profiles Summary
   - name: Debut
     image: "images/process_debut__small.jpg"
     imagealttext: Final Delivery
     subtext: Finalized Strategy Presentation
-    description: We reveal all of the new and improved Social Media profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to post for the best result. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
+    description: We reveal all of your new and improved Social Media profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team so that you know what, when, and how to post for maximum visibility. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Finalized Profiles and Posting Frameworks
   - name: Deliver
     image: "images/process_deliver__small.jpg"
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. But that is not the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. But that is not the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make to your profiles in the future.
     description2: Deliverable - Support Guides
 ---

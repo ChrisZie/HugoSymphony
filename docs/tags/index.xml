@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Symphony ECO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2019 10:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,54 +14,9 @@
     <item>
       <title>Game</title>
       <link>http://example.org/tags/game/</link>
-      <pubDate>Sun, 29 Dec 2019 10:07:47 +0600</pubDate>
-      
-      <guid>http://example.org/tags/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New</title>
-      <link>http://example.org/tags/new/</link>
-      <pubDate>Sun, 29 Dec 2019 10:07:47 +0600</pubDate>
-      
-      <guid>http://example.org/tags/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photos</title>
-      <link>http://example.org/tags/photos/</link>
-      <pubDate>Sun, 29 Dec 2019 10:07:47 +0600</pubDate>
-      
-      <guid>http://example.org/tags/photos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://example.org/tags/python/</link>
-      <pubDate>Sun, 29 Dec 2019 10:07:47 +0600</pubDate>
-      
-      <guid>http://example.org/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>http://example.org/tags/react/</link>
-      <pubDate>Sun, 29 Dec 2019 10:07:47 +0600</pubDate>
-      
-      <guid>http://example.org/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Boom</title>
-      <link>http://example.org/tags/boom/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>http://example.org/tags/boom/</guid>
+      <guid>http://example.org/tags/game/</guid>
       <description></description>
     </item>
     
@@ -75,11 +30,38 @@
     </item>
     
     <item>
-      <title>Web Design</title>
-      <link>http://example.org/tags/web-design/</link>
+      <title>New</title>
+      <link>http://example.org/tags/new/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>http://example.org/tags/web-design/</guid>
+      <guid>http://example.org/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>http://example.org/tags/photos/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>http://example.org/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://example.org/tags/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>http://example.org/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>http://example.org/tags/react/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>http://example.org/tags/react/</guid>
       <description></description>
     </item>
     

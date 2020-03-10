@@ -37,7 +37,6 @@
 <link rel="stylesheet" href="http://example.org/style/linkstyles.min.c4f531627ab8e41bdffbc6b0d3a8dac33dce3ae5c0c6d8ee489352f2976a4825.css" integrity="sha256-xPUxYnq45Bvf&#43;8aw06jawz3OOuXAxtjuSJNS8pdqSCU=" media="screen">
     
 <link rel="stylesheet" type="text/css" href="./style/bootstrap-slider.min.css">
-<link rel="stylesheet" href="./style/nouislider-14.0.3.min.css">
 
 
 <link rel="stylesheet" href="http://example.org/style/quizCard.min.72dfc4dc2dbcdb702ebeb2d9cd51e9e0cd874ecf72c255de690c0f786fed9700.css" integrity="sha256-ct/E3C2823AuvrLZzVHp4M2HTs9ywlXeaQwPeG/tlwA=" media="screen">
@@ -74,8 +73,7 @@
   <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-10 p-0 align-self-center">
-          
-<form action="" role="form" method="post" id="form-3" class="has-validation-callback">
+          <form action="https://getform.io/f/a741d3a0-3568-4d65-91f2-3ea1a672e294" role="form" method="post" id="form-3" class="has-validation-callback">
 <div class="contactcards">	
 
 	 <div class="contactcard active" id="overview">
@@ -233,16 +231,13 @@
 								<textarea id="form_message"  rows="3" cols="50" placeholder="Don't be shy...*" name="additional-info" required="required" data-error="Please, leave us a message."></textarea>
 						</div>
 						<div class="col-12 form-group text-right">
-						
 						<input type="submit" class="btn btn-success btn-send button" value="let's go!">
 						</div>
 					</div>
-					<p style="color: white;"><tt id="results"></tt></p>
 				</div>
 			</div>
 		</div>
 	</div>
-
 </div>
 </form>
         </div>
@@ -286,22 +281,8 @@
 <script src="./js/nav.js"></script>
 <script src="./js/bootstrap-4.0.min.js"></script>
     
-<script src="./js/wNumb.js"></script>
-<script src="./js/vue-2.1.10.min.js"></script>
-<script src="./js/nouislider-14.0.3.min.js"></script>
 <script src="./js/bootstrap-slider.min.js"></script>
 <script src="./js/contact.js"></script>
-<script>
-  function showValues() {
-    var str = $("#form-3").serialize();
-    $( "#results" ).text( str );
-  }
-  $(".btn-success").click(function () {
-      showValues();
-  });
-  $( "input" ).on( "change", showValues );
-  showValues();
-</script>
 
     <script src="./js/custom.js"></script>
 	</body>

@@ -1,2 +1,2 @@
-start "" http://localhost:1313/
+start "" http://localhost:1313/HugoSymphony/
 hugo server -D --disableFastRender

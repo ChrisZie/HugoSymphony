@@ -3,9 +3,6 @@ title: "How To Use post3 To Improve Your UX"
 date: 2019-10-29T10:07:47+06:00
 draft: false
 
-# post thumb
-image: "https://source.unsplash.com/350x225/?dog"
-og_image : "https://themes.gohugo.io/theme/liva-hugo/images/featured-post/post-1.jpg"
 
 # meta description
 description: "this is meta description"
@@ -19,7 +16,8 @@ tags:
   - "React"
   - "Python"
   - "New"
-  - "Boom"
+
+series: "special"
 
 # post type
 type: "featured"

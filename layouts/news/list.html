@@ -106,9 +106,21 @@
       {{ range last 3 (where .Site.RegularPages "Params.series" "special")}}
       <div class="col-lg-4 small-post-border">
         <article class="media">
-          {{ if .Params.Image }}
+          {{ $title := .Title | markdownify }}
+          {{if .Resources.Match "cover*" }}
           <a href="{{ .Permalink }}">
-          <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
+            {{ $resources := .Resources.Match "cover*"}}
+            {{ range $resources }}
+                {{ with . }}
+                {{ $tinyw := default "300x" }}
+                {{ $tiny := .Resize $tinyw }}
+                <div class="recent-post-thumb mr-3" style="background-image: url('{{ with $tiny.RelPermalink }}{{.}}{{ end }}');"></div>
+              {{ end }}
+            {{ end }}
+          </a>
+          {{ else if .Params.Image }}
+          <a href="{{ .Permalink }}">
+            <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
           </a>
           {{ end }}
           <div class="media-body">

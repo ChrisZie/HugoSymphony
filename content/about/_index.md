@@ -12,7 +12,7 @@ link2: "http://ampower.world/"
 link2text: "My Profile"
 
 # image
-image: "https://images.unsplash.com/photo-1515871204537-49a5fe66a31f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1874&q=80"
+image: "images/us.jpg"
 
 # meta description
 description: "this is meta description"

@@ -176,7 +176,7 @@
             {{ range first 1 (where .Site.Pages "Type" "about")}}
             {{ if .Params.Image }}
             <a href="{{ .Permalink }}">
-            <img src="{{ .Params.Image | absURL }}" class="card-img-top recent-post-thumb" alt="{{ .Title | markdownify }}" style="width: 100px;">
+            <img src="{{ .Params.Image | absURL }}" class="card-img-top recent-post-thumb" alt="{{ .Title | markdownify }}" style="width: 100px;height: 100px;">
             </a>
             {{ end }}
           </div>
@@ -185,7 +185,7 @@
               <a href="{{ .Permalink }}">
                 <span class="subspan">Written by</span>
                 <h3 class="h1 font-weight-bold d-block text-dark mb-2 card-title">{{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}</h1>
-              <p class="card-text">{{ .Summary | markdownify }} kljvd lyh djxh  f yg kdfygh dyhg y</p> 
+              <p class="card-text">{{ .Content | markdownify }}</p> 
             </a>
             </div>
           </div> 

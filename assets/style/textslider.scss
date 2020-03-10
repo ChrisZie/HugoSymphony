@@ -1,10 +1,10 @@
 //code made from codePen https://codepen.io/eltonkamami/pen/hjBrE by  Elton Kamami
 //how many images we have
 
-$slides: {{len .Site.Data.textSlider.slides }}; 
+$slides: 4; 
 
 // how much we want each slide to show
-$time_per_slide: {{.Site.Data.textSlider.time_per_slide }};
+$time_per_slide: 8;
 
 // total time needed for full animation
 $total_animation_time: $time_per_slide * $slides;

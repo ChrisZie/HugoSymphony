@@ -33,7 +33,7 @@ service_item:
     data: 99.5% 
     bar: 3
     question2: of all Tourism Organizations and Professionals state that Ecotourism is a **rapidly** growing industry?
-    answer: 'Ecotourism can be your best source of income, but **ONLY** if you have a great plan to follow.<br><br>We create internationally recognized Ecotourism Management Plans that expertly guide your growth, giving you the best tools to gain the greatest benefit.'
+    answer: 'Ecotourism can be your best source of income, but **ONLY** if you have a great plan to follow.<br><br>Our internationally recognized Ecotourism Management Plans give both NGOs and Government Agencies the very best tools to gain the greatest benefit.'
 
   - name: __WEB DESIGN__
     icon: "images/money.svg"
@@ -45,8 +45,8 @@ service_item:
     bar: 2
     question2: of visitors to your website will just **leave** if your website is not secure or takes longer than 3 seconds to load?
     answer: 'Beautiful. Fast. Secure. These 3 things guarantee that you and your goals are never forgotten. 
-    <br><br>Our designs focus on one thing only: User Experience. That is how you
-    raise your ranking on Google, getting you all the visitors, donors, and volunteers you need.'
+    <br><br>Our designs focus on one thing only: User Experience. That is how we
+    raise your visibility on Google, getting you all the visitors, donors, and volunteers you need.'
 
   - name: __MARKETING__
     icon: "images/responsive.svg"

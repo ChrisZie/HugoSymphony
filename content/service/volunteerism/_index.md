@@ -18,28 +18,28 @@ quizcards:
     textfront: How Many Volunteers Search Only Online For Opportunities Around The World?
     bgimagefront: https://source.unsplash.com/wn0-np3NQq8/1200x600
     titleback: 67% Seek Online
-    textback: Reach them where they already are! This is a growing trend, with many volunteers now searching for opportunities only on known Volunteer Portals, Social Media, and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. The result will be that you receive the maximum number of applicants you could want.
+    textback: Reach them where they already are! A majority of volunteers now search for opportunities only on known Volunteer Portals, Social Media, and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. This ensures that you receive the maximum number of applicants needed.
     bgimageback: https://source.unsplash.com/5a2oypQA4P8/1200x600
 
   - titlefront: train
     textfront: How Many Volunteers Prefer To Complete All Required Volunteer Orientations and Training Online?
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600
     titleback: 73% Prefer Training Online
-    textback: Make the very most out of their time with you! Volunteers must absolutely go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training presentations that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
+    textback: Make the most out of their time with you! Volunteers must go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training programs that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
     bgimageback: https://source.unsplash.com/WAgBaYHRaL4/1200x600
 
   - titlefront: maintain
     textfront: How Many Volunteers Prefer Communication, Coordination, And Organization To Be Managed Online?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
     titleback: 85% Prefer It
-    textback: Keep it smart and simple! Volunteers have clearly stated that organizing online makes communication easier and helps them save time, while organizations have stated that it helps get more volunteers to events and helps save money.<br><br>We are fully aware of what volunteers absolutely want to know so that they have no complications during their service. We work with your team to learn all key local information, creating excellent guides that your team can use to coordinate volunteers before and during their service.
+    textback: Keep it smart and simple! Volunteers have stated that organizing online makes communication easier and saves them time, while organizations have stated that it gets more volunteers to events and saves them money.<br><br>We are fully aware of what information volunteers need communicated to them to make their service with you enjoyable. We work with you to learn all key information, creating guides that your team can use to coordinate volunteers before and during their service.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
   - titlefront: retain
     textfront: How Many Volunteers Do Not Return For a Second Year Simply Due To A Lack Of An Adequate Follow-Up?
     bgimagefront: https://source.unsplash.com/uanoYn1AmPs/1200x600
     titleback: 33% Never Return
-    textback: Let them know you care! Simply due to bad or, even worse, no follow-up communication to thank the volunteer, ask them for feedback, and generally keep them engaged.<br><br>Retaining volunteers is what we prioritize most, for good reason. Returning volunteers provide incredible cost-savings, making this a key task for any organization. We provide you with guidelines and templates that your team will use to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until they return again.
+    textback: Let them know you care! Most volunteers will not return simply due to bad, or even worse, no follow-up communication to thank them, ask them for feedback, and generally keep them engaged.<br><br>We prioritize retention most. Returning volunteers provide incredible cost-savings, making this key for any organization. We provide you with guidelines and templates on how to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until their return.
     bgimageback: https://source.unsplash.com/pCMsbkittX8/1200x600
 
 process:

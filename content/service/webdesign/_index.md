@@ -12,27 +12,27 @@ heroTitleImage: https://cdn.pixabay.com/photo/2017/09/25/17/02/africa-2785836_12
 heroheader:
   - heroHeading : Designed for impact
   - heroHeading : Your website<br>is your identity.<br>Be remembered.
-  - heroHeading : It's all about beauty, speed, security, and flexibilty
+  - heroHeading : It's all about beauty, speed, security, and flexibility
 
 quizcards:
   - titlefront: simplicity
     textfront: How Many People Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
     titleback: 52% Mobile Only
-    textback: Phones are the future! This number is growing, fast. But even though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout on your website to perform as amazingly on a phone as on a PC. Google looks at how websites perform on both Mobile and Desktop when it decides who to list on the top of their search engine so we optimize every element for maximum visibility.
+    textback: Phones are the future! This number is growing, fast. But though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout to perform as amazingly on a phone as on a PC. Google looks at how websites perform on both Mobile and Desktop when it chooses who to list first in the search engine so we optimize every element for maximum visibility.
     bgimageback: https://cdn.pixabay.com/photo/2015/09/06/11/40/zebra-927272_1280.jpg
 
   - titlefront: style
-    textfront: How Long Does A User Takes To Judge Whether They Will Stay On Your Website Or Go To A Competitor?
+    textfront: How Long Does A User Take To Judge Whether They Will Stay On Your Website Or Go To A Competitor?
     bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
-    titleback: 0.05 Seconds Only
+    titleback: 0.05 Seconds
     textback: Make it count! That's all you have to convince a user to stay and learn about who you are and what you do. If that is all you get to make a difference, make it unforgettable.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
     bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
 
   - titlefront: speed
-    textfront: How Many Users Do You Lose When Your Website Takes Longer Than Three Seconds to Load?
+    textfront: How Many Users Do You Lose **Per Second** When Your Website Takes Longer Than Three Seconds to Load?
     bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
-    titleback: 20-30% Per Second
+    titleback: 20-30%
     textback: Give the people what they want! Imagine how much more impact you could have with 75% more visitors, donors, and volunteers than you have right now.<br><br>All our designs fully consider performance, with images, colours, and content all tuned for maximum speed. Google rates template sites from Wix and WordPress a "C" grade or lower due to their awfully slow performance, making them less likely to appear during a search. Our sites have an "A" grade, vastly increasing your visibility.
     bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
 
@@ -40,7 +40,7 @@ quizcards:
     textfront: How Often Do Hackers Target Small Businesses or Governments Every Single Day?
     bgimagefront: https://source.unsplash.com/YL5ZDmdDNEY/1200x600
     titleback: Every 39 Seconds
-    textback: Don't become a victim! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when building websites. Visitors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites. Our design is completely different and prioritizes security, guaranteeing that you are far less likely to be targeted.
+    textback: Don't become a victim! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when building websites. Visitors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites, so our technology is cutting-edge and prioritizes security, ensuring that you are never targeted.
     bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
 
 process:

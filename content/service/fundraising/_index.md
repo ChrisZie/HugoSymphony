@@ -18,28 +18,28 @@ quizcards:
     textfront: How Many Donations Do Organizations Usually Receive From Outside Of Their Own Country?
     bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
     titleback: 45% International
-    textback: Your donors are everywhere! How people give donations is changing, fast. More donors prefer to donate money online, or else volunteer in-person and donate their time instead.<br><br>As management within Governments and NGOs we learned the difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
+    textback: Your donors are everywhere! How people donae is changing, fast. More donors prefer to donate online, or else donate their time as volunteers instead.<br><br>As management within Governments and NGOs we learned difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
     bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
 
   - titlefront: communication
     textfront: How Much More Funding Crowdfunding Do Campaigns Raise When Fundraisers Update Their Supporters?
     bgimagefront: https://source.unsplash.com/qLW70Aoo8BE/1200x600
     titleback: 126% More Funds
-    textback: Show your donors you care! They need to know their money is well-spent and, the more you update them, the more likely they are to share your campaign with family and friends.<br><br>Our experience in raising funds online has shown us that it is a highly complex, but highly beneficial, effort. We can teach you exactly what words cause the most reaction, exactly how many words to use, and exactly what content and format of content supporters want to see. All to keep donors on your page longer, vastly raising their likelihood to donate.
+    textback: Show your donors you care! They need to know that their money is being well-spent and the more you update them the more likely they are to share your campaign with family and friends.<br><br>Our experience in getting funding has enabled us to teach you exactly what content causes the most reaction, exactly how many words to use, and exactly what format of content supporters want to see. All this keeps donors on your page longer, vastly raising their likelihood to donate.
     bgimageback: https://source.unsplash.com/0CXFhfKLIeA/1200x600
 
   - titlefront: promotion
     textfront: How Much Funding Is Earned In The First And Last Three Days Of A Campaign?
     bgimagefront: https://source.unsplash.com/fG5jun4bYBQ/1200x600
-    titleback: 42% In Those Days Alone
-    textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We also provide you with guides to ensure that you are always maximizing your fundraising potential.
+    titleback: 42% On Those Days Alone
+    textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We also provide guides to ensure that you are maximizing your funding earned.
     bgimageback: https://cdn.pixabay.com/photo/2017/08/03/19/42/leopard-2578114_1280.jpg
 
   - titlefront: retention
     textfront: How Much More Monthly Donations Do You Receive By Adding A Pop-Up Asking One-Time Donors To Convert?
     bgimagefront: https://source.unsplash.com/7emiteIwfuk/1200x600
     titleback: 64% More
-    textback: Don't be shy, upsell! Knowing when and how to convert one-time donors into repeat donors is a key aspect of fundraising as repeat donors provide significantly more long-term value.<br><br>We understand the fine line between being pushy and being strategic in your request for donors to commit to your cause for the long-term. Repeat donors are the ultimate goal and their motivation is based on how well you can keep them engaged. Our plan captures all fundraising aspects and ensures you get the most donations possible.
+    textback: Don't be shy, upsell! Knowing when and how to convert one-time donors into repeat donors is a key aspect of fundraising, as repeat donors provide significantly more long-term value.<br><br>We understand the fine line between pushy and strategic in your request for donors to commit to your cause for the long-term. Repeat donors are motivated by how well you can keep them engaged. Our plan captures all ongoing donor engagement strategies to ensure you get the most donations possible.
     bgimageback: https://cdn.pixabay.com/photo/2015/02/26/06/09/panda-649938_1280.jpg
 
 process:

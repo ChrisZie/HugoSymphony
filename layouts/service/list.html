@@ -3,9 +3,6 @@
 {{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
-{{ $sassTemplate := resources.Get "style/arrowLink.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/arrowLink.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">

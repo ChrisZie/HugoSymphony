@@ -2,13 +2,11 @@
     {{ $resources := .Resources.Match "heroheader*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $tinyw := default "800x" }}
         {{ $smallw := default "1200x" }}
-        {{ $mediumw := default "1500x" }}
         {{ $largew := default "2000x" }}
-        {{ $tiny := .Resize $tinyw }}
+
         {{ $small := .Resize $smallw }}
-        {{ $medium := .Resize $mediumw }}
+
         {{ $large := .Resize $largew }}
         <style>
             .ocean {
@@ -21,27 +19,13 @@
             }
           }
           {{ end }}
-          {{ if ge .Width "1500" }}
-          @media (max-width: 1500px) {
-            .ocean {
-                background-image:url('{{ $medium.RelPermalink | absURL }}');
-            }
-          }
-          {{ end }}
           {{ if ge .Width "1200" }}
           @media (max-width: 1200px) {
             .ocean {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
-          {{ end }}
-          {{ if ge .Width "800" }}
-          @media (max-width: 500px) {
-            .ocean {
-                background-image:url('{{ $tiny.RelPermalink | absURL }}');
-            }
-          }
-          {{ end }}            
+          {{ end }}         
           </style>
       {{ end }}
     {{ end }}
@@ -102,7 +86,7 @@
 
   <div id="site">
     <div class="top-nav">
-      @symphony.eco
+      Symphony&nbsp;ECO
     </div>
     <div class="ocean">
       <div class="ocean-text">Symphony Eco</div>

@@ -39,7 +39,7 @@ publishDir = "docs"
 [params]
     home = "Start"
     logo = "images/logo.png"
-    og_image = "images/money.svg"
+    og_image = "images/us.jpg"
     dateFormat = "6 January 2006"
     # Meta data
     description = "Symphony ECOs Awesome Hugo Site"
@@ -77,7 +77,7 @@ link = "#"
 
 [privacy]
   [privacy.disqus]
-    disable = false
+    disable = true
   [privacy.googleAnalytics]
     anonymizeIP = false
     disable = false

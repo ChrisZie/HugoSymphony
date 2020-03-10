@@ -22,15 +22,17 @@
 <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
 {{ end }}
 <!-- Twitter Meta Tags -->
+<meta name="twitter:dnt" content="on">
 <meta name="twitter:site" content="{{.Site.Params.twitter}}">
 <meta name="twitter:card" content="summary_large_image">
 <base href="{{ .Site.BaseURL }}">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <link rel="stylesheet" type="text/css" href="./style/googlefont.css">
 <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.10.1-web/css/all.css">
 {{ $sassTemplate := resources.Get "style/nav.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/nav.css" . | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{ $sassTemplate := resources.Get "style/linkstyles.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/linkstyles.css" . | minify | fingerprint }}
+{{ $sassTemplate := resources.Get "style/linkstyles.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/linkstyles.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

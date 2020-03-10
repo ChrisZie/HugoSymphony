@@ -369,17 +369,17 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
   }
 }
 @media (max-width: $bp-sx) {
-  .hero-part {
+  .hero-part , .hero-header {
     .button{
       font-size: 3.5vmin;
     }
   }
 }
 @media (max-width: 500px) {
-  .hero-part {
+  .hero-part , .hero-header {
     .button{
       font-size: 4vmin;
-      bottom:10%;
+      bottom:13%;
     }
   }
 }
@@ -424,7 +424,6 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
   }
   .button {
     bottom: 2%;
-    font-size: 3.3vmin;
   }
   @media (max-width: 500px) {
     .button {

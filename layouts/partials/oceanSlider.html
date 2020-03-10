@@ -136,7 +136,8 @@
         <h2 class="heroHeading">{{ (index .Params.heroheader 3 ).heroHeading | markdownify }}</h2>
       </div>
       {{ end }}
-      <button class="button" onclick="window.location.href = '/contact/';">
+      {{ $contact := "contact/"}}
+      <button class="button" onclick="window.location.href = '{{ $contact | absURL}}';">
         Let's chat
       </button>
     </div>

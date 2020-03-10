@@ -59,24 +59,24 @@ process:
     image: "images/process_design__small.jpg"
     imagealttext: Design
     subtext: Messaging and Structure
-    description: We meet with your team to capture the most desired fundraising goals and themes to be included in the campaigns. We create example campaigns and review them with you. Once these preliminary designs are accepted, we begin creating visibility strategies, working closely with your team on data and design.
+    description: We meet with your team to capture the most desired fundraising goals and themes to be included in the new campaigns. We create example campaigns and review them with you. Once these preliminary campaign designs are accepted, we begin creating visibility strategies, working closely with your team on data and design.
     description2: Deliverable - Finalized Design
   - name: Do
     image: "images/process_do__small.jpg"
     imagealttext: Registration
     subtext: Registration and Optimization
-    description: We register, detail, and design superb profiles on all major fundraising and crowdfunding platforms where you currently have no profiles. For those platforms you are already on, we optimize all of the content and design to align with the Design parameters.
+    description: We register, detail, and design superb profiles on all major Fundraising and Crowdfunding platforms where you currently have no profiles. For those platforms you are already on, we optimize all of the content and design to align with the new formal Design parameters.
     description2: Deliverable - Completed Profiles
   - name: Debut
     image: "images/process_debut__small.jpg"
     imagealttext: Final Delivery
     subtext: Finalized Campaign Presentation
-    description: We reveal all of the new and improved Fundraising and Crowdfunding profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to engage with donors for the best result. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
+    description: We present all of the new and improved Fundraising and Crowdfunding profiles across all of the major platforms. We walk you through the frameworks we have created for you and your team to know what, when, and how to engage with donors for the highest donations. Then, with your feedback, we integrate any changes you may wish to make and complete all remaining technical tasks.
     description2: Deliverable - Finalized Profiles and Posting Frameworks
   - name: Deliver
     image: "images/process_deliver__small.jpg"
     imagealttext: Hand-Over
     subtext: Guides and Support
-    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the profiles stay online and current after we hand them over. But that is not the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles and fundraising approaches in the future.
+    description: We transfer all administrative IDs and passwords to you and provide excellent user guides to help your staff take over the administrative tasks of making sure the Fundraising and Crowdfunding profiles stay current and engaging after we hand them over. But that is not the end though as we will provide you with ongoing support and strategic advice for any changes you may wish to make in your profiles and fundraising strategies in the future.
     description2: Deliverable - Support Guides
 ---

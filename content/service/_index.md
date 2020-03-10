@@ -31,8 +31,8 @@ service_item:
         bar: 3
     question2: Tourism is the second largest industry in the world and makes up 10% of the **entire world's** revenue and jobs.<br><br>
     answer: 'Do you benefit from this?<br>
-    Th Master Plan, or Ecotourism Management Plan, guides every part of your tourism industry.<br><br>
-    We create a fully detailed plan that captures everything from revenue generation to policies to infrastructure. Your success starts here.'
+    The Master Plan shows you how to best guide Ecotourism so that nature does not suffer due to economic growth.<br><br>
+    We create a fully detailed plan that captures everything from revenue generation to policies to infrastructure.'
 
   - name: __WEB__ __DESIGN__
     icon: "images/money.svg"
@@ -45,7 +45,7 @@ service_item:
     question2: of visitors will never return to your website after a **single** bad experience?
     answer: 'How is your website?<br>
     Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
-    We will create your website with a beautiful Design, high Speed, super Security, and make sure it performs even better on Phones.'
+    We design and publish websites with beautiful Designs, high Speed, super Security, and make sure they perform even better on mobile devices.'
 
   - name: __MARKETING__
     icon: "images/responsive.svg"
@@ -58,7 +58,7 @@ service_item:
     question2: is being invested by Marketers in Social Media advertising this year, **more than all** other marketing options?
     answer: 'What did you invest?<br>
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
-    We will create fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
+    We setup and design fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
  
   - name: __VOLUNTEERISM__
     icon: "images/responsive.svg"

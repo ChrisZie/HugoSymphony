@@ -54,19 +54,19 @@ process:
     image: "images/process_discover__small.jpg"
     imagealttext: Discovery
     subtext: Market Research and Plan
-    description: We research your biggest local (and even global) competitors and understand what website functionality and design elements are working best for them. Then we plan how to make those elements work even better for you.
+    description: We research your biggest local (and even global) competitors and understand what website design and content choices are working best for them. Then we plan how to make those elements work even better for you.
     description2: Deliverable - Market Research Summary
   - name: Design
     image: "images/process_design__small.jpg"
     imagealttext: Design
     subtext: Perfecting Style and Speed
-    description: We meet with your team to capture the most desired design elements you may already have or want to have. We then present the initial design options, with two equally superb options for you to choose from. With the chosen option, we begin developing the final product, working closely with your team on content and branding.
+    description: We meet with your team to capture the most desired design elements you may already have or want to have. We then present the initial designs, with two equally superb options for you to choose from. With the chosen option, we begin developing the final product, working closely with your team on content and branding.
     description2: Deliverable - Finalized Design
   - name: Do
     image: "images/process_do__small.jpg"
     imagealttext: Registration
     subtext: Naming and Hosting
-    description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transfer all your data from any existing websites or services to the new service.
+    description: We create a shortlist of the best website and domain names for you to choose from. Once you select your preference, we set the website up on the fastest and most secure hosting service available, and transfer all of your data from any existing services to the new service.
     description2: Deliverable - Domain and Hosting Summary
   - name: Debut
     image: "images/process_debut__small.jpg"

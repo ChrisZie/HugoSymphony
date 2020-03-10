@@ -11,9 +11,6 @@
 {{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{ $sassTemplate := resources.Get "style/textslider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ end }}
 
 {{ define "extraScript" }}

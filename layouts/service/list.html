@@ -1,4 +1,5 @@
 {{ define "extrahead" }}
+<link href="./style/aos.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
@@ -17,14 +18,19 @@
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-<!-- {{ $sassTemplate := resources.Get "style/graphCircle.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/graphCircle.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen"> -->
 {{ end }}
 
 {{ define "extraScript" }}
+<script src="./js/aos.js"></script>
 <script src="./js/processCard.js"></script>
-<!-- <script src="./js/graphCircle.js"></script> -->
+<script>
+  AOS.init({
+      duration: 2000,
+      delay: 1,
+      once: true,
+      disable: 'mobile'
+  });
+</script>
 {{ end }}
 
 {{ define "BodyStyle" }}blue-gradient-bg{{ end }}
@@ -43,22 +49,22 @@
 </section>
 <!-- End Hero Header -->
 <!-- Section Header 1 -->
-<section class="px-0 pb-5 pt-5 px-lg-5 my-5">
+<section class="px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
   <div class="container service">
       <div class="row justify-content-center"> 
-          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
-              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-              <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText">
+              <div class="large-3 columns nopad border-bot"></div>
+              <div class="subheading ">
                       <h2>Quiz Time</h2>
               </div>
-              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+              <div class="large-3 columns nopad border-bot"></div>
           </div>
       </div>
   </div>
 </section>
 <!-- Header 1 End -->
 <!---Quiz -->
-<section class="quiz pb-4 pt-5">
+<section class="quiz pb-4 pt-5" data-aos="fade-up" data-aos-delay="100">
   <div class="container px-lg-5">
       <div class="row justify-content-center"> 
         {{ partial "quizcard.html" . }} 
@@ -67,22 +73,22 @@
 </section>
 <!---End Quiz -->
 <!-- Section Header 2 -->
-<section class="px-0 pb-5 pt-5 px-lg-5 my-5">
+<section class="px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
   <div class="container service">
       <div class="row justify-content-center"> 
           <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
-              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-              <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+              <div class="large-3 columns nopad border-bot " ></div>
+              <div class="subheading" >
                       <h2>Our Process</h2>
               </div>
-              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+              <div class="large-3 columns nopad border-bot" ></div>
           </div>
       </div>
   </div>
 </section>
 <!-- Header 2 End -->
 <!---Process -->
-<section class="p-0  pb-4 pt-5">
+<section class="p-0  pb-4 pt-5" data-aos="fade-up" data-aos-delay="100">
   <div class="container">
       <div class="row justify-content-center"> 
         {{ partial "processCard.html" . }}
@@ -91,22 +97,22 @@
 </section>
 <!---End Process -->
 <!-- Section Header 3 -->
-<section class="px-0 pb-5 pt-5 px-lg-5 my-5">
+<section class="px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
   <div class="container service">
       <div class="row justify-content-center"> 
           <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
-              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-              <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+              <div class="large-3 columns nopad border-bot " ></div>
+              <div class="subheading " >
                       <h2>Our latest news</h2>
               </div>
-              <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
+              <div class="large-3 columns nopad border-bot "></div>
           </div>
       </div>
   </div>
 </section>
 <!-- Header 1 End -->
 <!-- recent post with specific tags from the params of the page-->
-<section class="news ">
+<section class="news " data-aos="fade-up" data-aos-delay="100">
   <div class="container py-5" >
     <div class="row"> 
       {{ $p := slice "New" .Params.newstag}}

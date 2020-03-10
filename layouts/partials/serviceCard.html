@@ -58,10 +58,13 @@
             <p>{{ .question2 | markdownify }}</p>
           </div>
           <div class='drop' id="{{ .name }}">
-            <a href="{{  $link| absURL }}">
               <p>{{ .answer | markdownify }}
               </p>
-              <div class='arrow'></div>
+              <a href="{{  $link| absURL }}" style="width: 100%;">
+              <div class="pb-2 pb-md-0">
+                  <p style="  float: left; margin: 0;">click here for details</p>
+                  <span class='arrow'></span>
+              </div>
             </a>
           </div>
         </div>

@@ -46,6 +46,7 @@ publishDir = "docs"
     instagramLink = "https://www.instagram.com/symphony.eco"
     twitterLink = "https://twitter.com/SymphonyEco"
     twitter ="@SymphonyEco"
+    twitterhandle ="SymphonyEco"
 
 ############################# social site ########################
 [[params.social]]

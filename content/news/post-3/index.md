@@ -20,6 +20,8 @@ tags:
   - "Python"
   - "New"
 
+series: "special"
+
 # post type
 type: "featured"
 ---

@@ -32,6 +32,6 @@
 {{ $sassTemplate := resources.Get "style/nav.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/nav.css" . | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{ $sassTemplate := resources.Get "style/linkstyles.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/linkstyles.css" . | minify | fingerprint }}
+{{ $sassTemplate := resources.Get "style/linkstyles.scss" }}
+{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/linkstyles.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

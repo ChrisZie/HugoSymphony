@@ -16,6 +16,9 @@
 	overflow: hidden;
 	line-height: 0.75;
 	color: white;
+	@media (max-width: 800px) {
+		line-height: 1.2;	
+	}		 
 }
 
 .link--kukuri:hover {

@@ -58,18 +58,40 @@
 					<h2>Your <strong>Investment</strong></h2>
 							<p>Our dermination is limited by our time. This helps us prioritize our focus in making your dreams a reality.</p>
 					<div class="row pt-4 justify-content-center align-items-center text-center" style="height: 77%;">
-						<div class="col-11 col-md-10">
-							<div id="website-slider-budget" class="noUi-target noUi-ltr noUi-horizontal">
-								</div>
-							<p class="section-caption">Approximate budget</p>
-							<input class="slider-input" name="slider-budget-input" type="text" id="website-slider-budget-input" readonly="">
-						</div>
-						<div class="col-11 col-md-10">
-							<div id="website-slider-week" class="noUi-target noUi-ltr noUi-horizontal">
-						</div>
-							<p class="section-caption">Estimated timeline</p>
-							<input class="slider-input" name="slider-week-input" type="text" id="website-slider-week-input" readonly="">
-						</div>
+						<div class="col-12 col-md-10">
+							<p class="section-caption">Approximate budget ($)</p>
+							<input
+							type="text"
+							name="budget-slider"
+							data-provide="slider"
+							data-slider-ticks="[0,1, 2, 3, 4, 5]"
+							data-slider-ticks-labels='["0","1k", "2k", "3k", "4k", "5k"]'
+							data-slider-min="1"
+							data-slider-max="5"
+							data-slider-step="1"
+							data-slider-value="[1, 2]"
+							data-slider-tooltip="show"
+							data-slider-lock-to-ticks="true"
+							data-slider-ticks-tooltip="true"
+							data-slider-id="GC" id="G">
+					</div>
+						<div class="col-12 col-md-10">
+							<p class="section-caption">Estimated timeline (weeks)</p>
+						<input
+						type="text"
+						name="week-slider"
+						data-provide="slider"
+						data-slider-ticks="[3, 4, 5, 6, 7,8,9,10]"
+						data-slider-ticks-labels='[">4", "4", "5", "6", "7","8" ,"9" , "<9"]'
+						data-slider-min="3"
+						data-slider-max="7"
+						data-slider-step="1"
+						data-slider-value="[4, 5]"
+						data-slider-tooltip="show"
+						data-slider-lock-to-ticks="true"
+						data-slider-ticks-tooltip="true"
+						data-slider-id="GC" id="G">
+				</div>
 					</div>
 				</div>
 			</div>

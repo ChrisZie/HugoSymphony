@@ -1,4 +1,5 @@
 {{ define "extrahead" }}
+<link rel="stylesheet" type="text/css" href="./style/bootstrap-slider.min.css">
 <link rel="stylesheet" href="./style/nouislider-14.0.3.min.css">
 {{ $sassTemplate := resources.Get "style/quizCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
@@ -14,6 +15,7 @@
 <script src="./js/wNumb.js"></script>
 <script src="./js/vue-2.1.10.min.js"></script>
 <script src="./js/nouislider-14.0.3.min.js"></script>
+<script src="./js/bootstrap-slider.min.js"></script>
 <script src="./js/contact.js"></script>
 <script>
   function showValues() {

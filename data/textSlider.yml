@@ -1,9 +1,0 @@
-enable  : true
-title   : TextSlider
-time_per_slide   : 8
-slides :
-  - caption  : SERVICE OVERVIEW
-    description: >
-      Join our global network of world-changing institutions. If you have
-      ever hoped and wondered how you could grow your impact, together we will do just that.
-  

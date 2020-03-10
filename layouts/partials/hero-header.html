@@ -2,7 +2,7 @@
     {{ $resources := .Resources.Match "heroheader*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $tinyw := default "500x" }}
+        {{ $tinyw := default "800x" }}
         {{ $smallw := default "1200x" }}
         {{ $mediumw := default "1500x" }}
         {{ $largew := default "2000x" }}
@@ -35,7 +35,7 @@
             }
           }
           {{ end }}
-          {{ if ge .Width "500" }}
+          {{ if ge .Width "800" }}
           @media (max-width: 500px) {
             .ocean {
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
@@ -140,7 +140,8 @@
         <h2 class="heroHeading">{{ (index .Params.heroheader 2 ).heroHeading | markdownify }}</h2>
       </div>
       {{ end }}
-      <button class="button" onclick="window.location.href = '/contact/';">
+      {{ $contact := "contact/"}}
+      <button class="button" onclick="window.location.href = '{{ $contact | absURL}}';">
         Let's chat
       </button>
     </div>

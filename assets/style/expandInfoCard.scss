@@ -53,7 +53,7 @@ $background:#4FA584;
       margin-bottom:50px;
       float:left;
       box-shadow:-1px 0px rgba(255, 255, 255, 0.07);
-      cursor:pointer;
+      cursor:default;
       transform:scale(1);
       transition-property:transform,background;
       transition-duration:.3s;
@@ -177,6 +177,7 @@ float: left;
 }
 .stat_left{float:left;}
     .arrow{
+    margin-top: 8px;
     width: 8px;
     height: 8px;
       transition-property:transform;

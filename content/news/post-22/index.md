@@ -6,7 +6,7 @@ author: AuthorTester
 
 
 # meta description
-description: "this is meta description"
+description: "Best practise on How To Use post3 To Improve Your UX"
 
 # taxonomies
 categories: 

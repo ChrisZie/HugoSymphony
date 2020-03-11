@@ -55,11 +55,11 @@ service_item:
     question1: Did you know that
     graph: 2
     data_left :
-      - fact: All Users
+      - fact: ALL USERS
         bar: 1
-      - fact: Facebook
+      - fact: FACEBOOK
         bar: 2
-      - fact: Instagram
+      - fact: INSTAGRAM
         bar: 3
     question2: the **vast** majority of internet users are now on Social Media, using it to donate, volunteer, and plan where to travel?
     answer: 'To the world, your Social Media profile **is** who you are and what you do. Use it well.<br><br>We design Social Media profiles on all 

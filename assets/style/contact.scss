@@ -328,7 +328,7 @@ p.section-caption {
         {{ $mediumw := default (print $mediumsize "x") }}
         {{ $largew := default (print $largesize "x")}}
 				{{ $small := .Resize $smallw }}
-				{{ $medium := .Resize $mediumw }}
+
 				{{ $large := .Resize $largew }}
 						.contactBgImage{
 							background-image:url('{{ .RelPermalink | absURL }}');
@@ -340,13 +340,7 @@ p.section-caption {
 							}
 					}
 					{{ end }}
-          {{ if ge .Width $mediumsize }}
-          @media (max-width: {{$mediumsize}}px){
-						.contactBgImage{
-								background-image:url('{{ $medium.RelPermalink | absURL }}');
-							}
-					}
-					{{ end }}
+
           {{ if ge .Width $smallsize }}
           @media (max-width: {{$smallsize}}px) {
 						.contactBgImage{

@@ -9,10 +9,15 @@
     {{if $.Resources.Match ($matchfront) }}
     {{ $resource := $.Resources.GetMatch ($matchfront)  }}
         {{ with $resource }}
-        {{ $tinyw := default "500x" }}
-        {{ $smallw := default "1200x" }}
-        {{ $mediumw := default "1500x" }}
-        {{ $largew := default "2000x" }}
+        {{ $largesize := $.Site.Params.resizelarge }}
+        {{ $mediumsize := $.Site.Params.resizemedium}}
+        {{ $smallsize := $.Site.Params.resizesmall}}
+        {{ $tinysize := $.Site.Params.resizetiny}}
+        
+        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $smallw := default (print $smallsize "x") }}
+        {{ $mediumw := default (print $mediumsize "x") }}
+        {{ $largew := default (print $largesize "x")}}
         {{ $tiny := .Resize $tinyw }}
         {{ $small := .Resize $smallw }}
         {{ $medium := .Resize $mediumw }}
@@ -21,34 +26,27 @@
             .cardfront{{$classname}} {
                 background-image:url('{{ .RelPermalink | absURL }}');
             }
-          {{ if ge .Width "2000" }}
-          @media (max-width: 2000px) {
+          {{ if ge .Width $largesize}}
+          @media (max-width: {{$largesize}}px)  {
             .cardfront{{$classname}} {
                 background-image:url('{{ $large.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1500" }}
-          @media (max-width: 1500px) {
+          {{ if ge .Width $mediumsize }}
+          @media (max-width: {{$mediumsize}}px){
             .cardfront{{$classname}} {
                 background-image:url('{{ $medium.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1200" }}
-          @media (max-width: 1200px) {
+          {{ if ge .Width $smallsize }}
+          @media (max-width: {{$smallsize}}px) {
             .cardfront{{$classname}} {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
-          {{ end }}
-          {{ if ge .Width "500" }}
-          @media (max-width: 500px) {
-            .cardfront{{$classname}} {
-                background-image:url('{{ $tiny.RelPermalink | absURL }}');
-            }
-          }
-          {{ end }}            
+          {{ end }}         
           </style>
     {{ end }}
     {{ else if isset . "bgimagefront"}}
@@ -60,10 +58,15 @@
     {{if $.Resources.Match ($matchback) }}
     {{ $resource := $.Resources.GetMatch ($matchback)  }}
         {{ with $resource }} 
-        {{ $tinyw := default "500x" }}
-        {{ $smallw := default "1200x" }}
-        {{ $mediumw := default "1500x" }}
-        {{ $largew := default "2000x" }}
+        {{ $largesize := $.Site.Params.resizelarge }}
+        {{ $mediumsize := $.Site.Params.resizemedium}}
+        {{ $smallsize := $.Site.Params.resizesmall}}
+        {{ $tinysize := $.Site.Params.resizetiny}}
+        
+        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $smallw := default (print $smallsize "x") }}
+        {{ $mediumw := default (print $mediumsize "x") }}
+        {{ $largew := default (print $largesize "x")}}
         {{ $tiny := .Resize $tinyw }}
         {{ $small := .Resize $smallw }}
         {{ $medium := .Resize $mediumw }}
@@ -72,29 +75,29 @@
             .cardback{{$classname}} {
                 background-image:url('{{ .RelPermalink | absURL }}');
             }
-          {{ if ge .Width "2000" }}
-          @media (max-width: 2000px) {
+          {{ if ge .Width $largesize}}
+          @media (max-width: {{$largesize}}px)  {
             .cardback{{$classname}} {
                 background-image:url('{{ $large.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1500" }}
-          @media (max-width: 1500px) {
+          {{ if ge .Width $mediumsize }}
+          @media (max-width: {{$mediumsize}}px){
             .cardback{{$classname}} {
                 background-image:url('{{ $medium.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1200" }}
-          @media (max-width: 1200px) {
+          {{ if ge .Width $smallsize }}
+          @media (max-width: {{$smallsize}}px) {
             .cardback{{$classname}} {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "500" }}
-          @media (max-width: 500px) {
+          {{ if ge .Width $tinysize }}
+          @media (max-width: {{$tinysize}}px)  {
             .cardback{{$classname}} {
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }

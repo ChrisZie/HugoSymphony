@@ -52,6 +52,10 @@ publishDir = "docs"
     twitterLink = "https://twitter.com/SymphonyEco"
     twitter ="@SymphonyEco"
     twitterhandle ="SymphonyEco"
+    resizetiny ="900"
+    resizesmall="1300"
+    resizemedium="1900"
+    resizelarge="2500"
 
 ############################# social site ########################
 [[params.social]]

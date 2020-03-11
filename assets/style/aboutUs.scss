@@ -128,10 +128,15 @@ html, body{
 		{{ $resources := .Match "*aboutusslider.jpg"}}
 		{{ range $index, $element := $resources }}
 				{{ with . }}
-				{{ $tinyw := default "600x" }}
-				{{ $smallw := default "1200x" }} 
-				{{ $mediumw := default "1500x" }}
-				{{ $largew := default "2000x" }}
+        {{ $largesize := $.Site.Params.resizelarge }}
+        {{ $mediumsize := $.Site.Params.resizemedium}}
+        {{ $smallsize := $.Site.Params.resizesmall}}
+        {{ $tinysize := $.Site.Params.resizetiny}}
+        
+        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $smallw := default (print $smallsize "x") }}
+        {{ $mediumw := default (print $mediumsize "x") }}
+        {{ $largew := default (print $largesize "x")}}
 				{{ $tiny := .Resize $tinyw }}
 				{{ $small := .Resize $smallw }}
 				{{ $medium := .Resize $mediumw }}
@@ -141,8 +146,8 @@ html, body{
 							background-image:url('{{ .RelPermalink | absURL }}');
 						}
 					}
-					{{ if ge .Width "2000" }}
-					@media (max-width: 2000px) {
+					{{ if ge .Width $largesize}}
+					@media (max-width: {{$largesize}}px)  {
 						&:nth-child({{ add $index 1}}) {
 							.untitled__slideBg{
 								background-image:url('{{ $large.RelPermalink | absURL }}');
@@ -150,8 +155,8 @@ html, body{
 						}
 					}
 					{{ end }}
-					{{ if ge .Width "1500" }}
-					@media (max-width: 1500px) {
+					{{ if ge .Width $mediumsize }}
+					@media (max-width: {{$mediumsize}}px){
 						&:nth-child({{ add $index 1}}) {
 							.untitled__slideBg{
 								background-image:url('{{ $medium.RelPermalink | absURL }}');
@@ -159,8 +164,8 @@ html, body{
 						}
 					}
 					{{ end }}
-					{{ if ge .Width "1200" }}
-					@media (max-width: 1200px) {
+					{{ if ge .Width $smallsize }}
+					@media (max-width: {{$smallsize}}px) {
 						&:nth-child({{ add $index 1}}) {
 							.untitled__slideBg{
 								background-image:url('{{ $small.RelPermalink | absURL }}');
@@ -168,8 +173,8 @@ html, body{
 						}
 					}
 					{{ end }}
-					{{ if ge .Width "600" }}
-					@media (max-width: 600px) {
+					{{ if ge .Width $tinysize }}
+					@media (max-width: {{$tinysize}}px)  {
 						&:nth-child({{ add $index 1}}) {
 							.untitled__slideBg{
 								background-image:url('{{ $tiny.RelPermalink | absURL }}');

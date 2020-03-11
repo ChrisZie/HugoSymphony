@@ -9,6 +9,11 @@
 {{ end }}
 
 {{ define "main" }}
+<style>
+  p {
+    padding-top: 1rem;
+  }
+</style>
 <main class="news news-single-post">
 <div class="_Cover__">
   <div class="EntryCover -narrow -full -sharing--full" min-width="769px 1281px" min-height="451px">      {{ $title := .Title | markdownify }}
@@ -84,7 +89,7 @@
             class="text-primary">{{ . | title | humanize }}</a>
           {{ end }}
         </div>
-        <h1 class="_Title">{{ .Title | markdownify }}9</h1>
+        <h1 class="_Title">{{ .Title | markdownify }}</h1>
         <div class="mb-3 post-meta">
           <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
           {{ if not .Params.HideDate }}
@@ -166,7 +171,7 @@
     </div>
   </div>
 </section>
-<section id="author" class="p-0">
+<!-- <section id="author" class="p-0">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto" style="border-top: 1px solid rgba(0, 0, 0, 0.1);">
@@ -193,7 +198,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- recent post with same tags -->
 <section class="">
   <div class="container pt-sm-5 pb-2">

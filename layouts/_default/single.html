@@ -1,5 +1,4 @@
 {{ define "extrahead" }}
-
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
@@ -8,8 +7,6 @@
 {{ define "HTMLStyle" }}
 <html style="background: white!important; background-color: white!important;"></html>
 {{ end }}
-
-
 
 {{ define "main" }}
 <main class="news news-single-post">
@@ -116,8 +113,6 @@
     </div>
   </div>
 </div>
-
-
 <section class="section p-0">
   <div class="container">
     <div class="row">
@@ -170,11 +165,7 @@
       </div>
     </div>
   </div>
-
 </section>
-
-
-
 <section id="author" class="p-0">
   <div class="container">
     <div class="row">
@@ -202,7 +193,6 @@
       </div>
     </div>
   </div>
-
 </section>
 <!-- recent post with same tags -->
 <section class="">
@@ -219,7 +209,6 @@
   </div>
 </section>
 <!-- /recent post -->
-
 </main>
 {{ end }}
 

@@ -2,7 +2,7 @@
 
   {{range $index, $element := .Params.process }}
 
-  <div class="processCard">
+  <div class="processCard mx-0 mx-md-2">
     <div class="processCard__image-holder">
       <img class="processCard__image" src="{{ .image | safeHTML }}" alt="{{if .imagealttext}}{{.imagealttext | markdownify}}{{else}}processcard{{ end }}" />
     </div>

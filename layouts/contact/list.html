@@ -12,7 +12,9 @@
 
 {{ define "extraScript" }}
 <script src="./js/bootstrap-slider.min.js"></script>
-<script src="./js/contact.js"></script>
+{{ $jsTemplate := resources.Get "scripts/contact.js" }}
+{{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/contact.min.js" . | minify | fingerprint }}
+<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{ end }}
 
 {{ define "main" }}

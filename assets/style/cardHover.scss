@@ -178,7 +178,7 @@ $bp-lg: 1300px;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 1rem;
+  //padding: 1rem;
   transition: transform var(--d) var(--e);
   z-index: 1;
   
@@ -252,6 +252,7 @@ $bp-lg: 1300px;
     height: auto !important;
     visibility: visible;
     opacity: 1;
+    padding: 1rem;
   }
     div.labelHidden {
     display: none!important;
@@ -279,6 +280,7 @@ $bp-lg: 1300px;
   }
    div.dont-collapse-sm  {
     display:none;
+    padding: 1rem;
   }
   
   div.dont-collapse-sm > .title {

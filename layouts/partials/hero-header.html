@@ -2,10 +2,10 @@
     {{ $resources := .Resources.Match "heroheader*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $tinyw := default "800x" }}
-        {{ $smallw := default "1200x" }}
-        {{ $mediumw := default "1500x" }}
-        {{ $largew := default "2000x" }}
+        {{ $tinyw := default "900x" }}
+        {{ $smallw := default "1300x" }}
+        {{ $mediumw := default "1900x" }}
+        {{ $largew := default "2500x" }}
         {{ $tiny := .Resize $tinyw }}
         {{ $small := .Resize $smallw }}
         {{ $medium := .Resize $mediumw }}
@@ -14,29 +14,29 @@
             .ocean {
                 background-image:url('{{ .RelPermalink | absURL }}');
             }
-          {{ if ge .Width "2000" }}
-          @media (max-width: 2000px) {
+          {{ if ge .Width "2500" }}
+          @media (max-width: 2500px) {
             .ocean {
                 background-image:url('{{ $large.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1500" }}
-          @media (max-width: 1500px) {
+          {{ if ge .Width "1900" }}
+          @media (max-width: 1900px) {
             .ocean {
                 background-image:url('{{ $medium.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1200" }}
-          @media (max-width: 1200px) {
+          {{ if ge .Width "1300" }}
+          @media (max-width: 1300px) {
             .ocean {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "800" }}
-          @media (max-width: 500px) {
+          {{ if ge .Width "900" }}
+          @media (max-width: 900px) {
             .ocean {
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }
@@ -52,10 +52,10 @@
     {{ $resources := .Resources.Match "herotext*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $tinyw := default "500x" }}
-        {{ $smallw := default "1200x" }}
-        {{ $mediumw := default "1500x" }}
-        {{ $largew := default "2000x" }}
+        {{ $tinyw := default "900x" }}
+        {{ $smallw := default "1300x" }}
+        {{ $mediumw := default "1900x" }}
+        {{ $largew := default "2500x" }}
         {{ $tiny := .Resize $tinyw }}
         {{ $small := .Resize $smallw }}
         {{ $medium := .Resize $mediumw }}
@@ -64,29 +64,29 @@
             .ocean-text {
                 background-image:url('{{ .RelPermalink | absURL }}');
             }
-          {{ if ge .Width "2000" }}
-          @media (max-width: 2000px) {
+          {{ if ge .Width "2500" }}
+          @media (max-width: 2500px) {
             .ocean-text {
                 background-image:url('{{ $large.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1500" }}
-          @media (max-width: 1500px) {
+          {{ if ge .Width "1900" }}
+          @media (max-width: 1900px) {
             .ocean-text {
                 background-image:url('{{ $medium.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1200" }}
-          @media (max-width: 1200px) {
+          {{ if ge .Width "1300" }}
+          @media (max-width: 1300px) {
             .ocean-text {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "500" }}
-          @media (max-width: 500px) {
+          {{ if ge .Width "900" }}
+          @media (max-width: 900px) {
             .ocean-text {
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }

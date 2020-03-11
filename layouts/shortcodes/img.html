@@ -3,10 +3,10 @@
 
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 
-{{ $tinyw := default "500x" }}
-{{ $smallw := default "800x" }}
-{{ $mediumw := default "1200x" }}
-{{ $largew := default "1500x" }}
+{{ $tinyw := default "900x" }}
+{{ $smallw := default "1300x" }}
+{{ $mediumw := default "1900x" }}
+{{ $largew := default "2500x" }}
 
 {{/* resize the src image to the given sizes */}}
 
@@ -23,22 +23,22 @@
 {{ $large := .Scratch.Get "large" }}
 
 {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+{{/* set the sizes attribute to (min-width: 35em) 1300px, 100vw unless overridden in shortcode */}}
 
 <img width="100%"
 
   srcset='
-  {{ if ge $src.Width "500" }}
-    {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
+  {{ if ge $src.Width "900" }}
+    {{ with $tiny.RelPermalink }}{{.}} 900w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "800" }}
-    {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+  {{ if ge $src.Width "1300" }}
+    {{ with $small.RelPermalink }}, {{.}} 1300w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "1200" }}
-    {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+  {{ if ge $src.Width "1900" }}
+    {{ with $medium.RelPermalink }}, {{.}} 1900w{{ end }}
   {{ end }}
-  {{ if ge $src.Width "1500" }}
-    {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
+  {{ if ge $src.Width "2500" }}
+    {{ with $large.RelPermalink }}, {{.}} 2500w {{ end }}
   {{ end }}'
   {{ if .Get (print $medium) }}
     src="{{ $medium.RelPermalink }}" 

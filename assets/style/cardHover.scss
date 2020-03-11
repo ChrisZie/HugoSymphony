@@ -122,10 +122,10 @@ $bp-lg: 1300px;
   {{ $resources := .Match "*aboutuscard.jpg"}}
   {{ range $index, $element := $resources }}
       {{ with . }}
-      {{ $tinyw := default "600x" }}
-      {{ $smallw := default "1200x" }}
-      {{ $mediumw := default "1500x" }}
-      {{ $largew := default "2000x" }}
+      {{ $tinyw := default "900x" }}
+      {{ $smallw := default "1300x" }}
+      {{ $mediumw := default "1900x" }}
+      {{ $largew := default "2500x" }}
       {{ $tiny := .Resize $tinyw }}
       {{ $small := .Resize $smallw }}
       {{ $medium := .Resize $mediumw }}
@@ -134,29 +134,29 @@ $bp-lg: 1300px;
           background-image:url('{{ .RelPermalink | absURL }}');
           background-position: 80%;
           }
-        {{ if ge .Width "2000" }}
-        @media (max-width: 2000px) {
+        {{ if ge .Width "2500" }}
+        @media (max-width: 2500px) {
           &:nth-child({{ add $index 1}}):before {
               background-image:url('{{ $large.RelPermalink | absURL }}');
           }
         }
         {{ end }}
-        {{ if ge .Width "1500" }}
-        @media (max-width: 1500px) {
+        {{ if ge .Width "1900" }}
+        @media (max-width: 1900px) {
           &:nth-child({{ add $index 1}}):before {
               background-image:url('{{ $medium.RelPermalink | absURL }}');
           }
         }
         {{ end }}
-        {{ if ge .Width "1200" }}
-        @media (max-width: 1200px) {
+        {{ if ge .Width "1300" }}
+        @media (max-width: 1300px) {
           &:nth-child({{ add $index 1}}):before {
               background-image:url('{{ $small.RelPermalink | absURL }}');
           }
         }
         {{ end }}
-        {{ if ge .Width "600" }}
-        @media (max-width: 600px) {
+        {{ if ge .Width "900" }}
+        @media (max-width: 900px) {
           &:nth-child({{ add $index 1}}):before {
               background-image:url('{{ $tiny.RelPermalink | absURL }}');
           }

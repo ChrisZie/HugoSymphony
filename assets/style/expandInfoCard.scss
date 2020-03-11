@@ -261,6 +261,13 @@ float: left;
   }
 }
 
+//linebreak in servicecards smaller
+.ui_box br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 0.4rem;
+}
 
 
 //graph animation

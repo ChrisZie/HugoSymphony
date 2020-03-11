@@ -3,10 +3,11 @@
     {{ $resources := .Resources.Match "heroheader*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $largesize := $.Site.Params.resizelarge }}
-        {{ $mediumsize := $.Site.Params.resizemedium}}
-        {{ $smallsize := $.Site.Params.resizesmall}}
-        {{ $tinysize := $.Site.Params.resizetiny}}
+        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
+        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
+        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
+        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
+
         {{ $tinyw := default (print $tinysize "x") }}
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
@@ -15,6 +16,7 @@
         {{ $small := .Resize $smallw }}
         {{ $medium := .Resize $mediumw }}
         {{ $large := .Resize $largew }}
+
         <style>
             .ocean {
                 background-image:url('{{ .RelPermalink | absURL }}');
@@ -57,10 +59,10 @@
     {{ $resources := .Resources.Match "herotext*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $largesize := $.Site.Params.resizelarge }}
-        {{ $mediumsize := $.Site.Params.resizemedium}}
-        {{ $smallsize := $.Site.Params.resizesmall}}
-        {{ $tinysize := $.Site.Params.resizetiny}}
+        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
+        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
+        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
+        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
         
         {{ $tinyw := default (print $tinysize "x") }}
         {{ $smallw := default (print $smallsize "x") }}

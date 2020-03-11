@@ -19,7 +19,7 @@ tags:
 
 series: "special"
 
-# post type
+# post typeh
 type: "post"
 ---
 

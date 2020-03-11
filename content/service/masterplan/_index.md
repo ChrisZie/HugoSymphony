@@ -18,7 +18,7 @@ quizcards:
     textfront: How Many UNESCO Ecotourism sites, mainly Wildlife and Marine Sanctuaries, Parks, and Reserves, Have Ecotourism Management Plans?
     bgimagefront: https://cdn.pixabay.com/photo/2016/03/21/10/44/desert-1270345_1280.jpg
     titleback: 54% Of All Sites
-    textback: Become a world-class organization! Without a Master Plan, your organization, environment, and society suffer from overtourism, lower Social Welfare, safety issues, and more.<br><br>We create fully detailed plans that make sure that you, your staff, and your society are more than able to manage rapid increases in tourism, providing guides, structures, rules, and revenue-generation mechanisms that will keep you and your precious environment growing healthily into the future.
+    textback: Become a world-class organization! Without a Master Plan, your organization, environment, and society suffer from overtourism, lower Social Welfare, safety issues, and more.<br><br>We create fully detailed plans that make sure that you, your staff, and your society are more than able to manage rapid increases in tourism by providing guides, structures, rules, and revenue-generation mechanisms that will keep you and your precious environment growing healthily well into the distant future.
     bgimageback: https://cdn.pixabay.com/photo/2019/10/25/00/55/golden-eagle-4575691_1280.jpg
 
   - titlefront: policies

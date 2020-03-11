@@ -453,6 +453,9 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     position: relative;
     border: 3px solid white;
     background: white;
+    @media (max-width: 800px) {
+      margin-top: 0.5rem;
+      }
     color: black;
       &:hover:not(.active){ 
 

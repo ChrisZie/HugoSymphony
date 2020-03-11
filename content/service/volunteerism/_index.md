@@ -24,7 +24,7 @@ quizcards:
   - titlefront: train
     textfront: How Many Volunteers Prefer To Complete All Required Volunteer Orientations and Training Online?
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600
-    titleback: 73% Prefer Training Online
+    titleback: 73% Prefer It
     textback: Make the most out of their time with you! Volunteers must go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training programs that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
     bgimageback: https://source.unsplash.com/WAgBaYHRaL4/1200x600
 
@@ -32,7 +32,7 @@ quizcards:
     textfront: How Many Volunteers Prefer Communication, Coordination, And Organization To Be Managed Online?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
     titleback: 85% Prefer It
-    textback: Keep it smart and simple! Volunteers have stated that organizing online makes communication easier and saves them time, while organizations have stated that it gets more volunteers to events and saves them money.<br><br>We are fully aware of what information volunteers need communicated to them to make their service with you enjoyable. We work with you to learn all key information, creating guides that your team can use to coordinate volunteers before and during their service.
+    textback: Keep it smart and simple! Volunteers have stated that organizing online makes communication easier and saves them time, while organizations have stated that it gets more volunteers to events and saves them money.<br><br>We are fully aware of the key information volunteers want to know prior to starting their service for them to perform well. We work with you to create communication plans that your team can use to coordinate volunteers before and during their service.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
   - titlefront: retain

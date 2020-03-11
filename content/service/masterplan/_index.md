@@ -25,7 +25,7 @@ quizcards:
     textfront: By How Much Does Ecotourism Site Damage Decrease When Visitors Are Clearly Educated On What They Can **And Cannot** Do?
     bgimagefront: https://cdn.pixabay.com/photo/2016/11/29/05/33/bryce-canyon-1867563_1280.jpg
     titleback: A 76% Decrease
-    textback: Education creates empathy! Without proper knowledge and instructions on how visitors should behave, major damage occurs, from ecological destruction to waste issues and more.<br><br>As managers of Government Projects, Non-Profits, and Tourism Businesses, we fully understand the challenge of properly educating visitors and applying behavioural codes that must be obeyed. We create fully visual aides that overcome language barriers and are effective on visitors from both the West AND the East.
+    textback: Education creates empathy! Without proper knowledge and instructions on how visitors should behave, major damage occurs, from ecological destruction to waste issues and more.<br><br>As managers of Government Projects, Non-Profits Organizations, and Tourism Businesses, we know the challenge of educating visitors and applying compulsory behavioural codes. We create fully visual aides that overcome language barriers and are effective on visitors from both the West AND the East.
     bgimageback: https://cdn.pixabay.com/photo/2017/06/26/16/20/desert-fox-2444230_1280.jpg
 
   - titlefront: people
@@ -38,7 +38,7 @@ quizcards:
   - titlefront: profits
     textfront: How Much Of An Ecotourism Site's Revenue Must Be Retained By Site Staff To Ensure Ongoing Site Improvements And Maintenance?
     bgimagefront: https://cdn.pixabay.com/photo/2016/04/30/15/56/desert-1363152_1280.jpg
-    titleback: Minimum 50% Reinvested
+    titleback: Minimum 50%
     textback: Elevate their enthusiasm! Most revenue goes back to general government funding, causing lower site quality and much lower staff enthusiasm for environmental protection.<br><br>We help you setup or lobby for better fund management through a Revenue Management Plan that details entry fees for tourists and locals, revenue to be gathered from private tourism businesses that impact the site, revenue allocation for optimal site improvements, and what Fines to issue for rulebreaking.
     bgimageback: https://cdn.pixabay.com/photo/2020/02/05/15/19/zoo-4821484_1280.jpg
 

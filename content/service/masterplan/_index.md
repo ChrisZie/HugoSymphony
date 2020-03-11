@@ -25,7 +25,7 @@ quizcards:
     textfront: By How Much Does Ecotourism Site Damage Decrease When Visitors Are Clearly Educated On What They Can **And Cannot** Do?
     bgimagefront: https://cdn.pixabay.com/photo/2016/11/29/05/33/bryce-canyon-1867563_1280.jpg
     titleback: A 76% Decrease
-    textback: Education creates empathy! Without proper knowledge and instructions on how visitors should behave, major damage occurs, from ecological destruction to waste issues and more.<br><br>As managers of Government Projects, Non-Profits Organizations, and Tourism Businesses, we know the challenge of educating visitors and applying compulsory behavioural codes. We create fully visual aides that overcome language barriers and are effective on visitors from both the West AND the East.
+    textback: Education creates empathy! Without proper knowledge and instructions on how visitors should behave, major damage occurs, from ecological destruction to waste issues and more.<br><br>As managers of Government Projects, Non-Profits Organizations, and Tourism Businesses, we know the challenge of educating visitors and applying behavioural codes. We create fully visual aides that overcome language barriers and are effective on visitors from the West AND the East.
     bgimageback: https://cdn.pixabay.com/photo/2017/06/26/16/20/desert-fox-2444230_1280.jpg
 
   - titlefront: people

@@ -4,6 +4,8 @@ date: 2020-02-10T14:37:47+08:00
 draft: true
 layout: "main"
 type: "overview"
+
+resizelarge: "2100"
 heroBGImage: https://cdn.pixabay.com/photo/2016/10/20/18/35/sunrise-1756274_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2017/04/11/19/52/grossglockner-2222650_1280.jpg
 heroheader:

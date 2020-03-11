@@ -19,10 +19,15 @@
       {{ $resources := .Resources.Match "cover*"}}
       {{ range $resources }}
           {{ with . }}
-          {{ $tinyw := default "900x" }}
-          {{ $smallw := default "1300x" }}
-          {{ $mediumw := default "1900x" }}
-          {{ $largew := default "2500x" }}
+          {{ $largesize := $.Site.Params.resizelarge }}
+          {{ $mediumsize := $.Site.Params.resizemedium}}
+          {{ $smallsize := $.Site.Params.resizesmall}}
+          {{ $tinysize := $.Site.Params.resizetiny}}
+        
+          {{ $tinyw := default (print $tinysize "x") }}
+          {{ $smallw := default (print $smallsize "x") }}
+          {{ $mediumw := default (print $mediumsize "x") }}
+          {{ $largew := default (print $largesize "x")}}
           {{ $tiny := .Resize $tinyw }}
           {{ $small := .Resize $smallw }}
           {{ $medium := .Resize $mediumw }}
@@ -31,29 +36,29 @@
               .Cover {
                   background-image:url('{{ .RelPermalink | absURL }}');
               }
-            {{ if ge .Width "2500" }}
-            @media (max-width: 2500px) {
+            {{ if ge .Width $largesize}}
+            @media (max-width: {{$largesize}}px)  {
               .Cover {
                   background-image:url('{{ $large.RelPermalink | absURL }}');
               }
             }
             {{ end }}
-            {{ if ge .Width "1900" }}
-            @media (max-width: 1900px) {
+            {{ if ge .Width $mediumsize }}
+            @media (max-width: {{$mediumsize}}px){
               .Cover {
                   background-image:url('{{ $medium.RelPermalink | absURL }}');
               }
             }
             {{ end }}
-            {{ if ge .Width "1300" }}
-            @media (max-width: 1300px) {
+            {{ if ge .Width $smallsize }}
+            @media (max-width: {{$smallsize}}px) {
               .Cover {
                   background-image:url('{{ $small.RelPermalink | absURL }}');
               }
             }
             {{ end }}
-            {{ if ge .Width "900" }}
-            @media (max-width: 900px) {
+            {{ if ge .Width $tinysize }}
+            @media (max-width: {{$tinysize}}px)  {
               .Cover {
                   background-image:url('{{ $tiny.RelPermalink | absURL }}');
               }

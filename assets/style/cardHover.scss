@@ -1,5 +1,3 @@
- $imageIds: {{ string .Site.Data.aboutUs.cardBGIDs}} ;
-
 $bp-md: 800px;
 $bp-md-max: 799px;
 $bp-lg: 1300px;
@@ -107,15 +105,6 @@ $bp-lg: 1300px;
     transition: transform calc(var(--d) * 2) var(--e);
   }
   
-
-  @each $id in $imageIds {
-    $i: index($imageIds, $id);
-    
-    &:nth-child(#{$i}):before {
-      background-image: url(#{$id});
-      background-position: 80%;
-    }
-  }
 
   //Image Processing 
   {{ with $.Resources.ByType "image" }}

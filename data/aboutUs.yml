@@ -1,13 +1,10 @@
 ---
 enable: true
 title: about Us StartSite
-cardBGIDs: "'https://cdn.pixabay.com/photo/2016/01/08/17/06/poppy-1128683_1280.jpg', \n'https://cdn.pixabay.com/photo/2018/06/07/16/38/blueberry-3460423_1280.jpg',
-  \ 'https://cdn.pixabay.com/photo/2013/06/07/06/51/tree-117582_1280.jpg', 'https://cdn.pixabay.com/photo/2015/10/12/14/50/tree-983907_1280.jpg'"
 
 cards:
 - caption: Who We Are
   marker: meeting
-  imageId: 1517021897933-0e0319cfbc28
   description: 'We are a Canadian and a German who met while managing and volunteering at a Non-Profit Organization.
   <br><br>Between us, we have traveled through almost 100 countries, passionately growing our knowledge
   about environmental conservation and ecotourism with each new country.<br><br>With our passion to drive us and our
@@ -16,7 +13,6 @@ cards:
 
 - caption: What We Know
   marker: expertise
-  imageId: https://cdn.pixabay.com/photo/2018/06/07/16/38/blueberry-3460423_1280.jpg
   description: 'We share a wonderfully useful combination of experience, expertise, and education.
   <br><br>We are professional Technologists and Project Managers. We have degrees and certifications in Environmental Sciences,
   Business, Technology, and Project Management.<br><br>We have years of experience in managing Non-Profit Organizations, 
@@ -24,7 +20,6 @@ cards:
 
 - caption: Why We Help 
   marker: learning
-  imageId: 1531306728370-e2ebd9d7bb99
   description: 'The short answer: because we absolutely will not stand by when the environment is in such peril.<br><br>
   We have seen, so many times now, that NGOs and Governments have determination but always
   find themselves limited by the exact same issues: Brand Awareness, Money, and People.<br><br>This is where we come in. 
@@ -33,7 +28,6 @@ cards:
 
 - caption: How We Can
   marker: launch
-  imageId: 1545243424-0ce743321e11
   description: 'We know that the greatest champions of protecting our environment are NGOs and Governments who 
   are in a position to see just how much more of an impact they can make with just the right knowledge and tools.
   <br><br>We are exactly what you need.<br><br>Our expertise in Web Design, Digital Marketing, Volunteerism, and Fundraising will

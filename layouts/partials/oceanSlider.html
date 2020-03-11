@@ -2,25 +2,32 @@
     {{ $resources := .Resources.Match "heroheader*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $smallw := default "1200x" }}
-        {{ $largew := default "2400x" }}
+        {{ $largesize := $.Site.Params.resizelarge }}
+        {{ $mediumsize := $.Site.Params.resizemedium}}
+        {{ $smallsize := $.Site.Params.resizesmall}}
+        {{ $tinysize := $.Site.Params.resizetiny}}
+
+        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $smallw := default (print $smallsize "x") }}
+        {{ $mediumw := default (print $mediumsize "x") }}
+        {{ $largew := default (print $largesize "x")}}
 
         {{ $small := .Resize $smallw }}
-
         {{ $large := .Resize $largew }}
+
         <style>
             .ocean {
                 background-image:url('{{ .RelPermalink | absURL }}');
             }
-          {{ if ge .Width "2400" }}
-          @media (max-width: 2400px) {
+          {{ if ge .Width $largesize}}
+          @media (max-width: {{$largesize}}px)  {
             .ocean {
                 background-image:url('{{ $large.RelPermalink | absURL }}');
             }
           }
           {{ end }}
-          {{ if ge .Width "1200" }}
-          @media (max-width: 1200px) {
+          {{ if ge .Width $smallsize }}
+          @media (max-width: {{$smallsize}}px) {
             .ocean {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }

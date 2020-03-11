@@ -1,5 +1,5 @@
 ---
-title: "The Creation Of The Altogether Fantastic Volunteer Champion - PART ONE"
+title: "The Creation Of The Altogether Fantastic Volunteer Champion - PART&nbsp;ONE"
 date: 2020-03-11T21:44:28+08:00
 draft: false
 author: "Aaron Pinto"
@@ -21,7 +21,7 @@ tags:
 series: "special"
 
 # post type
-type: "featured"
+type: "post"
 
 ---
 *If you have ever had the issue that you don’t get enough volunteers and that the volunteers you DO get are either not passionate enough, engaged enough, or don’t return to volunteer with you again, read on for how you can turn your current and future volunteers into Volunteer Champions.*   

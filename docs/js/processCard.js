@@ -1,5 +1,13 @@
 $(document).ready(function(){
   var zindex = 10;
+
+  $("section.servicedetails").click(function(e){
+    e.preventDefault();
+    $("div.processCards")
+    .removeClass("showing");
+    $("div.processCard.show")
+    .removeClass("show");
+  });
   
   $("div.processCard").click(function(e){
     e.preventDefault();
@@ -41,4 +49,6 @@ $(document).ready(function(){
     }
     
   });
+  
+
 });

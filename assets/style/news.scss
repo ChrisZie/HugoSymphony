@@ -300,6 +300,9 @@ g.parallax :last-child {
 .EntryCover .Cover {
   height: 100vh;
   position: relative;
+  @media (max-width:800px) {
+      height: 70vh;
+  }
 }
 
 .Cover {
@@ -311,6 +314,9 @@ g.parallax :last-child {
 ._Cover__ .EntryCover  .Cover {
   //background-image:url(' {{ if .Params.coverimage }}{{ .Params.coverimage | absURL }}{{else}}{{ .Params.image | absURL }}{{end}}');
   background-position: 67.5% 9.953343701399689%;
+  @media (max-width:800px) {
+    background-position: center;
+  }
 }
 
 /* @media (max-width:600px) {
@@ -388,7 +394,7 @@ g.parallax :last-child {
 }
 
 .EntryCover ._Title {
-  font-size: 28px;
+  font-size: 1.9rem;
   line-height: 1.2;
   letter-spacing: 1px;
   font-weight: 700;

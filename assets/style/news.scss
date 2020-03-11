@@ -2,6 +2,8 @@ $highlight_color: #b3c7d6;
 $standardcolor: white;
 $footercolor: #1164b4;
 
+$bp-md: 800px;
+
 .news{
 /* card */
 .card {
@@ -178,6 +180,9 @@ a, a:hover, a:focus {
 .featured-post {
   .card-title {
     margin-left: -10%;
+    @media (max-width:$bp-md) {
+      margin-left: 0;
+    }
   }
 }
 
@@ -204,12 +209,22 @@ a, a:hover, a:focus {
   height: 300px;//100%;
   //max-height: 390px;
   object-fit: cover;
+  @media (max-width:$bp-md) {
+    height: 9.5rem;
+  }
 }
 
 .card-img {
   object-fit: cover;
   height: 25.5rem;
 }
+
+@media (max-width:$bp-md) {
+  .card-body {
+    padding: 0;
+  }
+}
+
 
 
 .button{

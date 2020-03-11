@@ -39,10 +39,10 @@
       <div class="card-body px-0">
         {{ range .Params.Categories }}
         <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
-          class="text-primary">{{ . | title | humanize }}</a>
+          class="text-primary d-none d-md-block">{{ . | title | humanize }}</a>
         {{ end }}
         <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}
-        <p class="card-text">{{ .Summary }}</p> </a>
+        <p class="card-text d-none d-md-block">{{ .Summary }}</p> </a>
         <div class="mb-3 post-meta">
           <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
           {{ if not .Params.HideDate }}

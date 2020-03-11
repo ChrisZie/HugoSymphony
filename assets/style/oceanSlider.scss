@@ -205,6 +205,11 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   &.-next {
     color: #2D4451;
     background: #CEDBE5; }
+  
+  &.-prev {
+    padding: 0;
+    line-height: 35px;
+  }
 
   .nav-toggle {
     position: absolute;

@@ -14,6 +14,8 @@
     </main>
     {{ partial "script.html" . }}
     {{ block "extraScript" . }}{{ end }}
-    <script src="./js/custom.js"></script>
+    {{ $jsTemplate := resources.Get "scripts/custom.js" }}
+    {{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/custom.min.js" . | minify | fingerprint }}
+    <script>script('{{ $js.Permalink }}');</script>
 	</body>
 </html>

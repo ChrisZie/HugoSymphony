@@ -426,3 +426,7 @@ g.parallax :last-child {
     }
   }
 }
+
+.nojs .img .lazyload {
+  display: none;
+}

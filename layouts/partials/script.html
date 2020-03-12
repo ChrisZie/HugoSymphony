@@ -16,6 +16,16 @@
     }
   });
   </script>  
+<script type="text/javascript">
+  function script(url) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url;
+      var x = document.getElementsByTagName('head')[0];
+      x.appendChild(s);
+  }
+</script>
 <script src="./js/jquery-3.4.1.min.js"></script>
 {{ $jsTemplate := resources.Get "scripts/easing.js" }}
 {{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/easing.min.js" . | minify | fingerprint }}

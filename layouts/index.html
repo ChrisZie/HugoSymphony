@@ -3,22 +3,23 @@
 {{ end }}
 
 {{ define "extrahead" }}
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
 <link href="./style/aos.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/waves.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/quote.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/cardHover.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/cardHover.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
@@ -28,16 +29,32 @@
 {{ end }}
 
 {{ define "extraScript" }}
-<script src="./js/poly-animal.js"></script>
+<script>script('./js/poly-animal.js');</script>
+<script src="./js/lazysizes.min.js" async=""></script>
 <script src="./js/aos.js"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script>
+    $.ajax({
+      url: 'https://platform.twitter.com/widgets.js',
+      dataType: 'script',
+      cache: true, // or get new, fresh copy on every page load
+      success: function() {
+        // Callback
+      }
+    });</script>
+<script >
    AOS.init({
        duration: 2000,
        delay: 1,
        once: true,
        disable: 'mobile'
    });
+</script>
+<!-- Social Media Facebook integration-->
+<div id="fb-root"></div>
+<script>
+    if (screen && screen.width > 480) {
+      document.write('<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"><\/script>');
+    }
 </script>
 {{ end }}
 
@@ -189,8 +206,4 @@
 {{ partial "wave.html" . }}
 {{ partial "footer.html" . }}
 <!-- End Footer -->
-<!-- Social Media Facebook integration-->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-
 {{ end }}

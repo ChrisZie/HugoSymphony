@@ -4,13 +4,26 @@
           {{ $resources := .Resources.Match "cover*"}}
             {{ range $resources }}
               {{ with . }}
+              {{ $lqipw := default "20x" }}
               {{ $tinyw := default "500x" }}
               {{ $smallw := default "1200x" }}
+              {{ $lqip := .Resize $lqipw }}
               {{ $tiny := .Resize $tinyw }}
               {{ $small := .Resize $smallw }}
-              <img width="100%"
-              src="{{ $tiny.RelPermalink }}" 
-            alt="{{$title}}" class="card-img-top" >
+                <img
+                  class="lazyload card-img-top"
+                  data-sizes="auto"
+                  src="{{ $lqip.RelPermalink }}"
+                  data-src="{{ $tiny.RelPermalink }}"
+                  width="100%"
+                  alt="{{$title}}" class="card-img-top" >
+                <noscript>
+                  <img
+                    loading="lazy"
+                    src="{{ $tiny.RelPermalink }}"
+                    width="100%"
+                    alt="{{$title}}" class="card-img-top" >
+                </noscript>
           {{ end }}
         {{ end }}
       </a>

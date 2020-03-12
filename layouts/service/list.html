@@ -5,10 +5,10 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/processCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/processCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/quizCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
@@ -18,8 +18,9 @@
 {{ end }}
 
 {{ define "extraScript" }}
+<script src="./js/lazysizes.min.js" async=""></script>
+<script>script('./js/processCard.js');</script>
 <script src="./js/aos.js"></script>
-<script src="./js/processCard.js"></script>
 <script>
   AOS.init({
       duration: 2000,

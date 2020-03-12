@@ -1,6 +1,6 @@
 ---
-title: "About Us"
-date: 2020-02-10T14:37:47+08:00
+title: "Our Passion - About Us"
+date: 2020-03-01T21:44:28+08:00
 draft: true
 profile1firstname: "Christine"
 profile1lastname: "Zierold"
@@ -15,7 +15,7 @@ link2text: "My Profile"
 image: "images/us.jpg"
 
 # meta description
-description: "this is meta description"
+description: "You should know your team: here’s us. Tell us about you."
 
 # type
 type : "about"

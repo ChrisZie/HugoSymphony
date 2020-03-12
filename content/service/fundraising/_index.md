@@ -1,11 +1,15 @@
 ---
 title: "Fundraising"
-date: 2020-02-10T14:37:47+08:00
+date: 2020-03-10T14:37:47+08:00
 draft: true
 nextpage: webdesign
 beforepage: volunteerism
 sort: 5
 type: "service"
+
+# meta description
+description: "Strategies & Tools to rapidly grow international Donors"
+
 heroBGImage: https://cdn.pixabay.com/photo/2015/05/15/14/42/monkeys-768641_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2016/03/27/19/49/nature-1283976_1280.jpg
 heroheader:

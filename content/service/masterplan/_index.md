@@ -1,11 +1,15 @@
 ---
-title: "MASTER PLAN"
-date: 2020-02-10T14:37:47+08:00
+title: "Master Plan"
+date: 2020-03-10T14:37:47+08:00
 draft: true
 nextpage: volunteerism
 beforepage:  marketing
 sort: 1
 type: "service"
+
+# meta description
+description: "Strategic Plans that create huge benefits from Ecotourism"
+
 heroBGImage: https://images.unsplash.com/photo-1565774488554-c75ea9c70bcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3023&q=80
 heroTitleImage: https://cdn.pixabay.com/photo/2015/03/12/15/30/canyon-670392_1280.jpg
 heroheader:

@@ -1,11 +1,16 @@
 ---
-title: "volunteerism"
-date: 2020-02-10T14:37:47+08:00
+title: "Volunteerism"
+date: 2020-03-10T14:37:47+08:00
 draft: true
 nextpage: fundraising
 beforepage: operations 
 sort: 4
 type: "service"
+newstag: "Volunteer"
+
+# meta description
+description: "Management Tools to attract, coordinate, & keep Volunteers"
+
 heroBGImage: https://cdn.pixabay.com/photo/2016/07/07/23/49/sea-turtles-1503461_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg
 heroheader:

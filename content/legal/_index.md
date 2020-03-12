@@ -1,5 +1,5 @@
 ---
-title: "Legal"
+title: "Legal - Symphony ECO"
 date: 2020-02-10T14:37:47+08:00
 draft: true
 ---

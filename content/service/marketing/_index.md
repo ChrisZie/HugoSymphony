@@ -1,6 +1,6 @@
 ---
 title: "Marketing"
-date: 2020-02-10T14:37:47+08:00
+date: 2020-03-10T14:37:47+08:00
 draft: true
 nextpage: operations
 beforepage: webdesign 

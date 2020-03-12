@@ -1,8 +1,5 @@
 {{ define "extrahead" }}
 <link rel="stylesheet" type="text/css" href="./style/bootstrap-slider.min.css">
-{{ $sassTemplate := resources.Get "style/quizCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
 {{ $sassTemplate := resources.Get "style/contact.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/contact.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
@@ -11,10 +8,10 @@
 {{ define "BodyStyle" }}contactBgImage{{ end }}
 
 {{ define "extraScript" }}
-<script src="./js/bootstrap-slider.min.js"></script>
+<script>script('./js/bootstrap-slider.min.js');</script>
 {{ $jsTemplate := resources.Get "scripts/contact.js" }}
 {{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/contact.min.js" . | minify | fingerprint }}
-<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<script>script('{{ $js.Permalink }}');</script>
 {{ end }}
 
 {{ define "main" }}

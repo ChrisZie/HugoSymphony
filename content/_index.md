@@ -44,7 +44,7 @@ service_item:
     data: 80% 
     bar: 2
     question2: of visitors to your website will just **leave** if your website is not secure or takes longer than 3 seconds to load?
-    answer: 'Beautiful. Fast. Secure. These 3 things guarantee that you and your goals are never forgotten. 
+    answer: 'Beautiful. Fast. Secure. As your digital brochure, your website must never ever be forgotten.
     <br><br>Our designs focus on one thing only: User Experience. That is how we
     raise your visibility on Google, getting you all the visitors, donors, and volunteers you need.'
 

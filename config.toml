@@ -42,9 +42,9 @@ publishDir = "docs"
     og_image = "images/us.jpg"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Symphony ECO amplifies eco-focused Non-Profit Organizations & Government Bodies, designing Plans, Websites, Marketing, Volunteerism, & Fundraising strategies"
+    description = "Symphony ECO creates Digital Strategies to grow the impact & global visibility of eco-focused Non-Profit Organizations & Governments around the world"
     author = "Symphony ECO"
-    keywords = "Consulting; Conservation;"
+    keywords = "Consulting; Conservation; Environment;"
     # Google Analitycs
     googleAnalitycsID = "Your ID"
     facebookLink = "https://www.facebook.com/Symphony.Eco"

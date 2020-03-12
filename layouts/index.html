@@ -30,7 +30,15 @@
 {{ define "extraScript" }}
 <script>script('./js/poly-animal.js');</script>
 <script src="./js/aos.js"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+    $.ajax({
+      url: 'https://platform.twitter.com/widgets.js',
+      dataType: 'script',
+      cache: true, // or get new, fresh copy on every page load
+      success: function() {
+        // Callback
+      }
+    });</script>
 <script >
    AOS.init({
        duration: 2000,

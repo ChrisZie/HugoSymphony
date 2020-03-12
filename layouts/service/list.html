@@ -18,8 +18,9 @@
 {{ end }}
 
 {{ define "extraScript" }}
+<script src="./js/lazysizes.min.js" async=""></script>
+<script>script('./js/processCard.js');</script>
 <script src="./js/aos.js"></script>
-<script src="./js/processCard.js"></script>
 <script>
   AOS.init({
       duration: 2000,

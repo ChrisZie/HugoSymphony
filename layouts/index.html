@@ -29,6 +29,7 @@
 
 {{ define "extraScript" }}
 <script>script('./js/poly-animal.js');</script>
+<script src="./js/lazysizes.min.js" async=""></script>
 <script src="./js/aos.js"></script>
 <script>
     $.ajax({
@@ -47,6 +48,9 @@
        disable: 'mobile'
    });
 </script>
+<!-- Social Media Facebook integration-->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 {{ end }}
 
 {{ define "BodyStyle" }}blue-gradient-bg{{ end }}
@@ -197,8 +201,4 @@
 {{ partial "wave.html" . }}
 {{ partial "footer.html" . }}
 <!-- End Footer -->
-<!-- Social Media Facebook integration-->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-
 {{ end }}

@@ -10,9 +10,9 @@ publishDir = "docs"
   home = ["HTML", "AMP", "RSS", "JSON"]
 
 [sitemap]
-  changefreq = "monthly"
+
   filename = "sitemap.xml"
-  priority = 0.5
+
 
 
 # Site Menus

@@ -38,7 +38,7 @@ publishDir = "docs"
 # Site Params
 [params]
     home = "Start"
-    logo = ""
+    fav_icon ="images/favicon.ico"
     og_image = "images/og_image.png"
     dateFormat = "6 January 2006"
     # Meta data

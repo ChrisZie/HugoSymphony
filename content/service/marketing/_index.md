@@ -22,7 +22,7 @@ quizcards:
     textfront: How Many Organizations Agree That Social Media Has Vastly Improved Their Brand's Popularity?
     bgimagefront: https://cdn.pixabay.com/photo/2014/12/13/15/42/alaska-566722_1280.jpg
     titleback: 94% Fully Agree
-    textback: Be seen by everyone! Make no mistake, your Brand **is** what you offer. This is true whether you are trying to attract more tourists, volunteers, pr donors. Social Media lets you reach every type of audience - all ages, all genders, all locations.<br><br>As millenials, Social Media is a part of ourselves. We know what attracts the most attention on all major platforms, Western AND Eastern, to make sure the entire world knows you and why they should invest their time, and potentially money, with you.
+    textback: Be seen by everyone! Make no mistake, your Brand **is** what you offer. This is true whether you are trying to attract more tourists, volunteers, or donors. Social Media lets you reach every type of audience - all ages, all genders, all locations.<br><br>As millenials, Social Media is a part of ourselves. We know what attracts the most attention on all major platforms, Western AND Eastern, to make sure the entire world knows you and why they should invest their time, and potentially money, with you.
     bgimageback: https://cdn.pixabay.com/photo/2016/09/12/17/51/polar-bears-1665367_1280.jpg
 
   - titlefront: broadcasting

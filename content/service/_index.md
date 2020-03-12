@@ -67,7 +67,7 @@ service_item:
     question2: is being invested by Marketers in Social Media advertising this year, **more than all** other marketing options?
     answer: 'What did you invest?<br>
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
-    We setup and design fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
+    We set up and design fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
  
   - name: __VOLUNTEERISM__
     icon: "images/responsive.svg"

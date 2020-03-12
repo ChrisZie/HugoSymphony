@@ -1,6 +1,7 @@
 {{ define "extrahead" }}
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="./style/bootstrap-slider.min.css">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="./style/bootstrap-slider.min.css" as="style" onload="this.rel='stylesheet'">
+
 {{ $sassTemplate := resources.Get "style/contact.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/contact.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

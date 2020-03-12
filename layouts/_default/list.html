@@ -1,11 +1,10 @@
 {{ define "extrahead" }}
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css">
-{{ $sassTemplate := resources.Get "style/waves.css" }}
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">{{ $sassTemplate := resources.Get "style/waves.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/quote.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

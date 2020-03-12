@@ -6,6 +6,10 @@ nextpage: operations
 beforepage: webdesign 
 sort: 3
 type: "service"
+
+# meta description
+description: "Social Media strategies & designs to maximize Visibility"
+
 heroBGImage: https://cdn.pixabay.com/photo/2014/08/27/12/58/emperor-penguins-429127_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2016/02/22/21/07/snow-1216543_1280.jpg
 heroheader:

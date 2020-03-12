@@ -31,8 +31,8 @@ quizcards:
   - titlefront: promotion
     textfront: How Much Funding Is Earned In The First And Last Three Days Of A Campaign?
     bgimagefront: https://source.unsplash.com/fG5jun4bYBQ/1200x600
-    titleback: 42% On Those Days Alone
-    textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We also provide guides to ensure that you are maximizing your funding earned.
+    titleback: A Full 42%
+    textback: Get the word out! Promote your campaign well during the first three days, and then go all out for the last three, and you will almost certainly more than meet your fundraising goals.<br><br>With you, we create excellent marketing strategies for your fundraising campaigns, as your ability to raise funds is directly tied with your ability to market yourself and the cause that you are championing. We also provide guides to ensure that you are maximizing your funding earned by leveraging popular systems.
     bgimageback: https://cdn.pixabay.com/photo/2017/08/03/19/42/leopard-2578114_1280.jpg
 
   - titlefront: retention

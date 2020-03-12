@@ -19,7 +19,7 @@ quizcards:
     textfront: How Many People Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
     titleback: 52% Mobile Only
-    textback: Phones are the future! This number is growing, fast. But though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout to perform as amazingly on a phone as on a PC. Google measures performance on both Mobile and Desktop when choosing who to list first in its search results so we optimize every element for maximum visibility.
+    textback: Phones are the future! This number is growing, fast. But though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout to be as amazing on a phone as on a PC. Google measures performance on both Mobile and Desktop when choosing who to rank first in search results so we optimize every element for maximum visibility.
     bgimageback: https://cdn.pixabay.com/photo/2015/09/06/11/40/zebra-927272_1280.jpg
 
   - titlefront: style

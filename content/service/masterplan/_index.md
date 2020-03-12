@@ -18,14 +18,14 @@ quizcards:
     textfront: How Many UNESCO Ecotourism sites, mainly Wildlife and Marine Sanctuaries, Parks, and Reserves, Have Ecotourism Management Plans?
     bgimagefront: https://cdn.pixabay.com/photo/2016/03/21/10/44/desert-1270345_1280.jpg
     titleback: 54% Of All Sites
-    textback: Become a world-class organization! Without a Master Plan, your organization, environment, and society suffer from overtourism, lower Social Welfare, safety issues, and more.<br><br>We create fully detailed plans that make sure that you, your staff, and your society are more than able to manage rapid increases in tourism, providing guides, structures, rules, and revenue-generation mechanisms that will keep you and your precious environment growing healthily into the future.
+    textback: Become a world-class organization! Without a Master Plan, your organization, environment, and society suffer from overtourism, lower Social Welfare, safety issues, and more.<br><br>We create fully detailed plans that make sure that you, your staff, and your society are more than able to manage rapid increases in tourism by providing guides, structures, rules, and revenue-generation mechanisms that will keep you and your precious environment growing healthily well into the distant future.
     bgimageback: https://cdn.pixabay.com/photo/2019/10/25/00/55/golden-eagle-4575691_1280.jpg
 
   - titlefront: policies
     textfront: By How Much Does Ecotourism Site Damage Decrease When Visitors Are Clearly Educated On What They Can **And Cannot** Do?
     bgimagefront: https://cdn.pixabay.com/photo/2016/11/29/05/33/bryce-canyon-1867563_1280.jpg
     titleback: A 76% Decrease
-    textback: Education creates empathy! Without proper knowledge and instructions on how visitors should behave, major damage occurs, from ecological destruction to waste issues and more.<br><br>As managers of Government Projects, Non-Profits Organizations, and Tourism Businesses, we know the challenge of educating visitors and applying compulsory behavioural codes. We create fully visual aides that overcome language barriers and are effective on visitors from both the West AND the East.
+    textback: Education creates empathy! Without proper knowledge and instructions on how visitors should behave, major damage occurs, from ecological destruction to waste issues and more.<br><br>As managers of Government Projects, Non-Profits Organizations, and Tourism Businesses, we know the challenge of educating visitors and applying behavioural codes. We create fully visual aides that overcome language barriers and are effective on visitors from the West AND the East.
     bgimageback: https://cdn.pixabay.com/photo/2017/06/26/16/20/desert-fox-2444230_1280.jpg
 
   - titlefront: people

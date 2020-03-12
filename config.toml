@@ -1,6 +1,6 @@
 baseURL = "http://symphony.eco/"
 languageCode = "en-us"
-title = "Symphony ECO"
+title = "Symphony ECO - Comprehensive Conservation Consulting"
 summaryLength = "10"
 paginate = 6
 publishDir = "docs"
@@ -42,7 +42,7 @@ publishDir = "docs"
     og_image = "images/us.jpg"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Symphony ECOs Awesome Hugo Site"
+    description = "Symphony ECO amplifies eco-focused Non-Profit Organizations & Government Bodies, designing Plans, Websites, Marketing, Volunteerism, & Fundraising strategies"
     author = "Symphony ECO"
     keywords = "Consulting; Conservation;"
     # Google Analitycs

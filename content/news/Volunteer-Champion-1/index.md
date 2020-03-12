@@ -5,7 +5,7 @@ draft: false
 author: "Aaron Pinto"
 
 # meta description
-description: "If you have ever had the issue that you don’t get enough volunteers and that the volunteers you DO get are either not passionate enough, engaged enough, or don’t return to volunteer with you again, read on for how you can turn your current and future volunteers into Volunteer Champions."
+description: "Read on for a critical revelation if you have challenges getting enough volunteers, keeping those you do get engaged, and, crucially, keeping them coming back."
 
 # taxonomies
 categories: 

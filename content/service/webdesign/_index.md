@@ -11,7 +11,7 @@ heroBGImage: https://cdn.pixabay.com/photo/2016/01/10/23/18/lions-1132745_1280.j
 heroTitleImage: https://cdn.pixabay.com/photo/2017/09/25/17/02/africa-2785836_1280.jpg
 heroheader:
   - heroHeading : Designed for impact
-  - heroHeading : Your website<br>is your identity.<br>Be remembered.
+  - heroHeading : Your website is your<br>digital brochure.<br>Be remembered.
   - heroHeading : It's all about beauty, speed, security, and flexibility
 
 quizcards:

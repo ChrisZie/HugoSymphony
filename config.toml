@@ -39,7 +39,7 @@ publishDir = "docs"
 [params]
     home = "Start"
     logo = ""
-    og_image = "images/us.jpg"
+    og_image = "images/og_image.png"
     dateFormat = "6 January 2006"
     # Meta data
     description = "Symphony ECO creates Digital Strategies to grow the impact & global visibility of eco-focused Non-Profit Organizations & Governments around the world"

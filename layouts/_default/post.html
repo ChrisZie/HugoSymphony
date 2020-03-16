@@ -32,14 +32,14 @@
         <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
       </a>
       {{ end }}
-      <div class="card-body px-0">
+      <div class="card-body px-0 py-1 pt-2">
         {{ range .Params.Categories }}
         <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
           class="text-primary d-none d-md-block">{{ . | title | humanize }}</a>
         {{ end }}
-        <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}
+        <a href="{{ .Permalink }}" class="h5 d-block my-2">{{ .Title | markdownify }}
         <p class="card-text d-none d-md-block">{{ .Summary }}</p> </a>
-        <div class="mb-3 post-meta">
+        <div class="post-meta">
           <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
           {{ if not .Params.HideDate }}
           <span class="subspan">{{ .PublishDate.Format "Jan 02, 2006" }} </span> <!-- "02 January 2006" -->

@@ -42,7 +42,7 @@ publishDir = "docs"
     og_image = "images/og_image.png"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Symphony ECO creates Digital Strategies to grow the impact & visibility of eco-focused Government & Non-Government Organizations around the world"
+    description = "Symphony ECO creates Digital Strategies to grow the impact & visibility of eco-focused Governments & NGOs around the world"
     author = "Symphony ECO"
     keywords = "Consulting; Conservation; Environment;"
     # Google Analitycs

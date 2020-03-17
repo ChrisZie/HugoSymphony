@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Symphony ECO - Comprehensive Conservation Consulting"
 summaryLength = "10"
 paginate = 6
+canonifyURLs = true
 publishDir = "docs"
 
 
@@ -10,7 +11,6 @@ publishDir = "docs"
   home = ["HTML", "AMP", "RSS", "JSON"]
 
 [sitemap]
-
   filename = "sitemap.xml"
 
 

@@ -4,29 +4,42 @@
 <link rel="shortcut icon" href="{{ .Site.Params.fav_icon | relURL }}" />
 <link rel="dns-prefetch" href="{{ .Site.BaseURL }}">
 <link rel="preconnect" href="{{ .Site.BaseURL }}">
-<link rel="canonical" href="{{ .Site.BaseURL }}"/>
+<meta property="og:type" content="website"/>
+<!-- Link Tags -->
+<base href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+<meta name="url" content="{{ .Permalink }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<!-- Title Tags -->
 <meta name="author" content="{{ if .Params.author }}{{ .Params.author }} | {{ end }}{{ .Site.Params.Author }}">
 <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<meta property="og:site_name" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+<!-- Description Tags# -->
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
-<meta property="og:site_name" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-<meta property="og:url" content="{{ .Permalink }}" />
 <meta name="keywords" content="{{ if .Keywords }}{{ .Keywords }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
+<!-- Language Tags -->
 <meta property="og:locale" content="en">
-<meta property="og:type" content="website"/>
+<!-- Image Tags# -->
 {{ if .Params.og_image }}
 <meta property="og:image" content="{{ .Params.og_image | relURL }}"/>
 <meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
+<meta name="twitter:image" content="{{ .Params.og_image | absURL  }}" />
+<meta name="twitter:image:src" content="{{ .Params.og_image | absURL  }}" /> 
 {{ else }}
 <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image | relURL }}"/>
 <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
+<meta name="twitter:image" content="{{ .Site.Params.og_image | absURL  }}" />
+<meta name="twitter:image:src" content="{{ .Site.Params.og_image | absURL  }}" /> 
 {{ end }}
 <!-- Twitter Meta Tags -->
 <meta name="twitter:dnt" content="on">
+<meta name="twitter:url" content="{{ .Permalink }}" /> 
 <meta name="twitter:site" content="{{.Site.Params.twitter}}">
 <meta name="twitter:card" content="summary_large_image">
-<base href="{{ .Site.BaseURL }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <link rel="preload" href="./style/googlefont.css" as="style" onload="this.rel='stylesheet'">
 <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">

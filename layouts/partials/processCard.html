@@ -4,7 +4,7 @@
 
   <div class="processCard mx-0 mx-md-2">
     <div class="processCard__image-holder">
-      <img class="processCard__image" src="{{ .image | safeHTML }}" alt="{{if .imagealttext}}{{.imagealttext | markdownify}}{{else}}processcard{{ end }}" />
+      <img class="processCard__image" src="{{ .image | safeHTML  | absURL}}" alt="{{if .imagealttext}}{{.imagealttext | markdownify}}{{else}}processcard{{ end }}" />
     </div>
     <div class="processCard-title">
       <a href="#" class="toggle-cardInfo btnCard">

@@ -1,3 +1,7 @@
+{{ define "HTMLStyle" }}
+<html lang="en" class="no-js">
+{{ end }}
+
 {{ define "extrahead" }}
 <!-- Pagination meta tags for list pages only -->
 {{ $paginator := .Paginate (where .Pages "Section" "news") }}

@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "extrahead" }}
-<link href="./style/aos.css" rel="stylesheet">
+<link href="{{ .Site.BaseURL }}/style/aos.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
@@ -22,9 +22,9 @@
 {{ end }}
 
 {{ define "extraScript" }}
-<script src="./js/lazysizes.min.js" async=""></script>
-<script>script('./js/processCard.js');</script>
-<script src="./js/aos.js"></script>
+<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+<script>script('{{ .Site.BaseURL }}/js/processCard.js');</script>
+<script src="{{ .Site.BaseURL }}/js/aos.js"></script>
 <script>
   AOS.init({
       duration: 2000,

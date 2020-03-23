@@ -19,7 +19,7 @@
 {{ end }}
 
 {{ define "extraScript" }}
-<script>script('./js/poly-animal.js');</script>
+<script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
 {{ end }}
 
 {{ define "BodyStyle" }}blue-gradient-bg{{ end }}

@@ -7,7 +7,7 @@
 <meta property="og:type" content="website"/>
 <!-- Link Tags -->
 <base href="{{ .Permalink }}">
-<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+<link rel="canonical" href="{{ .Site.BaseURL }}"/>
 <meta name="url" content="{{ .Permalink }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <!-- Title Tags -->
@@ -41,8 +41,8 @@
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-<link rel="preload" href="./style/googlefont.css" as="style" onload="this.rel='stylesheet'">
-<link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+<link rel="preload" href="{{ .Site.BaseURL }}/style/googlefont.css" as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/style/bootstrap.min.css">
 <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
 {{ $sassTemplate := resources.Get "style/nav.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/nav.css" . | minify | fingerprint }}

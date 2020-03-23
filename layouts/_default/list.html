@@ -29,8 +29,8 @@
 {{ define "BodyStyle" }}whitebackground{{ end }}
 
 {{ define "extraScript" }}
-<script src="./js/lazysizes.min.js" async=""></script>
-<script>script('./js/poly-animal.js');</script>
+<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+<script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
 <script>
     $.ajax({
       url: 'https://platform.twitter.com/widgets.js',

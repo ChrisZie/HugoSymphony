@@ -14,7 +14,7 @@
 {{ define "BodyStyle" }}contactBgImage{{ end }}
 
 {{ define "extraScript" }}
-<script>script('./js/bootstrap-slider.min.js');</script>
+<script>script('{{ .Site.BaseURL }}/js/bootstrap-slider.min.js');</script>
 {{ $jsTemplate := resources.Get "scripts/contact.js" }}
 {{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/contact.min.js" . | minify | fingerprint }}
 <script>script('{{ $js.Permalink }}');</script>

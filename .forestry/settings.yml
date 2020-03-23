@@ -8,7 +8,7 @@ sections:
   path: content/news/*
   label: News
   create: all
-  match: "**/*"
+  match: "*"
 - type: document
   path: config.toml
   label: Configuration

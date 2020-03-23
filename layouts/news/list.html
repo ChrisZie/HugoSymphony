@@ -3,6 +3,18 @@
 {{ end }}
 
 {{ define "extrahead" }}
+<!-- Pagination meta tags for list pages only -->
+{{ $paginator := .Paginate (where .Pages "Section" "news") }}
+{{ if $paginator }}
+  <link rel="first" href="{{ $paginator.First.URL }}">
+  <link rel="last" href="{{ $paginator.Last.URL }}">
+  {{ if $paginator.HasPrev }}
+    <link rel="prev" href="{{ $paginator.Prev.URL }}">
+  {{end }}
+  {{ if $paginator.HasNext }}
+    <link rel="next" href="{{ $paginator.Next.URL }}">
+  {{end }}
+{{end }}
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
 <link href="{{ .Site.BaseURL }}/style/aos.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/waves.css" }}

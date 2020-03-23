@@ -5,7 +5,7 @@
     {{ block "extrahead" . }}{{ end }}
     {{ $sassTemplate := resources.Get "style/custom.scss" }}
     {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/custom.scss" . | resources.ToCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+    <link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">
     </head>
     <body class="h-100 w-100 {{ block "BodyStyle" . }}{{ end }} navStyle ">
       {{ partial "hamburger-menu.html" . }}

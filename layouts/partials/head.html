@@ -46,7 +46,7 @@
 <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
 {{ $sassTemplate := resources.Get "style/nav.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/nav.css" . | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">
 {{ $sassTemplate := resources.Get "style/linkstyles.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/linkstyles.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">

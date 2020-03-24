@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var zindex = 10;
 
-  $("section.servicedetails:not(a)").click(function(e){
+  $("section.servicedetails").click(function(e){
     e.preventDefault();
     $("div.processCards")
     .removeClass("showing");

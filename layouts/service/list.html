@@ -66,7 +66,7 @@
 </section>
 <!-- Header 1 End -->
 <!---Quiz -->
-<section class="servicedetails quiz pb-4 pt-5" data-aos="fade-up" data-aos-delay="100">
+<section class="quiz pb-4 pt-5" data-aos="fade-up" data-aos-delay="100">
   <div class="container px-lg-5">
       <div class="row justify-content-center"> 
         {{ partial "quizcard.html" . }} 
@@ -99,8 +99,8 @@
 </section>
 <!---End Process -->
 <!-- Section Header 3 -->
-<section class=" servicedetails px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
-  <div class="container service">
+<section class="servicedetails px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
+  <div class="container service pb-5">
       <div class="row justify-content-center"> 
           <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
               <div class="large-3 columns nopad border-bot " ></div>
@@ -114,8 +114,8 @@
 </section>
 <!-- Header 1 End -->
 <!-- recent post with specific tags from the params of the page-->
-<section class="news " data-aos="fade-up" data-aos-delay="100">
-  <div class="container py-5" >
+<section class="news" data-aos="fade-up" data-aos-delay="100">
+  <div class="container pb-5" >
     <div class="row"> 
       {{ $p := slice "New" .Params.newstag}}
       {{ range last 3 (where .Site.RegularPages "Params.tags" "intersect" $p)}}

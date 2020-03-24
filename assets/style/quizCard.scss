@@ -50,7 +50,8 @@
 
 @media (max-width: 576px) {
   .cardcontainer {
-    min-height: 90vh;
+    height: 90vh;
+    max-height: 700px;
   }
 }
 

@@ -9,44 +9,29 @@
     {{if $.Resources.Match ($matchfront) }}
     {{ $resource := $.Resources.GetMatch ($matchfront)  }}
         {{ with $resource }}
-        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
-        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
-        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
-        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
-        
-        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $largesize := int (cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge) }}
+        {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
+        {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
+          
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
-        {{ $largew := default (print $largesize "x")}}
-        {{ $tiny := .Resize $tinyw }}
+        {{ $smartphone1 := .Resize "900x q80" }}
+        {{ $tiny := .Resize "550x q95" }}
         {{ $small := .Resize $smallw }}
-        {{ $medium := .Resize $mediumw }}
-        {{ $large := .Resize $largew }}
         <style>
-            .cardfront{{$classname}} {
-                background-image:url('{{ .RelPermalink | absURL }}');
-            }
-          {{ if ge .Width $largesize}}
-          @media (max-width: {{$largesize}}px)  {
-            .cardfront{{$classname}} {
-                background-image:url('{{ $large.RelPermalink | absURL }}');
-            }
-          }
-          {{ end }}
-          {{ if ge .Width $mediumsize }}
-          @media (max-width: {{$mediumsize}}px){
-            .cardfront{{$classname}} {
-                background-image:url('{{ $medium.RelPermalink | absURL }}');
-            }
-          }
-          {{ end }}
-          {{ if ge .Width $smallsize }}
-          @media (max-width: {{$smallsize}}px) {
             .cardfront{{$classname}} {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
+          @media (max-width: 2200px) {
+            .cardfront{{$classname}} {
+                background-image:url('{{ $tiny.RelPermalink | absURL }}');
+            }
           }
-          {{ end }}         
+          @media (max-width: 1600px)  {
+            .cardfront{{$classname}} {
+                background-image:url('{{ $smartphone1.RelPermalink | absURL }}');
+            }
+          }   
           </style>
     {{ end }}
     {{ else if isset . "bgimagefront"}}
@@ -58,51 +43,30 @@
     {{if $.Resources.Match ($matchback) }}
     {{ $resource := $.Resources.GetMatch ($matchback)  }}
         {{ with $resource }} 
-        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
-        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
-        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
-        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
+        {{ $largesize := int (cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge) }}
+        {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
+        {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
         
-        {{ $tinyw := default (print $tinysize "x") }}
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
         {{ $largew := default (print $largesize "x")}}
-        {{ $tiny := .Resize $tinyw }}
+        {{ $smartphone1 := .Resize "900x q80" }}
+        {{ $tiny := .Resize "550x q95" }}
         {{ $small := .Resize $smallw }}
-        {{ $medium := .Resize $mediumw }}
-        {{ $large := .Resize $largew }}
         <style>
-            .cardback{{$classname}} {
-                background-image:url('{{ .RelPermalink | absURL }}');
-            }
-          {{ if ge .Width $largesize}}
-          @media (max-width: {{$largesize}}px)  {
-            .cardback{{$classname}} {
-                background-image:url('{{ $large.RelPermalink | absURL }}');
-            }
-          }
-          {{ end }}
-          {{ if ge .Width $mediumsize }}
-          @media (max-width: {{$mediumsize}}px){
-            .cardback{{$classname}} {
-                background-image:url('{{ $medium.RelPermalink | absURL }}');
-            }
-          }
-          {{ end }}
-          {{ if ge .Width $smallsize }}
-          @media (max-width: {{$smallsize}}px) {
             .cardback{{$classname}} {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
-          }
-          {{ end }}
-          {{ if ge .Width $tinysize }}
-          @media (max-width: {{$tinysize}}px)  {
+          @media (max-width: 2200px) {
             .cardback{{$classname}} {
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }
           }
-          {{ end }}            
+          @media (max-width: 1600px)  {
+            .cardback{{$classname}} {
+                background-image:url('{{ $smartphone1.RelPermalink | absURL }}');
+            }
+          }           
           </style>
     {{ end }}
     {{ else if isset . "bgimageback"}}
@@ -116,14 +80,14 @@
           <h2>{{ .titlefront | markdownify | upper }}</h2>
           <p>{{ .textfront | markdownify }}</p>
         </div>
-        <div class="afteroverlay"></div>
+
       </div>
       <div class="cardback cardside {{ $cardname}}">
         <div class="parallaxContent">
           <h2>{{ .titleback | markdownify }}</h2>
           <p>{{ .textback | markdownify }}</p>
         </div>
-        <div class="afteroverlay"></div>
+
       </div>
     </div>
   </div>

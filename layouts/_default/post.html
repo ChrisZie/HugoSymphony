@@ -5,11 +5,9 @@
             {{ range $resources }}
               {{ with . }}
               {{ $lqipw := default "20x" }}
-              {{ $tinyw := default "500x" }}
-              {{ $smallw := default "1200x" }}
+              {{ $tinyw := default "300x" }}
               {{ $lqip := .Resize $lqipw }}
               {{ $tiny := .Resize $tinyw }}
-              {{ $small := .Resize $smallw }}
                 <img
                   class="lazyload card-img-top"
                   data-sizes="auto"

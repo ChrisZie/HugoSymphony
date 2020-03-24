@@ -3,12 +3,12 @@
     {{ $resources := .Resources.Match "heroheader*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
-        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
-        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
-        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
+        {{ $largesize := int (cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge) }}
+        {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
+        {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
+        {{ $tinysize := int (cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny) }}
 
-        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $tinyw := default (print $tinysize "x q85") }}
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
         {{ $largew := default (print $largesize "x")}}
@@ -36,7 +36,7 @@
           }
           {{ end }}
           {{ if ge .Width $smallsize }}
-          @media (max-width: {{$smallsize}}px) {
+          @media (max-width: {{add 100 $smallsize}}px) {
             .ocean {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
@@ -59,12 +59,12 @@
     {{ $resources := .Resources.Match "herotext*"}}
     {{ range $resources }}
         {{ with . }}
-        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
-        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
-        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
-        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
+        {{ $largesize := int (cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge) }}
+        {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
+        {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
+        {{ $tinysize := int (cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny) }}
         
-        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $tinyw := default (print $tinysize "x q85") }}
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
         {{ $largew := default (print $largesize "x")}}
@@ -77,28 +77,28 @@
                 background-image:url('{{ .RelPermalink | absURL }}');
             }
           {{ if ge .Width $largesize}}
-          @media (max-width: {{$largesize}}px)  {
+          @media (max-width: {{add 500 $largesize}}px)  {
             .ocean-text {
                 background-image:url('{{ $large.RelPermalink | absURL }}');
             }
           }
           {{ end }}
           {{ if ge .Width $mediumsize }}
-          @media (max-width: {{$mediumsize}}px){
+          @media (max-width: {{add 500 $mediumsize}}px){
             .ocean-text {
                 background-image:url('{{ $medium.RelPermalink | absURL }}');
             }
           }
           {{ end }}
           {{ if ge .Width $smallsize }}
-          @media (max-width: {{$smallsize}}px) {
+          @media (max-width: {{add 500 $smallsize}}px) {
             .ocean-text {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
           {{ end }}
           {{ if ge .Width $tinysize }}
-          @media (max-width: {{$tinysize}}px)  {
+          @media (max-width: {{add 500 $tinysize}}px)  {
             .ocean-text {
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }

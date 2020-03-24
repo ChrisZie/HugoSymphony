@@ -111,12 +111,12 @@ $bp-lg: 1300px;
   {{ $resources := .Match "*aboutuscard.jpg"}}
   {{ range $index, $element := $resources }}
       {{ with . }}
-        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
-        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
-        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
-        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
+        {{ $largesize := int (cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge) }}
+        {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
+        {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
+        {{ $tinysize := int (cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny) }}
         
-        {{ $tinyw := default (print $tinysize "x") }}
+        {{ $tinyw := default (print $tinysize "x q85") }}
       {{ $smallw := default (print $smallsize "x") }}
       {{ $mediumw := default (print $mediumsize "x") }}
       {{ $largew := default (print $largesize "x")}}

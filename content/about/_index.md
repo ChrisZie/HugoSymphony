@@ -1,5 +1,5 @@
 ---
-title: "Our Passion - About Us"
+title: "About Us"
 date: 2020-03-01T21:44:28+08:00
 draft: true
 profile1firstname: "Christine"

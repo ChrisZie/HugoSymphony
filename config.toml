@@ -53,8 +53,8 @@ publishDir = "docs"
     twitter ="@SymphonyEco"
     twitterhandle ="SymphonyEco"
     resizetiny ="800"
-    resizesmall="1300"
-    resizemedium="1900"
+    resizesmall="1400"
+    resizemedium="1950"
     resizelarge="2500"
 
 ############################# social site ########################

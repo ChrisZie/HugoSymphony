@@ -1,5 +1,4 @@
 ---
-title: Symphony ECO - Comprehensive Conservation Consulting
 date: 2020-03-10T06:25:09.000+00:00
 heroheader:
 - heroHeading: Conservation<br>is a Symphony

@@ -12,7 +12,9 @@
         {{ $mediumw := default (print $mediumsize "x") }}
         {{ $largew := default (print $largesize "x")}}
 
+        {{ $tiny := .Resize $tinyw }}
         {{ $small := .Resize $smallw }}
+        {{ $medium := .Resize $mediumw }}
         {{ $large := .Resize $largew }}
 
         <style>
@@ -26,13 +28,27 @@
             }
           }
           {{ end }}
+          {{ if ge .Width $mediumsize }}
+          @media (max-width: {{$mediumsize}}px) {
+            .ocean {
+                background-image:url('{{ $medium.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}
           {{ if ge .Width $smallsize }}
           @media (max-width: {{$smallsize}}px) {
             .ocean {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
-          {{ end }}         
+          {{ end }}
+          {{ if ge .Width $tinysize }}
+          @media (max-width: {{$tinysize}}px) {
+            .ocean {
+                background-image:url('{{ $tiny.RelPermalink | absURL }}');
+            }
+          }
+          {{ end }}            
           </style>
       {{ end }}
     {{ end }}
@@ -50,13 +66,14 @@
       {{ $smallw := default (print $smallsize "x") }}
       {{ $mediumw := default (print $mediumsize "x") }}
       {{ $largew := default (print $largesize "x")}}
+      {{ $lqipw := .Resize "20x" }}
       {{ $tiny := .Resize $tinyw }}
       {{ $small := .Resize $smallw }}
       {{ $medium := .Resize $mediumw }}
       {{ $large := .Resize $largew }}
       <style>
           .ocean-text {
-              background-image:url('{{ .RelPermalink | absURL }}');
+              background-image:url('{{ $large.RelPermalink | absURL }}');
           }
         {{ if ge .Width $largesize}}
         @media (max-width: {{$largesize}}px)  {
@@ -66,26 +83,30 @@
         }
         {{ end }}
         {{ if ge .Width $mediumsize }}
-        @media (max-width: {{$mediumsize}}px){
+        @media (max-width: {{add 600 $mediumsize}}px){
           .ocean-text {
               background-image:url('{{ $medium.RelPermalink | absURL }}');
           }
         }
         {{ end }}
         {{ if ge .Width $smallsize }}
-        @media (max-width: {{$smallsize}}px) {
+        @media (max-width: {{add 600 $smallsize}}px) {
           .ocean-text {
               background-image:url('{{ $small.RelPermalink | absURL }}');
           }
         }
         {{ end }}
         {{ if ge .Width $tinysize }}
-        @media (max-width: {{$tinysize}}px)  {
+        @media (max-width: {{add 600 $tinysize}}px)  {
           .ocean-text {
               background-image:url('{{ $tiny.RelPermalink | absURL }}');
           }
         }
-        {{ end }}            
+        {{ end }}     
+        .lazy {
+            background-image:url('{{ $lqipw.RelPermalink | absURL }}');
+            background-color: #F1F1FA;
+            }  
         </style>
     {{ end }}
   {{ end }}
@@ -101,7 +122,7 @@
       Symphony&nbsp;ECO
     </div>
     <div class="ocean">
-      <div class="ocean-text">Symphony Eco</div>
+      <div class="lazy ocean-text">Symphony Eco</div>
     </div>
     <div class="left-side">    
       <div class="page-numbers" data-total="04">

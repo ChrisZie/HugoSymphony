@@ -87,7 +87,7 @@
             <div  class="col-12"  data-aos="fade-up" data-aos-delay="100">
                 <div class="cardHover-content">
                 {{ range .Site.Data.aboutUs.cards }}
-                    <div class="cardHover">
+                    <div class="lazy cardHover">
                         <div class="card-content">
                             <div class="labelHidden collapsed" data-toggle="collapse" data-target="#{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">{{ .caption }}</div>
                             <div class="collapse dont-collapse-sm card-content " id="{{ .marker }}">

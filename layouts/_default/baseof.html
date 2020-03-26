@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {{ block "HTMLStyle" . }}{{ end }}
-	<head>
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
   {{ partial "head.html" . }}
   {{ block "extrahead" . }}{{ end }}
   {{ $sassTemplate := resources.Get "style/custom.scss" }}

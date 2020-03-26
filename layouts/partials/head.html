@@ -11,7 +11,7 @@
 <meta name="url" content="{{ .Permalink }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <!-- Title Tags -->
-<meta name="author" content="{{ if .Params.author }}{{ .Params.author }} | {{ end }}{{ .Site.Params.Author }}">
+<meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.Author }}{{ end }}">
 <title>{{ if .Title }}{{ .Title }} | Symphony ECO{{ else }}{{ .Site.Title }}{{ end }}</title>
 <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
 <meta property="og:site_name" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
@@ -33,6 +33,7 @@
 <meta name="twitter:image" content="{{ .Site.Params.og_image | absURL  }}" />
 <meta name="twitter:image:src" content="{{ .Site.Params.og_image | absURL  }}" /> 
 {{ end }}
+<meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
 <!-- Twitter Meta Tags -->
 <meta name="twitter:dnt" content="on">
 <meta name="twitter:url" content="{{ .Permalink }}" /> 

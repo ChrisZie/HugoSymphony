@@ -431,7 +431,9 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
 
 .hero-header {
 
-
+  .ocean-text{
+    background-position: calc( -1% + (-50% * var(--percentage))) 0;
+  }
   #site {
     grid-template-columns: 1rem 1fr 1fr 1fr;
   }

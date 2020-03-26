@@ -32,7 +32,6 @@
 {{ define "BodyStyle" }}whitebackground{{ end }}
 
 {{ define "extraScript" }}
-<!-- <script src="./js/jquery-2.1.3.min.js"></script> -->
 <script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
 <script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
 <script src="{{ .Site.BaseURL }}/js/aos.js"></script>
@@ -77,13 +76,24 @@
                 {{ $resources := .Resources.Match "cover*"}}
                 {{ range $resources }}
                     {{ with . }}
+                    {{ $lqipw := default "20x" }}
                     {{ $tinyw := default "900x" }}
-                    {{ $smallw := default "1200x" }}
+                    {{ $lqip := .Resize $lqipw }}
                     {{ $tiny := .Resize $tinyw }}
-                    {{ $small := .Resize $smallw }}
-                    <img width="100%"
-                      src="{{ $tiny.RelPermalink }}" 
-                    alt="{{$title}}" class="card-img" >
+                    <img
+                    class="lazyload card-img"
+                    data-sizes="auto"
+                    src="{{ $lqip.RelPermalink }}"
+                    data-src="{{ $tiny.RelPermalink }}"
+                    width="100%"
+                    alt="{{$title}}">
+                  <noscript>
+                    <img
+                      loading="lazy"
+                      src="{{ $tiny.RelPermalink }}"
+                      width="100%"
+                      alt="{{$title}}" class="card-img" >
+                  </noscript>
                   {{ end }}
                 {{ end }}
               </a>
@@ -134,7 +144,7 @@
             {{ $resources := .Resources.Match "cover*"}}
             {{ range $resources }}
                 {{ with . }}
-                {{ $tinyw := default "300x" }}
+                {{ $tinyw := default "120x" }}
                 {{ $tiny := .Resize $tinyw }}
                 <div class="recent-post-thumb mr-3" style="background-image: url('{{ with $tiny.RelPermalink }}{{.}}{{ end }}');"></div>
               {{ end }}
@@ -194,5 +204,4 @@
 {{ partial "footer.html" . }}
 <!-- End Footer -->
 </main>
-
 {{ end }}

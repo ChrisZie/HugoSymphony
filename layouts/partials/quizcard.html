@@ -15,8 +15,9 @@
           
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
-        {{ $smartphone1 := .Resize "900x q80" }}
-        {{ $tiny := .Resize "550x q95" }}
+        {{ $lqipw := .Resize "20x" }}
+        {{ $smartphone1 := .Resize "800x q80" }}
+        {{ $tiny := .Resize "600x q95" }}
         {{ $small := .Resize $smallw }}
         <style>
             .cardfront{{$classname}} {
@@ -27,11 +28,14 @@
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }
           }
-          @media (max-width: 1600px)  {
+          @media (max-width: 1500px)  {
             .cardfront{{$classname}} {
                 background-image:url('{{ $smartphone1.RelPermalink | absURL }}');
             }
           }   
+          .lazy.cardfront{{$classname}} {
+            background-image:url('{{ $lqipw.RelPermalink | absURL }}');
+          } 
           </style>
     {{ end }}
     {{ else if isset . "bgimagefront"}}
@@ -50,8 +54,9 @@
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
         {{ $largew := default (print $largesize "x")}}
-        {{ $smartphone1 := .Resize "900x q80" }}
-        {{ $tiny := .Resize "550x q95" }}
+        {{ $lqipw := .Resize "20x" }}
+        {{ $smartphone1 := .Resize "800x q80" }}
+        {{ $tiny := .Resize "600x q95" }}
         {{ $small := .Resize $smallw }}
         <style>
             .cardback{{$classname}} {
@@ -62,11 +67,14 @@
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }
           }
-          @media (max-width: 1600px)  {
+          @media (max-width: 1500px)  {
             .cardback{{$classname}} {
                 background-image:url('{{ $smartphone1.RelPermalink | absURL }}');
             }
-          }           
+          }   
+          .lazy.cardback{{$classname}} {
+            background-image:url('{{ $lqipw.RelPermalink | absURL }}');
+          }         
           </style>
     {{ end }}
     {{ else if isset . "bgimageback"}}
@@ -75,14 +83,14 @@
       <style> .cardback{{$classname}}  { background-image: url("{{ $bgImageBack | absURL }}");}</style>
     {{ end }}
     <div class="cardcontainer">
-      <div class="cardfront cardside {{ $cardname }}">
+      <div class="lazy cardfront cardside {{ $cardname }}">
         <div class="parallaxContent">
           <h2>{{ .titlefront | markdownify | upper }}</h2>
           <p>{{ .textfront | markdownify }}</p>
         </div>
 
       </div>
-      <div class="cardback cardside {{ $cardname}}">
+      <div class="lazy cardback cardside {{ $cardname}}">
         <div class="parallaxContent">
           <h2>{{ .titleback | markdownify }}</h2>
           <p>{{ .textback | markdownify }}</p>

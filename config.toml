@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Symphony ECO - Comprehensive Conservation Consulting"
 summaryLength = "10"
 paginate = 6
+enableRobotsTXT = true
 
 publishDir = "docs"
 

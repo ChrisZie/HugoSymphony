@@ -68,13 +68,14 @@
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}
         {{ $largew := default (print $largesize "x")}}
+        {{ $lqipw := .Resize "20x" }}
         {{ $tiny := .Resize $tinyw }}
         {{ $small := .Resize $smallw }}
         {{ $medium := .Resize $mediumw }}
         {{ $large := .Resize $largew }}
         <style>
             .ocean-text {
-                background-image:url('{{ .RelPermalink | absURL }}');
+                background-image:url('{{ $large.RelPermalink | absURL }}');
             }
           {{ if ge .Width $largesize}}
           @media (max-width: {{add 500 $largesize}}px)  {
@@ -103,7 +104,11 @@
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }
           }
-          {{ end }}            
+          {{ end }}  
+          .lazy {
+            background-image:url('{{ $lqipw.RelPermalink | absURL }}');
+            background-color: #F1F1FA;
+            }           
           </style>
       {{ end }}
     {{ end }}
@@ -123,7 +128,7 @@
       <a href="{{ .Site.BaseURL }}" style="color:white;">Symphony&nbsp;ECO</a>
     </header>
     <div class="ocean">
-      <div class="ocean-text" style='font-size: 35vh;' >{{.Title}}</div>
+      <div class="lazy ocean-text" style='font-size: 35vh;' >{{.Title}}</div>
     </div>
     <div class="left-side">    
       <div class="page-numbers" data-total="04">

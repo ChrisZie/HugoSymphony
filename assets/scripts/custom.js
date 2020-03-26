@@ -6,7 +6,7 @@ $(".serviceSelect").on("click", function(){
 });
 
 
-function my_function() {
+function lazyloading() {
   var lazyloadImages;    
 
   if ("IntersectionObserver" in window) {
@@ -53,6 +53,6 @@ function my_function() {
   }
 };
 
-if (window.attachEvent) {window.attachEvent('onload', my_function);}
-else if (window.addEventListener) {window.addEventListener('load', my_function, false);}
-else {document.addEventListener('load', my_function, false);}
+if (window.attachEvent) {window.attachEvent('onload', lazyloading);}
+else if (window.addEventListener) {window.addEventListener('load', lazyloading, false);}
+else {document.addEventListener('load', lazyloading, false);}

@@ -21,6 +21,22 @@
 <meta name="keywords" content="{{ if .Keywords }}{{ .Keywords }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
 <!-- Language Tags -->
 <meta property="og:locale" content="en">
+<!-- schema org -->
+<script defer type="application/ld+json">
+  { 
+    "@context": "http://schema.org", 
+    "@type": "WebSite", 
+    "url": "{{ .Permalink }}", 
+    "sameAs": [
+      "{{ .Site.Params.facebookLink }}", 
+      "{{ .Site.Params.instagramLink }}",
+      "{{ .Site.Params.twitterLink }}",
+      {{ .Site.Params.linkedinLink }}"
+    ], 
+    "name": "{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}", 
+    "logo": "{{ .Site.Params.fav_icon | absURL }}" 
+  }
+</script>
 <!-- Image Tags# -->
 {{ if .Params.og_image }}
 <meta property="og:image" content="{{ .Params.og_image | relURL }}"/>

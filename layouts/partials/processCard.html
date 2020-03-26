@@ -4,7 +4,23 @@
 
   <div class="processCard mx-0 mx-md-2">
     <div class="processCard__image-holder">
-      <img class="processCard__image" src="{{ .image | safeHTML  | absURL}}" alt="{{if .imagealttext}}{{.imagealttext | markdownify}}{{else}}processcard{{ end }}" />
+      {{ $resources := resources.Get .image }}
+        {{ $lqipw := default "20x" }}
+        {{ $lqip := $resources.Resize $lqipw }}
+          <img
+            class="lazyload processCard__image"
+            data-sizes="auto"
+            src="{{ $lqip.RelPermalink }}"
+            data-src="{{ $resources.RelPermalink }}"
+            width="100%"
+            alt="{{if .imagealttext}}{{.imagealttext | markdownify}}{{else}}processcard{{ end }}" class="processCard__image" >
+          <noscript>
+            <img
+              loading="lazy"
+              src="{{ $resources.RelPermalink }}"
+              width="100%"
+              alt="{{if .imagealttext}}{{.imagealttext | markdownify}}{{else}}processcard{{ end }}" class="processCard__image" >
+          </noscript>
     </div>
     <div class="processCard-title">
       <a href="#" class="toggle-cardInfo btnCard">

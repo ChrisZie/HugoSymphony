@@ -1,5 +1,5 @@
 ---
-title: "The Creation Of The Altogether Fantastic Volunteer Champion - PART&nbsp;ONE"
+title: "The Creation Of The Altogether Fantastic Volunteer Champion - PART ONE"
 date: 2020-03-11T21:44:28+08:00
 draft: false
 author: "Aaron Pinto"

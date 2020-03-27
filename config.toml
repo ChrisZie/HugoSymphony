@@ -1,6 +1,6 @@
 baseURL = "http://symphony.eco/"
 languageCode = "en-us"
-title = "Symphony ECO - Comprehensive Conservation Consulting"
+title = "Symphony ECO - Environmental Conservation Consulting"
 summaryLength = "10"
 paginate = 6
 publishDir = "docs"

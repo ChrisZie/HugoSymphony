@@ -104,28 +104,29 @@ $bp-lg: 1300px;
     transform: translateY(-50%);
     transition: transform calc(var(--d) * 2) var(--e);
   }
-  
 
   //Image Processing 
   {{ with $.Resources.ByType "image" }}
   {{ $resources := .Match "*aboutuscard.jpg"}}
   {{ range $index, $element := $resources }}
       {{ with . }}
-        {{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
-        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
-        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
-        {{ $tinysize := cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny }}
         
-        {{ $tinyw := default (print $tinysize "x") }}
+      {{ $largesize := int (cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge) }}
+      {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
+      {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
+      {{ $tinysize := int (cond (isset $.Page.Params "sizetiny") $.Page.Params.sizetiny $.Site.Params.resizetiny) }}
+      
+      {{ $tinyw := default (print $tinysize "x q80") }}
       {{ $smallw := default (print $smallsize "x") }}
       {{ $mediumw := default (print $mediumsize "x") }}
       {{ $largew := default (print $largesize "x")}}
+      {{ $lqipw := .Resize "20x" }}
       {{ $tiny := .Resize $tinyw }}
       {{ $small := .Resize $smallw }}
       {{ $medium := .Resize $mediumw }}
       {{ $large := .Resize $largew }}
       &:nth-child({{ add $index 1}}):before {
-          background-image:url('{{ .RelPermalink | absURL }}');
+          background-image:url('{{ $large.RelPermalink | absURL }}');
           background-position: 80%;
           }
         {{ if ge .Width $largesize}}
@@ -155,10 +156,14 @@ $bp-lg: 1300px;
               background-image:url('{{ $tiny.RelPermalink | absURL }}');
           }
         }
-        {{ end }}  
-      {{ end }}
-      {{ end }}
-  {{ end }}
+        {{ end }} 
+          &.lazy:nth-child({{ add $index 1}}):before {
+            background-image:url('{{ $lqipw.RelPermalink | absURL }}');
+            background-color: #F1F1FA;
+            }
+        {{ end }}
+        {{ end }}
+    {{ end }}
 
   &:last-child:before {
     background-position: 40%;

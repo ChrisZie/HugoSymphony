@@ -320,9 +320,9 @@ p.section-caption {
 		{{ $resources := .Match "*contactbackground.jpg"}}
 		{{ range $index, $element := $resources }}
 				{{ with . }}
-				{{ $largesize := cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge }}
-        {{ $mediumsize := cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium }}
-        {{ $smallsize := cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall }}
+				{{ $largesize := int (cond (isset $.Page.Params "sizelarge") $.Page.Params.sizelarge $.Site.Params.resizelarge) }}
+        {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
+        {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
         
         {{ $smallw := default (print $smallsize "x") }}
         {{ $mediumw := default (print $mediumsize "x") }}

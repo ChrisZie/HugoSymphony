@@ -1,5 +1,5 @@
 ---
-title: "The News - The Blog"
+title: "Our Blog"
 date: 2020-03-01T21:44:28+08:00
 draft: false
 

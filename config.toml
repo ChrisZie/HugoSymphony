@@ -1,8 +1,9 @@
-baseURL = "http://symphony.eco/"
+baseURL = "https://symphony.eco/"
 languageCode = "en-us"
 title = "Symphony ECO - Environmental Conservation Consulting"
 summaryLength = "10"
 paginate = 6
+
 publishDir = "docs"
 
 
@@ -10,7 +11,6 @@ publishDir = "docs"
   home = ["HTML", "AMP", "RSS", "JSON"]
 
 [sitemap]
-
   filename = "sitemap.xml"
 
 
@@ -42,7 +42,7 @@ publishDir = "docs"
     og_image = "images/og_image.png"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Symphony ECO creates Digital Strategies to grow the impact & visibility of eco-focused Government & Non-Government Organizations around the world"
+    description = "Symphony ECO creates Digital Strategies to grow the impact & visibility of eco-focused Governments & NGOs around the world"
     author = "Symphony ECO"
     keywords = "Consulting; Conservation; Environment;"
     # Google Analitycs
@@ -52,9 +52,9 @@ publishDir = "docs"
     twitterLink = "https://twitter.com/SymphonyEco"
     twitter ="@SymphonyEco"
     twitterhandle ="SymphonyEco"
-    resizetiny ="900"
-    resizesmall="1300"
-    resizemedium="1900"
+    resizetiny ="800"
+    resizesmall="1400"
+    resizemedium="1950"
     resizelarge="2500"
 
 ############################# social site ########################

@@ -1,6 +1,22 @@
+{{ define "HTMLStyle" }}
+<html lang="en" class="no-js">
+{{ end }}
+
 {{ define "extrahead" }}
+<!-- Pagination meta tags for list pages only -->
+{{ $paginator := .Paginate (where .Pages "Section" "news") }}
+{{ if $paginator }}
+  <link rel="first" href="{{ $paginator.First.URL }}">
+  <link rel="last" href="{{ $paginator.Last.URL }}">
+  {{ if $paginator.HasPrev }}
+    <link rel="prev" href="{{ $paginator.Prev.URL }}">
+  {{end }}
+  {{ if $paginator.HasNext }}
+    <link rel="next" href="{{ $paginator.Next.URL }}">
+  {{end }}
+{{end }}
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
-<link href="./style/aos.css" rel="stylesheet">
+<link href="{{ .Site.BaseURL }}/style/aos.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/waves.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
 <link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
@@ -16,10 +32,9 @@
 {{ define "BodyStyle" }}whitebackground{{ end }}
 
 {{ define "extraScript" }}
-<!-- <script src="./js/jquery-2.1.3.min.js"></script> -->
-<script>script('./js/poly-animal.js');</script>
-<script src="./js/lazysizes.min.js" async=""></script>
-<script src="./js/aos.js"></script>
+<script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
+<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+<script src="{{ .Site.BaseURL }}/js/aos.js"></script>
 <script>
   $.ajax({
     url: 'https://platform.twitter.com/widgets.js',
@@ -43,6 +58,7 @@
 <main class="news">
   <div class="top-logo">
     <a href="{{ .Site.BaseURL }}" style="color:white;">Symphony&nbsp;ECO</a>
+    <h1 class="hidden">Our Blog</h1>
   </div>
 <!-- featured post -->
 <section class="section-sm" data-aos="fade-up" data-aos-delay="100">
@@ -61,13 +77,24 @@
                 {{ $resources := .Resources.Match "cover*"}}
                 {{ range $resources }}
                     {{ with . }}
+                    {{ $lqipw := default "20x" }}
                     {{ $tinyw := default "900x" }}
-                    {{ $smallw := default "1200x" }}
+                    {{ $lqip := .Resize $lqipw }}
                     {{ $tiny := .Resize $tinyw }}
-                    {{ $small := .Resize $smallw }}
-                    <img width="100%"
-                      src="{{ $tiny.RelPermalink }}" 
-                    alt="{{$title}}" class="card-img" >
+                    <img
+                    class="lazyload card-img"
+                    data-sizes="auto"
+                    src="{{ $lqip.RelPermalink }}"
+                    data-src="{{ $tiny.RelPermalink }}"
+                    width="100%"
+                    alt="{{$title}}">
+                  <noscript>
+                    <img
+                      loading="lazy"
+                      src="{{ $tiny.RelPermalink }}"
+                      width="100%"
+                      alt="{{$title}}" class="card-img" >
+                  </noscript>
                   {{ end }}
                 {{ end }}
               </a>
@@ -84,7 +111,7 @@
                   class="card-title text-primary">{{ . | title | humanize }}</a>
                 {{ end }}
                 <a href="{{ .Permalink }}">
-                  <h1 class="h1 font-weight-bold d-block text-dark mb-4 card-title">{{ .Title | markdownify }}</h1>
+                  <h2 class="h1 font-weight-bold d-block text-dark mb-4 card-title">{{ .Title | markdownify }}</h2>
                 <p class="card-text">{{.Summary}}...</p> </a>
                 <div class="mb-3 post-meta">
                   <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
@@ -118,7 +145,7 @@
             {{ $resources := .Resources.Match "cover*"}}
             {{ range $resources }}
                 {{ with . }}
-                {{ $tinyw := default "300x" }}
+                {{ $tinyw := default "120x" }}
                 {{ $tiny := .Resize $tinyw }}
                 <div class="recent-post-thumb mr-3" style="background-image: url('{{ with $tiny.RelPermalink }}{{.}}{{ end }}');"></div>
               {{ end }}
@@ -178,5 +205,4 @@
 {{ partial "footer.html" . }}
 <!-- End Footer -->
 </main>
-
 {{ end }}

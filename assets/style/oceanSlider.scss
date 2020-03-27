@@ -32,14 +32,25 @@ $bp-sx: 600px;
 }
 
 #site h2{
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   font-weight: 700;
+}
+@media (max-width: 1600px) {
+  #site h2{
+    font-size: 5.0rem;
+  }
+}
+@media (max-width: 1400px) {
+  #site h2{
+    font-size: 4.5rem;
+  }
 }
 @media (max-width: $bp-md) {
   #site h2{
     font-size: 2rem;
   }
 }
+
 
 
 #site { 
@@ -110,7 +121,7 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   -webkit-background-clip: text;
   color: transparent;
 
-  background-position: calc( 25% + (-50% * var(--percentage)) ) 0;
+  background-position: calc( 6% + (-50% * var(--percentage)) ) 0;
 
   transform: 
     translateX( calc( 26% + ( -100% * var(--percentage) ) ) );
@@ -420,7 +431,9 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
 
 .hero-header {
 
-
+  .ocean-text{
+    background-position: calc( -1% + (-50% * var(--percentage))) 0;
+  }
   #site {
     grid-template-columns: 1rem 1fr 1fr 1fr;
   }

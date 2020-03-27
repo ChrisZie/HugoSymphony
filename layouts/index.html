@@ -4,34 +4,34 @@
 
 {{ define "extrahead" }}
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
-<link href="./style/aos.css" rel="stylesheet">
+<link href="{{ .Site.BaseURL }}/style/aos.css" rel="stylesheet">
 {{ $sassTemplate := resources.Get "style/waves.css" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
 {{ $sassTemplate := resources.Get "style/quote.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
 {{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
 {{ $sassTemplate := resources.Get "style/textslider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
+<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
 {{ $sassTemplate := resources.Get "style/cardHover.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/cardHover.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
+<link rel="stylesheet" href="{{ $style.Permalink }}"  media="screen">
 {{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
+<link rel="stylesheet" href="{{ $style.Permalink }}"  media="screen">
 {{ end }}
 
 {{ define "extraScript" }}
-<script>script('./js/poly-animal.js');</script>
-<script src="./js/lazysizes.min.js" async=""></script>
-<script src="./js/aos.js"></script>
+<script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
+<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+<script src="{{ .Site.BaseURL }}/js/aos.js"></script>
 <script>
     $.ajax({
       url: 'https://platform.twitter.com/widgets.js',
@@ -87,7 +87,7 @@
             <div  class="col-12"  data-aos="fade-up" data-aos-delay="100">
                 <div class="cardHover-content">
                 {{ range .Site.Data.aboutUs.cards }}
-                    <div class="cardHover">
+                    <div class="lazy cardHover">
                         <div class="card-content">
                             <div class="labelHidden collapsed" data-toggle="collapse" data-target="#{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">{{ .caption }}</div>
                             <div class="collapse dont-collapse-sm card-content " id="{{ .marker }}">

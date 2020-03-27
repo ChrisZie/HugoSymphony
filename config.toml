@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Symphony ECO - Environmental Conservation Consulting"
 summaryLength = "10"
 paginate = 6
+enableRobotsTXT = true
 
 publishDir = "docs"
 
@@ -11,7 +12,9 @@ publishDir = "docs"
   home = ["HTML", "AMP", "RSS", "JSON"]
 
 [sitemap]
+  changefreq = "monthly"
   filename = "sitemap.xml"
+  priority = 0.5
 
 
 
@@ -46,10 +49,12 @@ publishDir = "docs"
     author = "Symphony ECO"
     keywords = "Consulting; Conservation; Environment;"
     # Google Analitycs
-    googleAnalitycsID = "Your ID"
+    googleAnalitycsID = "UA-99165516-4"
+    googleAnalytics = "UA-99165516-4"
     facebookLink = "https://www.facebook.com/Symphony.Eco"
     instagramLink = "https://www.instagram.com/symphony.eco"
     twitterLink = "https://twitter.com/SymphonyEco"
+    linkedinLink = "https://www.linkedin.com/company/symphonyeco/"
     twitter ="@SymphonyEco"
     twitterhandle ="SymphonyEco"
     resizetiny ="800"

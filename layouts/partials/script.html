@@ -1,3 +1,27 @@
+<!-- Modified Facebook Pixel Code -->
+<script>
+  var disableFb = 'facebook-disabled';
+  if (document.cookie.indexOf(disableFb + '=true') > -1) {
+    // don't fire facebook beacon
+  }
+  function FbOptIn() {
+      // Facebook Pixel ID. 
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '213456016383888');
+      fbq('track', 'PageView');            
+        }
+  function customOptout() {
+      document.cookie = disableFb + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+  }
+</script>
+<!-- cookie consent -->
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
   window.cookieconsent.initialise({
@@ -11,8 +35,79 @@
         "border": "#ffffff"
       }
     },
+    onInitialise: function (status) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      window.FbOptIn();
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', '{{.Site.Params.googleanalytics}}', 'auto');
+        ga('send', 'pageview');
+      }
+      if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+      window['ga-disable-{{.Site.Params.googleanalytics}}'] = true;
+      }
+    },
+    onStatusChange: function(status, chosenBefore) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      window.FbOptIn();
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', '{{.Site.Params.googleanalytics}}', 'auto');
+        ga('send', 'pageview');
+    }
+    if (type == 'opt-out' && !didConsent) {
+    // disable cookies
+    window['ga-disable-{{.Site.Params.googleanalytics}}'] = true;
+    }
+    location.reload();
+    },
+    onRevokeChoice: function() {
+    var type = this.options.type;
+    if (type == 'opt-in') {
+    // disable cookies
+    window['ga-disable-{{.Site.Params.googleanalytics}}'] = true;
+    }
+    if (type == 'opt-out') {
+      // enable cookies
+      window.FbOptIn();
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', '{{.Site.Params.googleanalytics}}', 'auto');
+        ga('send', 'pageview');
+    }
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+    var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
+    location.reload();
+    },
+    "type": "opt-in",
     "content": {
-      "message": "A cookie is a small text file containing information that a website transfers to your computer’s hard disk for record-keeping purposes and allows us to analyse our site traffic patterns. It does not, however, contain chocolate chips, you cannot eat it, and there is no special hidden jar. <br> By continuing, you give both, your consent to our cookies and your acceptance of them not being edible. Welcome to <strong>Symphony&nbsp;ECO</strong>."
+      "message": "A cookie is a small text file containing information that a website transfers to your computer’s hard disk for record-keeping purposes and allows us to analyse our site traffic patterns. It does not contain chocolate chips, you cannot eat it, and there is no special hidden jar. <br> By continuing, you give both, your consent to our cookies and your acceptance of them not being edible. Welcome to <strong>Symphony&nbsp;ECO</strong>.",
+      "allow": "Accept"
     }
   });
   </script>  

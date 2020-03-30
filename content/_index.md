@@ -3,7 +3,7 @@ date: 2020-03-10T06:25:09.000+00:00
 heroheader:
 - heroHeading: Conservation<br>is a Symphony
 - heroHeading: Welcome<br>to the<br>global team
-- heroHeading: Elevating both<br>economy and<br>environment
+- heroHeading: Mobilizing<br>champions<br>worldwide
 - heroHeading: One planet<br>one team<br>one mission
 slides:
 - caption: Conscientious Consulting
@@ -12,14 +12,13 @@ slides:
 
 '
 - caption: Global Team, Global Impact
-  description: 'To have the greatest impact, you must engage a global audience. We
-    are here to provide  you with the tools and know-how to reach the world.
+  description: 'To have the greatest impact, you must engage a global team. We
+    are here to provide you with the tools and know-how to reach the world.
 
 '
 - caption: Creating in Concert
-  description: 'Join our global network of world-changing institutions. If you have
-    ever hoped and wondered how you could grow your impact, together we will do just
-    that.
+  description: 'Join our global network of world-changing organizations. If you have
+    ever wanted to grow your impact, welcome to Symphony ECO.
 
 '
 service_item:
@@ -48,8 +47,7 @@ service_item:
     secure or takes longer than 3 seconds to load?
   answer: 'Beautiful. Fast. Secure. As your digital brochure, your website must never
     ever be forgotten. <br><br>Our designs focus on one thing only: User Experience.
-    That is how we raise your visibility on Google, getting you all the visitors,
-    donors, and volunteers you need.'
+    That is how we raise your visibility on Google, getting you all the volunteers you need.'
 - name: __MARKETING__
   icon: images/responsive.svg
   serviceDetailLink: marketing

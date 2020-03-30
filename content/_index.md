@@ -67,9 +67,9 @@ service_item:
     do. Use it well.<br><br>We design Social Media profiles on all platforms that
     quickly grow your followers and convert them into your greatest supporters as
     visitors, volunteers, and donors.
-- name: __VOLUNTEERISM__
+- name: __OPERATIONAL__
   icon: images/responsive.svg
-  serviceDetailLink: volunteerism
+  serviceDetailLink: operational
   color: yellow
   question1: Did you know that is a
   graph: "1"

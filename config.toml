@@ -27,7 +27,7 @@ publishDir = "docs"
         weight  = 2
     [[menu.nav]]
         name    = "Your Impact"
-        url     = "service"
+        url     = "volunteerism"
         weight  = 3
     [[menu.nav]]
         name    = "The News"

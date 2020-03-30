@@ -64,9 +64,9 @@ service_item:
     Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
     We set up and design fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
  
-  - name: __VOLUNTEERISM__
-    icon: "images/responsive.svg"
-    serviceDetailLink: volunteerism
+  - name: __OPERATIONAL__
+    icon: images/responsive.svg
+    serviceDetailLink: operational
     color: yellow
     question1: Did you know that
     graph: 1

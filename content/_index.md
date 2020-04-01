@@ -24,7 +24,7 @@ slides:
 service_item:
 - name: __MANAGEMENT__
   icon: images/responsive.svg
-  serviceDetailLink: operational
+  serviceDetailLink: management
   color: yellow
   question1: Did you know that
   graph: 1

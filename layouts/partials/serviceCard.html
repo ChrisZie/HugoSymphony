@@ -4,7 +4,7 @@
       {{ range .Params.service_item }}
         <div class='col-12 col-md-6 col-lg-6 col-xl-3 px-0' >
           <div class='ui_box white'>
-          {{ $link :=  (printf "%s%s" "volunteerism/" .serviceDetailLink )   }}
+          {{ $link :=  (printf "%s%s" "service/" .serviceDetailLink )   }}
           <div class='ui_box__inner'>
             <h2>
               {{ .name | markdownify }}

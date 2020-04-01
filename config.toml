@@ -4,7 +4,6 @@ title = "Symphony ECO - Environmental Conservation Consulting"
 summaryLength = "10"
 paginate = 6
 enableRobotsTXT = true
-
 publishDir = "docs"
 
 
@@ -15,7 +14,6 @@ publishDir = "docs"
   changefreq = "monthly"
   filename = "sitemap.xml"
   priority = 0.5
-
 
 
 # Site Menus
@@ -81,7 +79,7 @@ link = "https://www.instagram.com/symphony.eco"
 [[params.social]]
 title = "linkedin"
 icon = "fab fa-linkedin-in"
-link = "#"
+link = "https://www.linkedin.com/company/symphonyeco/"
 
 
 [privacy]

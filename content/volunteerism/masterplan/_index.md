@@ -13,7 +13,7 @@ description: "Strategic Plans that create huge benefits from Ecotourism"
 heroBGImage: https://images.unsplash.com/photo-1565774488554-c75ea9c70bcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3023&q=80
 heroTitleImage: https://cdn.pixabay.com/photo/2015/03/12/15/30/canyon-670392_1280.jpg
 heroheader:
-  - heroHeading : Success is a strategy
+  - heroHeading : Your volunteers are your Ecotourism champions
   - heroHeading : Be the champion of your environment and your economy
   - heroHeading : Right now,<br>create a legacy<br>that lasts a lifetime
 

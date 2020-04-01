@@ -235,12 +235,17 @@ float: left;
   } */
 }
 
+@media (min-width: 1300px)  {
+  .service-slider-overview {
+    padding-top: 8vh!important;
+  }
+}
+
 @media (min-width: 1920px)  {
   .ui_box{
     height: 325px;
   }
   .service-slider-overview {
-    //padding-bottom: 100px;
     padding-top: 8vh!important;
   }
 }

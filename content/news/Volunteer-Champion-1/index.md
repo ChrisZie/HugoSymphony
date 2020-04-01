@@ -17,6 +17,7 @@ tags:
   - "Growth"
   - "Development"
 
+og_image: "cover-Volunteer1.jpg"
 
 series: "special"
 

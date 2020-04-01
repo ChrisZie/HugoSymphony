@@ -21,23 +21,23 @@
                                           <div class="social">
                                               <div class="row align-items-center justify-content-center">
                                                   <div class="col-auto align-self-center px-0 footer-box">
-                                                      <a href="{{ .Site.Params.facebookLink }}" class="facebook">
+                                                      <a href="{{ .Site.Params.facebookLink }}" rel="author" title="Follow Us on Facebook" class="facebook">
                                                           <i class="fab fa-facebook-f"></i>
                                                       </a>
                                                   </div>
                                                   <div class="col-auto align-self-center px-0 footer-box">
-                                                      <a href="{{ .Site.Params.instagramLink }}" class="instagram">
+                                                      <a href="{{ .Site.Params.instagramLink }}" rel="author" title="Follow Us on Instagram" class="instagram">
                                                           <i class="fab fa-instagram"></i>
                                                       </a>
                                                   </div>
                                                   <div class="col-auto align-self-center px-0 footer-box">
-                                                      <a href="{{ .Site.Params.twitterLink }}" class="twitter">
+                                                      <a href="{{ .Site.Params.twitterLink }}" rel="author" title="Follow Us on Twitter" class="twitter">
                                                           <i class="fab fa-twitter"></i>
                                                       </a>
                                                   </div>
                                                   <div class="col-auto align-self-center px-0 footer-box">
                                                       {{ $legal := "legal/"}}
-                                                      <a href="{{ $legal | absURL}}" target=”_blank”  class="footer-link">
+                                                      <a href="{{ $legal | absURL}}" target=”_blank” class="footer-link">
                                                           <i class="fas fa-balance-scale"></i>
                                                       Legal and privacy</a>
                                                   </div>

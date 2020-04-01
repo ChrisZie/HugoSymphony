@@ -1,3 +1,4 @@
+{{ $imagesrc := print .Permalink (cond (isset $.Page.Params "og_image") $.Page.Params.og_image $.Site.Params.og_image | relURL) }}
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -22,6 +23,36 @@
 <!-- Language Tags -->
 <meta property="og:locale" content="en">
 <!-- schema org -->
+{{ if eq .Section "news" }} 
+<script defer type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": {{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }},
+    "author": {
+      "@type": "Person",
+      "name": "{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.Author }}{{ end }}"
+    },
+    "datePublished": "{{ .Date.Format "2006-01-02" }}",
+    "description": {{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}",
+    "wordCount": {{ .WordCount }},
+    "mainEntityOfPage": "True",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+    "image": {
+      "@type": "imageObject",
+      "url": "{{ $imagesrc }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Params.Author }}",
+      "logo": {
+        "@type": "imageObject",
+        "url": "{{ .Site.Params.og_image | absURL }}"
+      }
+    }
+  }
+</script>
+{{ else }}
 <script defer type="application/ld+json">
   { 
     "@context": "http://schema.org", 
@@ -37,18 +68,12 @@
     "logo": "{{ .Site.Params.fav_icon | absURL }}" 
   }
 </script>
-<!-- Image Tags# -->
-{{ if .Params.og_image }}
-<meta property="og:image" content="{{ .Params.og_image | relURL }}"/>
-<meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
-<meta name="twitter:image" content="{{ .Params.og_image | absURL  }}" />
-<meta name="twitter:image:src" content="{{ .Params.og_image | absURL  }}" /> 
-{{ else }}
-<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image | relURL }}"/>
-<meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}"/>
-<meta name="twitter:image" content="{{ .Site.Params.og_image | absURL  }}" />
-<meta name="twitter:image:src" content="{{ .Site.Params.og_image | absURL  }}" /> 
 {{ end }}
+<!-- Image Tags# -->
+<meta property="og:image" content="{{ $imagesrc }}"/>
+<meta property="og:image:secure_url" content="{{ $imagesrc }}"/>
+<meta name="twitter:image" content="{{ $imagesrc  }}" />
+<meta name="twitter:image:src" content="{{ $imagesrc }}" /> 
 <meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
 <!-- Twitter Meta Tags -->
 <meta name="twitter:dnt" content="on">

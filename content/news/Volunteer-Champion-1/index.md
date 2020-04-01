@@ -10,6 +10,7 @@ description: "Read on for a critical revelation if you have challenges getting e
 # taxonomies
 categories: 
   - "VOLUNTEERISM"
+
 tags:
   - "New"
   - "Volunteer"
@@ -23,7 +24,6 @@ series: "special"
 
 # post type
 type: "post"
-
 ---
 *If you have ever had the issue that you don’t get enough volunteers and that the volunteers you DO get are either not passionate enough, engaged enough, or don’t return to volunteer with you again, read on for how you can turn your current and future volunteers into Volunteer Champions.*   
 

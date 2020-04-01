@@ -22,38 +22,38 @@ slides:
 
 '
 service_item:
-- name: __MASTER PLAN__
+- name: __MANAGEMENT__
   icon: images/responsive.svg
-  serviceDetailLink: masterplan
-  question1: Did you know that over
-  graph: "1"
-  data: 99.5%
-  bar: "3"
-  question2: of all Tourism Organizations and Professionals state that Ecotourism
-    is a **rapidly** growing industry?
-  answer: Ecotourism can be your best source of income, but **ONLY** if you have a
-    great plan to follow.<br><br>Our internationally recognized Ecotourism Management
-    Plans give both NGOs and Government Agencies the very best tools to gain the greatest
-    benefit.
+  serviceDetailLink: operational
+  color: yellow
+  question1: Did you know that
+  graph: 1
+  data: 84%
+  bar: 2
+  question2: of volunteers donate their time to their favourite cause **multiple** times each year?
+  answer: It is fact that volunteers are the **most** important resource for the success
+    of your cause.<br><br>We create, supply, and train you on world-class tools and training programs
+    that guarantee that you attain, train, maintain, and retain the most excellent
+    volunteers.
 - name: __WEB DESIGN__
   icon: images/money.svg
   serviceDetailLink: webdesign
   color: blue
   question1: Did you know that over
-  graph: "1"
+  graph: 1
   data: 80%
-  bar: "2"
+  bar: 2
   question2: of visitors to your website will just **leave** if your website is not
     secure or takes longer than 3 seconds to load?
-  answer: 'Beautiful. Fast. Secure. As your digital brochure, your website must never
-    ever be forgotten. <br><br>Our designs focus on one thing only: User Experience.
-    That is how we raise your visibility on Google, getting you all the volunteers you need.'
+  answer: Beautiful. Fast. Secure. Mobile Friendly. Your digital brochure **must** look professional
+    for you to be taken seriously.<br><br>Our designs focus on one thing only - User Experience.
+    That is how we get you noticed on Google, getting all the volunteers you need.
 - name: __MARKETING__
   icon: images/responsive.svg
   serviceDetailLink: marketing
   color: red
   question1: Did you know that
-  graph: "2"
+  graph: 2
   data_left:
   - fact: ALL USERS
     bar: 1
@@ -61,39 +61,37 @@ service_item:
     bar: 2
   - fact: INSTAGRAM
     bar: 3
-  question2: the **vast** majority of internet users are now on Social Media, using
-    it to donate, volunteer, and plan where to travel?
+  question2: the **vast** majority of volunteers are now on Social Media, using
+    it to volunteer, donate, and plan where to travel?
   answer: To the world, your Social Media profile **is** who you are and what you
-    do. Use it well.<br><br>We design Social Media profiles on all platforms that
-    quickly grow your followers and convert them into your greatest supporters as
-    visitors, volunteers, and donors.
-- name: __OPERATIONAL__
-  icon: images/responsive.svg
-  serviceDetailLink: operational
-  color: yellow
-  question1: Did you know that is a
-  graph: "1"
-  data: 78%
-  bar: "2"
-  question2: __more__ likely chance to receive donations from volunteers than non-volunteers?
-  answer: It is fact that volunteers are the most important resource for the success
-    of your cause. <br><br>We design and deploy world-class tools and training programs
-    that guarantee that you attain, train, maintain, and retain all the best and brightest
-    volunteers.
+    do. This is where you build the community you need.<br><br>We design Social Media profiles on all platforms that
+    grow your followers and convert them into your best supporters as
+    volunteers and donors.
 - name: __FUNDRAISING__
   icon: images/responsive.svg
   serviceDetailLink: fundraising
   color: yellow
+  question1: Did you know you are
+  graph: 1
+  data: 83%
+  bar: 2
+  question2: __more__ likely to receive donations from volunteers than non-volunteers?
+  answer: Volunteers can be your biggest financial supporters but **only** if you give them the right
+    tools.<br><br>We create fantastic online fundraising campaigns that reach
+    volunteer-donors all over the world, giving you the income that lets you
+    maximize your impact.
+- name: __MASTER PLAN__
+  icon: images/responsive.svg
+  serviceDetailLink: masterplan
   question1: Did you know that over
-  graph: "1"
-  data: "$235 Billion"
-  bar: "1"
-  question2: or 55% of **all** donations you can get are made online, mainly through
-    Social Media and your website?
-  answer: You know as well as we do that how much change you make is directly tied
-    to funding. <br><br>We create fantastic online fundraising campaigns that reach
-    donors and investors all over the world, providing you with income that lets you
-    make your impact.
+  graph: 1
+  data: 99.5%
+  bar: 3
+  question2: of all Tourism Organizations and Professionals state that Ecotourism
+    is a **rapidly** growing industry?
+  answer: Success from Ecotoursim is **hugely** determined by the volunteers you get to both help you manage tourists and
+    to get the word out as marketers.<br><br>Our Ecotourism Volunteer
+    Plans give both NGOs and Governments the best tools to grow while protecting nature first.
 draft: true
 
 ---

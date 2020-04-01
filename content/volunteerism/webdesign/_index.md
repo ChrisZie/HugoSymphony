@@ -14,37 +14,37 @@ newstag: "Web Design"
 heroBGImage: https://cdn.pixabay.com/photo/2016/01/10/23/18/lions-1132745_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2017/09/25/17/02/africa-2785836_1280.jpg
 heroheader:
-  - heroHeading : Designed for impact
-  - heroHeading : Your website is your<br>digital brochure.<br>Be remembered.
+  - heroHeading : Your image is key to your success
+  - heroHeading : This is your<br>digital brochure.<br>Be remembered.
   - heroHeading : It's all about beauty, speed, security, and flexibility
 
 quizcards:
   - titlefront: simplicity
-    textfront: How Many People Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 
+    textfront: How Many Potential Volunteers Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
-    titleback: 52% Mobile Only
-    textback: Phones are the future! This number is growing, fast. But though over half of all users use only their phones to look up where to travel to and who to donate and volunteer with, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout to be as amazing on a phone as on a PC. Google measures performance on both Mobile and Desktop when choosing who to rank first in search results so we optimize every element for maximum visibility.
+    titleback: 52%
+    textback: Phones are the future! This number is growing, fast. But though over half of all users use only their phones to look up where to volunteer, donate and travel, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout to be as amazing on a phone as on a PC, giving mobile users the best possible experience. And as Google ranks performance on Mobile highly, we also get your website viewed by as many users as possible.
     bgimageback: https://cdn.pixabay.com/photo/2015/09/06/11/40/zebra-927272_1280.jpg
 
   - titlefront: style
-    textfront: How Long Does A User Take To Judge Whether They Will Stay On Your Website Or Go To A Competitor?
+    textfront: How Long Does A Potential Volunteer Take To Judge Whether They Will Stay On Your Website Or Go To A Competitor?
     bgimagefront: https://cdn.pixabay.com/photo/2019/06/16/16/01/africa-4278141_1280.jpg
     titleback: 0.05 Seconds
-    textback: Make it count! That's all you have to convince a user to stay and learn about who you are and what you do. If that is all you get to make a difference, make it unforgettable.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
+    textback: Your image is important! If you only get a moment to convince a user to stay and learn about who you are and what you are making a difference, make it unforgettable.<br><br>We work with you to understand your themes, mission, and goals. We use that to design a spectacular website that uses colour, design effects, and layouts to optimize User Experience. And, as users clearly prefer original designs, your site will not be made from a template but rather designed just for you.
     bgimageback: https://cdn.pixabay.com/photo/2016/11/23/13/23/african-wild-dog-1852820_1280.jpg
 
   - titlefront: speed
-    textfront: How Many Users Do You Lose **Per Second** When Your Website Takes Longer Than Three Seconds to Load?
+    textfront: How Many Potential Volunteers Do You Lose **Per Second** When Your Website Takes Longer Than 3 Seconds to Load?
     bgimagefront: https://source.unsplash.com/92MgFhlWD-8/1200x600
     titleback: 20-30%
-    textback: Give the people what they want! Imagine how much more impact you could have with 75% more visitors, donors, and volunteers than you have right now.<br><br>All our designs fully consider performance, with images, colours, and content all tuned for maximum speed. Google rates template sites from Wix and WordPress a "C" grade or lower due to their awfully slow performance, making them less likely to appear during a search. Our sites have an "A" grade, vastly increasing your visibility.
+    textback: Give the people what they want! Imagine how much more of an impact you could have with 75% more volunteers and donors than you have right now.<br><br>All of our designs fully consider performance, with images, colours, and content all tuned for maximum speed. Google rates template sites from Wix and WordPress a "C" grade or lower due to their extremely slow performance, making them less likely to appear during a search. Our sites have an "A" grade, greatly increasing your visibility.
     bgimageback: https://source.unsplash.com/jBjQA3LU9Dc/1200x600
 
   - titlefront: security
     textfront: How Often Do Hackers Target Small Businesses or Governments Every Single Day?
     bgimagefront: https://source.unsplash.com/YL5ZDmdDNEY/1200x600
     titleback: Every 39 Seconds
-    textback: Don't become a victim! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when building websites. Visitors, volunteers, and donors should never be at risk when they trust you with their data. The most attacked websites are from WordPress, Wix, and other template sites, so our technology is cutting-edge and prioritizes security, ensuring that you are never targeted.
+    textback: Don't become a victim! Major organizations now spend TRILLIONS of dollars each year on improving security, making this their single largest investment.<br><br>Security is our highest priority when building websites. Volunteers and donors should never be at risk when they trust you with their data. The vast majority of security issues occur on template-made websites from systems like WordPress or Wix. Our technology is top-rated for security, ensuring that you are never targeted.
     bgimageback: https://cdn.pixabay.com/photo/2015/05/25/16/02/hippo-783522_1280.jpg
 
 process:

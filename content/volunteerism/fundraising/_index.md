@@ -22,7 +22,7 @@ quizcards:
     textfront: How Many Donations Do Organizations Usually Receive From Outside Of Their Own Country?
     bgimagefront: https://source.unsplash.com/zGSWfxtMvJQ/1200x600
     titleback: 45% International
-    textback: Your donors are everywhere! How people donae is changing, fast. More donors prefer to donate online, or else donate their time as volunteers instead.<br><br>As management within Governments and NGOs we learned difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
+    textback: Your donors are everywhere! How people donate is changing, fast. More donors prefer to donate online, or else donate their time as volunteers instead.<br><br>As management within Governments and NGOs we learned difficult lessons on the challenges of gaining funding, as well as the overwhelming success of getting - and keeping - good funding. We create online campaigns for you that attract the most numbers of donors and teach you how to keep those donors coming back for years. 
     bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
 
   - titlefront: communication

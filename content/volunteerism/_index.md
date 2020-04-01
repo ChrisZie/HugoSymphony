@@ -20,6 +20,63 @@ slides :
       Your passion and determination have brought you here. Let's now take your impact to the next level. You bring the vision, we'll bring the rest.
 
 service_item: 
+  - name: __MANAGEMENT__
+    icon: images/responsive.svg
+    serviceDetailLink: operational
+    color: yellow
+    question1: Did you know that
+    graph: 1
+    data: 6.9 Billion
+    bar: 3
+    question2: hours were put in last year by international volunteers from **just** the USA alone, with even more from Europe?
+    answer: 'How many of those hours were donated to you?<br>
+    Volunteers only invest their time and effort with you if you are able to manage them effectively.<br><br>
+    Our volunteer programs attract, train, coordinate, and, best of all, keep volunteers coming back.'
+
+  - name: __WEB__ __DESIGN__
+    icon: "images/money.svg"
+    serviceDetailLink: webdesign
+    color: blue
+    question1: Did you know that
+    graph: 1
+    data: 88%
+    bar: 2
+    question2: of visitors, including volunteers and donors, will never return to your website after a **single** bad experience?
+    answer: 'How many volunteers is your website attracting?<br>
+    Volunteers and donors expect your website to look and perform professionally.<br><br>
+    Our websites are beautiful to look at, quick to load, fully secure, and are made mobile-first.'
+
+  - name: __MARKETING__
+    icon: "images/responsive.svg"
+    serviceDetailLink: marketing
+    color: red
+    question1: Did you know that
+    graph: 1
+    data: $102 Billion
+    bar: 1
+    question2: is being invested by Marketers in Social Media advertising this year alone, more than **all** other marketing options?
+    answer: 'How many new followers did you get this year?<br>
+    Your volunteers will look you up on Social Media to double-check if you are actually active first.<br><br>
+    Our Profiles and Posting Guides grow followers enables them to become volunteers and donors.'
+ 
+  - name: __FUNDRAISING__
+    icon: "images/responsive.svg"
+    serviceDetailLink: fundraising
+    color: yellow
+    question1: Did you know that
+    graph: 2
+    data_left :
+      - fact: INDIVIDUAL DONOR
+        bar: 1
+      - fact: GOVERNMENT GRANT
+        bar: 2
+      - fact: CORPORATE SPONSOR
+        bar: 3
+    question2: Individual Donors should provide over 70% of all your donations and are almost **always** inspired by good marketing? 
+    answer: 'Who are your best and most invested donors?<br>
+    Volunteers are your biggest donors if you give them the most user-friendly tools to do so.<br><br>
+    Our fundraising strategies use your website, Social Media, and more to get, and keep, superb donors.'
+
   - name: __MASTER__ __PLAN__
     icon: "images/money.svg"
     serviceDetailLink: masterplan
@@ -33,66 +90,9 @@ service_item:
         bar: 2
       - fact: AGRICULTURE
         bar: 3
-    question2: Tourism is the second largest industry in the world and makes up 10% of the **entire world's** revenue and jobs.<br><br>
-    answer: 'Do you benefit from this?<br>
-    The Master Plan shows you how to best guide Ecotourism so that nature does not suffer due to economic growth.<br><br>
-    We create a fully detailed plan that captures everything from revenue generation to policies to infrastructure.'
-
-  - name: __WEB__ __DESIGN__
-    icon: "images/money.svg"
-    serviceDetailLink: webdesign
-    color: blue
-    question1: Did you know that
-    graph: 1
-    data: 88%
-    bar: 2
-    question2: of visitors will never return to your website after a **single** bad experience?
-    answer: 'How is your website?<br>
-    Big Governments and Organizations pay billions yearly on improving User Experience.<br><br>
-    We design and publish websites with beautiful Designs, high Speed, super Security, and make sure they perform even better on mobile devices.'
-
-  - name: __MARKETING__
-    icon: "images/responsive.svg"
-    serviceDetailLink: marketing
-    color: red
-    question1: Did you know that
-    graph: 1
-    data: $102 Billion
-    bar: 1
-    question2: is being invested by Marketers in Social Media advertising this year, **more than all** other marketing options?
-    answer: 'What did you invest?<br>
-    Visitors, donors, and volunteers are on Social Media. This must be your biggest marketing tool to guarantee your success.<br><br>
-    We set up and design fantastic profiles and will guide you on where, when, and what to post to get found by everyone.'
- 
-  - name: __OPERATIONAL__
-    icon: images/responsive.svg
-    serviceDetailLink: operational
-    color: yellow
-    question1: Did you know that
-    graph: 1
-    data: 6.9 Billion
-    bar: 2
-    question2: hours were put in by volunteers from just the USA **last year alone**?
-    answer: 'How many do you get?<br>
-    Volunteers are so critical because they not only freely offer their skills and time, but also their donations and marketing.<br><br>
-    We design volunteer programs that attract, train, coordinate, and, best of all, keep volunteers coming back.'
- 
-  - name: __FUNDRAISING__
-    icon: "images/responsive.svg"
-    serviceDetailLink: fundraising
-    color: yellow
-    question1: Did you know that over
-    graph: 2
-    data_left :
-      - fact: INDIVIDUAL DONOR
-        bar: 1
-      - fact: GOVERNMENT GRANT
-        bar: 2
-      - fact: CORPORATE SPONSOR
-        bar: 3
-    question2: 70% of donations are made by individual donors, who **almost always** get inspired by good marketing? 
-    answer: 'Who are your donors?<br>
-    Donations support causes around the world. Donations are given every moment so get donors to your cause.<br><br>
-    We design globally attractive fundraising campaigns, utilizing the best technical resources to get, and keep, donors.'
+    question2: Tourism is the second largest industry in the world and makes up 10% of the **entire** world's revenue and jobs.
+    answer: 'How many new visitors did you get this year?<br>
+    Ecotourism can attract the most number of your volunteers if you are set up best to manage them.<br><br>
+    Our Ecotourism Volunteer Plan expertly helps you to attract and manage Ecotourism volunteers.'
 ---
 

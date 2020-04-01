@@ -34,7 +34,7 @@
       "name": "{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.Author }}{{ end }}"
     },
     "datePublished": "{{ .Date.Format "2006-01-02" }}",
-    "description": {{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}",
+    "description": {{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }},
     "wordCount": {{ .WordCount }},
     "mainEntityOfPage": "True",
     "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",

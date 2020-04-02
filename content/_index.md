@@ -8,19 +8,20 @@ heroheader:
 slides:
 - caption: Conscientious Consulting
   description: 'You do what you do because you have a vision. We do what we do because
-    we are determined to make that vision a reality.
+    we are determined to make that vision a reality.'
 
-'
 - caption: Global Team, Global Impact
   description: 'To have the greatest impact, you must engage a global team. We
-    are here to provide you with the tools and know-how to reach the world.
+    are here to provide you with the tools and know-how to reach the world.'
 
-'
 - caption: Creating in Concert
   description: 'Join our global network of world-changing organizations. If you have
-    ever wanted to grow your impact, welcome to Symphony ECO.
+    ever wanted to grow your impact, welcome to Symphony ECO.'
 
-'
+- caption: Creating in Concert
+  description: 'Join our global network of world-changing organizations. If you have
+    ever wanted to grow your impact, welcome to Symphony ECO.'
+
 service_item:
 - name: __MANAGEMENT__
   icon: images/responsive.svg

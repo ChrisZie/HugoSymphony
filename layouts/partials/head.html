@@ -5,7 +5,6 @@
 <link rel="shortcut icon" href="{{ .Site.Params.fav_icon | absURL }}" />
 <link rel="dns-prefetch" href="{{ .Site.BaseURL }}">
 <link rel="preconnect" href="{{ .Site.BaseURL }}">
-<meta property="og:type" content="website"/>
 <!-- Link Tags -->
 <base href="{{ .Permalink }}">
 <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
@@ -18,10 +17,19 @@
 <meta property="og:site_name" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
 <!-- Description Tags# -->
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+<meta itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 <meta name="keywords" content="{{ if .Keywords }}{{ .Keywords }}{{ else }}{{ .Site.Params.keywords }}{{ end }}">
 <!-- Language Tags -->
 <meta property="og:locale" content="en">
+<!-- robot meta tags -->
+{{ if and (eq .Kind "taxonomy") (eq .Type "categories")}}
+<meta name="robots" content="noindex, follow"/>
+<meta name="googlebot" content="noindex,follow" />
+{{ else }}
+<meta name="robots" content="index, follow"/>
+<meta name="googlebot" content="index,follow" />
+{{ end }}
 <!-- schema org -->
 {{ if eq .Section "news" }} 
 <script defer type="application/ld+json">
@@ -52,6 +60,7 @@
     }
   }
 </script>
+<meta property="og:type" content="article"/>
 {{ else }}
 <script defer type="application/ld+json">
   { 
@@ -68,6 +77,7 @@
     "logo": "{{ .Site.Params.fav_icon | absURL }}" 
   }
 </script>
+<meta property="og:type" content="website"/>
 {{ end }}
 <!-- Image Tags# -->
 <meta property="og:image" content="{{ $imagesrc }}"/>
@@ -78,10 +88,14 @@
 <!-- Twitter Meta Tags -->
 <meta name="twitter:dnt" content="on">
 <meta name="twitter:url" content="{{ .Permalink }}" /> 
+<meta name="twitter:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
 <meta name="twitter:site" content="{{.Site.Params.twitter}}">
+<meta name="twitter:creator" content="{{.Site.Params.twitter}}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+<!-- sitemap -->
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL }}sitemap.xml" /> 
+<!-- stylesheets -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <link rel="preload" href="{{ .Site.BaseURL }}/style/googlefont.css" as="style" onload="this.rel='stylesheet'">
 <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/style/bootstrap.min.css">

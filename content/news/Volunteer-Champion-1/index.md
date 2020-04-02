@@ -9,7 +9,7 @@ description: "Read on for a critical revelation if you have challenges getting e
 
 # taxonomies
 categories: 
-  - "VOLUNTEERISM"
+  - "Volunteerism"
 
 tags:
   - "New"

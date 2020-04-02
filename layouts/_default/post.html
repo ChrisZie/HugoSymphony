@@ -1,6 +1,6 @@
       {{ $title := .Title | markdownify }}
       {{if .Resources.Match "cover*" }}
-      <a href="{{ .Permalink }}">
+      <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}" rel="author">
           {{ $resources := .Resources.Match "cover*"}}
             {{ range $resources }}
               {{ with . }}
@@ -26,16 +26,16 @@
         {{ end }}
       </a>
       {{ else if .Params.Image }}
-      <a href="{{ .Permalink }}">
+      <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}" rel="author">
         <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
       </a>
       {{ end }}
       <div class="card-body px-0 py-1 pt-2">
         {{ range .Params.Categories }}
-        <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
+        <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}" title="Category {{ . | title | humanize }}"
           class="text-primary d-none d-md-block">{{ . | title | humanize }}</a>
         {{ end }}
-        <a href="{{ .Permalink }}" class="h5 d-block my-2">{{ .Title | markdownify }}
+        <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}" class="h5 d-block my-2" rel="author">{{ .Title | markdownify }}
         <p class="card-text d-none d-md-block">{{ .Summary }}</p> </a>
         <div class="post-meta">
           <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>

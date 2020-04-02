@@ -1,5 +1,5 @@
 {{ define "HTMLStyle" }}
-<html lang="en" class="no-js">
+<html lang="en" prefix="og: http://ogp.me/ns#" class="no-js">
 {{ end }}
 
 {{ define "extrahead" }}
@@ -73,7 +73,7 @@
             <div class="col-md-5" style="padding-top: 4px;">
               {{ $title := .Title | markdownify }}
               {{if .Resources.Match "cover*" }}
-              <a href="{{ .Permalink }}">
+              <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}"> 
                 {{ $resources := .Resources.Match "cover*"}}
                 {{ range $resources }}
                     {{ with . }}
@@ -99,7 +99,7 @@
                 {{ end }}
               </a>
               {{ else if .Params.Image }}
-              <a href="{{ .Permalink }}">
+              <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}">
                 <img src="{{ .Params.Image | absURL }}" class="card-img" alt="{{ .Title | markdownify }}">
               </a>
               {{ end }}
@@ -107,10 +107,10 @@
             <div class="col-md-6 offset-md-1">
               <div class="card-body">
                 {{ range .Params.Categories }}
-                <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
+                <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}" title="Category {{ . | title | humanize }}"
                   class="card-title text-primary">{{ . | title | humanize }}</a>
                 {{ end }}
-                <a href="{{ .Permalink }}">
+                <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}">
                   <h2 class="h1 font-weight-bold d-block text-dark mb-4 card-title">{{ .Title | markdownify }}</h2>
                 <p class="card-text">{{.Summary}}...</p> </a>
                 <div class="mb-3 post-meta">
@@ -141,7 +141,7 @@
         <article class="media">
           {{ $title := .Title | markdownify }}
           {{if .Resources.Match "cover*" }}
-          <a href="{{ .Permalink }}">
+          <a href="{{ .Permalink }}" title="{{ $title }}">
             {{ $resources := .Resources.Match "cover*"}}
             {{ range $resources }}
                 {{ with . }}
@@ -152,12 +152,12 @@
             {{ end }}
           </a>
           {{ else if .Params.Image }}
-          <a href="{{ .Permalink }}">
+          <a href="{{ .Permalink }}" title="{{ $title }}">
             <div class="recent-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
           </a>
           {{ end }}
           <div class="media-body">
-            <a href="{{ .Permalink }}" class="h5 d-block mb-3">{{ .Title | markdownify }}</a>
+            <a href="{{ .Permalink }}" class="h5 d-block mb-3" title="{{ .Title | markdownify }}">{{ .Title | markdownify }}</a>
             <div class="mb-3 post-meta">
               <span style="font-weight: bold;font-style: italic;">By {{ if .Params.author }}{{ .Params.author }}{{else}}{{.Site.Params.Author}}{{ end }}<br></span>
               {{ if not .Params.HideDate }}

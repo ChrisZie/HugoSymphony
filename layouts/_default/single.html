@@ -111,7 +111,7 @@
       <div class="_Info">
         <div class="_Supertitle">
           {{ range .Params.Categories }}
-          <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}"
+          <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}" title="Category {{ . | title | humanize }}"
             class="text-primary">{{ . | title | humanize }}</a>
           {{ end }}
         </div>
@@ -127,16 +127,16 @@
         {{ $url := printf "%s" .Permalink | absLangURL }}
         {{ $body := print .Title  ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
         <div class="sharing mini" style="display: flex;">
-          <a href="https://www.facebook.com/sharer.php?u={{ $url }}" class="" aria-label="share on Facebook" target=”_blank”>
+          <a href="https://www.facebook.com/sharer.php?u={{ $url }}" class="" aria-label="share on Facebook" title="share on Facebook" target=”_blank”>
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a href="http://twitter.com/share?url={{ $url }}&text={{ .Title   }}&via=SymphonyEco&hashtags=SymphonyECO,MakeItaSymphony" class="" aria-label="share on Twitter" target=”_blank”>
+          <a href="http://twitter.com/share?url={{ $url }}&text={{ .Title   }}&via=SymphonyEco&hashtags=SymphonyECO,MakeItaSymphony" class="" aria-label="share on Twitter" title="share on Twitter" target=”_blank”>
             <i class="fab fa-twitter"></i>
           </a> 
-          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url }}&title={{ .Title  }}&source=SymphonyECO" class="" aria-label="share on Linkedin" target=”_blank”>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url }}&title={{ .Title  }}&source=SymphonyECO" class="" aria-label="share on Linkedin" title="share on Linkedin" target=”_blank”>
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="mailto:?subject=Check%20out%20{{ .Title  }}.&body={{ $body }}" class="twitter" aria-label="share on Email" target=”_blank”>
+          <a href="mailto:?subject=Check%20out%20{{ .Title  }}.&body={{ $body }}" class="twitter" aria-label="share via Email"  title="share via Email" target=”_blank”>
             <i class="fas fa-envelope"></i>
           </a>
         </div>
@@ -178,16 +178,16 @@
             {{ $url := printf "%s" .Permalink | absLangURL }}
             {{ $body := print .Title  ", by " .Site.Title "\n" .Params.description "\n\n" $url "\n" }}
             <div class="sharing mini" style="display: flex;float: right;">
-              <a href="https://www.facebook.com/sharer.php?u={{ $url }}" class="" aria-label="share on Facebook" target=”_blank”>
+              <a href="https://www.facebook.com/sharer.php?u={{ $url }}" class="" aria-label="share on Facebook" title="share on Facebook" target=”_blank”>
                 <i class="fab fa-facebook-f"></i>
               </a>
-              <a href="http://twitter.com/share?url={{ $url }}&text={{ .Title  }}&via=SymphonyEco&hashtags=SymphonyECO,MakeItaSymphony" class="" aria-label="share on Twitter" target=”_blank”>
+              <a href="http://twitter.com/share?url={{ $url }}&text={{ .Title   }}&via=SymphonyEco&hashtags=SymphonyECO,MakeItaSymphony" class="" aria-label="share on Twitter" title="share on Twitter" target=”_blank”>
                 <i class="fab fa-twitter"></i>
-              </a>
-              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url }}&title={{ .Title }}&source=SymphonyECO" class="" aria-label="share on Linkedin" target=”_blank”>
+              </a> 
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ $url }}&title={{ .Title  }}&source=SymphonyECO" class="" aria-label="share on Linkedin" title="share on Linkedin" target=”_blank”>
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a href="mailto:?subject=Check%20out%20{{ .Title  }}.&body={{ $body }}" class="twitter" aria-label="share on Email" target=”_blank”>
+              <a href="mailto:?subject=Check%20out%20{{ .Title  }}.&body={{ $body }}" class="twitter" aria-label="share via Email"  title="share via Email" target=”_blank”>
                 <i class="fas fa-envelope"></i>
               </a>
             </div>

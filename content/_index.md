@@ -14,9 +14,9 @@ slides:
   description: 'To have the greatest impact, you must engage a global team. We
     are here to provide you with the tools and know-how to reach the world.'
 
-- caption: Creating in Concert
-  description: 'Join our global network of world-changing organizations. If you have
-    ever wanted to grow your impact, welcome to Symphony ECO.'
+- caption: Living, Learning, Leading
+  description: 'Wisdom fuels leadership. Your have the knowledge and experience 
+    to lead. We have the knowledge and experience to make you the best leader.'
 
 - caption: Creating in Concert
   description: 'Join our global network of world-changing organizations. If you have

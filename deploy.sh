@@ -8,6 +8,7 @@ rm -rf LIVE-WS/*
 cd LIVE-WS/
 git add . 
 git commit -m "rebuild delete content"
+git pull
 cd ..
 cd symphony/
 hugo --minify

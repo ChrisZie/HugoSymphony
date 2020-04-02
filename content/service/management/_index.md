@@ -37,7 +37,7 @@ quizcards:
     textfront: How Many Volunteers Prefer Communication, Coordination, And Organization To Be Managed Online?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
     titleback: 85% Prefer It
-    textback: Keep it smart and simple! Volunteers have stated that organizing online makes communication easier and saves them time, while organizations have stated that it gets more volunteers to events and saves them money.<br><br>We are fully aware of the key information volunteers want to know prior to starting their service for them to perform well. We work with you to create communication plans that your team can use to coordinate volunteers before and during their service.
+    textback: Keep it smart and simple! Volunteers have stated that organizing online makes communication easier and saves them time, while organizations have stated that it helps them get more volunteers for events and saves them costs.<br><br>We are fully aware of the key information volunteers want to know prior to starting their service for them to perform well. We work with you to create communication plans that your team can use to coordinate volunteers before and during their service.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
   - titlefront: retain

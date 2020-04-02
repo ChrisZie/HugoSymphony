@@ -90,7 +90,7 @@ service_item:
         bar: 2
       - fact: AGRICULTURE
         bar: 3
-    question2: Tourism is the second largest industry in the world and makes up 10% of the **entire** world's revenue and jobs.
+    question2: Tourism is the second largest industry in the world and makes up 10% of the **entire** world's revenue and jobs?
     answer: 'How many new visitors did you get this year?<br>
     Ecotourism can attract the most number of your volunteers if you are set up best to manage them.<br><br>
     Our Ecotourism Volunteer Plan expertly helps you to attract and manage Ecotourism volunteers.'

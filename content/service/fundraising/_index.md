@@ -26,7 +26,7 @@ quizcards:
     bgimageback: https://source.unsplash.com/84n7c9cLEKM/1200x600
 
   - titlefront: communication
-    textfront: How Much More Funding Crowdfunding Do Campaigns Raise When Fundraisers Update Their Supporters?
+    textfront: How Much More Crowdfunding Do Campaigns Raise When Fundraisers Update Their Supporters Regularly?
     bgimagefront: https://source.unsplash.com/qLW70Aoo8BE/1200x600
     titleback: 126% More Funds
     textback: Show your donors you care! They need to know that their money is being well-spent and the more you update them the more likely they are to share your campaign with family and friends.<br><br>Our experience in getting funding has enabled us to put into place and teach you exactly what content causes the best reaction, what tools to use to get the most donors, and most importantly how to convert your volunteers into donors. Knowing the when, where, why, and how is key.

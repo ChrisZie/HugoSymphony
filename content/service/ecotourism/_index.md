@@ -1,9 +1,7 @@
 ---
-title: "Master Plan"
+title: "Ecotourism"
 date: 2020-03-10T14:37:47+08:00
 draft: true
-nextpage: volunteerism
-beforepage:  marketing
 sort: 5
 type: "service"
 

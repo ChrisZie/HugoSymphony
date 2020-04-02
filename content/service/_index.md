@@ -20,9 +20,9 @@ slides :
       Your passion and determination have brought you here. Let's now take your impact to the next level. You bring the vision, we'll bring the rest.
 
 service_item: 
-  - name: __MANAGEMENT__
+  - name: __VOLUNTEERISM__
     icon: images/responsive.svg
-    serviceDetailLink: management
+    serviceDetailLink: volunteerism
     color: yellow
     question1: Did you know that
     graph: 1
@@ -77,9 +77,9 @@ service_item:
     Volunteers are your biggest donors if you give them the most user-friendly tools to do so.<br><br>
     Our fundraising strategies use your website, Social Media, and more to get, and keep, superb donors.'
 
-  - name: __MASTER__ __PLAN__
+  - name: __ECOTOURISM__
     icon: "images/money.svg"
-    serviceDetailLink: masterplan
+    serviceDetailLink: ecotourism
     color: blue
     question1: Did you know that
     graph: 2

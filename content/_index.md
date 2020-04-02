@@ -23,9 +23,9 @@ slides:
     ever wanted to grow your impact, welcome to Symphony ECO.'
 
 service_item:
-- name: __MANAGEMENT__
+- name: __VOLUNTEERISM__
   icon: images/responsive.svg
-  serviceDetailLink: management
+  serviceDetailLink: volunteerism
   color: yellow
   question1: Did you know that
   graph: 1
@@ -81,9 +81,9 @@ service_item:
     tools.<br><br>We create fantastic online fundraising campaigns that reach
     volunteer-donors all over the world, giving you the income that lets you
     maximize your impact.
-- name: __MASTER PLAN__
+- name: __ECOTOURISM__
   icon: images/responsive.svg
-  serviceDetailLink: masterplan
+  serviceDetailLink: ecotourism
   question1: Did you know that over
   graph: 1
   data: 99.5%

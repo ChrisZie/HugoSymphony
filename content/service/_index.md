@@ -57,7 +57,7 @@ service_item:
     question2: is being invested by Marketers in Social Media advertising this year alone, more than **all** other marketing options?
     answer: 'How many new followers did you get this year?<br>
     Your volunteers will look you up on Social Media to double-check if you are actually active first.<br><br>
-    Our Profiles and Posting Guides grow followers enables them to become volunteers and donors.'
+    Our Profiles and Posting Guides grow followers and enables them to become volunteers and donors.'
  
   - name: __FUNDRAISING__
     icon: "images/responsive.svg"

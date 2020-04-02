@@ -13,9 +13,9 @@ description: "Social Media strategies & designs to maximize Visibility"
 heroBGImage: https://cdn.pixabay.com/photo/2014/08/27/12/58/emperor-penguins-429127_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2016/02/22/21/07/snow-1216543_1280.jpg
 heroheader:
-  - heroHeading : Engage<br>everyone<br>everywhere
-  - heroHeading : Social Media is the definition of Marketing today
-  - heroHeading : Your best followers are your biggest supporters
+  - heroHeading : This is where your<br>followers become<br>your volunteers
+  - heroHeading : This is how you<br>Engage everyone.<br>everywhere.
+  - heroHeading : This is why your<br>supporters become<br>your champions
 
 quizcards:
   - titlefront: advertising

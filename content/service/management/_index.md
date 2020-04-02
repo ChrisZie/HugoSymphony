@@ -4,7 +4,7 @@ date: 2020-03-10T14:37:47+08:00
 draft: true
 nextpage: fundraising
 beforepage: operations 
-sort: 4
+sort: 1
 type: "service"
 newstag: "Volunteer"
 
@@ -14,9 +14,9 @@ description: "Management Tools to attract, coordinate, & keep Volunteers"
 heroBGImage: https://cdn.pixabay.com/photo/2016/07/07/23/49/sea-turtles-1503461_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg
 heroheader:
-  - heroHeading : Volunteers are charitable champions
-  - heroHeading : Passionate volunteers are priceless
-  - heroHeading : Get and keep<br>the best and<br>the brightest
+  - heroHeading : This is how you get, and keep, the best Volunteers
+  - heroHeading : This is your A-to-Z of creating your biggest champions
+  - heroHeading : This is where and how you find the tools to your success
 
 quizcards:
   - titlefront: attain

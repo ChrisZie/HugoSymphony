@@ -89,7 +89,7 @@ service_item:
   bar: 3
   question2: of all Tourism Organizations and Professionals state that Ecotourism
     is a **rapidly** growing industry?
-  answer: Success from Ecotoursim is **hugely** determined by the volunteers you get to both help you manage tourists and
+  answer: Success from Ecotourism is **hugely** determined by the volunteers you get to both help you manage tourists and
     to get the word out as marketers.<br><br>Our Ecotourism Volunteer
     Plans give both NGOs and Governments the best tools to grow while protecting nature first.
 draft: true

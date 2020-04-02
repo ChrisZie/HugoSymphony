@@ -14,16 +14,16 @@ newstag: "Web Design"
 heroBGImage: https://cdn.pixabay.com/photo/2016/01/10/23/18/lions-1132745_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2017/09/25/17/02/africa-2785836_1280.jpg
 heroheader:
-  - heroHeading : Your image is key to your success
+  - heroHeading : This is the solution<br>to finding your<br>biggest champions.
   - heroHeading : This is your<br>digital brochure.<br>Be remembered.
-  - heroHeading : It's all about beauty, speed, security, and flexibility
+  - heroHeading : This is your image.<br>Be professional.<br>Be trusted.
 
 quizcards:
   - titlefront: simplicity
     textfront: How Many Potential Volunteers Will Use Only Their Phones To Search For Your Website And Social Media Profiles? 
     bgimagefront: https://source.unsplash.com/T-LfvX-7IVg/1200x600
     titleback: 52%
-    textback: Phones are the future! This number is growing, fast. But though over half of all users use only their phones to look up where to volunteer, donate and travel, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout to be as amazing on a phone as on a PC, giving mobile users the best possible experience. And as Google ranks performance on Mobile highly, we also get your website viewed by as many users as possible.
+    textback: Phones are the future! This number is growing - fast. But though over half of all users use only their phones to look up where to volunteer, donate and travel, most websites perform **much** worse on a phone.<br><br>We tailor each word, image, and layout to be as amazing on a phone as on a PC, giving mobile users the best possible experience. And as Google ranks performance on Mobile highly, we also get your website viewed by as many users as possible.
     bgimageback: https://cdn.pixabay.com/photo/2015/09/06/11/40/zebra-927272_1280.jpg
 
   - titlefront: style

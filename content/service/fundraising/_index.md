@@ -4,7 +4,7 @@ date: 2020-03-10T14:37:47+08:00
 draft: true
 nextpage: webdesign
 beforepage: volunteerism
-sort: 5
+sort: 4
 type: "service"
 
 # meta description
@@ -13,9 +13,9 @@ description: "Strategies & Tools to rapidly grow international Donors"
 heroBGImage: https://cdn.pixabay.com/photo/2015/05/15/14/42/monkeys-768641_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2016/03/27/19/49/nature-1283976_1280.jpg
 heroheader:
-  - heroHeading : Volunteers are your biggest donors
-  - heroHeading : Impact makes income<br>just as<br>income makes impact
-  - heroHeading : Invest in growing your investors
+  - heroHeading : This is how your volunteers become your biggest donors
+  - heroHeading : This is where you grow your impact by growing your income
+  - heroHeading : This is where you invest in growing your investors
 
 quizcards:
   - titlefront: location

@@ -16,7 +16,7 @@ slides:
 
 - caption: Living, Learning, Leading
   description: 'Wisdom fuels leadership. Your have the knowledge and experience 
-    to lead. We have the knowledge and experience to make you the best leader.'
+    to lead. We have the knowledge and experience to make you the best you can be.'
 
 - caption: Creating in Concert
   description: 'Join our global network of world-changing organizations. If you have

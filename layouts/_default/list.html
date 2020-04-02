@@ -47,7 +47,6 @@
 <main class="news">
     <div class="top-logo">
         <a href="{{ .Site.BaseURL }}" style="color:white;" title="Symphony ECO">Symphony&nbsp;ECO</a>
-        <h1 class="hidden">{{.Title}} | Our Blog </h1>
     </div>
   <!-- blog post -->
   <section class="section pt-5">
@@ -55,6 +54,9 @@
       <div class="row">
         <div class="col-lg-8 mb-5 mb-lg-0">
           <div class="row">
+            <div class="pt-3 pb-4 col-12 text-center">
+              <h1 class="widget-title">{{.Title}}</h1>
+            </div>
             {{ $paginator := .Paginate .Data.Pages }}
             {{ range $paginator.Pages }}
             <div class="col-md-6 mb-4">
@@ -65,7 +67,7 @@
             {{ end }}
           </div>
         </div>
-        <!-- /sidebar -->
+        <!-- sidebar -->
         {{ partial "sidebar.html" . }}
         <!-- pagination -->
         <div class="col-12 mt-5">

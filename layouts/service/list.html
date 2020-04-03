@@ -23,9 +23,18 @@
 {{ end }}
 
 {{ define "extraScript" }}
-<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+{{ $lazyloading := resources.Get "scripts/lazyloading.js" }}
+{{ $lazysizes := resources.Get "scripts/lazysizes.min.js" }}
+{{ $aosJs := resources.Get "scripts/aos.js"  }}
+
+<!-- bundle script together -->
+{{ $jsscript := slice }}
+{{ $jsscript := $jsscript | append $lazyloading $lazysizes $aosJs}}
+{{ $globalJS := $jsscript | resources.Concat "scripts/extraglobal.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
+
 <script>script('{{ .Site.BaseURL }}/js/processCard.js');</script>
-<script src="{{ .Site.BaseURL }}/js/aos.js"></script>
+
 <script>
   AOS.init({
       duration: 2000,

@@ -28,9 +28,18 @@
 {{ end }}
 
 {{ define "extraScript" }}
+
+{{ $lazyloading := resources.Get "scripts/lazyloading.js" }}
+{{ $lazysizes := resources.Get "scripts/lazysizes.min.js" }}
+{{ $aosJs := resources.Get "scripts/aos.js"  }}
+
+<!-- bundle script together -->
+{{ $jsscript := slice }}
+{{ $jsscript := $jsscript | append $lazyloading $lazysizes $aosJs}}
+{{ $globalJS := $jsscript | resources.Concat "scripts/startsiteextraglobal.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
+
 <script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
-<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
-<script src="{{ .Site.BaseURL }}/js/aos.js"></script>
 <script>
     $.ajax({
       url: 'https://platform.twitter.com/widgets.js',

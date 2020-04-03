@@ -39,8 +39,16 @@
 
 {{ define "extraScript" }}
 <script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
-<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
-<script src="{{ .Site.BaseURL }}/js/aos.js"></script>
+
+{{ $lazysizes := resources.Get "scripts/lazysizes.min.js" }}
+{{ $aosJs := resources.Get "scripts/aos.js"  }}
+
+<!-- bundle script together -->
+{{ $jsscript := slice }}
+{{ $jsscript := $jsscript | append $lazysizes $aosJs}}
+{{ $globalJS := $jsscript | resources.Concat "scripts/newsextraglobal.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
+
 <script>
   $.ajax({
     url: 'https://platform.twitter.com/widgets.js',

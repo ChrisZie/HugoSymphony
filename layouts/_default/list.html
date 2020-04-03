@@ -33,7 +33,8 @@
 {{ define "BodyStyle" }}whitebackground{{ end }}
 
 {{ define "extraScript" }}
-<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+{{ $lazysizes := resources.Get "scripts/lazysizes.min.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $lazysizes.Permalink }}" integrity="{{ $lazysizes.Data.Integrity }}"></script>
 <script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
 <script>
     $.ajax({

@@ -80,20 +80,8 @@
                 </div>
                 <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
                 <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-                    <table class="w-100">
-                        <tr>
-                          <td>Who You Are</td>
-                          <td>An Eco-Focused Organization or Government.</td>
-                        </tr>
-                        <tr>
-                          <td>What You Need</td>
-                          <td>Skilled Labour, Donations, & Marketing.</td>
-                        </tr>
-                        <tr>
-                            <td>How We Help</td>
-                            <td>By Mobilizing Volunteers Worldwide Into Your Biggest Supporters & Giving You the Tools to Manage them.</td>
-                        </tr>
-                      </table>     
+                    <p>{{ (index .Params.slides 0).description | safeHTML }}
+                    </p>        
                 </div>
             </div>
         </div>
@@ -109,8 +97,12 @@
                 {{ range .Site.Data.aboutUs.cards }}
                     <div class="lazy cardHover">
                         <div class="card-content">
-                            <div class="labelHidden collapsed" data-toggle="collapse" data-target="#{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">{{ .caption }}</div>
-                            <div class="collapse dont-collapse-sm card-content " id="{{ .marker }}">
+                            <div class="labelHidden collapsed" data-toggle="collapse" data-target=".{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">HOw can we help</div>
+                            <div class="collapse dont-collapse-sm card-content card-content-up {{ .marker }}" >
+                                <h2 class="title">HOw can we help</h2>
+                                <p class="copy" style="margin-top: 1rem;">{{ .description  | safeHTML }}</p>
+                            </div>
+                            <div class="collapse dont-collapse-sm card-content card-content-down {{ .marker }}" >
                                 <h2 class="title">{{ .caption | safeHTML }}</h2>
                                 <p class="copy" style="margin-top: 1rem;">{{ .description  | safeHTML }}</p>
                             </div>

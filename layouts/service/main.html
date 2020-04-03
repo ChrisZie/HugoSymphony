@@ -24,7 +24,7 @@
 {{ define "extraScript" }}
 <script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
 
-{{ $lazyloading := resources.Get "scripts/lazyloading.min.js" | resources.Minify | resources.Fingerprint }}
+{{ $lazyloading := resources.Get "scripts/lazyloading.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $lazyloading.Permalink }}" integrity="{{ $lazyloading.Data.Integrity }}"></script>
 
 {{ end }}

@@ -4,32 +4,27 @@
 
 {{ define "extrahead" }}
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
-<link href="{{ .Site.BaseURL }}/style/aos.css" rel="stylesheet">
-{{ $sassTemplate := resources.Get "style/waves.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
-{{ $sassTemplate := resources.Get "style/news.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
-{{ $sassTemplate := resources.Get "style/quote.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
-{{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
-{{ $sassTemplate := resources.Get "style/textslider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" >
-{{ $sassTemplate := resources.Get "style/cardHover.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/cardHover.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}"  media="screen">
-{{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}"  media="screen">
+
+{{ $waveStyle := resources.Get "style/waves.css" | resources.ExecuteAsTemplate "style/waves.css" .}}
+{{ $newsStyle := resources.Get "style/news.scss" | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS  }}
+{{ $quoteStyle := resources.Get "style/quote.scss" | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS }}
+{{ $infoCardStyle := resources.Get "style/expandInfoCard.scss" | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS }}
+{{ $textsliderStyle := resources.Get "style/textslider.scss" | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS }}
+<!-- bundle preload css ressources together -->
+{{ $cssPreload := slice }}
+{{ $cssPreload := $cssPreload | append $waveStyle $newsStyle $quoteStyle $infoCardStyle $textsliderStyle }}
+{{ $preloadextraCSS := $cssPreload | resources.Concat "style/startsitepreloadextrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="preload" href="{{ $preloadextraCSS.Permalink }}" as="style" onload="this.rel='stylesheet'">
 
 
-
-
+{{ $aos := resources.Get "style/aos.css" }}
+{{ $cardHoverstyle := resources.Get "style/cardHover.scss" | resources.ExecuteAsTemplate "style/cardHover.scss" . | resources.ToCSS }}
+{{ $oceansliderStyle := resources.Get "style/oceanSlider.scss" | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS }}
+<!-- bundle css ressources together -->
+{{ $css := slice }}
+{{ $css := $css | append $aos $cardHoverstyle $oceansliderStyle }}
+{{ $extraCSS := $css | resources.Concat "style/startsiteextrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $extraCSS.Permalink }}" media="screen">
 {{ end }}
 
 {{ define "extraScript" }}

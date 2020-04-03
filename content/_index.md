@@ -8,7 +8,7 @@ heroheader:
 slides:
 - caption: Conscientious Consulting
   description: 'You do what you do because you have a vision. We do what we do because
-    we are determined to make that vision a reality.'
+    <br>we are determined to make that vision a reality.'
 
 - caption: Global Team, Global Impact
   description: 'To have the greatest impact, you must engage a global team. We

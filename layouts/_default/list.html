@@ -15,12 +15,16 @@
     <link rel="next" href="{{ $paginator.Next.URL }}">
   {{end }}
 {{end }}
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">{{ $sassTemplate := resources.Get "style/waves.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
-{{ $sassTemplate := resources.Get "style/quote.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+
+{{ $waveStyle := resources.Get "style/waves.css" | resources.ExecuteAsTemplate "style/waves.css" .}}
+{{ $quoteStyle := resources.Get "style/quote.scss" | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS }}
+<!-- bundle preload css ressources together -->
+{{ $cssPreload := slice }}
+{{ $cssPreload := $cssPreload | append $waveStyle $quoteStyle }}
+{{ $preloadextraCSS := $cssPreload | resources.Concat "style/newspreloadextrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="preload" href="{{ $preloadextraCSS.Permalink }}" as="style" onload="this.rel='stylesheet'">
+
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

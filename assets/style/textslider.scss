@@ -43,7 +43,7 @@ $total_animation_time: $time_per_slide * $slides;
 
 
 
-.header-text p {
+.header-text p, .header-text td {
   font-size: 1.6rem;
   line-height: 1.45;
   text-align: center;
@@ -52,11 +52,15 @@ $total_animation_time: $time_per_slide * $slides;
   }
 
   @media (max-width: 600px) {
-    .header-text p {
+    .header-text p , .header-text td {
       font-size: 1.2rem;
       line-height: 1.25;
       text-align: center;
       }
+  }
+
+  .header-text td {
+    text-align: left;
   }
 
   .subheading h2{

@@ -3,28 +3,38 @@
 {{ end }}
 
 {{ define "extrahead" }}
-<link href="{{ .Site.BaseURL }}/style/aos.css" rel="stylesheet">
-{{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
-{{ $sassTemplate := resources.Get "style/news.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
-{{ $sassTemplate := resources.Get "style/processCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/processCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
-{{ $sassTemplate := resources.Get "style/quizCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
-{{ $sassTemplate := resources.Get "style/textslider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ $newsStyle := resources.Get "style/news.scss" | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS }}
+{{ $processCardStyle := resources.Get "style/processCard.scss" | resources.ExecuteAsTemplate "style/processCard.scss" . | resources.ToCSS  }}
+<!-- bundle preload css ressources together -->
+{{ $cssPreload := slice }}
+{{ $cssPreload := $cssPreload | append $newsStyle $processCardStyle }}
+{{ $preloadextraCSS := $cssPreload | resources.Concat "style/preloadextrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="preload" href="{{ $preloadextraCSS.Permalink }}" as="style" onload="this.rel='stylesheet'">
+
+{{ $aos := resources.Get "style/aos.css" }}
+{{ $oceansliderStyle := resources.Get "style/oceanSlider.scss" | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS }}
+{{ $textsliderStyle := resources.Get "style/textslider.scss" | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS }}
+{{ $quizCardStyle := resources.Get "style/quizCard.scss" | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS }}
+<!-- bundle css ressources together -->
+{{ $css := slice }}
+{{ $css := $css | append $aos $oceansliderStyle $textsliderStyle $quizCardStyle }}
+{{ $extraCSS := $css | resources.Concat "style/extrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $extraCSS.Permalink }}" media="screen">
 {{ end }}
 
 {{ define "extraScript" }}
-<script src="{{ .Site.BaseURL }}/js/lazysizes.min.js" async=""></script>
+{{ $lazyloading := resources.Get "scripts/lazyloading.js" }}
+{{ $lazysizes := resources.Get "scripts/lazysizes.min.js" }}
+{{ $aosJs := resources.Get "scripts/aos.js"  }}
+
+<!-- bundle script together -->
+{{ $jsscript := slice }}
+{{ $jsscript := $jsscript | append $lazyloading $lazysizes $aosJs}}
+{{ $globalJS := $jsscript | resources.Concat "scripts/extraglobal.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
+
 <script>script('{{ .Site.BaseURL }}/js/processCard.js');</script>
-<script src="{{ .Site.BaseURL }}/js/aos.js"></script>
+
 <script>
   AOS.init({
       duration: 2000,

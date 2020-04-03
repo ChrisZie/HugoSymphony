@@ -24,7 +24,7 @@
 <!-- Language Tags -->
 <meta property="og:locale" content="en">
 <!-- robot meta tags -->
-{{ if and (eq .Kind "taxonomy") (eq .Type "categories")}}
+{{ if and (eq .Kind "taxonomy") }}
 <meta name="robots" content="noindex, follow"/>
 <meta name="googlebot" content="noindex,follow" />
 {{ else }}
@@ -99,11 +99,13 @@
 <!-- stylesheets -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <link rel="preload" href="{{ .Site.BaseURL }}/style/googlefont.css" as="style" onload="this.rel='stylesheet'">
-<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/style/bootstrap.min.css">
 <!-- <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css"> -->
-{{ $sassTemplate := resources.Get "style/nav.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/nav.css" . | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">
-{{ $sassTemplate := resources.Get "style/linkstyles.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/linkstyles.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">
+{{ $bootstrap := resources.Get "style/bootstrap.min.css" }}
+{{ $navstyle := resources.Get "style/nav.css" | resources.ExecuteAsTemplate "style/nav.css" .}}
+{{ $linkstyle := resources.Get "style/linkstyles.scss" | resources.ExecuteAsTemplate "style/linkstyles.scss" . | resources.ToCSS }}
+<!-- bundle css ressources together -->
+{{ $css := slice }}
+{{ $css := $css | append $bootstrap $navstyle $linkstyle }}
+{{ $globalCSS := $css | resources.Concat "style/global.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $globalCSS.Permalink }}" media="screen">
+

@@ -121,11 +121,13 @@
       x.appendChild(s);
   }
 </script>
-<script src="{{ .Site.BaseURL }}/js/jquery-3.4.1.min.js"></script>
-{{ $jsTemplate := resources.Get "scripts/easing.js" }}
-{{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/easing.min.js" . | minify | fingerprint }}
-<script src="{{ $js.Permalink }}"></script>
-{{ $jsTemplate := resources.Get "scripts/nav.js" }}
-{{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/nav.min.js" . | minify | fingerprint }}
-<script src="{{ $js.Permalink }}"></script>
-<script src="{{ .Site.BaseURL }}/js/bootstrap-4.0.min.js"></script>
+{{ $jquery := resources.Get "scripts/jquery-3.4.1.min.js" }}
+{{ $jseasing := resources.Get "scripts/easing.js" | resources.ExecuteAsTemplate "scripts/easing.min.js" . }}
+{{ $jsnav := resources.Get "scripts/nav.js" | resources.ExecuteAsTemplate "scripts/nav.min.js" . }}
+{{ $bootstrap := resources.Get "scripts/bootstrap-4.0.min.js" }}
+
+<!-- bundle script together -->
+{{ $jsscript := slice }}
+{{ $jsscript := $jsscript | append $jquery $jseasing $jsnav $bootstrap }}
+{{ $globalJS := $jsscript | resources.Concat "scripts/global.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>

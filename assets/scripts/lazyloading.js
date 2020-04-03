@@ -1,11 +1,3 @@
-$(".serviceSelect").on("click", function(){
-	
-	// Card toggle state 	
-	$(this).toggleClass("active");
-	
-});
-
-
 function lazyloading() {
   var lazyloadImages;    
 

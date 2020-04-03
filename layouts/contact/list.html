@@ -14,10 +14,14 @@
 {{ define "BodyStyle" }}contactBgImage{{ end }}
 
 {{ define "extraScript" }}
-<script>script('{{ .Site.BaseURL }}/js/bootstrap-slider.min.js');</script>
-{{ $jsTemplate := resources.Get "scripts/contact.js" }}
-{{ $js := $jsTemplate | resources.ExecuteAsTemplate "scripts/contact.min.js" . | minify | fingerprint }}
-<script>script('{{ $js.Permalink }}');</script>
+{{ $bootstrapSlider := resources.Get "scripts/bootstrap-slider.min.js" }}
+{{ $contact := resources.Get "scripts/contact.js" | resources.ExecuteAsTemplate "scripts/contact.min.js" . }}
+
+<!-- bundle script together -->
+{{ $jsscript := slice }}
+{{ $jsscript := $jsscript | append $bootstrapSlider $contact}}
+{{ $globalJS := $jsscript | resources.Concat "scripts/contactextraglobal.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
 {{ end }}
 
 {{ define "main" }}

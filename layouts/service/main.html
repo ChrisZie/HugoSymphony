@@ -4,22 +4,29 @@
 
 {{ define "extrahead" }}
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
-{{ $sassTemplate := resources.Get "style/quote.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
-{{ $sassTemplate := resources.Get "style/waves.css" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/waves.css" . | minify | fingerprint }}
-<link rel="preload" href="{{ $style.Permalink }}" as="style" onload="this.rel='stylesheet'" integrity="{{ $style.Data.Integrity }}">
-{{ $sassTemplate := resources.Get "style/oceanSlider.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity}}" media="screen">
-{{ $sassTemplate := resources.Get "style/expandInfoCard.scss" }}
-{{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+{{ $quoteStyle := resources.Get "style/quote.scss" | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS }}
+{{ $waveStyle := resources.Get "style/waves.css" | resources.ExecuteAsTemplate "style/waves.css" .}}
+<!-- bundle preload css ressources together -->
+{{ $cssPreload := slice }}
+{{ $cssPreload := $cssPreload | append $quoteStyle $waveStyle}}
+{{ $preloadextraCSS := $cssPreload | resources.Concat "style/servicepreloadextrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="preload" href="{{ $preloadextraCSS.Permalink }}" as="style" onload="this.rel='stylesheet'">
+
+{{ $oceansliderStyle := resources.Get "style/oceanSlider.scss" | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS }}
+{{ $infoCardStyle := resources.Get "style/expandInfoCard.scss" | resources.ExecuteAsTemplate "style/expandInfoCard.scss" . | resources.ToCSS }}
+<!-- bundle css ressources together -->
+{{ $css := slice }}
+{{ $css := $css | append $oceansliderStyle $infoCardStyle }}
+{{ $extraCSS := $css | resources.Concat "style/serviceextrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $extraCSS.Permalink }}" media="screen">
 {{ end }}
 
 {{ define "extraScript" }}
 <script>script('{{ .Site.BaseURL }}/js/poly-animal.js');</script>
+
+{{ $lazyloading := resources.Get "scripts/lazyloading.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $lazyloading.Permalink }}" integrity="{{ $lazyloading.Data.Integrity }}"></script>
+
 {{ end }}
 
 {{ define "BodyStyle" }}blue-gradient-bg{{ end }}

@@ -27,6 +27,41 @@ slides:
     <br>The Impact: The best team makes your impact immeasurable.
     <br>The Network: Our global network of world-changing organizations.'
 
+
+cards:
+- topcaption: Who you are
+  topdescription: A nice and genlt company
+  caption: Who We Are
+  marker: meeting
+  description: 'We are Canadian and German eco-activists who met as Volunteer Leaders at a Non-Profit Organization.
+    <br><br>We have since traveled all over the world providing eco-focused organizations and governments 
+    with skilled labour, funding, and marketing through the implementation of superb volunteerism solutions.'
+
+- topcaption: What you know
+  topdescription: everthing is clrea at this state of the game to be here and enjox a lifetime together
+  caption: What We Know
+  marker: expertise
+  description: 'We have years of experience in deploying large and complex resource-driven projects for organizations and Government 
+    Agencies as Non-Profit Board Members, Technologists, and Project Managers.
+    <br><br>This is all supported by an education in Environmental Sciences, Volunteer Leadership, Business, Technology, and Project Management.'
+
+- topcaption: Why you work
+  topdescription: A nice and genlt company
+  caption: Why We Help 
+  marker: learning
+  description: 'The short answer: because we just can not stand by when the environment is in such peril.<br><br>
+    NGOs and Governments have great determination but are limited by the exact
+    same issues: People, Brand Awareness, and Money.
+    <br><br>Our experience and training has given us the tools to address all of these issues exactly.'
+
+- topcaption: What you do
+  topdescription: everthing is clrea at this state of the game to be here and enjox a lifetime together
+  caption: How We Can
+  marker: launch
+  description: We mobilize an unstoppable team of Volunteers for you that will be your biggest marketers, donors, and skilled workforce.
+    <br><br>We do so by creating end-to-end Volunteerism Solutions, including Strategic Plans, Operational Tools, 
+    Web Design, Digital Marketing, and Fundraising.    
+
 service_item:
 - name: __VOLUNTEERISM__
   icon: images/responsive.svg

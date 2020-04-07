@@ -12,3 +12,7 @@ git pull
 cd ..
 cd symphony/
 hugo --minify
+cp -R docs/ ../LIVE-WS
+git add . 
+git commit -m "rebuild docs content"
+git pull

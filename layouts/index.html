@@ -97,13 +97,9 @@
                 {{ range .Params.cards }}
                     <div class="lazy cardHover">
                         <div class="card-content">
-                            <div class="labelHidden collapsed" data-toggle="collapse" data-target=".{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">{{ .topcaption | safeHTML }}</div>
-                            <div class="collapse dont-collapse-sm card-content card-content-up {{ .marker }}" >
-                                <h2 class="title">{{ .topcaption | safeHTML }}</h2>
-                                <p class="copy" style="margin-top: 1rem;">{{ .topdescription  | safeHTML }}</p>
-                            </div>
+                            <div class="labelHidden collapsed" data-toggle="collapse" data-target=".{{ .marker }}" aria-expanded="false" aria-controls="{{ .marker }}">{{ .caption | safeHTML }}</div>
                             <div class="collapse dont-collapse-sm card-content card-content-down {{ .marker }}" >
-                                <h2 class="title title2">{{ .caption | safeHTML }}</h2>
+                                <h2 class="title">{{ .caption | safeHTML }}</h2>
                                 <p class="copy" style="margin-top: 1rem;">{{ .description  | safeHTML }}</p>
                             </div>
                         </div>

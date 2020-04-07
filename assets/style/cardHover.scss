@@ -199,46 +199,21 @@ $bp-lg: 1300px;
   line-height: 1.35;
 }
 
-@media (min-width: $bp-md) {
-
-  .collapse.dont-collapse-sm {
-    display: block;
-    height: auto !important;
-    visibility: visible;
-    opacity: 1;
-    padding: 1rem;
-  }
-    div.labelHidden {
-    display: none!important;
-}
-}
 
 @media (hover: hover) and (min-width: $bp-md) {
   .cardHover:after {
     transform: translateY(0);
   }
   
-  .card-content-down {
+  .card-content {
     transform: translateY(calc(100% - 4.5rem));
-    display:none;
+    
     > *:not(.title) {
       opacity: 0;
       transform: translateY(1rem);
       transition:
         transform var(--d) var(--e),
         opacity var(--d) var(--e);
-    }
-  }
-  .card-content-down.collapse.dont-collapse-sm { display:none;}
-  .card-content-up {
-    transform: translateY(-10%);
-    display: block;
-    .collapse.dont-collapse-sm {
-      display: block;
-      height: auto !important;
-      visibility: visible;
-      opacity: 1;
-      padding: 1rem;
     }
   }
   
@@ -249,16 +224,8 @@ $bp-lg: 1300px;
     &:before { transform: translateY(-4%); }
     &:after { transform: translateY(-50%); }
 
-    .card-content-down {
+    .card-content {
       transform: translateY(0);
-      display: block;
-      .collapse.dont-collapse-sm {
-        display: block;
-        height: auto !important;
-        visibility: visible;
-        opacity: 1;
-        padding: 1rem;
-      }
 
       > *:not(.title) {
         opacity: 1;
@@ -266,18 +233,6 @@ $bp-lg: 1300px;
         transition-delay: calc(var(--d) / 8);
       }
     }
-    .card-content-up {
-      display:none;
-      transform: translateY(-200%);
-      > * {
-        opacity: 0;
-        transform: translateY(1rem);
-        transition:
-          transform var(--d) var(--e),
-          opacity var(--d) var(--e);
-      }
-    }
-    .card-content-up.collapse.dont-collapse-sm { display:none;}
   }
   
   .cardHover:focus-within {
@@ -290,7 +245,18 @@ $bp-lg: 1300px;
   }
 }
 
-
+@media (min-width: $bp-md) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+    opacity: 1;
+    padding: 1rem;
+  }
+    div.labelHidden {
+    display: none!important;
+}
+}
 @media (max-width: $bp-md-max) {
   .cardHover {
     flex-direction: column;
@@ -318,9 +284,6 @@ $bp-lg: 1300px;
   
   div.dont-collapse-sm > .title {
     display: none;
-  }
-  div.dont-collapse-sm > .title2 {
-    display: initial;
   }
   
  }

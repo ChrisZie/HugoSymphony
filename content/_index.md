@@ -29,38 +29,39 @@ slides:
 
 
 cards:
-- topcaption: Who you are
-  topdescription: A nice and genlt company
+- topcaption: Who You Are
+  topdescription: You must be a NPO or NGO with Environmental Conservation or Animal/Plant
+    Protection as your primary focus.<br><br>You must be a Government Agency who has Sustainable Ecotourism as your primary focus.<br><br>You must have a critical need for Volunteers, Funding, or Marketing.
   caption: Who We Are
   marker: meeting
-  description: 'We are Canadian and German eco-activists who met as Volunteer Leaders at a Non-Profit Organization.
-    <br><br>We have since traveled all over the world providing eco-focused organizations and governments 
-    with skilled labour, funding, and marketing through the implementation of superb volunteerism solutions.'
+  description: 'We are Canadian & German Volunteer Leaders & Eco-Activists who met at a Non-Profit Organization & realized that
+    Volunteerism can change the world.
+    <br><br>We have since traveled all over the world using Volunteerism Solutions to massively grow the impact of Environmental Conservation NPOs/NGOs & Ecotourism-driven Government Agencies by providing skilled labour, donations, & marketing.'
 
-- topcaption: What you know
-  topdescription: everthing is clrea at this state of the game to be here and enjox a lifetime together
+- topcaption: What You Know
+  topdescription: You have at least 1-3 years of experience in your mission to protect the environment & understand what key resources are missing to take your impact to the next level.<br><br>You know the incredible value brought by excellent Volunteers & are aware of the frustrations related to not having enough Volunteers, Funding, & Marketing.
   caption: What We Know
   marker: expertise
-  description: 'We have years of experience in deploying large and complex resource-driven projects for organizations and Government 
-    Agencies as Non-Profit Board Members, Technologists, and Project Managers.
-    <br><br>This is all supported by an education in Environmental Sciences, Volunteer Leadership, Business, Technology, and Project Management.'
+  description: 'We have years of experience as Non-Profit Board Members, Technologists, & Project Managers 
+    successfully managing huge complex projects for NGOs & Government Agencies.
+    <br><br>This is all supported by an education in Environmental Sciences, Volunteer Leadership, Business, Technology, & Project Management.'
 
-- topcaption: Why you work
-  topdescription: A nice and genlt company
+- topcaption: Why You Help
+  topdescription: Because you understand how critical it is to protect our environment.<br><br>Because you believe in how much economic & social growth you can have with just the right tools to help you.<br><br>Because you understand the value of bringing together a team to make your visions a reality.
   caption: Why We Help 
   marker: learning
   description: 'The short answer: because we just can not stand by when the environment is in such peril.<br><br>
-    NGOs and Governments have great determination but are limited by the exact
-    same issues: People, Brand Awareness, and Money.
-    <br><br>Our experience and training has given us the tools to address all of these issues exactly.'
+    Our experience all over the world has shown us that NGOs & Governments have great determination but are limited by the exact
+    same issues: People, "Brand Awareness", & Money.
+    <br><br>Because of our experience & training, we can expertly overcome these specific issues using Volunteers.'
 
-- topcaption: What you do
-  topdescription: everthing is clrea at this state of the game to be here and enjox a lifetime together
+- topcaption: How You Can
+  topdescription: By reaching out to us.<br><br>By making us a part of your team just as you become part of our global network.<br><br>By getting all of the most wonderful, generous, dedicated, & passionate volunteers you could ever have hoped for and knowing securely that they will help grow your positive impact on the environment only because they believe in you & your mission.
   caption: How We Can
   marker: launch
-  description: We mobilize an unstoppable team of Volunteers for you that will be your biggest marketers, donors, and skilled workforce.
+  description: We mobilize an unstoppable team of Volunteers for you that are your biggest marketers, donors, & skilled workforce.
     <br><br>We do so by creating end-to-end Volunteerism Solutions, including Strategic Plans, Operational Tools, 
-    Web Design, Digital Marketing, and Fundraising.    
+    Web Design, Digital Marketing, & Fundraising. 
 
 service_item:
 - name: __VOLUNTEERISM__

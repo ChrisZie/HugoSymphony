@@ -10,7 +10,7 @@ slides:
   description: 'Join our global network of world-changing organizations. If you have
     ever wanted to grow your impact, welcome to Symphony ECO.'
 
-- caption: Your Instruments of Success
+- caption: Your Tools For Success
   description: 'Guides: Growing your effectiveness through improving your skills.
    <br>Tools: Growing your efficiency through powerful technical solutions.
    <br>People: Growing your impact through physical & financial support.'
@@ -28,39 +28,24 @@ slides:
 
 
 cards:
-- topcaption: Who You Are
-  topdescription: You must be a NPO or NGO with Environmental Conservation or Animal/Plant
-    Protection as your primary focus.<br><br>You must be a Government Agency who has Sustainable Ecotourism as your primary focus.<br><br>You must have a critical need for Volunteers, Funding, & Marketing.
-  caption: Who We Are
+- caption: Who You Are
   marker: meeting
-  description: 'We are Canadian & German Volunteer Leaders & Eco-Activists who met at a Non-Profit Organization & realized that
-    Volunteerism can change the world.
-    <br><br>We have since traveled all over the world using Volunteerism Solutions to massively grow the impact of Environmental Conservation NPOs/NGOs & Ecotourism-driven Government Agencies by providing skilled Volunteers, Funding, & Marketing.'
+  description: 'You are a NPO or NGO with Environmental Conservation or Animal/Plant
+    Protection as your primary focus.<br><br>OR<br><br>You are a Government Agency who has Sustainable Ecotourism as your primary focus.<br><br>You have at least 1-3 years of experience in your mission, know the incredible value brought by excellent Volunteers, & are familiar with the frustrations of not having enough Volunteers, Funding, & Marketing.'
 
-- topcaption: What You Know
-  topdescription: You have at least 1-3 years of experience in your mission to protect the environment & understand what key resources are missing to take your impact to the next level.<br><br>You know the incredible value brought by excellent Volunteers & are familiar with the frustrations of not having enough Volunteers, Funding, & Marketing.
-  caption: What We Know
+- caption: Who We Are
   marker: expertise
-  description: 'We have years of experience as Non-Profit Board Members, Technologists, & Project Managers 
-    successfully managing huge complex projects for NGOs & Government Agencies.
-    <br><br>This is all supported by an education in Environmental Sciences, Volunteer Leadership, Business, Technology, & Project Management.'
+  description: 'We are a highly skilled, certified, & experienced team of Canadian & German Volunteer Leaders, Eco-Activists, NPO Board Members, Environmental Scientists, MBAs, Technologists, & Project Managers.<br><br>We met as skilled Volunteers at a NPO & realized that Volunteerism is the key to changing the world.
+    <br><br>We have since traveled the world, using Volunteer Management Solutions to massively grow the impact of Environmental Conservation NPOs/NGOs & Ecotourism-driven Government Agencies by mobilizing Volunteers.'
 
-- topcaption: Why You Help
-  topdescription: Because you understand how critical it is to protect our environment.<br><br>Because you believe in how much growth you can bring to your environment, economy, & society with just the right tools to help.<br><br>Because you understand the value of bringing together a team to make your visions a reality.
-  caption: Why We Help 
+- caption: Your Challenges
   marker: learning
-  description: 'Because will not stand by when the environment is in such peril.<br><br>
-    Our experience all over the world has shown us that NGOs & Governments have great determination but are limited by the exact
-    same issues: Volunteers, Funding, & Marketing.
-    <br><br>Because of our experience & training, we can expertly overcome these specific issues using Volunteers.'
+  description: 'You are in critical need of support in the form of volunteers, donors, or marketers & believe in how much growth you can bring to your environment, economy, & society with the right support.<br><br>You are in need of a team to make your visions a reality & need to connect into a broader global network.<br><br>You need the most wonderful, generous, dedicated, & passionate volunteers to help grow your positive impact on the environment because they believe in you & your mission.'
 
-- topcaption: How You Can
-  topdescription: By reaching out to us, making us a part of your team while becoming part of our global network.<br><br>By getting all of the most wonderful, generous, dedicated, & passionate volunteers you could ever want & knowing that they will help grow your positive impact on the environment only because they believe in you & your mission.
-  caption: How We Can
+- caption: Our Solutions
   marker: launch
-  description: We mobilize an unstoppable team of Volunteers for you that are your biggest marketers, donors, & skilled workforce.
-    <br><br>We do so by creating end-to-end Volunteerism Solutions, including World-Class Planning, Management Tools, 
-    Web Design, Digital Marketing, & Fundraising. 
+  description: Using our experience & global network, we mobilize a superb team of Volunteers for you that are your biggest marketers, donors, & skilled workforce.
+    <br><br>We provide you how-to guides & create powerful Volunteerism Solutions that include World-Class Planning, Volunteer Management Tools, Web Design, Digital Marketing, & Fundraising.<br><br>Our step-by-step solutions take you & your team from your current state of critical need to having access to all the skilled people, money, & awareness you need, raising your environmental impact immensely.
 
 service_item:
 - name: __VOLUNTEERISM__

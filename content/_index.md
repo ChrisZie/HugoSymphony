@@ -7,9 +7,8 @@ heroheader:
 - heroHeading: One planet<br>one team<br>one symphony
 slides:
 - caption: Creating in Concert
-  description: 'Who You Are: An Eco-Focused Organization or Government.
-    <br>What You Need: Skilled Labour, Donations, & Marketing.
-    <br>How We Help: By Mobilizing Volunteers Worldwide Into Your Biggest Supporters & Giving You the Tools to Manage them.'
+  description: 'Join our global network of world-changing organizations. If you have
+    ever wanted to grow your impact, welcome to Symphony ECO.'
 
 - caption: Your Instruments of Success
   description: 'Guides: Growing your effectiveness through improving your skills.
@@ -31,15 +30,15 @@ slides:
 cards:
 - topcaption: Who You Are
   topdescription: You must be a NPO or NGO with Environmental Conservation or Animal/Plant
-    Protection as your primary focus.<br><br>You must be a Government Agency who has Sustainable Ecotourism as your primary focus.<br><br>You must have a critical need for Volunteers, Funding, or Marketing.
+    Protection as your primary focus.<br><br>You must be a Government Agency who has Sustainable Ecotourism as your primary focus.<br><br>You must have a critical need for Volunteers, Funding, & Marketing.
   caption: Who We Are
   marker: meeting
   description: 'We are Canadian & German Volunteer Leaders & Eco-Activists who met at a Non-Profit Organization & realized that
     Volunteerism can change the world.
-    <br><br>We have since traveled all over the world using Volunteerism Solutions to massively grow the impact of Environmental Conservation NPOs/NGOs & Ecotourism-driven Government Agencies by providing skilled labour, donations, & marketing.'
+    <br><br>We have since traveled all over the world using Volunteerism Solutions to massively grow the impact of Environmental Conservation NPOs/NGOs & Ecotourism-driven Government Agencies by providing skilled Volunteers, Funding, & Marketing.'
 
 - topcaption: What You Know
-  topdescription: You have at least 1-3 years of experience in your mission to protect the environment & understand what key resources are missing to take your impact to the next level.<br><br>You know the incredible value brought by excellent Volunteers & are aware of the frustrations related to not having enough Volunteers, Funding, & Marketing.
+  topdescription: You have at least 1-3 years of experience in your mission to protect the environment & understand what key resources are missing to take your impact to the next level.<br><br>You know the incredible value brought by excellent Volunteers & are familiar with the frustrations of not having enough Volunteers, Funding, & Marketing.
   caption: What We Know
   marker: expertise
   description: 'We have years of experience as Non-Profit Board Members, Technologists, & Project Managers 
@@ -47,20 +46,20 @@ cards:
     <br><br>This is all supported by an education in Environmental Sciences, Volunteer Leadership, Business, Technology, & Project Management.'
 
 - topcaption: Why You Help
-  topdescription: Because you understand how critical it is to protect our environment.<br><br>Because you believe in how much economic & social growth you can have with just the right tools to help you.<br><br>Because you understand the value of bringing together a team to make your visions a reality.
+  topdescription: Because you understand how critical it is to protect our environment.<br><br>Because you believe in how much growth you can bring to your environment, economy, & society with just the right tools to help.<br><br>Because you understand the value of bringing together a team to make your visions a reality.
   caption: Why We Help 
   marker: learning
-  description: 'The short answer: because we just can not stand by when the environment is in such peril.<br><br>
+  description: 'Because will not stand by when the environment is in such peril.<br><br>
     Our experience all over the world has shown us that NGOs & Governments have great determination but are limited by the exact
-    same issues: People, "Brand Awareness", & Money.
+    same issues: Volunteers, Funding, & Marketing.
     <br><br>Because of our experience & training, we can expertly overcome these specific issues using Volunteers.'
 
 - topcaption: How You Can
-  topdescription: By reaching out to us.<br><br>By making us a part of your team just as you become part of our global network.<br><br>By getting all of the most wonderful, generous, dedicated, & passionate volunteers you could ever have hoped for and knowing securely that they will help grow your positive impact on the environment only because they believe in you & your mission.
+  topdescription: By reaching out to us, making us a part of your team while becoming part of our global network.<br><br>By getting all of the most wonderful, generous, dedicated, & passionate volunteers you could ever want & knowing that they will help grow your positive impact on the environment only because they believe in you & your mission.
   caption: How We Can
   marker: launch
   description: We mobilize an unstoppable team of Volunteers for you that are your biggest marketers, donors, & skilled workforce.
-    <br><br>We do so by creating end-to-end Volunteerism Solutions, including Strategic Plans, Operational Tools, 
+    <br><br>We do so by creating end-to-end Volunteerism Solutions, including World-Class Planning, Management Tools, 
     Web Design, Digital Marketing, & Fundraising. 
 
 service_item:

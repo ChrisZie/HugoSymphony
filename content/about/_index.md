@@ -4,10 +4,12 @@ date: 2020-03-01T21:44:28+08:00
 draft: true
 profile1firstname: "Christine"
 profile1lastname: "Zierold"
+profile1text: "CIO & Co-Founder | Technologists"
 link1: "https://chriszie.rocks/"
 link1text: "My Profile"
 profile2firstname: "Aaron"
 profile2lastname: "Pinto"
+profile2text: "CEO & Co-Founder | Project Manager"
 link2: "http://ampower.world/"
 link2text: "My Profile"
 

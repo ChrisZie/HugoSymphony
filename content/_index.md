@@ -12,19 +12,19 @@ slides:
 
 - caption: Instruments of Success
   description: '<ins>Guides</ins>: Growing your effectiveness through improving your skills.
-   <br><ins>Tools</ins>: Growing your efficiency through powerful technical solutions.
-   <br><ins>People</ins>: Growing your impact through physical & financial support.'
+   <br><br><ins>Tools</ins>: Growing your efficiency through powerful technical solutions.
+   <br><br><ins>People</ins>: Growing your impact through physical & financial support.'
 
 - caption: Value of Volunteers
   description: '<ins>Skills</ins>: Your greatest source of professionals from all over the world.
-  <br><ins>Labour</ins>: Your best cash benefit at $21.50 for each hour volunteered.
-  <br><ins>Donations</ins>: Your statistically proven most generous & willing donors.
-  <br><ins>Marketing</ins>: Your most effective & powerful marketers via Social Media.'
+  <br><br><ins>Labour</ins>: Your best cash benefit at $21.50 for each hour volunteered.
+  <br><br><ins>Donations</ins>: Your statistically proven most generous & willing donors.
+  <br><br><ins>Marketing</ins>: Your most effective & powerful marketers via Social Media.'
 
 - caption: Global Team, Global Impact
   description: '<ins>The Team</ins>: Your team, our team, and a world of skilled volunteers.
-    <br><ins>The Impact</ins>: The best team makes your impact immeasurable.
-    <br><ins>The Network</ins>: Our global network of world-changing organizations.'
+    <br><br><ins>The Impact</ins>: The best team makes your impact immeasurable.
+    <br><br><ins>The Network</ins>: Our global network of world-changing organizations.'
 
 
 cards:

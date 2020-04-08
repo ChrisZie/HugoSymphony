@@ -59,6 +59,15 @@ $total_animation_time: $time_per_slide * $slides;
       }
   }
 
+  //linebreak in servicecards smaller
+.header-text p br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 0.2rem;
+}
+
+
 
   .subheading h2{
     opacity: 0.5;

@@ -10,21 +10,21 @@ slides:
   description: 'Join our global network of world-changing organizations. If you have
     ever wanted to grow your impact, welcome to Symphony ECO.'
 
-- caption: Your Tools For Success
-  description: 'Guides: Growing your effectiveness through improving your skills.
-   <br>Tools: Growing your efficiency through powerful technical solutions.
-   <br>People: Growing your impact through physical & financial support.'
+- caption: Instruments of Success
+  description: '<ins>Guides</ins>: Growing your effectiveness through improving your skills.
+   <br><ins>Tools</ins>: Growing your efficiency through powerful technical solutions.
+   <br><ins>People</ins>: Growing your impact through physical & financial support.'
 
-- caption: The Value of Volunteers
-  description: 'Skills: Your greatest source of professionals from all over the world.
-  <br>Labour: Your best cash benefit at $21.50 for each hour volunteered.
-  <br>Donations: Your statistically proven most generous & willing donors.
-  <br>Marketing: Your most effective & powerful marketers via Social Media.'
+- caption: Value of Volunteers
+  description: '<ins>Skills</ins>: Your greatest source of professionals from all over the world.
+  <br><ins>Labour</ins>: Your best cash benefit at $21.50 for each hour volunteered.
+  <br><ins>Donations</ins>: Your statistically proven most generous & willing donors.
+  <br><ins>Marketing</ins>: Your most effective & powerful marketers via Social Media.'
 
 - caption: Global Team, Global Impact
-  description: 'The Team: Your team, our team, and a world of skilled volunteers.
-    <br>The Impact: The best team makes your impact immeasurable.
-    <br>The Network: Our global network of world-changing organizations.'
+  description: '<ins>The Team</ins>: Your team, our team, and a world of skilled volunteers.
+    <br><ins>The Impact</ins>: The best team makes your impact immeasurable.
+    <br><ins>The Network</ins>: Our global network of world-changing organizations.'
 
 
 cards:
@@ -35,12 +35,12 @@ cards:
 
 - caption: Who We Are
   marker: expertise
-  description: 'We are a highly skilled, certified, & experienced team of Canadian & German Volunteer Leaders, Eco-Activists, NPO Board Members, Environmental Scientists, MBAs, Technologists, & Project Managers.<br><br>We met as skilled Volunteers at a NPO & realized that Volunteerism is the key to changing the world.
-    <br><br>We have since traveled the world, using Volunteer Management Solutions to massively grow the impact of Environmental Conservation NPOs/NGOs & Ecotourism-driven Government Agencies by mobilizing Volunteers.'
+  description: 'We are a highly skilled, certified, & experienced team of Canadian & German Volunteer Leaders, Eco-Activists, NPO Board Members, Environmental Scientists, Technologists, MBAs, & Project Managers.<br><br>We met as skilled Volunteers at a NPO & realized that empowering change-makers with world-class Volunteer Management Solutions is key to changing the world.
+    <br><br>We have since traveled the world, greatly growing the impact of Environmental Conservation NPOs/NGOs & Ecotourism-driven Government Agencies by mobilizing fantastic Volunteers worldwide.'
 
 - caption: Your Challenges
   marker: learning
-  description: 'You are in critical need of support in the form of volunteers, donors, or marketers & believe in how much growth you can bring to your environment, economy, & society with the right support.<br><br>You are in need of a team to make your visions a reality & need to connect into a broader global network.<br><br>You need the most wonderful, generous, dedicated, & passionate volunteers to help grow your positive impact on the environment because they believe in you & your mission.'
+  description: 'You are in critical need of support in the form of Volunteers, Donors, or Marketers & believe in how much growth you can bring to your environment, economy, & society with great, reliable support.<br><br>You are in need of a team to make your visions a reality & need to connect into a broader global network.<br><br>You need the most wonderful, generous, dedicated, & passionate Volunteers to help grow your positive impact on the environment because they believe in you & your mission.'
 
 - caption: Our Solutions
   marker: launch

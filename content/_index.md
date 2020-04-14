@@ -6,25 +6,25 @@ heroheader:
 - heroHeading: let's compose<br>your success<br>together
 - heroHeading: One planet<br>one team<br>one symphony
 slides:
-- caption: Creating in Concert
-  description: 'Join our global network of world-changing organizations. If you have
-    ever wanted to grow your impact, welcome to Symphony ECO.'
+- caption: Creating & Collaborating in Concert
+  description: 'Join our global network of world-changing Organizations & Volunteers. If you have
+    ever truly wanted to be an eco-champion: Welcome to Symphony ECO'
 
-- caption: Instruments of Success
-  description: '<ins>Guides</ins>: Growing your effectiveness through improving your skills.
-   <br><ins>Tools</ins>: Growing your efficiency through powerful technical solutions.
-   <br><ins>People</ins>: Growing your impact through physical & financial support.'
+- caption: Immeasurably Invaluable Instruments
+  description: '<ins>Guides</ins>: Growing your excellence through improving your key skills
+   <br><ins>Tools</ins>: Growing your efficiency through powerful technical solutions
+   <br><ins>People</ins>: Growing your impact through physical & financial support'
 
-- caption: Value of Volunteers
-  description: '<ins>Skills</ins>: Your greatest source of professionals from all over the world.
-  <br><ins>Labour</ins>: Your best cash benefit at $21.50 for each hour volunteered.
-  <br><ins>Donations</ins>: Your statistically proven most generous & willing donors.
-  <br><ins>Marketing</ins>: Your most effective & powerful marketers via Social Media.'
+- caption: A Crescendo of Critical Knowledge
+  description: '<ins>Volunteers</ins>: The greatest team of professionals from across the world
+  <br><ins>Volunteers</ins>: Your biggest savings at $21.50 for each hour volunteered
+  <br><ins>Volunteers</ins>: Your statistically proven most generous & willing donors
+  <br><ins>Volunteers</ins>: The most passionate & powerful Social Media marketers'
 
-- caption: Global Team, Global Impact
-  description: '<ins>The Team</ins>: Your team, our team, and a world of skilled volunteers.
-    <br><ins>The Impact</ins>: The best team makes your impact immeasurable.
-    <br><ins>The Network</ins>: Our global network of world-changing organizations.'
+- caption: Global Team, Global Push, Global Change
+  description: '<ins>The Team</ins>: Your team, our team, and a world of skilled volunteers
+    <br><ins>The Network</ins>: A global network of real activists & changemakers
+    <br><ins>The Community</ins>: Mobilizing the world through social networking'
 
 
 cards:
@@ -56,11 +56,23 @@ service_item:
   graph: 1
   data: 84%
   bar: 2
-  question2: of volunteers donate their time to their favourite cause **multiple** times each year?
+  question2: of volunteers freely give their time to their favourite causes **multiple** times each year?
   answer: It is fact that volunteers are the **most** important resource for the success
     of your cause.<br><br>We create, supply, and train you on world-class tools and training programs
     that guarantee that you attain, train, maintain, and retain the most excellent
     volunteers.
+- name: __ECOTOURISM__
+  icon: images/responsive.svg
+  serviceDetailLink: ecotourism
+  question1: Did you know that
+  graph: 1
+  data: 99.5%
+  bar: 3
+  question2: of Tourism Organizations and Professionals state that Ecotourism
+    is **greatly** impacted by volunteers?
+  answer: Success from Ecotourism is **hugely** determined by the volunteers you get to both help you manage tourists and
+    to get the word out as marketers.<br><br>Our Ecotourism Volunteer
+    Plans give both NGOs and Governments the best tools to grow while protecting nature first.
 - name: __WEB DESIGN__
   icon: images/money.svg
   serviceDetailLink: webdesign
@@ -106,18 +118,6 @@ service_item:
     tools.<br><br>We create fantastic online fundraising campaigns that reach
     volunteer-donors all over the world, giving you the income that lets you
     maximize your impact.
-- name: __ECOTOURISM__
-  icon: images/responsive.svg
-  serviceDetailLink: ecotourism
-  question1: Did you know that
-  graph: 1
-  data: 99.5%
-  bar: 3
-  question2: of Tourism Organizations and Professionals state that Ecotourism
-    is **greatly** impacted by volunteers?
-  answer: Success from Ecotourism is **hugely** determined by the volunteers you get to both help you manage tourists and
-    to get the word out as marketers.<br><br>Our Ecotourism Volunteer
-    Plans give both NGOs and Governments the best tools to grow while protecting nature first.
 draft: true
 
 ---

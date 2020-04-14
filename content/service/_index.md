@@ -33,6 +33,24 @@ service_item:
     Volunteers only invest their time and effort with you if you are able to manage them effectively.<br><br>
     Our volunteer programs attract, train, coordinate, and, best of all, keep volunteers coming back.'
 
+  - name: __ECOTOURISM__
+    icon: "images/money.svg"
+    serviceDetailLink: ecotourism
+    color: blue
+    question1: Did you know that
+    graph: 2
+    data_left :
+      - fact: MANUFACTURING
+        bar: 1
+      - fact: TOURISM
+        bar: 2
+      - fact: AGRICULTURE
+        bar: 3
+    question2: Tourism is the second largest industry in the world and has **incredibly** significant impacts on the environment?
+    answer: 'How many new visitors did you get this year?<br>
+    Ecotourism can attract the most number of your volunteers if you are set up best to manage them.<br><br>
+    Our Ecotourism Volunteer Plan vastly grows your Ecotourism while protecting nature first.'
+    
   - name: __WEB__ __DESIGN__
     icon: "images/money.svg"
     serviceDetailLink: webdesign
@@ -57,7 +75,7 @@ service_item:
     question2: is being invested by Marketers in Social Media advertising this year alone, more than **all** other marketing options?
     answer: 'How many new followers did you get this year?<br>
     Your volunteers will look you up on Social Media to double-check if you are actually active first.<br><br>
-    Our Profiles and Posting Guides grow followers and enables them to become volunteers and donors.'
+    Our Profiles and Guides get you the most engaged followers, volunteers, and donors.'
  
   - name: __FUNDRAISING__
     icon: "images/responsive.svg"
@@ -77,22 +95,5 @@ service_item:
     Volunteers are your biggest donors if you give them the most user-friendly tools to do so.<br><br>
     Our fundraising strategies use your website, Social Media, and more to get, and keep, superb donors.'
 
-  - name: __ECOTOURISM__
-    icon: "images/money.svg"
-    serviceDetailLink: ecotourism
-    color: blue
-    question1: Did you know that
-    graph: 2
-    data_left :
-      - fact: MANUFACTURING
-        bar: 1
-      - fact: TOURISM
-        bar: 2
-      - fact: AGRICULTURE
-        bar: 3
-    question2: Tourism is the second largest industry in the world and makes up 10% of the **entire** world's revenue and jobs?
-    answer: 'How many new visitors did you get this year?<br>
-    Ecotourism can attract the most number of your volunteers if you are set up best to manage them.<br><br>
-    Our Ecotourism Volunteer Plan expertly helps you to attract and manage Ecotourism volunteers.'
 ---
 

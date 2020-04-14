@@ -15,13 +15,12 @@
     <link rel="next" href="{{ $paginator.Next.URL }}">
   {{end }}
 {{end }}
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
-
+{{ $fontawesome := resources.Get "style/font-awesome.all.min.css" }}
 {{ $waveStyle := resources.Get "style/waves.css" | resources.ExecuteAsTemplate "style/waves.css" .}}
 {{ $quoteStyle := resources.Get "style/quote.scss" | resources.ExecuteAsTemplate "style/quote.scss" . | resources.ToCSS }}
 <!-- bundle preload css ressources together -->
 {{ $cssPreload := slice }}
-{{ $cssPreload := $cssPreload | append $waveStyle $quoteStyle }}
+{{ $cssPreload := $cssPreload | append $fontawesome $waveStyle $quoteStyle }}
 {{ $preloadextraCSS := $cssPreload | resources.Concat "style/newspreloadextrastyle.css" | resources.Minify | resources.Fingerprint }}
 <link rel="preload" href="{{ $preloadextraCSS.Permalink }}" as="style" onload="this.rel='stylesheet'">
 

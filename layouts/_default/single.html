@@ -14,7 +14,7 @@
   <meta property="article:section" content="{{ index . 0 }}" /> 
 {{ end }}
 <!-- article specific meta tags -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="{{ .Site.BaseURL }}/style/font-awesome.all.min.css" as="style" onload="this.rel='stylesheet'">
 {{ $sassTemplate := resources.Get "style/news.scss" }}
 {{ $style := $sassTemplate | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">

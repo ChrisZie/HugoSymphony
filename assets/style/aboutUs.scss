@@ -259,6 +259,12 @@ html, body{
 	}
 }
 
+@media (max-width: 800px) {
+	.button {
+		font-size: 3vmin;
+	}
+}
+
 
 p.profiletext {
 	padding-top: 1rem;

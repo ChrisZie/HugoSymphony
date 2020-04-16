@@ -20,31 +20,31 @@ heroheader:
 
 quizcards:
   - titlefront: attain
-    textfront: How Many Volunteers Search Only Online For Opportunities Around The World?
+    textfront: How Many Volunteers Search Only On Portals Like Ours For Opportunities Around The World?
     bgimagefront: https://source.unsplash.com/wn0-np3NQq8/1200x600
-    titleback: 67% Seek Online
-    textback: Reach them where they already are! A majority of volunteers now search for opportunities only on known Volunteer Portals, Social Media, and Google.<br><br>We work with you to fully capture your volunteer requirements, create attractive profiles on all major Portals, guide you on how to best frame volunteer requests, and ensure that all your Social Media accounts fully display your volunteer needs. This ensures that you receive the maximum number of applicants needed.
+    titleback: 67%!
+    textback: Use our tools for your success! The vast majority of skilled volunteers now only search online, on known Volunteer Portals like ours, for opportunities all over the world.<br><br>We work with you to assess your volunteer readiness, prepare your systems, and ensure you have learned all th necessary volunteer management skills before we give you access to thousands of the world's most valuable and generous volunteers. We guide you through the volunteerism process completely and provide you 24/7 support.
     bgimageback: https://source.unsplash.com/5a2oypQA4P8/1200x600
 
   - titlefront: train
-    textfront: How Many Volunteers Prefer To Complete All Required Volunteer Orientations and Training Online?
+    textfront: How Many Volunteers Prefer Superb Volunteer Orientations Before They Begin Providing Their Services?
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600
-    titleback: 73% Prefer It
-    textback: Make the most out of their time with you! Volunteers must go through training but most organizations require them to attend that training in-person, which is NOT preferred by the volunteer.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing training programs that can be shared with your volunteers prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
+    titleback: 73%!
+    textback: Make their time count! Our world-class volunteers already go through rigorous general training with us. We also require that you have excellent orientations for them so that they can most superbly provide exactly the services you need.<br><br>We work with you to capture all of the information the volunteers need to know and create amazing orientation programs that the volunteers are required to review prior to their start of service. This vastly increases your flexibility, quality control, scalability, and cost-savings.
     bgimageback: https://source.unsplash.com/WAgBaYHRaL4/1200x600
 
   - titlefront: maintain
-    textfront: How Many Volunteers Prefer Communication, Coordination, And Organization To Be Managed Online?
+    textfront: How Many Volunteers Only Trust Organizations With Excellent Management Systems in Place?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
-    titleback: 85% Prefer It
-    textback: Keep it smart and simple! Volunteers have stated that organizing online makes communication easier and saves them time, while organizations have stated that it helps them get more volunteers for events and saves them costs.<br><br>We are fully aware of the key information volunteers want to know prior to starting their service for them to perform well. We work with you to create communication plans that your team can use to coordinate volunteers before and during their service.
+    titleback: 85%!
+    textback: Be effective! Volunteers have stated that great management tools make communication easier and saves time, while organizations have stated that it definitely helps get more volunteers to events and greatly lowers costs.<br><br>We have used a wide array of Volunteer Management Systems and have worked with some of the most skilled developers to help develop the most effective tool for helping you manage your volunteers. We work with you to register and set up the VMS to drastically improve your volunteerism.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
   - titlefront: retain
-    textfront: How Many Volunteers Do Not Return For a Second Year Simply Due To A Lack Of An Adequate Follow-Up?
+    textfront: How Many Volunteers Never Return To Volunteer With You Again Due To A Lack Of An Adequate Follow-Up?
     bgimagefront: https://source.unsplash.com/uanoYn1AmPs/1200x600
-    titleback: 33% Never Return
-    textback: Let them know you care! Most volunteers will not return simply due to bad, or even worse, no follow-up communication to thank them, ask them for feedback, and generally keep them engaged.<br><br>We prioritize retention most. Returning volunteers provide incredible cost-savings, making this key for any organization. We provide you with guidelines and templates on how to reach out to volunteers, perform key Impact Assessments, and keep volunteers engaged until their return.
+    titleback: 33%!
+    textback: Let them know you care! Our volunteers have a world of amazing ECOs to work with. To get and keep specific champions you absolutely must follow-up with them to thank them, ask for feedback, and keep them engaged.<br><br>We prioritize retention. Returning volunteers provide incredible value and cost-savings, making this a must for any organization. We provide you with guides and templates on how to reach out to volunteers, perform key Impact Assessments, and keep them engaged until their return.
     bgimageback: https://source.unsplash.com/pCMsbkittX8/1200x600
 
 process:

@@ -11,7 +11,7 @@ $bp-sx: 600px;
   display: grid;
   //margin-bottom:3%;
   grid-template-rows: 2fr;
-  grid-template-columns: 1rem 1fr 1fr 5rem;
+  grid-template-columns: 1rem 0.8fr 1fr 5rem;
   width: 100vw;
   height: 90vh;
   box-shadow: 0 .5rem 2rem rgba(black, 0.1);
@@ -435,7 +435,7 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     background-position: calc( -1% + (-50% * var(--percentage))) 0;
   }
   #site {
-    grid-template-columns: 1rem 1fr 1fr 1fr;
+    grid-template-columns: 1rem 0.8fr 1fr 1fr;
   }
   .services a {
     margin-right: 0%;

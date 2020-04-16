@@ -1,0 +1,136 @@
+{{ define "HTMLStyle" }}
+<html lang="en" prefix="og: http://ogp.me/ns#" class="no-js">
+{{ end }}
+
+{{ define "extrahead" }}
+{{ $newsStyle := resources.Get "style/news.scss" | resources.ExecuteAsTemplate "style/news.scss" . | resources.ToCSS }}
+{{ $processCardStyle := resources.Get "style/processCard.scss" | resources.ExecuteAsTemplate "style/processCard.scss" . | resources.ToCSS  }}
+<!-- bundle preload css ressources together -->
+{{ $cssPreload := slice }}
+{{ $cssPreload := $cssPreload | append $newsStyle $processCardStyle }}
+{{ $preloadextraCSS := $cssPreload | resources.Concat "style/preloadextrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="preload" href="{{ $preloadextraCSS.Permalink }}" as="style" onload="this.rel='stylesheet'">
+
+{{ $aos := resources.Get "style/aos.css" }}
+{{ $oceansliderStyle := resources.Get "style/oceanSlider.scss" | resources.ExecuteAsTemplate "style/oceanSlider.scss" . | resources.ToCSS }}
+{{ $textsliderStyle := resources.Get "style/textslider.scss" | resources.ExecuteAsTemplate "style/textslider.scss" . | resources.ToCSS }}
+{{ $quizCardStyle := resources.Get "style/quizCard.scss" | resources.ExecuteAsTemplate "style/quizCard.scss" . | resources.ToCSS }}
+<!-- bundle css ressources together -->
+{{ $css := slice }}
+{{ $css := $css | append $aos $oceansliderStyle $textsliderStyle $quizCardStyle }}
+{{ $extraCSS := $css | resources.Concat "style/extrastyle.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $extraCSS.Permalink }}" media="screen">
+{{ end }}
+
+{{ define "extraScript" }}
+{{ $lazyloading := resources.Get "scripts/lazyloading.js" }}
+{{ $lazysizes := resources.Get "scripts/lazysizes.min.js" }}
+{{ $aosJs := resources.Get "scripts/aos.js"  }}
+
+<!-- bundle script together -->
+{{ $jsscript := slice }}
+{{ $jsscript := $jsscript | append $lazyloading $lazysizes $aosJs}}
+{{ $globalJS := $jsscript | resources.Concat "scripts/extraglobal.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $globalJS.Permalink }}" integrity="{{ $globalJS.Data.Integrity }}"></script>
+
+<script>script('{{ .Site.BaseURL }}/js/processCard.js');</script>
+
+<script>
+  AOS.init({
+      duration: 2000,
+      delay: 1,
+      once: true,
+      disable: 'mobile'
+  });
+</script>
+{{ end }}
+
+{{ define "BodyStyle" }}blue-gradient-bg{{ end }}
+
+
+{{ define "main" }}
+<!-- Hero Header -->
+<section class="hero-header p-0 pb-4 container">
+  {{ partial "hero-header.html" . }} 
+</section>
+<!-- End Hero Header -->
+<!-- Section Header 1 -->
+<section class="servicedetails px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
+  <div class="container service">
+      <div class="row justify-content-center"> 
+          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText">
+              <div class="large-3 columns nopad border-bot"></div>
+              <div class="subheading ">
+                      <h2>Quiz Time</h2>
+              </div>
+              <div class="large-3 columns nopad border-bot"></div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Header 1 End -->
+<!---Quiz -->
+<section class="quiz pb-4 pt-5" data-aos="fade-up" data-aos-delay="100">
+  <div class="container px-lg-5">
+      <div class="row justify-content-center"> 
+        {{ partial "quizcard.html" . }} 
+      </div>
+  </div>
+</section>
+<!---End Quiz -->
+<!-- Section Header 2 -->
+<section class="servicedetails px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
+  <div class="container service">
+      <div class="row justify-content-center"> 
+          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
+              <div class="large-3 columns nopad border-bot " ></div>
+              <div class="subheading" >
+                      <h2>Our Process</h2>
+              </div>
+              <div class="large-3 columns nopad border-bot" ></div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Header 2 End -->
+<!---Process -->
+<section class="p-0  pb-4 pt-5" data-aos="fade-up" data-aos-delay="100">
+  <div class="container">
+      <div class="row justify-content-center"> 
+        {{ partial "processCard.html" . }}
+      </div>
+  </div>
+</section>
+<!---End Process -->
+<!-- Section Header 3 -->
+<section class="servicedetails px-0 pb-5 pt-5 px-lg-5 my-5" data-aos="fade-up" data-aos-delay="100">
+  <div class="container service pb-5">
+      <div class="row justify-content-center"> 
+          <div class="col-12 col-sm-8  col-lg-8 col-xl-8 pt-3 pt-sm-0  align-self-center motivationText order-last order-sm-1">
+              <div class="large-3 columns nopad border-bot " ></div>
+              <div class="subheading " >
+                      <h2>Latest news</h2>
+              </div>
+              <div class="large-3 columns nopad border-bot "></div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Header 1 End -->
+<!-- recent post with specific tags from the params of the page-->
+<section class="news" data-aos="fade-up" data-aos-delay="100">
+  <div class="container pb-5" >
+    <div class="row"> 
+      {{ $p := slice "New" .Params.newstag}}
+      {{ range last 3 (where .Site.RegularPages "Params.tags" "intersect" $p)}}
+      <div class="col-lg-4 pb-3 pb-lg-0">
+        <article class="card p-2" style="background: white;height: 100%;">
+          {{ .Render "post" }}
+        </article>
+      </div>
+      {{ end }}
+      </div>
+  </div>
+</section>
+<!-- /recent post -->
+{{ end }}

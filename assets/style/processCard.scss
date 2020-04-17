@@ -53,25 +53,6 @@ div.processCards {
 }
 }
 
-// for wrapping from 6 to 3 display per line in responsive way
-
-@media (min-width: 1465px)  {
-  div.processCards {
-    max-width: 76%;
-  }
-}
-@media (min-width: 1705px)  {
-  div.processCards {
-    max-width: 65%;
-  }
-}
-
-@media (min-width: 2220px)  {
-  div.processCards {
-    max-width: 100%;
-  }
-}
-
 
 div.processCard {
   background: $white;

@@ -21,6 +21,7 @@ heroheader:
 
 quizcards:
   - titlefront: Management Processes
+    imagetitle: process
     textfront: How Many Volunteers Directly Request to Be Reassigned to Organizations with Superb Management Processes?
     bgimagefront: https://source.unsplash.com/wn0-np3NQq8/1200x600
     titleback: 92%!
@@ -28,6 +29,7 @@ quizcards:
     bgimageback: https://source.unsplash.com/5a2oypQA4P8/1200x600
 
   - titlefront: Management Software
+    imagetitle: software
     textfront: How Many Skilled Volunteers Only Trust Organizations with Excellent Management Systems in Place?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
     titleback: 85%!
@@ -35,6 +37,7 @@ quizcards:
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
   - titlefront: Training Presentations
+    imagetitle: training
     textfront: How Many Skilled Volunteers Demand Superb Volunteer Orientations Before They Begin Donating Their Time?
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600
     titleback: 73%!

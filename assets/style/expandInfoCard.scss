@@ -76,12 +76,12 @@ $background:#4FA584;
           margin-bottom:15px;
           &_graph{
             float: right;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-            width: 65px;
-            text-align: center;
-            position: relative;
-            //padding-left: 20px;
-            top: 24px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+width: 65px;
+text-align: center;
+position: relative;
+//padding-left: 20px;
+top: 24px;
             &__bar--3{
               width:10px;
               height:20px;
@@ -228,7 +228,7 @@ float: left;
 }  
 @media (min-width: 992px)  {
   .ui_box{
-    height: 350px;
+    height: 325px;
   }
 /*   .service-slider-overview {
     padding-bottom: 150px;

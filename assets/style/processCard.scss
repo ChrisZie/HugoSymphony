@@ -77,16 +77,21 @@ div.processCard {
   background: $white;
   display: inline-block;
   margin: 8px;
-  max-width: 350px;
+  max-width: 400px;
   perspective: 1000;
   position: relative;
   text-align: left;
   transition: all 0.3s 0s ease-in;
-  width: 350px;
+  width: 400px;
   z-index: 1;
 
   .processCard__image-holder img {
+    max-width: 400px;
+  }
+
+  @media (max-width: 400px)  {
     max-width: 350px;
+    width: 350px;
   }
   
   .processCard__image-holder {

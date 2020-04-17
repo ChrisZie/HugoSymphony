@@ -29,7 +29,7 @@
 
 .cardcontainer {
 	width: 100%;
-	min-height: 45vh;
+	min-height: 60vh;
 
 	position: relative;
 	-webkit-transition: 1.5s ease-in-out;
@@ -39,19 +39,32 @@
 
 @media (max-width: 992px) {
   .cardcontainer {
-    min-height: 90vh;
+    min-height: 80vh;
   }
 }
 @media (max-width: 768px) {
   .cardcontainer {
-    min-height: 45vh;
+    min-height: 70vh;
   }
 }
 
 @media (max-width: 576px) {
   .cardcontainer {
-    height: 90vh;
-    max-height: 700px;
+		height: 125vh;
+		max-height: 800px;
+
+  }
+}
+
+@media (min-width: 1300px) {
+  .cardcontainer {
+    min-height: 90vh;
+  }
+}
+
+@media (min-width: 1900px) {
+  .cardcontainer {
+    min-height: 55vh;
   }
 }
 

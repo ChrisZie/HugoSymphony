@@ -7,16 +7,16 @@ heroheader:
 - heroHeading: And the whole planet is your audience
 slides:
 - caption: The Orchestra
-  description: 'Join our global network of world-changing Organizations and Volunteers by having the very best tools to change the world in your own spectacular way. Our mission is to help you get those tools.'
+  description: 'Join our global network of world-changing Organizations and Volunteers by having the best tools to protect our planet.<br><br>Our singular mission is to help you get these tools.'
 
 - caption: The Instruments
-  description: 'Which tools? Critical Volunteer Management Processes, Volunteer Management Software, and Volunteer Training Presentations. Get these tools - start changing the world.'
+  description: 'Which tools? Critical Volunteer Management Processes, Volunteer Management Software, and Volunteer Training Presentations.<br><br>Get these tools - start changing the world in your own way.'
 
 - caption: The Harmony
-  description: 'Read our blog! We spend a LOT of time staying updated on the very best information to manage volunteers. We then pass the highlights of that awesome know-how on to you to help you mobilize your volunteers into a truly powerhouse team.'
+  description: We invest a LOT of time staying updated on the very best tools and techniques to mobilize your volunteers into a powerhouse team.<br><br>We then share the most awesome bits with you, so read our Blog!
 
 - caption: The Ensemble
-  description: 'What is better than working alone to change the world?<br>A WORLD of partners changing the world with you. Follow us on Social Media and meet the incredible global team focused on protecting our planet together.'
+  description: What's better than struggling to change the world alone? Changing it with a WORLD of partners that have your back every step of the way.<br><br>Follow us on Social Media and meet your fellow Eco-Warriors.
 
 
 cards:
@@ -37,7 +37,7 @@ cards:
   description: Initial assessments are followed by improvement projects, where needed.<br><br>For volunteers, this results in honed skills and cultural awareness so that they deliver their best effort the most quickly.<br><br>For ECOs this results in a superb ability to train, coordinate, and communicate with our volunteers so that every moment of the volunteer's service is truly amazing.
 
 service_item:
-- name: __MANAGEMENT PROCESSES__
+- name: __PROCESSES__
   icon: images/responsive.svg
   serviceDetailLink: volunteerism
   color: yellow
@@ -47,7 +47,7 @@ service_item:
   bar: 2
   question2: of volunteers feel like they are **grossly** mismanaged by the Organizations they invest their time to volunteer with?
   answer: Fantastic processes provide you with a guide to managing volunteers while effectively minimizing liability.<br><br>We provide you with a roadmap to ensure that both you and our volunteers are perfectly positioned to get the very most out of the volunteer experience, while ensuring that liabilities are managed completely.
-- name: __MANAGEMENT SOFTWARE__
+- name: __SOFTWARE__
   icon: images/responsive.svg
   serviceDetailLink: ecotourism
   question1: Did you know that
@@ -56,7 +56,7 @@ service_item:
   bar: 1
   question2: of Organizations identify ineffective software as the **most** impactful reason they mismanage their volunteers?
   answer: An excellent Volunteer Management System is critical for having a smooth and risk-free volunteering experience.<br><br>We have spent uncountable hours testing relevant software. We deploy the best software tailored to you, design your profile, and train you on how best to operate the tool to manage our volunteers effectively.
-- name: __TRAINING PRESENTATIONS__
+- name: __TRAINING__
   icon: images/responsive.svg
   serviceDetailLink: marketing
   color: red
@@ -70,7 +70,7 @@ service_item:
   - fact: COORDINATION
     bar: 3
   question2: Volunteers identify inadequate training as the **key** reason they have a negative volunteer experience with an Organization?
-  answer: Training, beyond being invaluable for growing skills, is critical for managing liability for both you and the volunteers.<br><br>We have trained and been trained as volunteers several dozen times. We craft presentations that educate volunteers effectively, while also clearly establishing expectations and risks, greatly lowering liability on both sides.
+  answer: Training, beyond being crucial for growing skills, is critical for managing liability for both you and the volunteers.<br><br>We have trained and been trained as volunteers several dozen times. We craft presentations that educate volunteers effectively, while also clearly capturing risks and expectations, greatly lowering liability on both sides.
 draft: true
 
 ---

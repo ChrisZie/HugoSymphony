@@ -14,27 +14,27 @@ description: "Tools to Coordinate, Communicate, & Educate Volunteers"
 heroBGImage: https://cdn.pixabay.com/photo/2016/07/07/23/49/sea-turtles-1503461_1280.jpg
 heroTitleImage: https://cdn.pixabay.com/photo/2015/03/26/15/55/coral-reef-692957_1280.jpg
 heroheader:
-  - heroHeading : Our volunteers deserve to be in good hands
+  - heroHeading : Volunteerism
   - heroHeading : Why Processes?<br>To manage Risks & activities
   - heroHeading : Why Software?<br>To coordinate competently
   - heroHeading : Why Training?<br>To educate & manage liability
 
 quizcards:
-  - titlefront: Management Processes
+  - titlefront: Processes
     textfront: How Many Volunteers Directly Request to Be Reassigned to Organizations with Superb Management Processes?
     bgimagefront: https://source.unsplash.com/wn0-np3NQq8/1200x600
     titleback: 92%!
     textback: We are determined to make every service a fantastic experience for both you and our volunteers. As such, we guarantee you that our volunteers are fully competent, and guarantee our volunteers that you will have the best Processes to manage them and any risks completely.<br><br>We create fully detailed Process Documents for you to expertly coordinate and communicate with our volunteers during their service.<br><br>**NOTE** - The document will be specialized for Ecotourism Volunteers (if for an Ecotourism organization) or Online Volunteers (if the volunteer is needed specifically for online services).<br><br>We also set up & train you on Software used to optimize processes (e.g. Trello, Slack, etc.) 
     bgimageback: https://source.unsplash.com/5a2oypQA4P8/1200x600
 
-  - titlefront: Management Software
+  - titlefront: Software
     textfront: How Many Skilled Volunteers Only Trust Organizations with Excellent Management Systems in Place?
     bgimagefront: https://source.unsplash.com/f4bfvVXKZP8/1200x600
     titleback: 85%!
     textback: Our volunteers have clearly stated that they find effective communication and coordination systems critical to how well they perform their duties. Organizations have also stated that having great tools helps them mobilize volunteers better and greatly lowers their costs.<br><br>We provide you access to the software at the cost-point of your choice (yes, free included!) and set you up with a stellar profile and sign-up page for your volunteers.<br><br>And, of course, our job won't be finished until we train you and your staff to operate this software - including making changes, assigning tasks, managing resources, creating events, and tracking time - like a pro yourself.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
-  - titlefront: Training Presentations
+  - titlefront: Presentations
     textfront: How Many Skilled Volunteers Demand Superb Volunteer Orientations Before They Begin Donating Their Time?
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600
     titleback: 73%!

@@ -1,70 +1,72 @@
 <div class='row ui justify-content-center'>
-  <div class="col-12 px-0">
-    <div class="serviceCard row align-items-start justify-content-center">
+  <div class="col-11">
+    <div class="serviceCard row align-items-start justify-content-center px-0">
       {{ range .Params.service_item }}
-        <div class='col-12 col-md-4 col-lg-3 px-0' >
+        <div class='col-12 col-md-4 col-lg-4 px-0' >
           <div class='ui_box white'>
           {{ $link :=  (printf "%s%s" "volunteerism/"  )   }}
           <div class='ui_box__inner'>
-            <h2>
-              {{ .name | markdownify }}
-            </h2>
-            <p>{{ .question1 | markdownify}}</p>
-            {{ if eq .graph 2 }}
-            <div class='stat_left'>
-              <ul>
+            <div class="align-middle">
+              <h2>
+                {{ .name | markdownify }}
+              </h2>
+              <p>{{ .question1 | markdownify}}</p>
+              {{ if eq .graph 2 }}
+              <div class='stat_left'>
+                <ul>
+                  {{ if isset .data_left 0 }}
+                  <li>{{ (index .data_left 0).fact }}</li>
+                  {{ end }}
+                  {{ if isset .data_left 1 }}
+                  <li>{{ (index .data_left 1).fact }}</li>
+                  {{ end }}
+                  {{ if isset .data_left 2 }}
+                  <li>{{ (index .data_left 2).fact }}</li>
+                  {{ end }}
+                  {{ if isset .data_left 3 }}
+                  <li>{{ (index .data_left 3).fact }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+              <div class='progress_graph'>
                 {{ if isset .data_left 0 }}
-                <li>{{ (index .data_left 0).fact }}</li>
+                <div class='progress_graph__bar--{{ (index .data_left 0).bar }}'></div>
                 {{ end }}
                 {{ if isset .data_left 1 }}
-                <li>{{ (index .data_left 1).fact }}</li>
+                <div class='progress_graph__bar--{{ (index .data_left 1).bar }}'></div>
                 {{ end }}
                 {{ if isset .data_left 2 }}
-                <li>{{ (index .data_left 2).fact }}</li>
+                <div class='progress_graph__bar--{{ (index .data_left 2).bar }}'></div>
                 {{ end }}
                 {{ if isset .data_left 3 }}
-                <li>{{ (index .data_left 3).fact }}</li>
+                <div class='progress_graph__bar--{{ (index .data_left 3).bar }}'></div>
                 {{ end }}
-              </ul>
-            </div>
-            <div class='progress_graph'>
-              {{ if isset .data_left 0 }}
-              <div class='progress_graph__bar--{{ (index .data_left 0).bar }}'></div>
-              {{ end }}
-              {{ if isset .data_left 1 }}
-              <div class='progress_graph__bar--{{ (index .data_left 1).bar }}'></div>
-              {{ end }}
-              {{ if isset .data_left 2 }}
-              <div class='progress_graph__bar--{{ (index .data_left 2).bar }}'></div>
-              {{ end }}
-              {{ if isset .data_left 3 }}
-              <div class='progress_graph__bar--{{ (index .data_left 3).bar }}'></div>
-              {{ end }}
-            </div>
-            {{else}}
-            <div class='stat'>
-              <span>{{ .data | markdownify }}</span>
-            </div>
-            <div class='progress'>
-              {{ if eq .bar 2 }}
-              <div class='progress_bar--two'></div>
-              {{ else if eq .bar 3 }}
-              <div class='progress_bar--three'></div>
-              {{else}}
-              <div class='progress_bar'></div>
-              {{ end }}
-            </div>
-            {{ end }}
-            <p>{{ .question2 | markdownify }}</p>
-          </div>
-          <div class='drop' id="{{ .name }}">
-              <p>{{ .answer | markdownify }}
-              </p>
-              <a href="{{  $link| absURL }}" style="width: 100%;" title="Click For More Details">
-              <div class="pb-2 pb-md-0">
-                  <p style="  float: right; margin: 0;"><em>Click For More Details&nbsp;</em><span class='arrow'></span></p>
               </div>
-            </a>
+              {{else}}
+              <div class='stat'>
+                <span>{{ .data | markdownify }}</span>
+              </div>
+              <div class='progress'>
+                {{ if eq .bar 2 }}
+                <div class='progress_bar--two'></div>
+                {{ else if eq .bar 3 }}
+                <div class='progress_bar--three'></div>
+                {{else}}
+                <div class='progress_bar'></div>
+                {{ end }}
+              </div>
+              {{ end }}
+              <p>{{ .question2 | markdownify }}</p>
+            </div>
+            <div class='drop' id="{{ .name }}">
+                <p>{{ .answer | markdownify }}
+                </p>
+                <a href="{{  $link| absURL }}" style="width: 100%;" title="Click For More Details">
+                <div class="pb-2 pb-md-0">
+                    <p style="  float: right; margin: 0;"><em>Click For More Details&nbsp;</em><span class='arrow'></span></p>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

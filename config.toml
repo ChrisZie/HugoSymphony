@@ -20,11 +20,11 @@ publishDir = "docs"
 [menu]
     # Navbar Menus
     [[menu.nav]]
-        name    = "Our Passion"
+        name    = "Our Profiles"
         url     = "about"
         weight  = 2
     [[menu.nav]]
-        name    = "Your Impact"
+        name    = "Your Tools"
         url     = "volunteerism"
         weight  = 3
     [[menu.nav]]

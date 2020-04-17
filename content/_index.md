@@ -1,8 +1,8 @@
 ---
 date: 2020-03-10T06:25:09.000+00:00
 heroheader:
-- heroHeading: Conservation is a Symphony
-- heroHeading: Our network is your orchestra
+- heroHeading: Conservation<br>is the greatest<br>Symphony
+- heroHeading: Our global network is your orchestra
 - heroHeading: Our incredible volunteers are the stars
 - heroHeading: And the whole planet is your audience
 slides:
@@ -22,19 +22,19 @@ slides:
 cards:
 - caption: The "Why"
   marker: meeting
-  description: Because there is no option left to do anything but protect our planet.<br><br>We intend to reverse climate change, protect animal and plant life worldwide, and create a global movement of Eco-Warriors by giving skilled volunteers and world-changing conservation organizations the tools to connect with each other and change the world together.
+  description: Because there is no option left but to protect our planet right now.<br><br>We intend to reverse climate change, protect animal and plant life worldwide, and create a global movement of Eco-Warriors by giving skilled volunteers and world-changing conservation Organizations the tools to connect with each other and change the world together.
 
 - caption: The "Who"
   marker: expertise
-  description: An incredibly powerful worldwide network of Eco-Warrior Volunteers and Environmental Conservation Organizations (ECOs).<br><br>ALL members of this exclusive global network are fully vetted to make sure that every member is truly focused on being an Eco-Warrior first and foremost.<br>The planet deserves absolutely nothing less.
+  description: An incredibly powerful worldwide network of passionate Volunteers and Environmental Conservation Organizations (ECOs).<br><br>ALL members of this exclusive global network are fully vetted to make sure that every member is truly focused on being an Eco-Warrior first and foremost.<br><br>The planet deserves absolutely nothing less.
 
 - caption: The "What"
   marker: learning
-  description: We personally match each organization with each matched volunteer, removing your incredibly time-consuming and, at best, frustrating task of finding (hopefully) competent volunteers.<br><br>Due to our system, we drastically improve the speed of finding amazing volunteers and provide 24/7 support to both the ECO and volunteer during the duration of the volunteer's tour of duty.
+  description: We personally match each Organization with each matched volunteer, removing the incredibly time-consuming and, at best, frustrating task of finding (possibly) effective volunteers.<br><br>Due to our system, we drastically improve the speed of finding amazing volunteers and provide 24/7 support to both you and the volunteer during the duration of the volunteer's tour of duty.
 
 - caption: The "How"
   marker: launch
-  description: Initial assessments are followed by improvement projects, where needed.<br><br>For volunteers, this results in honed skills and cultural awareness so they deliver their best effort the most quickly.<br><br>For ECOs this results in a superb ability to train, coordinate, and communicate with the volunteers so that every moment of the volunteer's service is truly amazing.
+  description: Initial assessments are followed by improvement projects, where needed.<br><br>For volunteers, this results in honed skills and cultural awareness so that they deliver their best effort the most quickly.<br><br>For ECOs this results in a superb ability to train, coordinate, and communicate with our volunteers so that every moment of the volunteer's service is truly amazing.
 
 service_item:
 - name: __MANAGEMENT PROCESSES__
@@ -43,20 +43,20 @@ service_item:
   color: yellow
   question1: Did you know that
   graph: 1
-  data: 84%
+  data: 79%
   bar: 2
-  question2: of volunteers do **not** feel like they are managed well by the organizations they volunteer with?
-  answer: As your most critical resource, volunteers **must** be managed effectively during every step of their service with you.<br><br>We ensure that our volunteers are managed to the levels they demand by implementing stellar Management Processes to superbly attain, train, maintain, and retain our volunteers.
+  question2: of volunteers feel like they are **grossly** mismanaged by the Organizations they invest their time to volunteer with?
+  answer: Fantastic processes provide you with a guide to managing volunteers while effectively minimizing liability.<br><br>We have developed processes for Organizations and Governments. We provide you with a step-by-step roadmap to ensure that our volunteers are managed superbly while removing critical liabilities.
 - name: __MANAGEMENT SOFTWARE__
   icon: images/responsive.svg
   serviceDetailLink: ecotourism
   question1: Did you know that
   graph: 1
-  data: 69%
+  data: 61%
   bar: 1
-  question2: of Organizations identify ineffective software as **the** reason they mismanage their volunteers?
-  answer: The most important tool you can have for managing volunteers is an excellent Volunteer Management System.<br><br>We have spent uncountable hours testing all available software for this purpose. We deploy the software for you, design your profile, and train you on how to use the software to manage our volunteers perfectly.
-- name: __TRAINING PROGRAMS__
+  question2: of Organizations identify ineffective software as the **most** impactful reason they mismanage their volunteers?
+  answer: An excellent Volunteer Management System is critical for having a smooth and risk-free volunteering experience.<br><br>We have spent uncountable hours testing relevant software. We deploy the best software for you, design your profile, and train you on how to use the tool to manage our volunteers effectively.
+- name: __TRAINING PRESENTATIONS__
   icon: images/responsive.svg
   serviceDetailLink: marketing
   color: red
@@ -69,11 +69,8 @@ service_item:
     bar: 2
   - fact: COORDINATION
     bar: 3
-  question2: Volunteers identify inadequate training as the **key** reason they have a negative volunteering experience?
-  answer: To the world, your Social Media profile **is** who you are and what you
-    do. This is where you build the community you need.<br><br>We design Social Media profiles on all platforms that
-    grow your followers and convert them into your best supporters as
-    volunteers and donors.
+  question2: Volunteers identify inadequate training as the **key** reason they have a negative volunteer experience with an Organization?
+  answer: Training, beyond being invaluable for growing skills, is critical for managing liability for both you and the volunteers.<br><br>We have trained and been trained as volunteers several dozen times. We craft presentations that educate effectively while also establishing expectations, lowering liability on both sides.
 draft: true
 
 ---

@@ -337,13 +337,13 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     text-decoration: none;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 2vmin;
+    font-size: 3.3vmin;
     display: inline-block;
     //position: relative;
         //margin-top: 13vmin;
     //mix-blend-mode: lighten;
     left: 0;
-    bottom: 15%;
+    bottom: 12%;
     position: absolute;
     border: 3px solid green;
     transform: translate3d(1vmin, -1vmin, 0);

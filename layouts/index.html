@@ -51,7 +51,7 @@
 <script >
    AOS.init({
        duration: 2000,
-       delay: 1,
+       delay: 100,
        once: true,
        disable: 'mobile'
    });
@@ -70,15 +70,15 @@
 <!--end of Header-->
 <!-- TextSlider 1 -->
 <section id="aboutus" class="px-0 py-5 px-lg-5">
-    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+    <div class="container" data-aos="fade-up">
         <div class="row justify-content-center"> 
             <div class="col-10  col-sm-10  col-lg-10 col-xl-11  align-self-center motivationText">
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" ></div>
+                <div class="subheading aos-init aos-animate" data-aos="fade-up" >
                         <h2>{{ (index .Params.slides 0).caption | safeHTML }}</h2>
                 </div>
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" ></div>
+                <div class="header-text aos-init aos-animate" data-aos="fade-up" >
                     <p>{{ (index .Params.slides 0).description | safeHTML }}
                     </p>        
                 </div>
@@ -91,7 +91,7 @@
 <section class="about p-0  pb-5 pt-5 " id="about">
     <div class="container">
         <div class="row">
-            <div  class="col-12"  data-aos="fade-up" data-aos-delay="100">
+            <div  class="col-12"  data-aos="fade-up">
                 <div class="cardHover-content">
                 {{ range .Params.cards }}
                     <div class="lazy cardHover">
@@ -112,15 +112,15 @@
 <!--end of about us-->
 <!-- TextSlider 2 -->
 <section id="service" class="px-0 py-5 px-lg-5">
-    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+    <div class="container" data-aos="fade-up">
         <div class="row justify-content-center"> 
             <div class="col-10  col-sm-10  col-lg-10 col-xl-11 align-self-center motivationText">
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate"></div>
+                <div class="subheading aos-init aos-animate" >
                     <h2>{{ (index .Params.slides 1).caption | safeHTML }}</h2>
                 </div>
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" ></div>
+                <div class="header-text aos-init aos-animate" data-aos="fade-up" >
                         <p>{{ (index .Params.slides 1).description | safeHTML }}
                         </p>         
                 </div>
@@ -136,15 +136,15 @@
 <!--end of Service Section-->
 <!-- TextSlider 3 -->
 <section class="px-0 pb-5 pt-4 px-lg-5" id="news">
-    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+    <div class="container" data-aos="fade-up" >
         <div class="row justify-content-center"> 
             <div class="col-10  col-sm-10  col-lg-10 col-xl-11  align-self-center motivationText">
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" ></div>
+                <div class="subheading aos-init aos-animate" data-aos="fade-up" >
                         <h2>{{ (index .Params.slides 2).caption | safeHTML }}</h2>
                 </div>
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" ></div>
+                <div class="header-text aos-init aos-animate" data-aos="fade-up" >
                         <p>{{ (index .Params.slides 2).description | safeHTML }}
             </p>         
                 </div>
@@ -170,15 +170,15 @@
   <!-- /recent post -->
   <!-- TextSlider 3 -->
 <section class="px-0 py-5 px-lg-5" id="social">
-    <div class="container" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+    <div class="container" data-aos="fade-up" >
         <div class="row justify-content-center"> 
             <div class="col-10  col-sm-10  col-lg-10 col-xl-11  align-self-center motivationText">
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="subheading aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" ></div>
+                <div class="subheading aos-init aos-animate" data-aos="fade-up" >
                         <h2>{{ (index .Params.slides 3).caption | safeHTML }}</h2>
                 </div>
-                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"></div>
-                <div class="header-text aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+                <div class="large-3 columns nopad border-bot aos-init aos-animate" data-aos="fade-up" ></div>
+                <div class="header-text aos-init aos-animate" data-aos="fade-up" >
                         <p>{{ (index .Params.slides 3).description | safeHTML }}
             </p>         
                 </div>
@@ -189,7 +189,7 @@
 <!-- End TextSlider 3 -->
 <!-- Social Media Integration -->
 <section class="twitter py-5 mt-3" id="">
-    <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="container">
+    <div data-aos="fade-up" class="container">
         <div class="row">
             <div class="col-12 px-1">
                 <div class="row justify-content-center">

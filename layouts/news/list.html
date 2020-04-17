@@ -60,7 +60,7 @@
 <script>
   AOS.init({
       duration: 2000,
-      delay: 1,
+      delay: 100,
       once: true,
       disable: 'mobile'
   });
@@ -74,7 +74,7 @@
     <h1 class="hidden">Our Blog</h1>
   </div>
 <!-- featured post -->
-<section class="section-sm" data-aos="fade-up" data-aos-delay="100">
+<section class="section-sm" data-aos="fade-up">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 featured-post-slider">
@@ -146,7 +146,7 @@
 <!-- /featured post -->
 
 <!-- recent type specific posts -->
-<section class="section py-5" data-aos="fade-up" data-aos-delay="600">
+<section class="section py-5" data-aos="fade-up">
   <div class="container">
     <div class="row">
       {{ range first 3 (where .Site.RegularPages "Params.series" "special")}}
@@ -188,7 +188,7 @@
 </section>
 <!-- /recent post -->
 <!-- blog post -->
-<section class="section py-5" data-aos="fade-up" data-aos-delay="100">
+<section class="section py-5" data-aos="fade-up">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">

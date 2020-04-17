@@ -13,7 +13,7 @@ $background:#4FA584;
       margin:0px 10px 10px 0px;
       padding:0;
       list-style-type:none;
-      font-size:11px;
+      font-size:14px;
       font-weight:400;
       line-height:20px;
     }
@@ -77,26 +77,29 @@ $background:#4FA584;
           &_graph{
             float: right;
 border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-width: 65px;
+width: 100px;
 text-align: center;
 position: relative;
 //padding-left: 20px;
-top: 24px;
+top: 10px;
             &__bar--3{
-              width:10px;
-              height:20px;
+              width: 15px;
+              height: 34px;
               background:$background;float:left;margin-right:10px;position: relative;
-bottom: -10px;-webkit-animation:graph 1s;
+              bottom: -11px;-webkit-animation:graph 1s;
             }
-                        &__bar--1{
-              width:10px;-webkit-animation:graph2 1s;
-              height:30px;float:left;
-                          margin-right:10px;
+            &__bar--1{
+              width: 15px;
+              height: 45px;
+              -webkit-animation:graph2 1s;
+              float:left;
+              margin-right:10px;
               background:$background;
             }
-                        &__bar--2{
-              width:10px;
-              height:24px;margin-right:10px;-webkit-animation:graph3 1s;
+            &__bar--2{
+              width: 15px;
+              height: 39px;
+              margin-right:10px;-webkit-animation:graph3 1s;
               background:$background;float:left;position: relative;
 bottom: -6px;
             }
@@ -131,16 +134,19 @@ float: left;
       }
       h2{
         font-weight:normal;
-        font-size:1.5rem;
+        font-size:1.55rem;
           margin:-4px 0px 3px 0px;
       }
       p{
         //color:rgb(182, 182, 182);
         clear: left;
         font-weight:300;
-        font-size:1.2rem;
+        font-size:1.3rem;
         // width:160px;
         margin:2px 0px 15px 0px;
+      }
+      .drop p{
+        font-size:1.1rem;
       }
       &:hover{
         background:#3d3d3d;
@@ -229,7 +235,7 @@ float: left;
 }  
 @media (min-width: 992px)  {
   .ui_box{
-    height: 350px;
+    height: 400px;
   }
 /*   .service-slider-overview {
     padding-bottom: 150px;
@@ -264,7 +270,7 @@ float: left;
 }
 @media (min-width: 1300px)  {
   .ui_box:hover > .drop{
-    bottom: -63%;
+    bottom: -29%;
   }
 }
 

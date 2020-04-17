@@ -360,7 +360,7 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     &:hover:not(.active){ 
 
       box-shadow: -0.5vmin 0.5vmin 0 rgba(white, 0.5);
-      background: rgba(255, 255, 255, 0.7);
+      background: rgba(white, 0.9);
       color: green;
       transform: translate3d(0.5vmin, -0.5vmin, 0);
     }

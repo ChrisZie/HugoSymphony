@@ -1,9 +1,9 @@
 {{ $bgImageFront := .Params.quizbgimagefront }}
 {{ $bgImageBack := .Params.quizbgimageback }}
 {{ range .Params.quizcards }}
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0 p-xl-0 col-xxl-3 ">
+<div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 p-0 p-xl-0">
   <div class="parallaxCard">
-    {{ $cardname := .titlefront | lower }}
+    {{ $cardname := .imagetitle | lower }}
     {{ $matchfront :=  (printf "%s%s" $cardname "front*")   }}
     {{ $classname := (printf "%s%s" "." $cardname )}} 
     {{if $.Resources.Match ($matchfront) }}

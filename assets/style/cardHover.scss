@@ -194,10 +194,13 @@ $bp-lg: 1300px;
 
 .copy {
   font-family: var(--font-serif);
-  font-size: 1.125rem;
-  font-style: italic;
+  font-size: 1.3rem;
   line-height: 1.35;
-}
+    @media (max-width: $bp-md) {
+      font-size: 1.12rem;
+    }
+  }
+
 
 
 @media (hover: hover) and (min-width: $bp-md) {

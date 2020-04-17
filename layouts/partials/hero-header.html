@@ -113,12 +113,12 @@
   <input type="radio" name="scene" id="scene-3" value="3" />
   <input type="radio" name="scene" id="scene-4" value="4" />
 
-  <div id="site" style="height: 45vh;">
+  <div id="site">
     <header class="top-nav">
       <a href="{{ .Site.BaseURL }}" style="color:white;" title="Symphony ECO">Symphony&nbsp;ECO.</a>
     </header>
     <div class="ocean">
-      <h1 class="lazy ocean-text" style='font-size: 35vh;' >{{.Title}}</h1>
+      <h1 class="lazy ocean-text" >{{.Title}}</h1>
     </div>
     <div class="left-side">    
       <div class="page-numbers" data-total="04">
@@ -129,22 +129,24 @@
       </div>
     </div>
     <div class="hero-part">
-      <div class="layer" data-scene="1">      
-        <h2 class="heroHeading">{{ .Title | markdownify }}</h2>
-      </div>
       {{ if isset .Params.heroheader 0 }}
-      <div class="layer" data-scene="2">      
+      <div class="layer" data-scene="1">      
         <h2 class="heroHeading">{{ (index .Params.heroheader 0 ).heroHeading | markdownify }}</h2>
       </div>
       {{ end }}
       {{ if isset .Params.heroheader 1 }}
-      <div class="layer" data-scene="3">      
+      <div class="layer" data-scene="2">      
         <h2 class="heroHeading">{{ (index .Params.heroheader 1 ).heroHeading | markdownify }}</h2>
       </div>
       {{ end }}
       {{ if isset .Params.heroheader 2 }}
-      <div class="layer" data-scene="4">      
+      <div class="layer" data-scene="3">      
         <h2 class="heroHeading">{{ (index .Params.heroheader 2 ).heroHeading | markdownify }}</h2>
+      </div>
+      {{ end }}
+      {{ if isset .Params.heroheader 3 }}
+      <div class="layer" data-scene="4">      
+        <h2 class="heroHeading">{{ (index .Params.heroheader 3 ).heroHeading | markdownify }}</h2>
       </div>
       {{ end }}
       {{ $contact := "contact/"}}

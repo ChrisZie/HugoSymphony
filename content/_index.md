@@ -46,7 +46,7 @@ service_item:
   data: 79%
   bar: 2
   question2: of volunteers feel like they are **grossly** mismanaged by the Organizations they invest their time to volunteer with?
-  answer: Fantastic processes provide you with a guide to managing volunteers while effectively minimizing liability.<br><br>We have developed processes for Organizations and Governments. We provide you with a step-by-step roadmap to ensure that our volunteers are managed superbly while removing critical liabilities.
+  answer: Fantastic processes provide you with a guide to managing volunteers while effectively minimizing liability.<br><br>We provide you with a roadmap to ensure that both you and our volunteers are perfectly positioned to get the very most out of the volunteer experience, while ensuring that liabilities are managed completely.
 - name: __MANAGEMENT SOFTWARE__
   icon: images/responsive.svg
   serviceDetailLink: ecotourism
@@ -55,7 +55,7 @@ service_item:
   data: 61%
   bar: 1
   question2: of Organizations identify ineffective software as the **most** impactful reason they mismanage their volunteers?
-  answer: An excellent Volunteer Management System is critical for having a smooth and risk-free volunteering experience.<br><br>We have spent uncountable hours testing relevant software. We deploy the best software for you, design your profile, and train you on how to use the tool to manage our volunteers effectively.
+  answer: An excellent Volunteer Management System is critical for having a smooth and risk-free volunteering experience.<br><br>We have spent uncountable hours testing relevant software. We deploy the best software tailored to you, design your profile, and train you on how best to operate the tool to manage our volunteers effectively.
 - name: __TRAINING PRESENTATIONS__
   icon: images/responsive.svg
   serviceDetailLink: marketing
@@ -70,7 +70,7 @@ service_item:
   - fact: COORDINATION
     bar: 3
   question2: Volunteers identify inadequate training as the **key** reason they have a negative volunteer experience with an Organization?
-  answer: Training, beyond being invaluable for growing skills, is critical for managing liability for both you and the volunteers.<br><br>We have trained and been trained as volunteers several dozen times. We craft presentations that educate effectively while also establishing expectations, lowering liability on both sides.
+  answer: Training, beyond being invaluable for growing skills, is critical for managing liability for both you and the volunteers.<br><br>We have trained and been trained as volunteers several dozen times. We craft presentations that educate volunteers effectively, while also clearly establishing expectations and risks, greatly lowering liability on both sides.
 draft: true
 
 ---

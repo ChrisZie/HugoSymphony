@@ -748,5 +748,9 @@
 }
 
 @media screen and (max-width: 600px) {
-	.link--kukuri { font-size: 3em; }
+	.link--kukuri { font-size: 2.7em; }
+}
+
+@media screen and (min-width: 1900px) {
+	.link--kukuri { font-size: 7em; }
 }

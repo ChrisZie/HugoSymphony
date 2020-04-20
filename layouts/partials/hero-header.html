@@ -75,21 +75,21 @@
                 background-image:url('{{ $medium.RelPermalink | absURL }}');
             }
           {{ if ge .Width $mediumsize }}
-          @media (max-width: {{add 600 $mediumsize}}px){
+          @media (max-width: {{ $mediumsize}}px){
             .ocean-text {
                 background-image:url('{{ $medium.RelPermalink | absURL }}');
             }
           }
           {{ end }}
           {{ if ge .Width $smallsize }}
-          @media (max-width: {{add 600 $smallsize}}px) {
+          @media (max-width: {{$smallsize}}px) {
             .ocean-text {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
           }
           {{ end }}
           {{ if ge .Width $tinysize }}
-          @media (max-width: {{add 600 $tinysize}}px)  {
+          @media (max-width: {{ $tinysize}}px)  {
             .ocean-text {
                 background-image:url('{{ $tiny.RelPermalink | absURL }}');
             }

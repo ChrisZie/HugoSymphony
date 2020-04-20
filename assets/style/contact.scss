@@ -195,6 +195,7 @@
 
 			.button{
 				text-decoration: none;
+				border-radius: 0;
 				font-weight: 800;
 				text-transform: uppercase;
 				font-size: 2vmin;
@@ -205,7 +206,7 @@
 				box-shadow: -1vmin 1vmin 0 rgba(white, 0.2);
 				background: green;
 				color: white;
-		
+				border: 3px solid green;
 				padding: 2vmin 2vmin 1.8vmin 2vmin;
 				letter-spacing: 0.1em;
 				text-shadow: none;
@@ -215,7 +216,7 @@
 				&:hover:not(.active){ 
 		
 					box-shadow: -0.5vmin 0.5vmin 0 rgba(white, 0.6);
-					background: rgba(255, 255, 255, 0.7);
+					background: rgba(white, 1.0);
 					color: green;
 					transform: translate3d(0.5vmin, -0.5vmin, 0);
 				}

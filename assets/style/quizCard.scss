@@ -109,6 +109,9 @@
 .cardback .parallaxContent{
 	top: 0.5%;
 	position: absolute;
+	@media (min-width: 1920px) {
+		top: 10%;
+	}
 	h2 {
 		font-size: 2.3rem;
 	}

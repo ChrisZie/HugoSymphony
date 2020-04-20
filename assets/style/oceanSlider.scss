@@ -121,7 +121,7 @@ input[value="4"]:checked ~ * [data-scene="4"] {
   -webkit-background-clip: text;
   color: transparent;
 
-  background-position: calc( 6% + (-50% * var(--percentage)) ) 0;
+  background-position: calc( 69% + (-50% * var(--percentage)) ) 0;
 
   transform: 
     translateX( calc( 26% + ( -100% * var(--percentage) ) ) );
@@ -347,7 +347,7 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     position: absolute;
     border: 3px solid green;
     transform: translate3d(1vmin, -1vmin, 0);
-    box-shadow: -1vmin 1vmin 0 rgba(white, 0.5);
+    box-shadow: -1vmin 1vmin 0 rgba(white, 0.2);
     background: green;
     color: white;
 
@@ -359,8 +359,8 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
     transition: all 100ms linear;
     &:hover:not(.active){ 
 
-      box-shadow: -0.5vmin 0.5vmin 0 rgba(white, 0.5);
-      background: rgba(white, 0.9);
+      box-shadow: -0.5vmin 0.5vmin 0 rgba(white, 0.6);
+      background: rgba(white, 1.0);
       color: green;
       transform: translate3d(0.5vmin, -0.5vmin, 0);
     }

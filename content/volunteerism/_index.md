@@ -36,7 +36,7 @@ quizcards:
     textback: Our volunteers have clearly stated that they find effective communication and coordination systems critical to how well they perform their duties.<br><br>Organizations have also stated that having great tools helps them mobilize volunteers better, greatly lowering their operating costs.<br><br>We deploy the best software for you that meets both your operational and cost constraints (yes, free options are also included!) and set you up with a stellar profile and sign-up page for volunteers.<br><br>And, of course, our job won't be finished until we train you and your staff to operate this software - including making changes, assigning tasks, managing resources, creating events, and tracking time - like a pro yourself.
     bgimageback: https://source.unsplash.com/Abj_zUko6Mg/1200x600
 
-  - titlefront: Presentations
+  - titlefront: Training
     imagetitle: training
     textfront: 
     bgimagefront: https://source.unsplash.com/IZ01rjX0XQA/1200x600

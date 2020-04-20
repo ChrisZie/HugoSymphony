@@ -13,22 +13,14 @@
         {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
         {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
           
-        {{ $smallw := default (print $smallsize "x") }}
-        {{ $mediumw := default (print $mediumsize "x") }}
         {{ $lqipw := .Resize "20x" }}
-        {{ $smartphone1 := .Resize "800x q80" }}
-        {{ $tiny := .Resize "600x q95" }}
-        {{ $small := .Resize $smallw }}
+        {{ $smartphone1 := .Resize "800x q85" }}
+        {{ $small := .Resize "1000x q85" }}
         <style>
             .cardfront{{$classname}} {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
-          @media (max-width: 2200px) {
-            .cardfront{{$classname}} {
-                background-image:url('{{ $tiny.RelPermalink | absURL }}');
-            }
-          }
-          @media (max-width: 1500px)  {
+          @media (max-width: 1600px)  {
             .cardfront{{$classname}} {
                 background-image:url('{{ $smartphone1.RelPermalink | absURL }}');
             }
@@ -51,22 +43,13 @@
         {{ $mediumsize := int (cond (isset $.Page.Params "sizemedium") $.Page.Params.sizemedium $.Site.Params.resizemedium) }}
         {{ $smallsize := int (cond (isset $.Page.Params "sizesmall") $.Page.Params.sizesmall $.Site.Params.resizesmall) }}
         
-        {{ $smallw := default (print $smallsize "x") }}
-        {{ $mediumw := default (print $mediumsize "x") }}
-        {{ $largew := default (print $largesize "x")}}
         {{ $lqipw := .Resize "20x" }}
-        {{ $smartphone1 := .Resize "800x q80" }}
-        {{ $tiny := .Resize "600x q95" }}
-        {{ $small := .Resize $smallw }}
+        {{ $smartphone1 := .Resize "800x q85" }}
+        {{ $small := .Resize "1000x q85" }}
         <style>
             .cardback{{$classname}} {
                 background-image:url('{{ $small.RelPermalink | absURL }}');
             }
-          @media (max-width: 2200px) {
-            .cardback{{$classname}} {
-                background-image:url('{{ $tiny.RelPermalink | absURL }}');
-            }
-          }
           @media (max-width: 1500px)  {
             .cardback{{$classname}} {
                 background-image:url('{{ $smartphone1.RelPermalink | absURL }}');
@@ -88,14 +71,12 @@
           <h2>{{ .titlefront | markdownify | upper }}</h2>
           <p>{{ .textfront | markdownify }}</p>
         </div>
-        <div class="afteroverlay"></div>
       </div>
       <div class="lazy cardback cardside {{ $cardname}}">
         <div class="parallaxContent">
           <h2>{{ .titleback | markdownify }}</h2>
           <p>{{ .textback | markdownify }}</p>
         </div>
-        <div class="afteroverlay"></div>
       </div>
     </div>
   </div>
